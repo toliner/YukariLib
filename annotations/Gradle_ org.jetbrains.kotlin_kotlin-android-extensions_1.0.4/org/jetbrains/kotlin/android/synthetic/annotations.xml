@@ -1,0 +1,152 @@
+<root>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.util.Set&lt;java.lang.String&gt; getIGNORED_XML_WIDGET_TYPES()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConfigurationKeys INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidComponentRegistrar void registerProjectComponents(org.jetbrains.kotlin.com.intellij.mock.MockProject, org.jetbrains.kotlin.config.CompilerConfiguration) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor org.jetbrains.kotlin.compiler.plugin.CliOption access$getPACKAGE_OPTION$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor java.lang.String getPluginId()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConfigurationKeys org.jetbrains.kotlin.config.CompilerConfigurationKey&lt;java.util.List&lt;java.lang.String&gt;&gt; getVARIANT()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor.Companion org.jetbrains.kotlin.compiler.plugin.CliOption getPACKAGE_OPTION()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor void processOption(org.jetbrains.kotlin.compiler.plugin.CliOption, java.lang.String, org.jetbrains.kotlin.config.CompilerConfiguration) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getSYNTHETIC_PACKAGE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidXmlHandler AndroidXmlHandler(kotlin.jvm.functions.Function2&lt;? super org.jetbrains.kotlin.android.synthetic.res.ResourceIdentifier,? super java.lang.String,kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidXmlHandler void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getCLEAR_FUNCTION_NAME()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getACTIVITY_FQNAME()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidXmlHandlerKt java.util.HashMap&lt;java.lang.String,java.lang.String&gt; toMap(org.xml.sax.Attributes)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getID_ATTRIBUTE_NO_NAMESPACE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidComponentRegistrar void registerProjectComponents(org.jetbrains.kotlin.com.intellij.mock.MockProject, org.jetbrains.kotlin.config.CompilerConfiguration) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getFRAGMENT_FQNAME()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConstKt boolean isWidgetTypeIgnored(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor.Companion org.jetbrains.kotlin.compiler.plugin.CliOption getVARIANT_OPTION()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getID_ATTRIBUTE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor void processOption(org.jetbrains.kotlin.compiler.plugin.CliOption, java.lang.String, org.jetbrains.kotlin.config.CompilerConfiguration) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConstKt org.jetbrains.kotlin.android.synthetic.res.ResourceIdentifier androidIdToName(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidXmlHandler void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor.Companion java.lang.String getANDROID_COMPILER_PLUGIN_ID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.util.List&lt;java.lang.String&gt; getSYNTHETIC_SUBPACKAGES()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor org.jetbrains.kotlin.compiler.plugin.CliOption access$getVARIANT_OPTION$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConfigurationKeys org.jetbrains.kotlin.config.CompilerConfigurationKey&lt;java.lang.String&gt; getPACKAGE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getCLASS_ATTRIBUTE_NO_NAMESPACE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getSUPPORT_V4_PACKAGE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidXmlHandler void endElement(java.lang.String, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidXmlHandlerKt java.util.HashMap&lt;java.lang.String,java.lang.String&gt; toMap(org.xml.sax.Attributes) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.util.List&lt;java.lang.String&gt; getFQNAME_RESOLVE_PACKAGES()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getVIEW_FQNAME()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidXmlHandler void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor void processOption(org.jetbrains.kotlin.compiler.plugin.CliOption, java.lang.String, org.jetbrains.kotlin.config.CompilerConfiguration) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConstKt void forEachUntilLast(java.util.List&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,kotlin.Unit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidExtensionPropertiesComponentContainerContributor void addDeclarations(org.jetbrains.kotlin.container.StorageComponentContainer, org.jetbrains.kotlin.resolve.TargetPlatform) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getSUPPORT_FRAGMENT_FQNAME()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst kotlin.text.Regex getIDENTIFIER_REGEX()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor java.util.Collection&lt;org.jetbrains.kotlin.compiler.plugin.CliOption&gt; getPluginOptions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidXmlHandler void endElement(java.lang.String, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getVIEWSTUB_FQNAME()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidXmlHandler void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getSUPPORT_FRAGMENT_ACTIVITY_FQNAME()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidCommandLineProcessor java.lang.String access$getANDROID_COMPILER_PLUGIN_ID$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConstKt void forEachUntilLast(java.util.List&lt;? extends T&gt;, kotlin.jvm.functions.Function1&lt;? super T,kotlin.Unit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidExtensionPropertiesComponentContainerContributor void addDeclarations(org.jetbrains.kotlin.container.StorageComponentContainer, org.jetbrains.kotlin.resolve.TargetPlatform) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.AndroidConst java.lang.String getANDROID_NAMESPACE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

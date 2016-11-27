@@ -1,0 +1,131 @@
+<root>
+    <item name='akka.japi.JavaPartialFunction$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Util$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Util scala.collection.immutable.IndexedSeq&lt;T&gt; immutableIndexedSeq(java.lang.Iterable&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option scala.Option&lt;A&gt; asScala()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.japi.Option.Some scala.Option asScala()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option$ akka.japi.Option&lt;A&gt; none()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option akka.japi.Option&lt;A&gt; some(A)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option scala.Option&lt;A&gt; java2ScalaOption(akka.japi.Option&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Pair java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option.Some$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Pair$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option$ akka.japi.Option&lt;T&gt; fromScalaOption(scala.Option&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option.Some scala.Some&lt;A&gt; asScala()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.JavaPartialFunction java.lang.RuntimeException noMatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option akka.japi.Option&lt;A&gt; option(A)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option$ akka.japi.Option&lt;A&gt; scala2JavaOption(scala.Option&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option akka.japi.Option&lt;A&gt; scala2JavaOption(scala.Option&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Pair akka.japi.Pair&lt;A,B&gt; copy(A, B)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option akka.japi.Option&lt;A&gt; none()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.JavaPartialFunction$ java.lang.RuntimeException noMatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option$ akka.japi.Option&lt;A&gt; some(A)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Util$ scala.collection.immutable.Seq&lt;T&gt; immutableSeq(java.lang.Iterable&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Pair$ akka.japi.Pair&lt;A,B&gt; apply(A, B)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option.Some$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option akka.japi.Option&lt;T&gt; fromScalaOption(scala.Option&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option$ akka.japi.Option&lt;A&gt; scala2JavaOption(scala.Option&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option.Some java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option.None$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option.Some akka.japi.Option.Some&lt;A&gt; copy(A)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option.None$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option$ akka.japi.Option&lt;A&gt; option(A)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option$ scala.Option&lt;A&gt; java2ScalaOption(akka.japi.Option&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Pair$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.JavaPartialFunction.NoMatch$ java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.JavaPartialFunction.NoMatch$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Util$ scala.collection.immutable.IndexedSeq&lt;T&gt; immutableIndexedSeq(java.lang.Iterable&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option.Some$ akka.japi.Option.Some&lt;A&gt; apply(A)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option.None$ java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Pair akka.japi.Pair&lt;A,B&gt; apply(A, B)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Util scala.collection.immutable.Seq&lt;T&gt; immutableSeq(java.lang.Iterable&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.japi.Option akka.japi.Option&lt;A&gt; scala2JavaOption(scala.Option&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

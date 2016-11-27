@@ -1,0 +1,71 @@
+<root>
+    <item name='net.minecraftforge.event.ForgeEventFactory boolean canMountEntity(net.minecraft.entity.Entity, net.minecraft.entity.Entity, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.entity.player.ItemTooltipEvent onItemTooltip(net.minecraft.item.ItemStack, net.minecraft.entity.player.EntityPlayer, java.util.List&lt;java.lang.String&gt;, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory boolean onPotionAttemptBrew(net.minecraft.item.ItemStack[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory void onPlayerDrops(net.minecraft.entity.player.EntityPlayer, net.minecraft.util.DamageSource, java.util.List&lt;net.minecraft.entity.item.EntityItem&gt;, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ServerChatEvent ServerChatEvent(net.minecraft.entity.player.EntityPlayerMP, java.lang.String, net.minecraft.util.text.ITextComponent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.world.BlockEvent.MultiPlaceEvent onPlayerMultiBlockPlace(net.minecraft.entity.player.EntityPlayer, java.util.List&lt;net.minecraftforge.common.util.BlockSnapshot&gt;, net.minecraft.util.EnumFacing) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.world.BlockEvent.MultiPlaceEvent onPlayerMultiBlockPlace(net.minecraft.entity.player.EntityPlayer, java.util.List&lt;net.minecraftforge.common.util.BlockSnapshot&gt;, net.minecraft.util.EnumFacing) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.world.BlockEvent.MultiPlaceEvent onPlayerMultiBlockPlace(net.minecraft.entity.player.EntityPlayer, java.util.List&lt;net.minecraftforge.common.util.BlockSnapshot&gt;, net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.world.BlockEvent.NeighborNotifyEvent onNeighborNotify(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.block.state.IBlockState, java.util.EnumSet&lt;net.minecraft.util.EnumFacing&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.world.BlockEvent.MultiPlaceEvent onPlayerMultiBlockPlace(net.minecraft.entity.player.EntityPlayer, java.util.List&lt;net.minecraftforge.common.util.BlockSnapshot&gt;, net.minecraft.util.EnumFacing)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.world.BlockEvent.PlaceEvent onPlayerBlockPlace(net.minecraft.entity.player.EntityPlayer, net.minecraftforge.common.util.BlockSnapshot, net.minecraft.util.EnumFacing) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory boolean renderWaterOverlay(net.minecraft.entity.player.EntityPlayer, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory boolean renderFireOverlay(net.minecraft.entity.player.EntityPlayer, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.world.BlockEvent.PlaceEvent onPlayerBlockPlace(net.minecraft.entity.player.EntityPlayer, net.minecraftforge.common.util.BlockSnapshot, net.minecraft.util.EnumFacing) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.RegistryEvent.Register net.minecraftforge.fml.common.registry.IForgeRegistry&lt;T&gt; getRegistry()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.world.BlockEvent.PlaceEvent onPlayerBlockPlace(net.minecraft.entity.player.EntityPlayer, net.minecraftforge.common.util.BlockSnapshot, net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.RegistryEvent.Register Register(net.minecraft.util.ResourceLocation, net.minecraftforge.fml.common.registry.IForgeRegistry&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.fml.common.eventhandler.Event.Result canEntityDespawn(net.minecraft.entity.EntityLiving) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.entity.living.ZombieEvent.SummonAidEvent fireZombieSummonAid(net.minecraft.entity.monster.EntityZombie, net.minecraft.world.World, int, int, int, net.minecraft.entity.EntityLivingBase, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.entity.PlaySoundAtEntityEvent onPlaySoundAtEntity(net.minecraft.entity.Entity, net.minecraft.util.SoundEvent, net.minecraft.util.SoundCategory, float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ServerChatEvent net.minecraft.entity.player.EntityPlayerMP getPlayer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory void onChunkPopulate(boolean, net.minecraft.world.chunk.IChunkGenerator, net.minecraft.world.World, int, int, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.ForgeEventFactory net.minecraftforge.event.world.BlockEvent.PlaceEvent onPlayerBlockPlace(net.minecraft.entity.player.EntityPlayer, net.minecraftforge.common.util.BlockSnapshot, net.minecraft.util.EnumFacing)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

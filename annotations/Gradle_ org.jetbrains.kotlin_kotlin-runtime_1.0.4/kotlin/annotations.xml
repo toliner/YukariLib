@@ -1,0 +1,29 @@
+<root>
+    <item name='kotlin.DeprecationLevel ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Unit INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.UninitializedPropertyAccessException UninitializedPropertyAccessException(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.UninitializedPropertyAccessException UninitializedPropertyAccessException(java.lang.String, java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.UninitializedPropertyAccessException UninitializedPropertyAccessException(java.lang.String, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.Unit java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.DeprecationLevel HIDDEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.UninitializedPropertyAccessException UninitializedPropertyAccessException(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.DeprecationLevel WARNING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,1511 @@
+<root>
+    <item name='scala.xml.PrettyPrinter boolean childrenAreLeaves(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Unparsed$ scala.xml.Unparsed apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.collection.mutable.StringBuilder appendEscapedQuoted(java.lang.String, scala.collection.mutable.StringBuilder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Text$ scala.xml.Text apply(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NamespaceBinding$ java.lang.Object apply(java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.bslash.3 scala.xml.NodeSeq apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Item scala.xml.PrettyPrinter scala$xml$PrettyPrinter$Item$$$outer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node scala.xml.MetaData attributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Atom java.lang.String label()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute.class scala.xml.MetaData remove(scala.xml.Attribute, java.lang.String, scala.xml.NamespaceBinding, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.bslash.3 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML..anon.1 scala.xml.parsing.FactoryAdapter adapter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.doPreserve.2 boolean apply(scala.collection.Seq&lt;scala.xml.Node&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.endTag.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility java.lang.String implicitSbToString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment java.lang.String copy$default$1()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrefixedAttribute scala.Some&lt;scala.Tuple4&lt;java.lang.String,java.lang.String,scala.collection.Seq&lt;scala.xml.Node&gt;,scala.xml.MetaData&gt;&gt; unapply(scala.xml.PrefixedAttribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility.Escapes..anonfun.8 scala.Tuple2&lt;java.lang.Object,java.lang.String&gt; apply(scala.Tuple2&lt;java.lang.String,java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr java.lang.String target()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node..anonfun.nonEmptyChildren.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ boolean isSpace(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.collection.mutable.StringBuilder appendQuoted(java.lang.String, scala.collection.mutable.StringBuilder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML scala.xml.parsing.FactoryAdapter adapter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.QNode scala.Some&lt;scala.Tuple4&lt;java.lang.String,java.lang.String,scala.xml.MetaData,scala.collection.Seq&lt;scala.xml.Node&gt;&gt;&gt; unapplySeq(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData scala.collection.Seq&lt;scala.xml.Node&gt; apply(java.lang.String, scala.xml.Node, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr scala.xml.ProcInstr copy(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PCData$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr$ scala.xml.ProcInstr apply(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ java.lang.String xmlns()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node scala.Some&lt;scala.Tuple3&lt;java.lang.String,scala.xml.MetaData,scala.collection.Seq&lt;scala.xml.Node&gt;&gt;&gt; unapplySeq(scala.xml.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr$ scala.xml.ProcInstr apply(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.UnprefixedAttribute scala.xml.Attribute copy(scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Box java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TopScope$ java.lang.String buildString(scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun.filt.1.1 scala.collection.immutable.List&lt;scala.xml.Node&gt; apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData$ java.lang.String getUniversalKey(scala.xml.MetaData, scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData java.lang.String getUniversalKey(scala.xml.MetaData, scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData scala.xml.NamespaceBinding append$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData java.lang.String toString1()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.ProcInstr scala.xml.ProcInstr copy(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Group$ scala.xml.Group apply(scala.collection.Seq&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment java.lang.Object productElement(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML java.lang.String xml()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ void sequenceToXML(scala.collection.Seq&lt;scala.xml.Node&gt;, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder, boolean, boolean, boolean, scala.Enumeration.Value) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Properties$ java.lang.Class&lt;scala.xml.pull.XMLEventReader&gt; pickJarBasedOn()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr$ scala.xml.ProcInstr apply(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null java.lang.Object filter(scala.Function1)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem Elem(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.collection.Seq&lt;scala.xml.Node&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Group$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TopScope java.lang.String buildString(scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ java.lang.String parseCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;, scala.Function1&lt;java.lang.String,scala.runtime.BoxedUnit&gt;, scala.Function1&lt;java.lang.String,scala.runtime.BoxedUnit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Group java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility boolean isValidIANAEncoding(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr java.lang.String label()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.collection.mutable.Set&lt;java.lang.String&gt; collectNamespaces(scala.collection.Seq&lt;scala.xml.Node&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.endTag.1 void apply(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML scala.xml.factory.XMLLoader&lt;scala.xml.Elem&gt; withSAXParser(javax.xml.parsers.SAXParser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Unparsed$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Text Text(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node$ scala.Some&lt;scala.Tuple3&lt;java.lang.String,scala.xml.MetaData,scala.collection.Seq&lt;scala.xml.Node&gt;&gt;&gt; unapplySeq(scala.xml.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Text$ scala.xml.Text apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Equality.class int hashCode(scala.xml.Equality) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter void scala$xml$PrettyPrinter$$mkStart$1(scala.collection.mutable.StringBuilder, scala.xml.Node, scala.xml.NamespaceBinding, scala.runtime.IntRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ java.lang.String preserve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Para$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.QNode scala.Some&lt;scala.Tuple4&lt;java.lang.String,java.lang.String,scala.xml.MetaData,scala.collection.Seq&lt;scala.xml.Node&gt;&gt;&gt; unapplySeq(scala.xml.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.BrokenException scala.xml.PrettyPrinter scala$xml$PrettyPrinter$BrokenException$$$outer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem scala.sys.process.ProcessBuilder xmlToProcess(scala.xml.Elem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.UnprefixedAttribute scala.xml.MetaData copy(scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment java.lang.String label()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.EntityRef$ scala.xml.EntityRef apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MinimizeMode$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Unparsed scala.Some&lt;java.lang.String&gt; unapply(scala.xml.Unparsed)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.collection.mutable.StringBuilder serialize$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml..anonfun.1 boolean apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem java.lang.Object processXml(scala.sys.process.Process$)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML..anon.1 scala.xml.Node loadXML(org.xml.sax.InputSource, javax.xml.parsers.SAXParser) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml$ void sequenceToXML(scala.collection.Seq&lt;scala.xml.Node&gt;, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder, boolean, boolean, boolean, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.collectNamespaces.3 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source$ org.xml.sax.InputSource fromFile(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter scala.collection.immutable.List&lt;scala.xml.PrettyPrinter.Item&gt; cut(java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter scala.Tuple2&lt;java.lang.String,java.lang.Object&gt; startTag(scala.xml.Node, scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter void scala$xml$PrettyPrinter$$mkStart$1(scala.collection.mutable.StringBuilder, scala.xml.Node, scala.xml.NamespaceBinding, scala.runtime.IntRef) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.package$ java.lang.String XercesClassName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute java.lang.String getNamespace(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.PrefixedAttribute$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr java.lang.Object productElement(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.collection.mutable.StringBuilder serialize(scala.xml.Node, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder, boolean, boolean, boolean, scala.Enumeration.Value) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.formatNodes.2 2(scala.xml.PrettyPrinter, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Para Para(scala.xml.PrettyPrinter, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.UnprefixedAttribute$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node scala.collection.mutable.StringBuilder nameToString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq scala.xml.NodeSeq seqToNodeSeq(scala.collection.Seq&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.QNode$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq$ scala.xml.NodeSeq Empty()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrefixedAttribute scala.xml.PrefixedAttribute copy(scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr scala.xml.ProcInstr copy(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.startTag.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute.class scala.collection.Iterator iterator(scala.xml.Attribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.doPreserve.2 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute.class scala.xml.MetaData remove(scala.xml.Attribute, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq$ scala.collection.generic.CanBuildFrom&lt;scala.xml.NodeSeq,scala.xml.Node,scala.xml.NodeSeq&gt; canBuildFrom()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null scala.xml.Null$ remove(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter void scala$xml$PrettyPrinter$$mkStart$1(scala.collection.mutable.StringBuilder, scala.xml.Node, scala.xml.NamespaceBinding, scala.runtime.IntRef) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Unparsed scala.Some&lt;java.lang.String&gt; unapply(scala.xml.Unparsed) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.package java.lang.String XercesClassName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.startTag.1 void apply(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MalformedAttributeException scala.xml.MalformedAttributeException apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TextBuffer scala.xml.TextBuffer append(scala.collection.Seq&lt;java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Properties$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.bslash.4 boolean apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.Option&lt;java.lang.String&gt; prefix(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml$ scala.collection.mutable.StringBuilder toXhtml$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Box$ java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment scala.collection.mutable.StringBuilder buildString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.UnprefixedAttribute$ scala.Some&lt;scala.Tuple3&lt;java.lang.String,scala.collection.Seq&lt;scala.xml.Node&gt;,scala.xml.MetaData&gt;&gt; unapply(scala.xml.UnprefixedAttribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.EntityRef java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML java.lang.String xmlns()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source org.xml.sax.InputSource fromFile(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Group scala.xml.Group copy(scala.collection.Seq&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ java.lang.String toString1()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.collectNamespaces.1 java.lang.Object apply(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML void write(java.io.Writer, scala.xml.Node, java.lang.String, boolean, scala.xml.dtd.DocType, scala.Enumeration.Value) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node java.lang.String EmptyNamespace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML java.lang.String namespace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem scala.xml.NamespaceBinding copy$default$4()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem..anon.1 scala.sys.process.ProcessBuilder apply(scala.xml.Elem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source org.xml.sax.InputSource fromInputStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node scala.xml.MetaData NoAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml void toXhtml(scala.xml.Node, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder, boolean, boolean, boolean, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Atom Atom(A) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem$ scala.xml.Elem apply(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq&lt;scala.xml.Node&gt;) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.bslash.2 boolean apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node java.lang.String label()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Item $outer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.serialize.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.2 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute$ scala.xml.Attribute apply(java.lang.String, java.lang.String, java.lang.String, scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.EntityRef..anonfun.text.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.EntityRef$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ java.lang.String save$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml$ scala.xml.NamespaceBinding sequenceToXML$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NamespaceBinding java.lang.String buildString(scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.MetaData scala.Option&lt;scala.collection.Seq&lt;scala.xml.Node&gt;&gt; get(java.lang.String, scala.xml.Node, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null scala.xml.MetaData filter(scala.Function1&lt;scala.xml.MetaData,java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem$ scala.xml.Elem apply(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq&lt;scala.xml.Node&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.appendQuoted.1 void apply(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ scala.xml.factory.XMLLoader&lt;scala.xml.Elem&gt; withSAXParser(javax.xml.parsers.SAXParser)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml..anonfun.toXhtml.3 void apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility void collectNamespaces(scala.xml.Node, scala.collection.mutable.Set&lt;java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TextBuffer$ scala.xml.TextBuffer fromString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData scala.xml.MetaData filter(scala.Function1&lt;scala.xml.MetaData,java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.ProcInstr ProcInstr(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.sequenceToXML.2 scala.collection.mutable.StringBuilder apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml void sequenceToXML(scala.collection.Seq&lt;scala.xml.Node&gt;, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder, boolean, boolean, boolean, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source$ org.xml.sax.InputSource fromFile(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq scala.xml.NodeSeq Empty()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.collectNamespaces.3 void apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.collection.mutable.StringBuilder toXML$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.xml.NamespaceBinding sequenceToXML$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ java.lang.String getName(java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Para scala.xml.PrettyPrinter.Para copy(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.XML$ java.lang.String xml()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.EntityRef scala.collection.mutable.StringBuilder buildString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML java.lang.String save$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ scala.xml.Null$ remove(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Box$ scala.xml.PrettyPrinter.Box apply(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter void makeBox(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute$ scala.xml.Attribute apply(java.lang.String, scala.collection.Seq&lt;scala.xml.Node&gt;, scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML void write(java.io.Writer, scala.xml.Node, java.lang.String, boolean, scala.xml.dtd.DocType, scala.Enumeration.Value) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.SpecialNode scala.xml.Null$ attributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr ProcInstr(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PCData$ scala.xml.PCData apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.UnprefixedAttribute scala.Some&lt;scala.Tuple3&lt;java.lang.String,scala.collection.Seq&lt;scala.xml.Node&gt;,scala.xml.MetaData&gt;&gt; unapply(scala.xml.UnprefixedAttribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData java.lang.Object filter(scala.Function1) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun.newBuilder.1 java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Group$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility int hashCode(java.lang.String, java.lang.String, int, int, scala.collection.Seq&lt;scala.xml.Node&gt;) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NamespaceBinding scala.xml.NamespaceBinding copy(java.lang.String, java.lang.String, scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility java.lang.String getName(java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MalformedAttributeException$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter void scala$xml$PrettyPrinter$$mkLeaf$1(scala.collection.mutable.StringBuilder, scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.collection.mutable.StringBuilder serialize(scala.xml.Node, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder, boolean, boolean, boolean, scala.Enumeration.Value) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute.class boolean isPrefixed(scala.xml.Attribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Para$ Para$(scala.xml.PrettyPrinter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter void traverse(scala.collection.Iterator&lt;scala.xml.Node&gt;, scala.xml.NamespaceBinding, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.1 boolean apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Unparsed scala.collection.mutable.StringBuilder buildString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml..anonfun.toXhtml.3 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node scala.Some&lt;scala.Tuple3&lt;java.lang.String,scala.xml.MetaData,scala.collection.Seq&lt;scala.xml.Node&gt;&gt;&gt; unapplySeq(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData..anonfun.toString.1 void apply(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute$ scala.xml.Attribute apply(java.lang.String, java.lang.String, scala.collection.Seq&lt;scala.xml.Node&gt;, scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Properties$ java.lang.String propCategory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Unparsed$ scala.Some&lt;java.lang.String&gt; unapply(scala.xml.Unparsed)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source org.xml.sax.InputSource fromSysId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData scala.xml.MetaData remove(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.Node$ scala.Some&lt;scala.Tuple3&lt;java.lang.String,scala.xml.MetaData,scala.collection.Seq&lt;scala.xml.Node&gt;&gt;&gt; unapplySeq(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter void scala$xml$PrettyPrinter$$mkLeaf$1(scala.collection.mutable.StringBuilder, scala.xml.Node) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.leafTag.1 1(scala.xml.PrettyPrinter, scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ java.lang.String getNamespace(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.Unparsed$ scala.xml.Unparsed apply(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.BrokenException $outer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr$ java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ java.lang.String namespace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData..anonfun.asAttrMap.1 java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData scala.collection.mutable.StringBuilder buildString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TextBuffer..anonfun.append.1 1(scala.xml.TextBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ scala.xml.parsing.FactoryAdapter adapter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ scala.xml.MetaData remove(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node$ java.lang.String EmptyNamespace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.6 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.sequenceToXML.2 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem..anonfun.text.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.format.2 2(scala.xml.PrettyPrinter, scala.xml.Node, scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NamespaceBinding$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.serialize.1 scala.collection.mutable.StringBuilder apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Equality$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem..anonfun.text.1 java.lang.String apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.xml.NamespaceBinding sequenceToXML$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.UnprefixedAttribute UnprefixedAttribute(java.lang.String, scala.Option&lt;scala.collection.Seq&lt;scala.xml.Node&gt;&gt;, scala.xml.MetaData) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ boolean isValidIANAEncoding(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml..anonfun.sequenceToXML.1 java.lang.Object apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml scala.xml.NamespaceBinding sequenceToXML$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source$ org.xml.sax.InputSource fromString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment scala.xml.Comment copy(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NamespaceBinding$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem scala.xml.Elem copy(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.collection.Seq&lt;scala.xml.Node&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ void collectNamespaces(scala.xml.Node, scala.collection.mutable.Set&lt;java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node..anonfun.descendant.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML java.lang.String space()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr java.lang.String proctext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Break$ Break$(scala.xml.PrettyPrinter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ scala.xml.MetaData filter(scala.Function1&lt;scala.xml.MetaData,java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TextBuffer scala.xml.TextBuffer fromString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute scala.xml.Attribute copy(scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Break$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute..anonfun.iterator.1 1(scala.xml.Attribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq boolean xml_sameElements(scala.collection.Iterable&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.leafTag.1 void apply(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ scala.collection.mutable.StringBuilder buildString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.Utility scala.collection.mutable.Set&lt;java.lang.String&gt; collectNamespaces(scala.collection.Seq&lt;scala.xml.Node&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment java.lang.String text()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ java.lang.Object filter(scala.Function1)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.collection.mutable.StringBuilder escape(java.lang.String, scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData..anonfun.asAttrMap.1 scala.Tuple2&lt;java.lang.String,java.lang.String&gt; apply(scala.xml.MetaData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData..anonfun.toString1.1 1(scala.xml.MetaData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.collection.mutable.StringBuilder appendQuoted(java.lang.String, scala.collection.mutable.StringBuilder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.bslash.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.QNode$ scala.Some&lt;scala.Tuple4&lt;java.lang.String,java.lang.String,scala.xml.MetaData,scala.collection.Seq&lt;scala.xml.Node&gt;&gt;&gt; unapplySeq(scala.xml.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.UnprefixedAttribute scala.Some&lt;scala.Tuple3&lt;java.lang.String,scala.collection.Seq&lt;scala.xml.Node&gt;,scala.xml.MetaData&gt;&gt; unapply(scala.xml.UnprefixedAttribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun.makeSeq.1.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility void sequenceToXML(scala.collection.Seq&lt;scala.xml.Node&gt;, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder, boolean, boolean, boolean, scala.Enumeration.Value) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.xml.NamespaceBinding toXML$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeBuffer..anonfun..amp.plus.1 scala.xml.NodeBuffer apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml scala.xml.NamespaceBinding toXhtml$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.collection.mutable.StringBuilder appendEscapedQuoted(java.lang.String, scala.collection.mutable.StringBuilder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML java.lang.String lang()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ scala.xml.Null$ remove(java.lang.String, scala.xml.NamespaceBinding, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData..anonfun.asAttrMap.1 scala.Tuple2&lt;java.lang.String,java.lang.String&gt; apply(scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq scala.collection.generic.CanBuildFrom&lt;scala.xml.NodeSeq,scala.xml.Node,scala.xml.NodeSeq&gt; canBuildFrom()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TextBuffer scala.collection.mutable.StringBuilder sb()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter boolean fits(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Para$ scala.xml.PrettyPrinter.Para apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source$ org.xml.sax.InputSource fromInputStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.collection.mutable.StringBuilder serialize$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData java.lang.String getNamespace(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Box$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem$ scala.xml.Elem apply(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml$ void toXhtml(scala.xml.Node, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder, boolean, boolean, boolean, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Break$ java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem$ scala.xml.Elem apply(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.collection.Seq&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null scala.xml.NamespaceBinding append$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun.filt.1.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.endTag.1 1(scala.xml.PrettyPrinter, scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq$ scala.xml.NodeSeq seqToNodeSeq(scala.collection.Seq&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ java.lang.String implicitSbToString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node$ scala.xml.MetaData NoAttributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TextBuffer scala.xml.TextBuffer append(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq$ scala.xml.NodeSeq fromSeq(scala.collection.Seq&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.sort.1 java.lang.Object apply(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NamespaceBinding$ scala.xml.NamespaceBinding apply(java.lang.String, java.lang.String, scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ java.lang.String encoding()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.EntityRef java.lang.String label()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null scala.xml.Null$ remove(java.lang.String, scala.xml.NamespaceBinding, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter void scala$xml$PrettyPrinter$$mkEnd$1(scala.collection.mutable.StringBuilder, scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NamespaceBinding java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.UnprefixedAttribute$ scala.Some&lt;scala.Tuple3&lt;java.lang.String,scala.collection.Seq&lt;scala.xml.Node&gt;,scala.xml.MetaData&gt;&gt; unapply(scala.xml.UnprefixedAttribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr java.lang.String text()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.formatNodes.1 1(scala.xml.PrettyPrinter, scala.collection.Seq, scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun.newBuilder.1 scala.xml.NodeSeq apply(scala.collection.Seq&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.6 boolean apply(scala.xml.MetaData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute.class int size(scala.xml.Attribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.sequenceToXML.1 boolean apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source$ org.xml.sax.InputSource fromReader(java.io.Reader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML scala.xml.Node load(java.net.URL) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source org.xml.sax.InputSource fromFile(java.io.FileDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter void scala$xml$PrettyPrinter$$mkEnd$1(scala.collection.mutable.StringBuilder, scala.xml.Node) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.collection.mutable.StringBuilder toXML(scala.xml.Node, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder, boolean, boolean, boolean, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility java.lang.String parseCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;, scala.Function1&lt;java.lang.String,scala.runtime.BoxedUnit&gt;, scala.Function1&lt;java.lang.String,scala.runtime.BoxedUnit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML..anon.1 scala.xml.Node load(java.net.URL) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData scala.xml.MetaData remove(java.lang.String, scala.xml.Node, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrefixedAttribute$ scala.Some&lt;scala.Tuple4&lt;java.lang.String,java.lang.String,scala.collection.Seq&lt;scala.xml.Node&gt;,scala.xml.MetaData&gt;&gt; unapply(scala.xml.PrefixedAttribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.format.1 1(scala.xml.PrettyPrinter, scala.collection.mutable.StringBuilder, scala.runtime.BooleanRef, scala.runtime.IntRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML java.lang.String preserve()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.sort.1 scala.xml.MetaData apply(scala.xml.MetaData, scala.xml.MetaData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute.class void toString1(scala.xml.Attribute, scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility java.lang.String parseCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;, scala.Function1&lt;java.lang.String,scala.runtime.BoxedUnit&gt;, scala.Function1&lt;java.lang.String,scala.runtime.BoxedUnit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ int hashCode(java.lang.String, java.lang.String, int, int, scala.collection.Seq&lt;scala.xml.Node&gt;) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun.makeSeq.1.1 scala.collection.Seq&lt;scala.xml.Node&gt; apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.bslash.1 boolean apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.startTag.1 1(scala.xml.PrettyPrinter, scala.xml.Node, scala.xml.NamespaceBinding, scala.runtime.IntRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.collection.mutable.StringBuilder toXML$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.leafTag.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData scala.xml.MetaData remove(java.lang.String, scala.xml.NamespaceBinding, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.Comment$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ java.lang.String space()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML java.lang.String encoding()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Unparsed Unparsed(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MalformedAttributeException$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.QNode$ scala.Some&lt;scala.Tuple4&lt;java.lang.String,java.lang.String,scala.xml.MetaData,scala.collection.Seq&lt;scala.xml.Node&gt;&gt;&gt; unapplySeq(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MalformedAttributeException scala.xml.MalformedAttributeException copy(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ java.lang.Object filter(scala.Function1) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.package$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter void formatNodes(scala.collection.Seq&lt;scala.xml.Node&gt;, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TopScope java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml scala.collection.mutable.StringBuilder toXhtml$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.EntityRef..anonfun.text.1 1(scala.xml.EntityRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Box Box(scala.xml.PrettyPrinter, int, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrefixedAttribute$ scala.Some&lt;scala.Tuple4&lt;java.lang.String,java.lang.String,scala.collection.Seq&lt;scala.xml.Node&gt;,scala.xml.MetaData&gt;&gt; unapply(scala.xml.PrefixedAttribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source org.xml.sax.InputSource fromFile(java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment$ scala.xml.Comment apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Text$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.xml.NamespaceBinding serialize$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.bslash.2 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PCData$ scala.xml.PCData apply(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ scala.xml.MetaData remove(java.lang.String, scala.xml.NamespaceBinding, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Box$ Box$(scala.xml.PrettyPrinter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData java.lang.Object filter(scala.Function1)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.EntityRef scala.xml.EntityRef copy(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PCData PCData(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem$ java.lang.Object processXml(scala.sys.process.Process$)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.EntityRef..anonfun.text.1 void apply(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Para java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml..anonfun.sequenceToXML.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ java.lang.String checkAttributeValue(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NamespaceBinding..anonfun.toString.1 1(scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq scala.xml.NodeSeq fromSeq(scala.collection.Seq&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.traverse.1 1(scala.xml.PrettyPrinter, scala.xml.NamespaceBinding, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source org.xml.sax.InputSource fromReader(java.io.Reader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq java.lang.String text()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.XML$ void write(java.io.Writer, scala.xml.Node, java.lang.String, boolean, scala.xml.dtd.DocType, scala.Enumeration.Value) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility.Escapes$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.bslash.4 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source$ org.xml.sax.InputSource fromSysId(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ boolean isAtomAndNotText(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData..anonfun.toString.1 1(scala.xml.MetaData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MalformedAttributeException java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.xml.NamespaceBinding serialize$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML scala.xml.Node loadXML(org.xml.sax.InputSource, javax.xml.parsers.SAXParser) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrefixedAttribute PrefixedAttribute(java.lang.String, java.lang.String, scala.Option&lt;scala.collection.Seq&lt;scala.xml.Node&gt;&gt;, scala.xml.MetaData) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment$ scala.xml.Comment apply(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NamespaceBinding scala.xml.NamespaceBinding apply(java.lang.String, java.lang.String, scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Text scala.collection.mutable.StringBuilder buildString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.MetaData..anonfun.toString.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment$ java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Item Item(scala.xml.PrettyPrinter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr java.lang.String copy$default$1()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment scala.xml.Comment copy(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData..anonfun.asAttrMap.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem$ scala.xml.Elem apply(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.collection.Seq&lt;scala.xml.Node&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.collection.Seq&lt;scala.xml.Node&gt; parseAttributeValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Group$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment java.lang.String commentText()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Equality.class boolean xml_$bang$eq(scala.xml.Equality, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.collectNamespaces.1 scala.collection.mutable.HashSet&lt;java.lang.String&gt; apply(scala.collection.mutable.HashSet&lt;java.lang.String&gt;, scala.xml.Node) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.makeBox.1 1(scala.xml.PrettyPrinter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.5 boolean apply(scala.xml.MetaData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem Elem(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq&lt;scala.xml.Node&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.appendQuoted.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Comment Comment(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.xml.Node trim(scala.xml.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TextBuffer$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.BrokenException BrokenException(scala.xml.PrettyPrinter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TopScope$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem scala.xml.NamespaceBinding scope()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MalformedAttributeException$ scala.xml.MalformedAttributeException apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PCData scala.collection.mutable.StringBuilder buildString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ java.lang.String sbToString(scala.Function1&lt;scala.collection.mutable.StringBuilder,scala.runtime.BoxedUnit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml..anonfun.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ java.lang.String lang()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Box scala.xml.PrettyPrinter.Box copy(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source org.xml.sax.InputSource fromString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeBuffer scala.xml.NodeBuffer $amp$plus(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml scala.collection.mutable.StringBuilder sequenceToXML$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ scala.xml.Node load(java.net.URL) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem$ scala.sys.process.ProcessBuilder xmlToProcess(scala.xml.Elem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.sequenceToXML.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility java.lang.String checkAttributeValue(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility scala.collection.mutable.StringBuilder sequenceToXML$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node java.lang.String text()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun.text.1 java.lang.String apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.TopScope$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ scala.xml.MetaData filter(scala.Function1&lt;scala.xml.MetaData,java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.UnprefixedAttribute java.lang.String getNamespace(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun..bslash.2 boolean apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ java.lang.String parseCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;, scala.Function1&lt;java.lang.String,scala.runtime.BoxedUnit&gt;, scala.Function1&lt;java.lang.String,scala.runtime.BoxedUnit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MalformedAttributeException$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node scala.xml.NamespaceBinding scope()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Atom scala.collection.mutable.StringBuilder buildString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.PrefixedAttribute scala.xml.Attribute copy(scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node..anonfun.descendant.1 scala.collection.immutable.List&lt;scala.xml.Node&gt; apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData scala.xml.MetaData copy(scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.Utility boolean isSpace(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Atom A data()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.EntityRef$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrefixedAttribute scala.xml.MetaData copy(scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq..anonfun.text.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeBuffer..anonfun..amp.plus.1 java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.collection.mutable.StringBuilder toXML(scala.xml.Node, scala.xml.NamespaceBinding, scala.collection.mutable.StringBuilder, boolean, boolean, boolean, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute$ scala.xml.Attribute apply(scala.Option&lt;java.lang.String&gt;, java.lang.String, scala.collection.Seq&lt;scala.xml.Node&gt;, scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.MetaData scala.xml.MetaData filter(scala.Function1&lt;scala.xml.MetaData,java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem Elem(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq&lt;scala.xml.Node&gt;) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrefixedAttribute scala.Some&lt;scala.Tuple4&lt;java.lang.String,java.lang.String,scala.collection.Seq&lt;scala.xml.Node&gt;,scala.xml.MetaData&gt;&gt; unapply(scala.xml.PrefixedAttribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility..anonfun.5 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.collection.mutable.StringBuilder escape(java.lang.String, scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr scala.collection.mutable.StringBuilder buildString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NamespaceBinding..anonfun.buildString.1 1(scala.xml.NamespaceBinding, scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrefixedAttribute java.lang.String getNamespace(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr$ java.lang.Object apply(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility.Escapes..anonfun.8 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeBuffer..anonfun..amp.plus.1 1(scala.xml.NodeBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ void write(java.io.Writer, scala.xml.Node, java.lang.String, boolean, scala.xml.dtd.DocType, scala.Enumeration.Value) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.SpecialNode scala.xml.MetaData attributes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr java.lang.String copy$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem scala.xml.Elem $percent(scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.collection.Seq&lt;scala.xml.Node&gt; parseAttributeValue(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter..anonfun.childrenAreLeaves.1 1(scala.xml.PrettyPrinter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Equality.class boolean strict_$bang$eq(scala.xml.Equality, scala.xml.Equality) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml$ scala.collection.mutable.StringBuilder sequenceToXML$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.SpecialNode scala.collection.mutable.StringBuilder buildString(scala.collection.mutable.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.EntityRef$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NodeSeq scala.xml.NodeSeq $bslash(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.ProcInstr$ java.lang.Object apply(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.xml.Node trim(scala.xml.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Elem scala.xml.Elem copy(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.collection.Seq&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Source$ org.xml.sax.InputSource fromFile(java.io.FileDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Xhtml$ scala.xml.NamespaceBinding toXhtml$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ scala.xml.Node loadXML(org.xml.sax.InputSource, javax.xml.parsers.SAXParser) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Node..anonfun.nonEmptyChildren.1 boolean apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.PrettyPrinter.Para$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Unparsed$ scala.Some&lt;java.lang.String&gt; unapply(scala.xml.Unparsed) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Attribute.class boolean wellformed(scala.xml.Attribute, scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.Option&lt;java.lang.String&gt; prefix(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.xml.NamespaceBinding toXML$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.NamespaceBinding java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.UnprefixedAttribute scala.xml.UnprefixedAttribute copy(scala.xml.MetaData)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Null$ scala.xml.NamespaceBinding append$default$2()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.XML$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.Utility$ scala.collection.mutable.StringBuilder sequenceToXML$default$3()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

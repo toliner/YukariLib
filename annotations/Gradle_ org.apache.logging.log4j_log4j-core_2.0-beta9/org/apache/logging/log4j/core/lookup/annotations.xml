@@ -1,0 +1,173 @@
+<root>
+    <item name='org.apache.logging.log4j.core.lookup.ContextMapLookup java.lang.String lookup(org.apache.logging.log4j.core.LogEvent, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher int isMatch(char[], int, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.DateLookup java.lang.String lookup(org.apache.logging.log4j.core.LogEvent, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor StrSubstitutor(java.util.Map&lt;java.lang.String,java.lang.String&gt;, java.lang.String, java.lang.String, char) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor org.apache.logging.log4j.core.lookup.StrSubstitutor setVariablePrefixMatcher(org.apache.logging.log4j.core.lookup.StrMatcher) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher charSetMatcher(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher commaMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.JndiLookup java.lang.String lookup(org.apache.logging.log4j.core.LogEvent, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor StrSubstitutor(org.apache.logging.log4j.core.lookup.StrLookup, java.lang.String, java.lang.String, char) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor java.lang.String replace(java.lang.Object, java.util.Map&lt;java.lang.String,java.lang.String&gt;, java.lang.String, java.lang.String) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor org.apache.logging.log4j.core.lookup.StrSubstitutor setVariableSuffix(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher noneMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor StrSubstitutor(java.util.Map&lt;java.lang.String,java.lang.String&gt;, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher charMatcher(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher trimMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.SystemPropertiesLookup java.lang.String lookup(org.apache.logging.log4j.core.LogEvent, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher charSetMatcher(char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor DEFAULT_PREFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor DEFAULT_SUFFIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher stringMatcher(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor StrSubstitutor(org.apache.logging.log4j.core.lookup.StrLookup, org.apache.logging.log4j.core.lookup.StrMatcher, org.apache.logging.log4j.core.lookup.StrMatcher, char) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor org.apache.logging.log4j.core.lookup.StrSubstitutor setVariableSuffix(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StructuredDataLookup java.lang.String lookup(org.apache.logging.log4j.core.LogEvent, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher singleQuoteMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher tabMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor org.apache.logging.log4j.core.lookup.StrSubstitutor setVariableSuffixMatcher(org.apache.logging.log4j.core.lookup.StrMatcher)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor org.apache.logging.log4j.core.lookup.StrSubstitutor setVariablePrefix(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor org.apache.logging.log4j.core.lookup.StrSubstitutor setVariablePrefix(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor StrSubstitutor(java.util.Map&lt;java.lang.String,java.lang.String&gt;, java.lang.String, java.lang.String, char) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher int isMatch(char[], int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor org.apache.logging.log4j.core.lookup.StrSubstitutor setVariablePrefix(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.EnvironmentLookup java.lang.String lookup(org.apache.logging.log4j.core.LogEvent, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor StrSubstitutor(org.apache.logging.log4j.core.lookup.StrLookup, org.apache.logging.log4j.core.lookup.StrMatcher, org.apache.logging.log4j.core.lookup.StrMatcher, char) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor org.apache.logging.log4j.core.lookup.StrSubstitutor setVariableSuffixMatcher(org.apache.logging.log4j.core.lookup.StrMatcher) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor java.lang.String replace(java.lang.Object, java.util.Map&lt;java.lang.String,java.lang.String&gt;, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor org.apache.logging.log4j.core.lookup.StrSubstitutor setVariableSuffix(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher splitMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor StrSubstitutor(org.apache.logging.log4j.core.lookup.StrLookup, java.lang.String, java.lang.String, char) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor StrSubstitutor(java.util.Map&lt;java.lang.String,java.lang.String&gt;, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.Interpolator java.lang.String lookup(org.apache.logging.log4j.core.LogEvent, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor boolean substitute(org.apache.logging.log4j.core.LogEvent, java.lang.StringBuilder, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrSubstitutor org.apache.logging.log4j.core.lookup.StrSubstitutor setVariablePrefixMatcher(org.apache.logging.log4j.core.lookup.StrMatcher)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.WebLookup java.lang.String lookup(org.apache.logging.log4j.core.LogEvent, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrLookup java.lang.String lookup(org.apache.logging.log4j.core.LogEvent, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher doubleQuoteMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.MapLookup java.lang.String lookup(org.apache.logging.log4j.core.LogEvent, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher quoteMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.lookup.StrMatcher org.apache.logging.log4j.core.lookup.StrMatcher spaceMatcher()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

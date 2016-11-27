@@ -1,0 +1,116 @@
+<root>
+    <item name='org.apache.http.config.MessageConstraints DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.SocketConfig org.apache.http.config.SocketConfig.Builder copy(org.apache.http.config.SocketConfig)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.ConnectionConfig.Builder org.apache.http.config.ConnectionConfig build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.RegistryBuilder org.apache.http.config.RegistryBuilder&lt;I&gt; register(java.lang.String, I) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.MessageConstraints org.apache.http.config.MessageConstraints.Builder copy(org.apache.http.config.MessageConstraints)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.RegistryBuilder org.apache.http.config.RegistryBuilder&lt;I&gt; create()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.RegistryBuilder org.apache.http.config.RegistryBuilder&lt;I&gt; register(java.lang.String, I)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.SocketConfig.Builder org.apache.http.config.SocketConfig.Builder setSoKeepAlive(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.ConnectionConfig org.apache.http.config.ConnectionConfig.Builder copy(org.apache.http.config.ConnectionConfig) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.ConnectionConfig.Builder org.apache.http.config.ConnectionConfig.Builder setCharset(java.nio.charset.Charset)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.SocketConfig.Builder org.apache.http.config.SocketConfig.Builder setTcpNoDelay(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.RegistryBuilder org.apache.http.config.Registry&lt;I&gt; build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.Lookup I lookup(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.http.config.MessageConstraints.Builder org.apache.http.config.MessageConstraints.Builder setMaxLineLength(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.SocketConfig.Builder org.apache.http.config.SocketConfig.Builder setSoLinger(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.SocketConfig.Builder org.apache.http.config.SocketConfig.Builder setSoTimeout(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.SocketConfig.Builder org.apache.http.config.SocketConfig.Builder setSoReuseAddress(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.ConnectionConfig DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.MessageConstraints org.apache.http.config.MessageConstraints.Builder custom()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.ConnectionConfig org.apache.http.config.ConnectionConfig.Builder custom()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.MessageConstraints.Builder org.apache.http.config.MessageConstraints build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.Registry I lookup(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.http.config.RegistryBuilder org.apache.http.config.RegistryBuilder&lt;I&gt; register(java.lang.String, I) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.ConnectionConfig.Builder org.apache.http.config.ConnectionConfig.Builder setBufferSize(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.ConnectionConfig.Builder org.apache.http.config.ConnectionConfig.Builder setUnmappableInputAction(java.nio.charset.CodingErrorAction)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.ConnectionConfig org.apache.http.config.ConnectionConfig.Builder copy(org.apache.http.config.ConnectionConfig)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.SocketConfig org.apache.http.config.SocketConfig.Builder custom()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.ConnectionConfig.Builder org.apache.http.config.ConnectionConfig.Builder setMessageConstraints(org.apache.http.config.MessageConstraints)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.MessageConstraints org.apache.http.config.MessageConstraints.Builder copy(org.apache.http.config.MessageConstraints) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.SocketConfig DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.ConnectionConfig.Builder org.apache.http.config.ConnectionConfig.Builder setMalformedInputAction(java.nio.charset.CodingErrorAction)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.SocketConfig.Builder org.apache.http.config.SocketConfig build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.MessageConstraints org.apache.http.config.MessageConstraints lineLen(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.SocketConfig org.apache.http.config.SocketConfig.Builder copy(org.apache.http.config.SocketConfig) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.MessageConstraints.Builder org.apache.http.config.MessageConstraints.Builder setMaxHeaderCount(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.config.ConnectionConfig.Builder org.apache.http.config.ConnectionConfig.Builder setFragmentSizeHint(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

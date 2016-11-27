@@ -1,0 +1,20 @@
+<root>
+    <item name='net.minecraftforge.client.event.sound.PlayStreamingSourceEvent PlayStreamingSourceEvent(net.minecraft.client.audio.SoundManager, net.minecraft.client.audio.ISound, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.event.sound.SoundEvent.SoundSourceEvent net.minecraft.client.audio.ISound getSound()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.event.sound.PlaySoundSourceEvent PlaySoundSourceEvent(net.minecraft.client.audio.SoundManager, net.minecraft.client.audio.ISound, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.event.sound.SoundEvent.SoundSourceEvent SoundSourceEvent(net.minecraft.client.audio.SoundManager, net.minecraft.client.audio.ISound, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.event.sound.PlaySoundEvent net.minecraft.client.audio.ISound getSound()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.event.sound.PlaySoundEvent PlaySoundEvent(net.minecraft.client.audio.SoundManager, net.minecraft.client.audio.ISound) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

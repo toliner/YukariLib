@@ -1,0 +1,53 @@
+<root>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; nullsLast(java.util.Comparator&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; naturalOrder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; then(java.util.Comparator&lt;T&gt;, java.util.Comparator&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; thenDescending(java.util.Comparator&lt;T&gt;, java.util.Comparator&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; nullsFirst(java.util.Comparator&lt;? super T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; reverseOrder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; thenDescending(java.util.Comparator&lt;T&gt;, java.util.Comparator&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; thenDescending(java.util.Comparator&lt;T&gt;, java.util.Comparator&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt int compareValuesBy(T, T, kotlin.jvm.functions.Function1&lt;? super T,? extends java.lang.Comparable&lt;?&gt;&gt;...) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; reversed(java.util.Comparator&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; nullsFirst(java.util.Comparator&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; reversed(java.util.Comparator&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; compareBy(kotlin.jvm.functions.Function1&lt;? super T,? extends java.lang.Comparable&lt;?&gt;&gt;...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; compareBy(kotlin.jvm.functions.Function1&lt;? super T,? extends java.lang.Comparable&lt;?&gt;&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; then(java.util.Comparator&lt;T&gt;, java.util.Comparator&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; then(java.util.Comparator&lt;T&gt;, java.util.Comparator&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='kotlin.comparisons.ComparisonsKt java.util.Comparator&lt;T&gt; nullsLast(java.util.Comparator&lt;? super T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

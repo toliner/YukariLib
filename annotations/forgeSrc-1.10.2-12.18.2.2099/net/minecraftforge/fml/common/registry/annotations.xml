@@ -1,0 +1,452 @@
+<root>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry void setRandomProfession(net.minecraft.entity.monster.EntityZombie, java.util.Random) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void putObject(net.minecraft.util.ResourceLocation, I) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void serializeBlockList(java.util.Set&lt;java.lang.Integer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry void addRecipe(net.minecraft.item.ItemStack, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void putObject(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager java.util.List&lt;java.lang.String&gt; injectSnapshot(net.minecraftforge.fml.common.registry.PersistentRegistryManager.GameDataSnapshot, boolean, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession VillagerProfession(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry I getObjectById(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.item.ItemStack makeItemStack(java.lang.String, int, int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry java.lang.Object getObject(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry void register(net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistry.AddCallback void onAdd(V, int, java.util.Map&lt;net.minecraft.util.ResourceLocation,?&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager ENCHANTMENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry K register(K)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession int getRandomCareer(java.util.Random) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager net.minecraftforge.fml.common.registry.PersistentRegistryManager.GameDataSnapshot takeSnapshot()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IncompatibleSubstitutionException IncompatibleSubstitutionException(net.minecraft.util.ResourceLocation, java.lang.Object, java.lang.Object) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager net.minecraftforge.fml.common.registry.RegistryDelegate&lt;T&gt; makeDelegate(T, java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry void setRandomProfession(net.minecraft.entity.passive.EntityVillager, java.util.Random) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerCareer net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerCareer addTrade(int, net.minecraft.entity.passive.EntityVillager.ITradeList...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void loadAliases(java.util.Map&lt;net.minecraft.util.ResourceLocation,net.minecraft.util.ResourceLocation&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block, java.lang.Class&lt;? extends net.minecraft.item.ItemBlock&gt;, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void putObject(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void serializeSubstitutions(java.util.Set&lt;net.minecraft.util.ResourceLocation&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistry.CreateCallback void onCreate(java.util.Map&lt;net.minecraft.util.ResourceLocation,?&gt;, com.google.common.collect.BiMap&lt;net.minecraft.util.ResourceLocation,? extends net.minecraftforge.fml.common.registry.IForgeRegistry&lt;?&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerCareer net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerCareer addTrade(int, net.minecraft.entity.passive.EntityVillager.ITradeList...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void register(int, java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry void addShapelessRecipe(net.minecraft.item.ItemStack, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.RegistryBuilder net.minecraftforge.fml.common.registry.RegistryBuilder&lt;T&gt; add(net.minecraftforge.fml.common.registry.IForgeRegistry.SubstitutionCallback&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistry void register(V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry void registerVillageCreationHandler(net.minecraftforge.fml.common.registry.VillagerRegistry.IVillageCreationHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry PROFESSIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block, java.lang.Class&lt;? extends net.minecraft.item.ItemBlock&gt;, java.lang.String, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry void registerTileEntityWithAlternatives(java.lang.Class&lt;? extends net.minecraft.tileentity.TileEntity&gt;, java.lang.String, java.lang.String...) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry void setRandomProfession(net.minecraft.entity.passive.EntityVillager, java.util.Random) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.RegistryBuilder net.minecraftforge.fml.common.registry.RegistryBuilder&lt;T&gt; addCallback(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void serializeAliases(java.util.Map&lt;net.minecraft.util.ResourceLocation,net.minecraft.util.ResourceLocation&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry K register(K, net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistry.SubstitutionCallback void onSubstituteActivated(java.util.Map&lt;net.minecraft.util.ResourceLocation,?&gt;, V, V, net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistry.CreateCallback void onCreate(java.util.Map&lt;net.minecraft.util.ResourceLocation,?&gt;, com.google.common.collect.BiMap&lt;net.minecraft.util.ResourceLocation,? extends net.minecraftforge.fml.common.registry.IForgeRegistry&lt;?&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.RegistryBuilder net.minecraftforge.fml.common.registry.RegistryBuilder&lt;T&gt; add(net.minecraftforge.fml.common.registry.IForgeRegistry.AddCallback&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry I getObject(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.ItemStackHolderInjector void findHolders(net.minecraftforge.fml.common.discovery.ASMDataTable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl T setRegistryName(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry net.minecraftforge.fml.common.registry.RegistryDelegate&lt;I&gt; getDelegate(I, java.lang.Class&lt;I&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.EntityRegistry boolean tryTrackingEntity(net.minecraft.entity.EntityTracker, net.minecraft.entity.Entity) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistry.AddCallback void onAdd(V, int, java.util.Map&lt;net.minecraft.util.ResourceLocation,?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void registerAll(I...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistry.ClearCallback void onClear(net.minecraftforge.fml.common.registry.IForgeRegistry&lt;V&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager java.util.List&lt;java.lang.String&gt; processIdRematches(java.lang.Iterable&lt;net.minecraftforge.fml.common.event.FMLMissingMappingsEvent.MissingMapping&gt;, boolean, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer[]&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer[]&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.EntityRegistry void removeSpawn(java.lang.Class&lt;? extends net.minecraft.entity.EntityLiving&gt;, net.minecraft.entity.EnumCreatureType, net.minecraft.world.biome.Biome...) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession VillagerProfession(java.lang.String, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager POTIONTYPES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void loadSubstitutions(java.util.Set&lt;net.minecraft.util.ResourceLocation&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl T setRegistryName(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void putObject(net.minecraft.util.ResourceLocation, I) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.RegistryDelegate net.minecraft.util.ResourceLocation name()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession VillagerProfession(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry void onSetProfession(net.minecraft.entity.monster.EntityZombie, net.minecraft.entity.monster.ZombieType, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerCareer VillagerCareer(net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerWithItem(net.minecraft.block.Block) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry java.lang.Iterable&lt;I&gt; typeSafeIterable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block findBlock(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry void onSetProfession(net.minecraft.entity.passive.EntityVillager, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistry void registerAll(V...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block, java.lang.Class&lt;? extends net.minecraft.item.ItemBlock&gt;, java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager BLOCKS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block, java.lang.Class&lt;? extends net.minecraft.item.ItemBlock&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void loadIds(java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer[]&gt;, net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry&lt;I&gt;, net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl java.lang.Object setRegistryName(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession getById(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block, java.lang.Class&lt;? extends net.minecraft.item.ItemBlock&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistry V getValue(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager POTIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.item.crafting.IRecipe addShapedRecipe(net.minecraft.item.ItemStack, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry net.minecraft.world.gen.structure.StructureVillagePieces.Village getVillageComponent(net.minecraft.world.gen.structure.StructureVillagePieces.PieceWeight, net.minecraft.world.gen.structure.StructureVillagePieces.Start, java.util.List&lt;net.minecraft.world.gen.structure.StructureComponent&gt;, java.util.Random, int, int, int, net.minecraft.util.EnumFacing, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameData net.minecraftforge.fml.common.registry.GameData getMain()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry&lt;T&gt; asType(java.lang.Class&lt;? extends T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.item.crafting.IRecipe addShapedRecipe(net.minecraft.item.ItemStack, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.RegistryBuilder net.minecraftforge.fml.common.registry.RegistryBuilder&lt;T&gt; setName(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.ObjectHolderRegistry void findObjectHolders(net.minecraftforge.fml.common.discovery.ASMDataTable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry net.minecraftforge.fml.common.registry.VillagerRegistry instance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry void onSetProfession(net.minecraft.entity.passive.EntityVillager, net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager ITEMS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block, java.lang.Class&lt;? extends net.minecraft.item.ItemBlock&gt;, java.lang.String, java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.ItemStackHolderInjector INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void register(I) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistryEntry V setRegistryName(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession VillagerProfession(java.lang.String, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.RegistryBuilder net.minecraftforge.fml.common.registry.RegistryBuilder&lt;T&gt; add(net.minecraftforge.fml.common.registry.IForgeRegistry.CreateCallback&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.RegistryBuilder net.minecraftforge.fml.common.registry.RegistryBuilder&lt;T&gt; add(net.minecraftforge.fml.common.registry.IForgeRegistry.ClearCallback&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl T setRegistryName(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager.GameDataSnapshot.Entry Entry(net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry void registerItem(net.minecraft.item.Item) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry void generateWorld(int, int, net.minecraft.world.World, net.minecraft.world.chunk.IChunkGenerator, net.minecraft.world.chunk.IChunkProvider) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry.Type BLOCK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.RegistryBuilder net.minecraftforge.fml.common.registry.RegistryBuilder&lt;T&gt; setIDRange(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager BIOMES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry I getRaw(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.EntityRegistry void addSpawn(java.lang.Class&lt;? extends net.minecraft.entity.EntityLiving&gt;, int, int, int, net.minecraft.entity.EnumCreatureType, net.minecraft.world.biome.Biome...) 5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.RegistryDelegate java.lang.Class&lt;T&gt; type()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void loadBlocked(java.util.Set&lt;java.lang.Integer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl T setRegistryName(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry void onSetProfession(net.minecraft.entity.monster.EntityZombie, net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.ObjectHolderRegistry INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry.VillagerProfession VillagerProfession(java.lang.String, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void serializeDummied(java.util.Set&lt;net.minecraft.util.ResourceLocation&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl T setRegistryName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void register(int, net.minecraft.util.ResourceLocation, I) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager SOUNDEVENTS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void register(int, java.lang.Object, java.lang.Object) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block, java.lang.Class&lt;? extends net.minecraft.item.ItemBlock&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry void addSubstitutionAlias(java.lang.String, net.minecraftforge.fml.common.registry.GameRegistry.Type, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistryEntry V setRegistryName(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.item.ItemStack makeItemStack(java.lang.String, int, int, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry.Type ITEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerBlock(net.minecraft.block.Block, java.lang.Class&lt;? extends net.minecraft.item.ItemBlock&gt;, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.EntityRegistry net.minecraftforge.fml.common.registry.EntityRegistry instance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.VillagerRegistry void setRandomProfession(net.minecraft.entity.monster.EntityZombie, java.util.Random) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.RegistryBuilder net.minecraftforge.fml.common.registry.RegistryBuilder&lt;T&gt; setType(java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry void register(int, net.minecraft.util.ResourceLocation, I) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry void registerItem(net.minecraft.item.Item, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.block.Block registerWithItem(net.minecraft.block.Block)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry K register(K) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry K register(K, net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameRegistry net.minecraft.item.Item findItem(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.GameData net.minecraftforge.fml.common.registry.RegistryDelegate&lt;T&gt; makeDelegate(T, java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry I getValue(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.PersistentRegistryManager java.util.List&lt;java.lang.String&gt; processIdRematches(java.lang.Iterable&lt;net.minecraftforge.fml.common.event.FMLMissingMappingsEvent.MissingMapping&gt;, boolean, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer[]&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer[]&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IncompatibleSubstitutionException IncompatibleSubstitutionException(net.minecraft.util.ResourceLocation, java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.FMLControlledNamespacedRegistry java.lang.Object getObjectById(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl delegate'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.registry.IForgeRegistryEntry.Impl java.lang.Object setRegistryName(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

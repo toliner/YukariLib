@@ -1,0 +1,173 @@
+<root>
+    <item name='net.minecraftforge.client.model.pipeline.BlockInfo float[][][][] getSkyLight()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.VertexBufferConsumer void setOffset(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.IVertexProducer void pipe(net.minecraftforge.client.model.pipeline.IVertexConsumer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil net.minecraft.util.EnumFacing toSide(float, float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil void unpack(int[], float[], net.minecraft.client.renderer.vertex.VertexFormat, int, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil float diffuseLight(net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.BlockInfo float[][][] getAo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer boolean render(net.minecraftforge.client.model.pipeline.VertexLighterFlat, net.minecraft.world.IBlockAccess, net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.client.renderer.VertexBuffer, boolean, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil int[] mapFormats(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraft.client.renderer.vertex.VertexFormat) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.BlockInfo float[][][][] getBlockLight()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer boolean render(net.minecraftforge.client.model.pipeline.VertexLighterFlat, net.minecraft.world.IBlockAccess, net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.client.renderer.VertexBuffer, boolean, long) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.VertexLighterFlat void updateColor(float[], float[], float, float, float, float, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.VertexLighterFlat void updateLightmap(float[], float[], float, float, float) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil int[] mapFormats(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraft.client.renderer.vertex.VertexFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.VertexLighterFlat void applyAnaglyph(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.BlockInfo boolean[][][] getTranslucent()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil void putBakedQuad(net.minecraftforge.client.model.pipeline.IVertexConsumer, net.minecraft.client.renderer.block.model.BakedQuad) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer boolean renderModelSmooth(net.minecraft.world.IBlockAccess, net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.client.renderer.VertexBuffer, boolean, long) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil.ItemConsumer void put(int, float...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.QuadGatheringTransformer void put(int, float...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.UnpackedBakedQuad format'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.TransformerConsumer void put(int, float...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil void renderQuadColor(net.minecraft.client.renderer.VertexBuffer, net.minecraft.client.renderer.block.model.BakedQuad, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.UnpackedBakedQuad.Builder net.minecraftforge.client.model.pipeline.UnpackedBakedQuad build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.VertexLighterSmoothAo void updateColor(float[], float[], float, float, float, float, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil int[] mapFormats(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraft.client.renderer.vertex.VertexFormat) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.UnpackedBakedQuad void pipe(net.minecraftforge.client.model.pipeline.IVertexConsumer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.UnpackedBakedQuad.Builder Builder(net.minecraft.client.renderer.vertex.VertexFormat) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil void unpack(int[], float[], net.minecraft.client.renderer.vertex.VertexFormat, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil void pack(float[], int[], net.minecraft.client.renderer.vertex.VertexFormat, int, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil void renderQuadColorSlow(net.minecraft.client.renderer.VertexBuffer, net.minecraft.client.renderer.block.model.BakedQuad, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.UnpackedBakedQuad.Builder net.minecraft.client.renderer.vertex.VertexFormat getVertexFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.UnpackedBakedQuad.Builder void put(int, float...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.VertexLighterSmoothAo void updateLightmap(float[], float[], float, float, float) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.VertexBufferConsumer VertexBufferConsumer(net.minecraft.client.renderer.VertexBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.ForgeBlockModelRenderer boolean renderModelFlat(net.minecraft.world.IBlockAccess, net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.client.renderer.VertexBuffer, boolean, long) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.IVertexConsumer net.minecraft.client.renderer.vertex.VertexFormat getVertexFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil void putBakedQuad(net.minecraftforge.client.model.pipeline.IVertexConsumer, net.minecraft.client.renderer.block.model.BakedQuad) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.QuadGatheringTransformer void setVertexFormat(net.minecraft.client.renderer.vertex.VertexFormat) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.VertexBufferConsumer void put(int, float...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.IVertexConsumer void put(int, float...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.VertexTransformer void put(int, float...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.QuadGatheringTransformer void setParent(net.minecraftforge.client.model.pipeline.IVertexConsumer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.VertexLighterFlat blockInfo'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.VertexLighterFlat void setParent(net.minecraftforge.client.model.pipeline.IVertexConsumer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.UnpackedBakedQuad UnpackedBakedQuad(float[][][], int, net.minecraft.util.EnumFacing, net.minecraft.client.renderer.texture.TextureAtlasSprite, boolean, net.minecraft.client.renderer.vertex.VertexFormat) 5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.pipeline.LightUtil void renderQuadColor(net.minecraft.client.renderer.VertexBuffer, net.minecraft.client.renderer.block.model.BakedQuad, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

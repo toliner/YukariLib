@@ -1,0 +1,158 @@
+<root>
+    <item name='org.apache.http.client.methods.HttpTrace java.lang.String getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder setHeader(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder setUri(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder trace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder setUri(java.net.URI)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder setHeader(org.apache.http.Header)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder setConfig(org.apache.http.client.config.RequestConfig)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpPost METHOD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpDelete METHOD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.HttpUriRequest build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpHead METHOD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpOptions java.util.Set&lt;java.lang.String&gt; getAllowedMethods(org.apache.http.HttpResponse)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder post()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder addParameters(org.apache.http.NameValuePair...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder addParameters(org.apache.http.NameValuePair...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder put()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpOptions java.util.Set&lt;java.lang.String&gt; getAllowedMethods(org.apache.http.HttpResponse) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.AbstractExecutionAwareRequest java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpUriRequest java.lang.String getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder options()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpGet java.lang.String getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpHead java.lang.String getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpTrace METHOD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder head()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder delete()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder addHeader(org.apache.http.Header)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder get()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder addParameter(org.apache.http.NameValuePair)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpOptions java.lang.String getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder setEntity(org.apache.http.HttpEntity)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpPatch java.lang.String getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpPost java.lang.String getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpDelete java.lang.String getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpPut METHOD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpRequestBase org.apache.http.RequestLine getRequestLine()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpOptions METHOD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder removeHeaders(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder java.util.List&lt;org.apache.http.NameValuePair&gt; getParameters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder copy(org.apache.http.HttpRequest)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpRequestWrapper org.apache.http.HttpRequest getOriginal()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpRequestBase java.lang.String getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder removeHeader(org.apache.http.Header)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder setVersion(org.apache.http.ProtocolVersion)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpRequestWrapper org.apache.http.RequestLine getRequestLine()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder addParameter(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpPatch METHOD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpPut java.lang.String getMethod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder addHeader(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.RequestBuilder org.apache.http.client.methods.RequestBuilder create(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.client.methods.HttpGet METHOD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,35 @@
+<root>
+    <item name='net.minecraftforge.items.wrapper.CombinedInvWrapper itemHandler'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.items.wrapper.PlayerArmorInvWrapper PlayerArmorInvWrapper(net.minecraft.entity.player.InventoryPlayer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.items.wrapper.PlayerInvWrapper PlayerInvWrapper(net.minecraft.entity.player.InventoryPlayer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.items.wrapper.PlayerMainInvWrapper net.minecraft.entity.player.InventoryPlayer getInventoryPlayer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.items.wrapper.PlayerOffhandInvWrapper PlayerOffhandInvWrapper(net.minecraft.entity.player.InventoryPlayer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.items.wrapper.CombinedInvWrapper baseIndex'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.items.wrapper.PlayerArmorInvWrapper net.minecraft.entity.player.InventoryPlayer getInventoryPlayer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.items.wrapper.PlayerMainInvWrapper PlayerMainInvWrapper(net.minecraft.entity.player.InventoryPlayer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.items.wrapper.CombinedInvWrapper CombinedInvWrapper(net.minecraftforge.items.IItemHandlerModifiable...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.items.wrapper.EmptyHandler INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.items.wrapper.SidedInvWrapper int getSlot(net.minecraft.inventory.ISidedInventory, int, net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

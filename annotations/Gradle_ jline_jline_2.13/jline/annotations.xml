@@ -1,0 +1,95 @@
+<root>
+    <item name='jline.TerminalFactory.Type UNIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory.Type AUTO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.WindowsTerminal.ConsoleMode ENABLE_ECHO_INPUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory.Flavor OSV'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory.Type OSV'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory jline.Terminal create()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory jline.Terminal create(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory WINDOWS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.WindowsTerminal.ConsoleMode ENABLE_LINE_INPUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.WindowsTerminal.ConsoleMode ENABLE_WRAP_AT_EOL_OUTPUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory.Type NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory void configure(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory.Flavor UNIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.UnixTerminal UnixTerminal(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.WindowsTerminal.ConsoleMode ENABLE_WINDOW_INPUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory JLINE_TERMINAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory void configure(jline.TerminalFactory.Type) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory.Flavor WINDOWS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.UnixTerminal UnixTerminal(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory.Type WINDOWS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.UnixTerminal jline.internal.TerminalLineSettings getSettings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.WindowsTerminal.ConsoleMode ENABLE_PROCESSED_OUTPUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory AUTO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory UNIX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.WindowsTerminal.ConsoleMode ENABLE_PROCESSED_INPUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory FALSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.WindowsTerminal.ConsoleMode ENABLE_MOUSE_INPUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory WIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory OSV'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.TerminalFactory NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

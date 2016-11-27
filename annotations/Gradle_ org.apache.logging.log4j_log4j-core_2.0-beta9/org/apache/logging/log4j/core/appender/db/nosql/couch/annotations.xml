@@ -1,0 +1,35 @@
+<root>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBConnection org.apache.logging.log4j.core.appender.db.nosql.NoSQLObject[] createList(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBObject void set(java.lang.String, org.apache.logging.log4j.core.appender.db.nosql.NoSQLObject&lt;java.util.Map&lt;java.lang.String,java.lang.Object&gt;&gt;[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBObject java.lang.Object unwrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBConnection org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBObject createObject()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBConnection void insertObject(org.apache.logging.log4j.core.appender.db.nosql.NoSQLObject&lt;java.util.Map&lt;java.lang.String,java.lang.Object&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBConnection org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBObject[] createList(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBObject java.util.Map&lt;java.lang.String,java.lang.Object&gt; unwrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBProvider org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBConnection getConnection()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBConnection org.apache.logging.log4j.core.appender.db.nosql.NoSQLObject createObject()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBProvider org.apache.logging.log4j.core.appender.db.nosql.NoSQLConnection getConnection()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.couch.CouchDBObject void set(java.lang.String, org.apache.logging.log4j.core.appender.db.nosql.NoSQLObject&lt;java.util.Map&lt;java.lang.String,java.lang.Object&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

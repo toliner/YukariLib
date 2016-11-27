@@ -1,0 +1,182 @@
+<root>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory java.net.Socket connectSocket(java.net.Socket, java.net.InetSocketAddress, java.net.InetSocketAddress, org.apache.http.params.HttpParams) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory org.apache.http.conn.ssl.SSLSocketFactory getSystemSocketFactory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLConnectionSocketFactory java.net.Socket createLayeredSocket(java.net.Socket, java.lang.String, int, org.apache.http.protocol.HttpContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory java.net.Socket createLayeredSocket(java.net.Socket, java.lang.String, int, org.apache.http.params.HttpParams)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.AbstractVerifier java.lang.String[] getCNs(java.security.cert.X509Certificate) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.AbstractVerifier void verify(java.lang.String, java.security.cert.X509Certificate) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLContextBuilder org.apache.http.conn.ssl.SSLContextBuilder loadTrustMaterial(java.security.KeyStore, org.apache.http.conn.ssl.TrustStrategy)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLConnectionSocketFactory org.apache.http.conn.ssl.SSLConnectionSocketFactory getSystemSocketFactory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory java.net.Socket connectSocket(java.net.Socket, java.net.InetSocketAddress, java.net.InetSocketAddress, org.apache.http.params.HttpParams)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory SSL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.StrictHostnameVerifier java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLConnectionSocketFactory SSL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLConnectionSocketFactory org.apache.http.conn.ssl.SSLConnectionSocketFactory getSocketFactory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLContextBuilder org.apache.http.conn.ssl.SSLContextBuilder useSSL()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory SSLSocketFactory(javax.net.ssl.SSLContext, org.apache.http.conn.scheme.HostNameResolver) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory org.apache.http.conn.ssl.SSLSocketFactory getSocketFactory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLConnectionSocketFactory SSLV2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLContexts javax.net.ssl.SSLContext createDefault()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.AbstractVerifier void verify(java.lang.String, java.lang.String[], java.lang.String[], boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLConnectionSocketFactory java.net.Socket connectSocket(int, java.net.Socket, org.apache.http.HttpHost, java.net.InetSocketAddress, java.net.InetSocketAddress, org.apache.http.protocol.HttpContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLContextBuilder org.apache.http.conn.ssl.SSLContextBuilder setSecureRandom(java.security.SecureRandom)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory SSLV2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory java.net.Socket createLayeredSocket(java.net.Socket, java.lang.String, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.AbstractVerifier void verify(java.lang.String, javax.net.ssl.SSLSocket) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.X509HostnameVerifier void verify(java.lang.String, java.security.cert.X509Certificate) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLContextBuilder org.apache.http.conn.ssl.SSLContextBuilder loadKeyMaterial(java.security.KeyStore, char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.X509HostnameVerifier void verify(java.lang.String, javax.net.ssl.SSLSocket) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory java.net.Socket createSocket(java.net.Socket, java.lang.String, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLContextBuilder javax.net.ssl.SSLContext build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory java.net.Socket connectSocket(java.net.Socket, java.lang.String, int, java.net.InetAddress, int, org.apache.http.params.HttpParams)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory java.net.Socket connectSocket(int, java.net.Socket, org.apache.http.HttpHost, java.net.InetSocketAddress, java.net.InetSocketAddress, org.apache.http.protocol.HttpContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLConnectionSocketFactory java.net.Socket connectSocket(int, java.net.Socket, org.apache.http.HttpHost, java.net.InetSocketAddress, java.net.InetSocketAddress, org.apache.http.protocol.HttpContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.TrustSelfSignedStrategy boolean isTrusted(java.security.cert.X509Certificate[], java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.TrustStrategy boolean isTrusted(java.security.cert.X509Certificate[], java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLConnectionSocketFactory ALLOW_ALL_HOSTNAME_VERIFIER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLContextBuilder org.apache.http.conn.ssl.SSLContextBuilder useTLS()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLConnectionSocketFactory BROWSER_COMPATIBLE_HOSTNAME_VERIFIER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLContexts org.apache.http.conn.ssl.SSLContextBuilder custom()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory java.net.Socket createLayeredSocket(java.net.Socket, java.lang.String, int, org.apache.http.protocol.HttpContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory BROWSER_COMPATIBLE_HOSTNAME_VERIFIER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.AbstractVerifier boolean acceptableCountryWildcard(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory ALLOW_ALL_HOSTNAME_VERIFIER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.AbstractVerifier void verify(java.lang.String, javax.net.ssl.SSLSocket) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLConnectionSocketFactory TLS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.X509HostnameVerifier void verify(java.lang.String, javax.net.ssl.SSLSocket) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLConnectionSocketFactory STRICT_HOSTNAME_VERIFIER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory TLS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLContextBuilder org.apache.http.conn.ssl.SSLContextBuilder useProtocol(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory java.net.Socket connectSocket(int, java.net.Socket, org.apache.http.HttpHost, java.net.InetSocketAddress, java.net.InetSocketAddress, org.apache.http.protocol.HttpContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.BrowserCompatHostnameVerifier java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory STRICT_HOSTNAME_VERIFIER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.AllowAllHostnameVerifier java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.AbstractVerifier int countDots(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLContextBuilder org.apache.http.conn.ssl.SSLContextBuilder loadKeyMaterial(java.security.KeyStore, char[], org.apache.http.conn.ssl.PrivateKeyStrategy)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLContextBuilder org.apache.http.conn.ssl.SSLContextBuilder loadTrustMaterial(java.security.KeyStore)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.http.conn.ssl.SSLSocketFactory boolean isSecure(java.net.Socket) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

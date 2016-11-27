@@ -1,0 +1,140 @@
+<root>
+    <item name='jline.internal.Log.Level ERROR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Configuration JLINE_RC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Configuration JLINE_CONFIGURATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings jline.internal.TerminalLineSettings getSettings(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings void set(java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Configuration java.lang.String getString(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.ShutdownHooks JLINE_SHUTDOWNHOOK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings java.lang.String get(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.InputStreamReader InputStreamReader(java.io.InputStream, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Log.Level INFO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.InputStreamReader InputStreamReader(java.io.InputStream, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings JLINE_STTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Log void error(java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Log void warn(java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Log void setOutput(java.io.PrintStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings JLINE_SH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.ShutdownHooks T add(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Preconditions T checkNotNull(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Configuration java.lang.String getString(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Configuration int getInteger(java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.InputStreamReader int read(char[], int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings java.lang.String getPropertyAsString(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.InfoCmp void parseInfoCmp(java.lang.String, java.util.Set&lt;java.lang.String&gt;, java.util.Map&lt;java.lang.String,java.lang.Integer&gt;, java.util.Map&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings java.lang.String waitAndCapture(java.lang.Process) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.InfoCmp java.lang.String[] getNames(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings DEFAULT_TTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Curses void tputs(java.io.Writer, java.lang.String, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Configuration boolean getBoolean(java.lang.String, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.ShutdownHooks T add(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.InputStreamReader InputStreamReader(java.io.InputStream, java.nio.charset.CharsetDecoder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Log.Level TRACE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings void set(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings int getProperty(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.ShutdownHooks void remove(jline.internal.ShutdownHooks.Task) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings TerminalLineSettings(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Configuration java.io.File getUserHome()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.NonBlockingInputStream int read(byte[], int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings DEFAULT_SH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Log void info(java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Log.Level DEBUG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings DEFAULT_STTY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Configuration boolean getBoolean(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.TerminalLineSettings void undef(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Configuration long getLong(java.lang.String, long) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Log.Level WARN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.internal.Preconditions T checkNotNull(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,149 @@
+<root>
+    <item name='net.minecraft.client.settings.GameSettings.Options GUI_SCALE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options ENABLE_VSYNC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options RENDER_DISTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options CHAT_WIDTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options USE_VBO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options AMBIENT_OCCLUSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.KeyBinding boolean conflicts(net.minecraft.client.settings.KeyBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings void setOptionKeyBinding(net.minecraft.client.settings.KeyBinding, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options CHAT_OPACITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options FRAMERATE_LIMIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options TOUCHSCREEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options USE_FULLSCREEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options ENTITY_SHADOWS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options GAMMA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options CHAT_LINKS_PROMPT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options FBO_ENABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options GRAPHICS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options CHAT_SCALE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.KeyBinding int compareTo(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options AUTO_JUMP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options SNOOPER_ENABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options ATTACK_INDICATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options ANAGLYPH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options REALMS_NOTIFICATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options FOV'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.KeyBinding boolean hasKeyCodeModifierConflict(net.minecraft.client.settings.KeyBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.KeyBinding void setKeyModifierAndCode(net.minecraftforge.client.settings.KeyModifier, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options RENDER_CLOUDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings GameSettings(net.minecraft.client.Minecraft, java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options CHAT_HEIGHT_FOCUSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options FORCE_UNICODE_FONT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options MIPMAP_LEVELS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options CHAT_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options ENABLE_WEAK_ATTACKS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options CHAT_HEIGHT_UNFOCUSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options PARTICLES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.KeyBinding int compareTo(net.minecraft.client.settings.KeyBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings boolean getOptionOrdinalValue(net.minecraft.client.settings.GameSettings.Options) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings java.lang.String getKeyBinding(net.minecraft.client.settings.GameSettings.Options) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options MAIN_HAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings boolean isKeyDown(net.minecraft.client.settings.KeyBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options INVERT_MOUSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options CHAT_LINKS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options SENSITIVITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options CHAT_VISIBILITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options SATURATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options SHOW_SUBTITLES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options VIEW_BOBBING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.settings.GameSettings.Options REDUCED_DEBUG_INFO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,260 @@
+<root>
+    <item name='net.minecraft.world.storage.loot.LootTable void fillInventory(net.minecraft.inventory.IInventory, java.util.Random, net.minecraft.world.storage.loot.LootContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget.Serializer java.lang.Object read(com.google.gson.stream.JsonReader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryItem net.minecraft.world.storage.loot.LootEntryItem deserialize(com.google.gson.JsonObject, com.google.gson.JsonDeserializationContext, int, int, net.minecraft.world.storage.loot.conditions.LootCondition[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryTable void addLoot(java.util.Collection&lt;net.minecraft.item.ItemStack&gt;, java.util.Random, net.minecraft.world.storage.loot.LootContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer net.minecraft.world.storage.loot.LootPool deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntry.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.LootEntry, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget.Serializer net.minecraft.world.storage.loot.LootContext.EntityTarget read(com.google.gson.stream.JsonReader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryItem void addLoot(java.util.Collection&lt;net.minecraft.item.ItemStack&gt;, java.util.Random, net.minecraft.world.storage.loot.LootContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.RandomValueRange.Serializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.RandomValueRange.Serializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget.Serializer void write(com.google.gson.stream.JsonWriter, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.LootPool, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget.Serializer void write(com.google.gson.stream.JsonWriter, net.minecraft.world.storage.loot.LootContext.EntityTarget) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryEmpty net.minecraft.world.storage.loot.LootEntryEmpty deserialize(com.google.gson.JsonObject, com.google.gson.JsonDeserializationContext, int, int, net.minecraft.world.storage.loot.conditions.LootCondition[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget.Serializer java.lang.Object read(com.google.gson.stream.JsonReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntry void serialize(com.google.gson.JsonObject, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.Builder net.minecraft.world.storage.loot.LootContext.Builder withPlayer(net.minecraft.entity.player.EntityPlayer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget net.minecraft.world.storage.loot.LootContext.EntityTarget fromString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext net.minecraft.entity.Entity getEntity(net.minecraft.world.storage.loot.LootContext.EntityTarget) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntry.Serializer net.minecraft.world.storage.loot.LootEntry deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntry.Serializer com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryTable net.minecraft.world.storage.loot.LootEntryTable deserialize(com.google.gson.JsonObject, com.google.gson.JsonDeserializationContext, int, int, net.minecraft.world.storage.loot.conditions.LootCondition[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntry.Serializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntry.Serializer com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget.Serializer net.minecraft.world.storage.loot.LootContext.EntityTarget read(com.google.gson.stream.JsonReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget.Serializer void write(com.google.gson.stream.JsonWriter, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget KILLER_PLAYER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntry.Serializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget.Serializer void write(com.google.gson.stream.JsonWriter, net.minecraft.world.storage.loot.LootContext.EntityTarget) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable.Serializer com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryEmpty void addLoot(java.util.Collection&lt;net.minecraft.item.ItemStack&gt;, java.util.Random, net.minecraft.world.storage.loot.LootContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable.Serializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable.Serializer com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.LootTable, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable.Serializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryEmpty net.minecraft.world.storage.loot.LootEntryEmpty deserialize(com.google.gson.JsonObject, com.google.gson.JsonDeserializationContext, int, int, net.minecraft.world.storage.loot.conditions.LootCondition[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.LootTable, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable EMPTY_LOOT_TABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget KILLER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.RandomValueRange.Serializer com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable void fillInventory(net.minecraft.inventory.IInventory, java.util.Random, net.minecraft.world.storage.loot.LootContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable java.util.List&lt;net.minecraft.item.ItemStack&gt; generateLootForPools(java.util.Random, net.minecraft.world.storage.loot.LootContext) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.Builder net.minecraft.world.storage.loot.LootContext build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryTable void addLoot(java.util.Collection&lt;net.minecraft.item.ItemStack&gt;, java.util.Random, net.minecraft.world.storage.loot.LootContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.RandomValueRange.Serializer net.minecraft.world.storage.loot.RandomValueRange deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer net.minecraft.world.storage.loot.LootPool deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryItem void addLoot(java.util.Collection&lt;net.minecraft.item.ItemStack&gt;, java.util.Random, net.minecraft.world.storage.loot.LootContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer net.minecraft.world.storage.loot.LootPool deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryItem net.minecraft.world.storage.loot.LootEntryItem deserialize(com.google.gson.JsonObject, com.google.gson.JsonDeserializationContext, int, int, net.minecraft.world.storage.loot.conditions.LootCondition[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntry.Serializer net.minecraft.world.storage.loot.LootEntry deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.LootPool, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.RandomValueRange.Serializer com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntry void addLoot(java.util.Collection&lt;net.minecraft.item.ItemStack&gt;, java.util.Random, net.minecraft.world.storage.loot.LootContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryItem void serialize(com.google.gson.JsonObject, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryTable void serialize(com.google.gson.JsonObject, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryEmpty void serialize(com.google.gson.JsonObject, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootPool.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.LootPool, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.Builder net.minecraft.world.storage.loot.LootContext.Builder withLuck(float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntry void addLoot(java.util.Collection&lt;net.minecraft.item.ItemStack&gt;, java.util.Random, net.minecraft.world.storage.loot.LootContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.EntityTarget THIS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.Builder net.minecraft.world.storage.loot.LootContext.Builder withDamageSource(net.minecraft.util.DamageSource)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryTable net.minecraft.world.storage.loot.LootEntryTable deserialize(com.google.gson.JsonObject, com.google.gson.JsonDeserializationContext, int, int, net.minecraft.world.storage.loot.conditions.LootCondition[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.RandomValueRange.Serializer net.minecraft.world.storage.loot.RandomValueRange deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootContext.Builder net.minecraft.world.storage.loot.LootContext.Builder withLootedEntity(net.minecraft.entity.Entity)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntryEmpty void addLoot(java.util.Collection&lt;net.minecraft.item.ItemStack&gt;, java.util.Random, net.minecraft.world.storage.loot.LootContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.RandomValueRange.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.RandomValueRange, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootEntry.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.LootEntry, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable.Serializer com.google.gson.JsonElement serialize(java.lang.Object, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable.Serializer net.minecraft.world.storage.loot.LootTable deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.RandomValueRange.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.RandomValueRange, java.lang.reflect.Type, com.google.gson.JsonSerializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.LootTable, java.lang.reflect.Type, com.google.gson.JsonSerializationContext) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.LootTable.Serializer net.minecraft.world.storage.loot.LootTable deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

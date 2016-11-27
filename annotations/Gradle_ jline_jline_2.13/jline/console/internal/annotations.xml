@@ -1,0 +1,5 @@
+<root>
+    <item name='jline.console.internal.ConsoleRunner property'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

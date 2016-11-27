@@ -1,0 +1,53 @@
+<root>
+    <item name='net.minecraft.client.Minecraft Minecraft(net.minecraft.client.main.GameConfiguration) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft void addServerTypeToSnooper(net.minecraft.profiler.Snooper) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft frameTimer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft net.minecraft.client.audio.MusicTicker.MusicType getAmbientMusicType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft mcProfiler'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft void addServerStatsToSnooper(net.minecraft.profiler.Snooper) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft net.minecraft.util.FrameTimer getFrameTimer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft void displayCrashReport(net.minecraft.crash.CrashReport) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.LoadingScreenRenderer LoadingScreenRenderer(net.minecraft.client.Minecraft) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft net.minecraft.util.datafix.DataFixer getDataFixer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft net.minecraft.item.ItemStack storeTEInStack(net.minecraft.item.ItemStack, net.minecraft.tileentity.TileEntity) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft net.minecraft.item.ItemStack storeTEInStack(net.minecraft.item.ItemStack, net.minecraft.tileentity.TileEntity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft net.minecraft.profiler.Snooper getPlayerUsageSnooper()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft net.minecraft.crash.CrashReport addGraphicsAndWorldToCrashReport(net.minecraft.crash.CrashReport) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft net.minecraft.item.ItemStack storeTEInStack(net.minecraft.item.ItemStack, net.minecraft.tileentity.TileEntity)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft mcDefaultResourcePack'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.Minecraft net.minecraft.crash.CrashReport addGraphicsAndWorldToCrashReport(net.minecraft.crash.CrashReport)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

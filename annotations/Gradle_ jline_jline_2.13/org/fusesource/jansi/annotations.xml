@@ -1,0 +1,410 @@
+<root>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi format(java.lang.String, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiString java.lang.CharSequence getPlain()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code CYAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute INTENSITY_BOLD_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer java.lang.String render(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi newline()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BG_GREEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Color BLUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute CONCEAL_ON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi boldOff()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi eraseLine(org.fusesource.jansi.Ansi.Erase)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Color BLACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi Ansi(org.fusesource.jansi.Ansi) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code MAGENTA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code UNDERLINE_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute UNDERLINE_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BG_RED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi fg(org.fusesource.jansi.Ansi.Color)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi render(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code RED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(org.fusesource.jansi.Ansi.Attribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BG_MAGENTA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code CONCEAL_ON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi ansi(java.lang.StringBuilder)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BG_WHITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code NEGATIVE_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute CONCEAL_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer CODE_TEXT_SEPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi eraseScreen()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi bgBright(org.fusesource.jansi.Ansi.Color)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BOLD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code FG_WHITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi cursorUp(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi render(java.lang.String, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute STRIKETHROUGH_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute STRIKETHROUGH_ON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi cursorLeft(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code NEGATIVE_ON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Color MAGENTA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code FAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiString AnsiString(java.lang.CharSequence) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute ITALIC_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi fg(org.fusesource.jansi.Ansi.Color) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code ITALIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute NEGATIVE_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderWriter java.io.PrintWriter format(java.util.Locale, java.lang.String, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Color YELLOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BLINK_SLOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code FG_BLACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code INTENSITY_BOLD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi saveCursorPosition()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute INTENSITY_FAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi eraseScreen(org.fusesource.jansi.Ansi.Erase) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi fgBright(org.fusesource.jansi.Ansi.Color)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(java.lang.CharSequence, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BG_BLACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(char[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi void setDetector(java.util.concurrent.Callable&lt;java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code UNDERLINE_DOUBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code RESET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BG_YELLOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BLINK_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code FG_CYAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Color CYAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BLUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi bg(org.fusesource.jansi.Ansi.Color)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BG_CYAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiConsole java.io.PrintStream err()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi eraseLine()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute UNDERLINE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code WHITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Color DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi eraseLine(org.fusesource.jansi.Ansi.Erase) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code YELLOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code FG_RED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BLINK_FAST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute NEGATIVE_ON'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi scrollUp(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code INTENSITY_FAINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Color WHITE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi bold()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute INTENSITY_BOLD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute BLINK_SLOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute ITALIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Erase BACKWARD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Erase FORWARD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderWriter java.io.PrintWriter format(java.lang.String, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code FG_YELLOW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi scrollDown(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BLACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code CONCEAL_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Color RED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi cursor(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiConsole out'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code FG_MAGENTA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer CODE_LIST_SEPARATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi bg(org.fusesource.jansi.Ansi.Color) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi fgBright(org.fusesource.jansi.Ansi.Color) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Color GREEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi ansi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi cursorDown(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi restorCursorPosition()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code GREEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer BEGIN_TOKEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code BG_BLUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi render(java.lang.String, java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute BLINK_FAST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi eraseScreen(org.fusesource.jansi.Ansi.Erase)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code FG_BLUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi ansi(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(java.lang.StringBuffer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiConsole java.io.PrintStream out()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer END_TOKEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute RESET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi bgBright(org.fusesource.jansi.Ansi.Color) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi cursorRight(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute UNDERLINE_DOUBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi render(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiString java.lang.CharSequence getEncoded()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiConsole err'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(org.fusesource.jansi.Ansi.Attribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi a(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Erase ALL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code UNDERLINE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi org.fusesource.jansi.Ansi reset()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.AnsiRenderer.Code FG_GREEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.fusesource.jansi.Ansi.Attribute BLINK_OFF'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

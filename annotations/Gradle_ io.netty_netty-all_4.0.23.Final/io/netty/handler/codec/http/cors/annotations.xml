@@ -1,0 +1,95 @@
+<root>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder allowedRequestHeaders(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsHandler void write(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.channel.ChannelPromise) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder preflightResponseHeader(java.lang.CharSequence, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.DateValueGenerator java.lang.Object call()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder preflightResponseHeader(java.lang.CharSequence, java.lang.Iterable&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder exposeHeaders(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder disable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder maxAge(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder shortCurcuit()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder allowCredentials()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder allowNullOrigin()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.DateValueGenerator java.util.Date call()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig io.netty.handler.codec.http.cors.CorsConfig.Builder withOrigin(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig io.netty.handler.codec.http.HttpHeaders preflightResponseHeaders()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsHandler void channelRead(io.netty.channel.ChannelHandlerContext, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsHandler void write(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.channel.ChannelPromise) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig io.netty.handler.codec.http.cors.CorsConfig.Builder withAnyOrigin()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder preflightResponseHeader(java.lang.CharSequence, java.lang.Iterable&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsHandler void write(io.netty.channel.ChannelHandlerContext, java.lang.Object, io.netty.channel.ChannelPromise) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder allowedRequestMethods(io.netty.handler.codec.http.HttpMethod...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder preflightResponseHeader(java.lang.CharSequence, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig io.netty.handler.codec.http.cors.CorsConfig.Builder withOrigins(java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder preflightResponseHeader(java.lang.String, java.util.concurrent.Callable&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig java.util.Set&lt;java.lang.String&gt; origins()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsHandler void channelRead(io.netty.channel.ChannelHandlerContext, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsConfig.Builder io.netty.handler.codec.http.cors.CorsConfig.Builder noPreflightResponseHeaders()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.codec.http.cors.CorsHandler void exceptionCaught(io.netty.channel.ChannelHandlerContext, java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

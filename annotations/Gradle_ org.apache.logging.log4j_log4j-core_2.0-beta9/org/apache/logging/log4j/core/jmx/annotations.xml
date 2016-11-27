@@ -1,0 +1,95 @@
+<root>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerConfigAdminMBean java.lang.String[] getAppenderRefs()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.StatusLoggerAdmin java.lang.String[] getStatusDataHistory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.AppenderAdminMBean PATTERN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerConfigAdmin LoggerConfigAdmin(java.lang.String, org.apache.logging.log4j.core.config.LoggerConfig) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.ContextSelectorAdmin javax.management.ObjectName getObjectName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.AppenderAdmin javax.management.ObjectName getObjectName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.Server java.lang.String escape(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.ContextSelectorAdminMBean NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.StatusLoggerAdminMBean NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.AppenderAdmin AppenderAdmin(java.lang.String, org.apache.logging.log4j.core.Appender) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerConfigAdmin java.lang.String[] getAppenderRefs()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerContextAdminMBean NOTIF_TYPE_RECONFIGURED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.StatusLoggerAdminMBean NOTIF_TYPE_MESSAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.ContextSelectorAdmin ContextSelectorAdmin(org.apache.logging.log4j.core.selector.ContextSelector) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerContextAdminMBean PATTERN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerConfigAdmin LoggerConfigAdmin(java.lang.String, org.apache.logging.log4j.core.config.LoggerConfig) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerContextAdminMBean void setConfigText(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerContextAdmin void setConfigText(java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerConfigAdmin javax.management.ObjectName getObjectName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.AppenderAdmin AppenderAdmin(java.lang.String, org.apache.logging.log4j.core.Appender) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerConfigAdminMBean PATTERN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerContextAdmin void propertyChange(java.beans.PropertyChangeEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerContextAdmin javax.management.ObjectName getObjectName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.StatusLoggerAdmin void log(org.apache.logging.log4j.status.StatusData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.StatusLoggerAdmin javax.management.ObjectName getObjectName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.LoggerContextAdmin LoggerContextAdmin(org.apache.logging.log4j.core.LoggerContext, java.util.concurrent.Executor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.StatusLoggerAdminMBean java.lang.String[] getStatusDataHistory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.jmx.StatusLoggerAdminMBean NOTIF_TYPE_DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

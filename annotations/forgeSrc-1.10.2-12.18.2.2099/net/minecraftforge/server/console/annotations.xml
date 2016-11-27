@@ -1,0 +1,5 @@
+<root>
+    <item name='net.minecraftforge.server.console.ConsoleCommandCompleter int complete(java.lang.String, int, java.util.List&lt;java.lang.CharSequence&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,5 @@
+<root>
+    <item name='oshi.software.os.linux.LinuxOperatingSystem java.lang.String getManufacturer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

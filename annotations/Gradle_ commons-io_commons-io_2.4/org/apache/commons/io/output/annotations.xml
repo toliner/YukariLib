@@ -1,0 +1,161 @@
+<root>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.nio.charset.CharsetEncoder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.lang.String, java.nio.charset.CharsetEncoder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ByteArrayOutputStream java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.NullOutputStream NULL_OUTPUT_STREAM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.nio.charset.Charset, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.NullWriter NULL_WRITER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.lang.String, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ThresholdingOutputStream void write(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.nio.charset.CharsetEncoder, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ByteArrayOutputStream java.io.InputStream toBufferedInputStream(java.io.InputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.StringBuilderWriter java.lang.Appendable append(java.lang.CharSequence, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.nio.charset.CharsetEncoder) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ByteArrayOutputStream byte[] toByteArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ProxyWriter java.lang.Appendable append(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.StringBuilderWriter java.lang.Appendable append(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.StringBuilderWriter java.io.Writer append(java.lang.CharSequence, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.nio.charset.Charset, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.WriterOutputStream WriterOutputStream(java.io.Writer, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ByteArrayOutputStream int write(java.io.InputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.NullWriter java.io.Writer append(java.lang.CharSequence, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ProxyWriter java.io.Writer append(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.lang.String, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.NullWriter java.lang.Appendable append(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ByteArrayOutputStream void write(byte[], int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.DeferredFileOutputStream DeferredFileOutputStream(int, java.lang.String, java.lang.String, java.io.File) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ProxyWriter java.io.Writer append(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.lang.String, java.lang.String, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.XmlStreamWriter java.lang.String getDefaultEncoding()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.WriterOutputStream void write(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.NullWriter java.io.Writer append(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.StringBuilderWriter java.io.Writer append(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.nio.charset.Charset) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.lang.String, java.nio.charset.CharsetEncoder, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ProxyWriter java.lang.Appendable append(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.StringBuilderWriter java.lang.Appendable append(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.lang.String, java.nio.charset.Charset) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.lang.String, java.nio.charset.Charset, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ProxyWriter java.lang.Appendable append(java.lang.CharSequence, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ByteArrayOutputStream java.lang.String toString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.NullWriter java.lang.Appendable append(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.StringBuilderWriter java.lang.StringBuilder getBuilder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ProxyWriter java.io.Writer append(java.lang.CharSequence, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.NullWriter java.lang.Appendable append(java.lang.CharSequence, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.WriterOutputStream WriterOutputStream(java.io.Writer, java.nio.charset.Charset, int, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ClosedOutputStream CLOSED_OUTPUT_STREAM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.NullWriter java.io.Writer append(char)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.FileWriterWithEncoding FileWriterWithEncoding(java.io.File, java.nio.charset.CharsetEncoder, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.StringBuilderWriter java.io.Writer append(java.lang.CharSequence)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.commons.io.output.ByteArrayOutputStream java.io.InputStream toBufferedInputStream(java.io.InputStream)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

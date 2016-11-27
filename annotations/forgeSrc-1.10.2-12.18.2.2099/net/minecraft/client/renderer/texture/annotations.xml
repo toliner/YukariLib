@@ -1,0 +1,155 @@
+<root>
+    <item name='net.minecraft.client.renderer.texture.TextureMap LOCATION_MISSING_TEXTURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureAtlasSprite void copyFrom(net.minecraft.client.renderer.texture.TextureAtlasSprite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil MISSING_TEXTURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.Stitcher void addSprite(net.minecraft.client.renderer.texture.TextureAtlasSprite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.DynamicTexture void loadTexture(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil int[][] generateMipmapData(int, int, int[][])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil int[] updateAnaglyph(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil void uploadTextureMipmap(int[][], int, int, int, int, boolean, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureMap LOCATION_BLOCKS_TEXTURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil int[] updateAnaglyph(int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.PngSizeInfo net.minecraft.client.renderer.texture.PngSizeInfo makeFromResource(net.minecraft.client.resources.IResource) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureAtlasSprite void loadSpriteFrames(net.minecraft.client.resources.IResource, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureAtlasSprite net.minecraft.client.renderer.texture.TextureAtlasSprite makeAtlasSprite(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil MISSING_TEXTURE_DATA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureMap boolean setTextureEntry(net.minecraft.client.renderer.texture.TextureAtlasSprite) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.Stitcher.Holder int compareTo(net.minecraft.client.renderer.texture.Stitcher.Holder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureMap void loadSprites(net.minecraft.client.resources.IResourceManager, net.minecraft.client.renderer.texture.ITextureMapPopulator) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.LayeredColorMaskTexture void loadTexture(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.Stitcher.Holder net.minecraft.client.renderer.texture.TextureAtlasSprite getAtlasSprite()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.Stitcher.Holder Holder(net.minecraft.client.renderer.texture.TextureAtlasSprite, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil int uploadTextureImage(int, java.awt.image.BufferedImage) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureAtlasSprite net.minecraft.client.renderer.texture.TextureAtlasSprite makeAtlasSprite(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil int[] readImageData(net.minecraft.client.resources.IResourceManager, net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureManager void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureMap net.minecraft.client.renderer.texture.TextureAtlasSprite getMissingSprite()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureMap net.minecraft.client.renderer.texture.TextureAtlasSprite registerSprite(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.SimpleTexture void loadTexture(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureAtlasSprite void loadSprite(net.minecraft.client.renderer.texture.PngSizeInfo, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureManager net.minecraft.util.ResourceLocation getDynamicTextureLocation(java.lang.String, net.minecraft.client.renderer.texture.DynamicTexture) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureManager boolean loadTickableTexture(net.minecraft.util.ResourceLocation, net.minecraft.client.renderer.texture.ITickableTextureObject) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.LayeredTexture void loadTexture(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureManager net.minecraft.util.ResourceLocation getDynamicTextureLocation(java.lang.String, net.minecraft.client.renderer.texture.DynamicTexture)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureMap void loadTexture(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil int[] readImageData(net.minecraft.client.resources.IResourceManager, net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil int uploadTextureImageSub(int, java.awt.image.BufferedImage, int, int, boolean, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.DynamicTexture int[] getTextureData()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.Stitcher.Holder int compareTo(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil int uploadTextureImageAllocate(int, java.awt.image.BufferedImage, boolean, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.PngSizeInfo net.minecraft.client.renderer.texture.PngSizeInfo makeFromResource(net.minecraft.client.resources.IResource)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.ITextureObject void loadTexture(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureMap net.minecraft.client.renderer.texture.TextureAtlasSprite getAtlasSprite(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.DynamicTexture DynamicTexture(java.awt.image.BufferedImage) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureManager boolean loadTexture(net.minecraft.util.ResourceLocation, net.minecraft.client.renderer.texture.ITextureObject) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureUtil int[][] generateMipmapData(int, int, int[][]) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.texture.TextureMap net.minecraft.client.renderer.texture.TextureAtlasSprite registerSprite(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

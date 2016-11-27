@@ -1,0 +1,38 @@
+<root>
+    <item name='net.minecraftforge.event.entity.player.PlayerEvent.SaveToFile java.io.File getPlayerFile(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.entity.player.PlayerInteractEvent.LeftClickEmpty LeftClickEmpty(net.minecraft.entity.player.EntityPlayer, net.minecraft.item.ItemStack) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.entity.player.PlayerDropsEvent PlayerDropsEvent(net.minecraft.entity.player.EntityPlayer, net.minecraft.util.DamageSource, java.util.List&lt;net.minecraft.entity.item.EntityItem&gt;, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.entity.player.PlayerEvent.LoadFromFile java.io.File getPlayerFile(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.entity.player.PlayerInteractEvent net.minecraftforge.fml.relauncher.Side getSide()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.entity.player.PlayerInteractEvent.EntityInteract net.minecraft.entity.Entity getTarget()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickEmpty RightClickEmpty(net.minecraft.entity.player.EntityPlayer, net.minecraft.util.EnumHand) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.entity.player.PlayerInteractEvent.LeftClickBlock LeftClickBlock(net.minecraft.entity.player.EntityPlayer, net.minecraft.util.math.BlockPos, net.minecraft.util.EnumFacing, net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.entity.player.PlayerInteractEvent.EntityInteract EntityInteract(net.minecraft.entity.player.EntityPlayer, net.minecraft.util.EnumHand, net.minecraft.item.ItemStack, net.minecraft.entity.Entity) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.entity.player.PlayerInteractEvent.EntityInteractSpecific EntityInteractSpecific(net.minecraft.entity.player.EntityPlayer, net.minecraft.util.EnumHand, net.minecraft.item.ItemStack, net.minecraft.entity.Entity, net.minecraft.util.math.Vec3d) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.entity.player.PlayerInteractEvent.EntityInteractSpecific net.minecraft.entity.Entity getTarget()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickItem RightClickItem(net.minecraft.entity.player.EntityPlayer, net.minecraft.util.EnumHand, net.minecraft.item.ItemStack) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

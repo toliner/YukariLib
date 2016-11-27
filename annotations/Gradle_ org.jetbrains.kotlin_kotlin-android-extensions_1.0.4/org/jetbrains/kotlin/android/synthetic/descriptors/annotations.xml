@@ -1,0 +1,218 @@
+<root>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext LazySyntheticElementResolveContext(org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.Collection getContributedFunctions(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext SyntheticElementResolveContext(org.jetbrains.kotlin.types.KotlinType, org.jetbrains.kotlin.types.KotlinType, org.jetbrains.kotlin.types.KotlinType, org.jetbrains.kotlin.types.KotlinType, org.jetbrains.kotlin.types.KotlinType) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext org.jetbrains.kotlin.descriptors.ModuleDescriptor access$getModule$p(org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext org.jetbrains.kotlin.types.KotlinType getViewType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.List&lt;org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor&gt; getContributedDescriptors(org.jetbrains.kotlin.resolve.scopes.DescriptorKindFilter, kotlin.jvm.functions.Function1&lt;? super org.jetbrains.kotlin.name.Name,java.lang.Boolean&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.Collection getContributedDescriptors(org.jetbrains.kotlin.resolve.scopes.DescriptorKindFilter, kotlin.jvm.functions.Function1) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext access$createResolveContext(org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext, org.jetbrains.kotlin.descriptors.ModuleDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor AndroidSyntheticPackageFragmentDescriptor(org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.name.FqName, org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData, org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext, org.jetbrains.kotlin.storage.StorageManager) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.Collection getContributedVariables(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext.Companion org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext getERROR_CONTEXT()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext access$createResolveContext(org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext, org.jetbrains.kotlin.descriptors.ModuleDescriptor) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor kotlin.jvm.functions.Function1 access$getFunctions$p(org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.List&lt;org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor&gt; getContributedDescriptors(org.jetbrains.kotlin.resolve.scopes.DescriptorKindFilter, kotlin.jvm.functions.Function1&lt;? super org.jetbrains.kotlin.name.Name,java.lang.Boolean&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.List&lt;org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor&gt; getContributedFunctions(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.List&lt;org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor&gt; getContributedFunctions(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.Collection getContributedVariables(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor org.jetbrains.kotlin.resolve.scopes.MemberScope getMemberScope()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor PredefinedPackageFragmentDescriptor(java.lang.String, org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager, java.util.List&lt;? extends org.jetbrains.kotlin.descriptors.PackageFragmentDescriptor&gt;, kotlin.jvm.functions.Function1&lt;? super org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor,? extends java.util.Collection&lt;? extends org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor PredefinedPackageFragmentDescriptor(java.lang.String, org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager, java.util.List, kotlin.jvm.functions.Function1, int, kotlin.jvm.internal.DefaultConstructorMarker) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor PredefinedPackageFragmentDescriptor(java.lang.String, org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager, java.util.List&lt;? extends org.jetbrains.kotlin.descriptors.PackageFragmentDescriptor&gt;, kotlin.jvm.functions.Function1&lt;? super org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor,? extends java.util.Collection&lt;? extends org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor&gt;&gt;) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor org.jetbrains.kotlin.storage.NotNullLazyValue access$getCalculatedFunctions$p(org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext.Companion org.jetbrains.kotlin.types.KotlinType access$errorType(org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext.Companion)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope void printScopeStructure(org.jetbrains.kotlin.utils.Printer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext org.jetbrains.kotlin.descriptors.ModuleDescriptor access$getModule$p(org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData AndroidSyntheticPackageData(java.lang.String, org.jetbrains.kotlin.android.synthetic.res.AndroidModuleData, boolean, boolean, java.util.List&lt;? extends org.jetbrains.kotlin.android.synthetic.res.AndroidResource&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.List&lt;org.jetbrains.kotlin.descriptors.PropertyDescriptor&gt; getContributedVariables(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor java.util.List&lt;org.jetbrains.kotlin.descriptors.PackageFragmentDescriptor&gt; getSubpackages()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext invoke$kotlin_android_extensions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor AndroidSyntheticPackageFragmentDescriptor(org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.name.FqName, org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData, org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext, org.jetbrains.kotlin.storage.StorageManager) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext SyntheticElementResolveContext(org.jetbrains.kotlin.types.KotlinType, org.jetbrains.kotlin.types.KotlinType, org.jetbrains.kotlin.types.KotlinType, org.jetbrains.kotlin.types.KotlinType, org.jetbrains.kotlin.types.KotlinType) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext access$createResolveContext(org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext, org.jetbrains.kotlin.descriptors.ModuleDescriptor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.Collection getContributedDescriptors(org.jetbrains.kotlin.resolve.scopes.DescriptorKindFilter, kotlin.jvm.functions.Function1)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.List&lt;org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor&gt; getContributedDescriptors(org.jetbrains.kotlin.resolve.scopes.DescriptorKindFilter, kotlin.jvm.functions.Function1&lt;? super org.jetbrains.kotlin.name.Name,java.lang.Boolean&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext java.util.List&lt;org.jetbrains.kotlin.types.KotlinType&gt; getWidgetReceivers(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.List&lt;org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor&gt; getContributedFunctions(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.Collection getContributedVariables(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext java.util.List&lt;kotlin.Pair&lt;org.jetbrains.kotlin.types.KotlinType,org.jetbrains.kotlin.types.KotlinType&gt;&gt; getFragmentTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.Collection getContributedFunctions(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor PredefinedPackageFragmentDescriptor(java.lang.String, org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager, java.util.List, kotlin.jvm.functions.Function1, int, kotlin.jvm.internal.DefaultConstructorMarker) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext.Companion org.jetbrains.kotlin.types.KotlinType access$errorType(org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext.Companion) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor PredefinedPackageFragmentDescriptor(java.lang.String, org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager, java.util.List&lt;? extends org.jetbrains.kotlin.descriptors.PackageFragmentDescriptor&gt;, kotlin.jvm.functions.Function1&lt;? super org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor,? extends java.util.Collection&lt;? extends org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor&gt;&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope getMemberScope()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor PredefinedPackageFragmentDescriptor(java.lang.String, org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager, java.util.List, kotlin.jvm.functions.Function1, int, kotlin.jvm.internal.DefaultConstructorMarker) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData AndroidSyntheticPackageData(java.lang.String, org.jetbrains.kotlin.android.synthetic.res.AndroidModuleData, boolean, boolean, java.util.List&lt;? extends org.jetbrains.kotlin.android.synthetic.res.AndroidResource&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData java.util.List&lt;org.jetbrains.kotlin.android.synthetic.res.AndroidResource&gt; getResources()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor AndroidSyntheticPackageFragmentDescriptor(org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.name.FqName, org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData, org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext, org.jetbrains.kotlin.storage.StorageManager) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext access$getLazyContext$p(org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.List&lt;org.jetbrains.kotlin.descriptors.PropertyDescriptor&gt; getContributedVariables(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext access$getERROR_CONTEXT$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor PredefinedPackageFragmentDescriptor(java.lang.String, org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager, java.util.List, kotlin.jvm.functions.Function1, int, kotlin.jvm.internal.DefaultConstructorMarker) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData AndroidSyntheticPackageData(java.lang.String, org.jetbrains.kotlin.android.synthetic.res.AndroidModuleData, boolean, boolean, java.util.List&lt;? extends org.jetbrains.kotlin.android.synthetic.res.AndroidResource&gt;) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData org.jetbrains.kotlin.android.synthetic.res.AndroidModuleData getModuleData()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor org.jetbrains.kotlin.storage.StorageManager access$getStorageManager$p(org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor PredefinedPackageFragmentDescriptor(java.lang.String, org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager, java.util.List&lt;? extends org.jetbrains.kotlin.descriptors.PackageFragmentDescriptor&gt;, kotlin.jvm.functions.Function1&lt;? super org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor,? extends java.util.Collection&lt;? extends org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor&gt;&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.Collection getContributedFunctions(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor org.jetbrains.kotlin.resolve.scopes.MemberScope getMemberScope()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData java.lang.String getLayoutName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor AndroidSyntheticPackageFragmentDescriptor(org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.name.FqName, org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData, org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext, org.jetbrains.kotlin.storage.StorageManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.Collection getContributedDescriptors(org.jetbrains.kotlin.resolve.scopes.DescriptorKindFilter, kotlin.jvm.functions.Function1) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.SyntheticElementResolveContext org.jetbrains.kotlin.types.KotlinType getActivityType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext access$getLazyContext$p(org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor.PredefinedScope java.util.List&lt;org.jetbrains.kotlin.descriptors.PropertyDescriptor&gt; getContributedVariables(org.jetbrains.kotlin.name.Name, org.jetbrains.kotlin.incremental.components.LookupLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor kotlin.jvm.functions.Function1 access$getFunctions$p(org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor AndroidSyntheticPackageFragmentDescriptor(org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.name.FqName, org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData, org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext, org.jetbrains.kotlin.storage.StorageManager) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageData getPackageData()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor org.jetbrains.kotlin.storage.NotNullLazyValue access$getCalculatedFunctions$p(org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor PredefinedPackageFragmentDescriptor(java.lang.String, org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager, java.util.List, kotlin.jvm.functions.Function1, int, kotlin.jvm.internal.DefaultConstructorMarker) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.LazySyntheticElementResolveContext LazySyntheticElementResolveContext(org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor org.jetbrains.kotlin.storage.StorageManager access$getStorageManager$p(org.jetbrains.kotlin.android.synthetic.descriptors.AndroidSyntheticPackageFragmentDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor PredefinedPackageFragmentDescriptor(java.lang.String, org.jetbrains.kotlin.descriptors.ModuleDescriptor, org.jetbrains.kotlin.storage.StorageManager, java.util.List&lt;? extends org.jetbrains.kotlin.descriptors.PackageFragmentDescriptor&gt;, kotlin.jvm.functions.Function1&lt;? super org.jetbrains.kotlin.android.synthetic.descriptors.PredefinedPackageFragmentDescriptor,? extends java.util.Collection&lt;? extends org.jetbrains.kotlin.descriptors.SimpleFunctionDescriptor&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

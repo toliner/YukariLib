@@ -1,0 +1,11 @@
+<root>
+    <item name='net.minecraftforge.fml.client.registry.ClientRegistry void bindTileEntitySpecialRenderer(java.lang.Class&lt;T&gt;, net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer&lt;? super T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.registry.RenderingRegistry void loadEntityRenderers(java.util.Map&lt;java.lang.Class&lt;? extends net.minecraft.entity.Entity&gt;,net.minecraft.client.renderer.entity.Render&lt;? extends net.minecraft.entity.Entity&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.registry.ClientRegistry void registerTileEntity(java.lang.Class&lt;T&gt;, java.lang.String, net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer&lt;? super T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

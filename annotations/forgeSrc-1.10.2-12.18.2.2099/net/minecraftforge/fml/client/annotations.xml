@@ -1,0 +1,116 @@
+<root>
+    <item name='net.minecraftforge.fml.client.GuiNotification void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.IModGuiFactory java.lang.Class&lt;? extends net.minecraft.client.gui.GuiScreen&gt; mainConfigGuiClass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.client.GuiModList void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.GuiJava8Error void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.CustomModLoadingErrorDisplayException void printStackTrace(net.minecraftforge.fml.common.EnhancedRuntimeException.WrappedPrintStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler void fireNetRegistrationEvent(net.minecraftforge.fml.common.eventhandler.EventBus, net.minecraft.network.NetworkManager, java.util.Set&lt;java.lang.String&gt;, java.lang.String, net.minecraftforge.fml.relauncher.Side) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler java.lang.String fixDescription(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler void tryLoadExistingWorld(net.minecraft.client.gui.GuiWorldSelection, net.minecraft.world.storage.WorldSummary) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.GuiModsMissingForServer void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.GuiOldSaveLoadConfirm void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler net.minecraftforge.fml.client.FMLClientHandler instance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.GuiModsMissing void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.GuiSortingProblem GuiSortingProblem(net.minecraftforge.fml.common.toposort.ModSortingException) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.GuiConfirmation void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.GuiSlotModList GuiSlotModList(net.minecraftforge.fml.client.GuiModList, java.util.ArrayList&lt;net.minecraftforge.fml.common.ModContainer&gt;, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLFolderResourcePack FMLFolderResourcePack(net.minecraftforge.fml.common.ModContainer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler net.minecraftforge.fml.relauncher.Side getSide()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler void trackBrokenTexture(net.minecraft.util.ResourceLocation, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler void queryUser(net.minecraftforge.fml.common.StartupQuery) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler void addModAsResource(net.minecraftforge.fml.common.ModContainer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.IModGuiFactory.RuntimeOptionGuiHandler void addWidgets(java.util.List&lt;net.minecraft.client.gui.Gui&gt;, int, int, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler void fireNetRegistrationEvent(net.minecraftforge.fml.common.eventhandler.EventBus, net.minecraft.network.NetworkManager, java.util.Set&lt;java.lang.String&gt;, java.lang.String, net.minecraftforge.fml.relauncher.Side) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLFileResourcePack FMLFileResourcePack(net.minecraftforge.fml.common.ModContainer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.GuiAccessDenied void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler void beginMinecraftLoading(net.minecraft.client.Minecraft, java.util.List&lt;net.minecraft.client.resources.IResourcePack&gt;, net.minecraft.client.resources.IReloadableResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler void trackMissingTexture(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.GuiBackupFailed void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.GuiScrollingList void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler net.minecraft.util.IThreadListener getWorldThread(net.minecraft.network.INetHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLFolderResourcePack java.io.InputStream getInputStreamByName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler java.io.File getSavesDirectory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler void captureAdditionalData(net.minecraft.network.ServerStatusResponse, com.google.gson.JsonObject) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLConfigGuiFactory java.lang.Class&lt;? extends net.minecraft.client.gui.GuiScreen&gt; mainConfigGuiClass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLClientHandler java.io.File getSavesDir()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.client.FMLConfigGuiFactory net.minecraftforge.fml.client.IModGuiFactory.RuntimeOptionGuiHandler getHandlerFor(net.minecraftforge.fml.client.IModGuiFactory.RuntimeOptionCategoryElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

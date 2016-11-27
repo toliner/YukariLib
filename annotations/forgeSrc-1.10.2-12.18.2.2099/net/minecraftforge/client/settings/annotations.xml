@@ -1,0 +1,38 @@
+<root>
+    <item name='net.minecraftforge.client.settings.KeyConflictContext GUI'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.settings.KeyBindingMap void addKey(int, net.minecraft.client.settings.KeyBinding) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.settings.KeyBindingMap void removeKey(net.minecraft.client.settings.KeyBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.settings.KeyModifier MODIFIER_VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.settings.KeyConflictContext UNIVERSAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.settings.KeyModifier NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.settings.KeyConflictContext IN_GAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.settings.KeyModifier SHIFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.settings.KeyBindingMap java.util.List&lt;net.minecraft.client.settings.KeyBinding&gt; lookupAll(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.settings.KeyModifier ALT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.settings.KeyModifier CONTROL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.settings.KeyModifier net.minecraftforge.client.settings.KeyModifier getActiveModifier()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

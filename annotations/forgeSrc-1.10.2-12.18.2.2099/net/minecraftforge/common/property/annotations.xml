@@ -1,0 +1,74 @@
+<root>
+    <item name='net.minecraftforge.common.property.ExtendedBlockState net.minecraft.block.state.BlockStateContainer.StateImplementation createState(net.minecraft.block.Block, com.google.common.collect.ImmutableMap&lt;net.minecraft.block.properties.IProperty&lt;?&gt;,java.lang.Comparable&lt;?&gt;&gt;, com.google.common.collect.ImmutableMap&lt;net.minecraftforge.common.property.IUnlistedProperty&lt;?&gt;,com.google.common.base.Optional&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.property.IExtendedBlockState net.minecraftforge.common.property.IExtendedBlockState withProperty(net.minecraftforge.common.property.IUnlistedProperty&lt;V&gt;, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.common.property.IExtendedBlockState V getValue(net.minecraftforge.common.property.IUnlistedProperty&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.common.property.ExtendedBlockState.ExtendedStateImplementation net.minecraft.block.state.IBlockState withProperty(net.minecraft.block.properties.IProperty&lt;T&gt;, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.property.ExtendedBlockState.ExtendedStateImplementation V getValue(net.minecraftforge.common.property.IUnlistedProperty&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.property.ExtendedBlockState.ExtendedStateImplementation net.minecraftforge.common.property.IExtendedBlockState withProperty(net.minecraftforge.common.property.IUnlistedProperty&lt;V&gt;, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.property.IUnlistedProperty java.lang.String valueToString(V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.common.property.ExtendedBlockState ExtendedBlockState(net.minecraft.block.Block, net.minecraft.block.properties.IProperty&lt;?&gt;[], net.minecraftforge.common.property.IUnlistedProperty&lt;?&gt;[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.property.PropertyFloat java.lang.Class&lt;java.lang.Float&gt; getType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.property.PropertyFloat java.lang.String valueToString(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.property.ExtendedBlockState ExtendedBlockState(net.minecraft.block.Block, net.minecraft.block.properties.IProperty&lt;?&gt;[], net.minecraftforge.common.property.IUnlistedProperty&lt;?&gt;[]) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.property.Properties AnimationProperty'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.property.IUnlistedProperty java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.common.property.Properties.PropertyAdapter java.lang.String valueToString(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.common.property.IUnlistedProperty java.lang.Class&lt;V&gt; getType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.common.property.Properties StaticProperty'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.property.PropertyFloat java.lang.String valueToString(java.lang.Float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.property.Properties net.minecraftforge.common.property.IUnlistedProperty&lt;V&gt; toUnlisted(net.minecraft.block.properties.IProperty&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

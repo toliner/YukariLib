@@ -1,0 +1,20 @@
+<root>
+    <item name='net.minecraftforge.common.animation.TimeValues.CommonTimeValueTypeAdapterFactory com.google.gson.TypeAdapter&lt;T&gt; create(com.google.gson.Gson, com.google.gson.reflect.TypeToken&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.animation.Event int compareTo(net.minecraftforge.common.animation.Event) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.animation.TimeValues.IdentityValue java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.animation.TimeValues.CommonTimeValueTypeAdapterFactory INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.animation.Event int compareTo(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.common.animation.TimeValues.IdentityValue INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,5 @@
+<root>
+    <item name='org.apache.http.conn.util.InetAddressUtils boolean isIPv6HexCompressedAddress(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

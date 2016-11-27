@@ -1,0 +1,731 @@
+<root>
+    <item name='net.minecraft.util.JsonUtils T gsonDeserialize(com.google.gson.Gson, java.lang.String, java.lang.Class&lt;T&gt;, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes FOOTSTEP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils net.minecraft.item.Item getItem(com.google.gson.JsonObject, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes FIREWORKS_SPARK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils T gsonDeserialize(com.google.gson.Gson, java.io.Reader, java.lang.Class&lt;T&gt;, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntitySelectors NOT_SPECTATING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing.AxisDirection NEGATIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.SoundCategory BLOCKS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Util.EnumOS SOLARIS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.ResourceLocation java.lang.String[] splitObjectName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes CRIT_MAGIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.text.ITextComponent getDeathMessage(net.minecraft.entity.EntityLivingBase)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing VALUES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.SoundCategory HOSTILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Session com.mojang.authlib.GameProfile getProfile()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.WeightedSpawnerEntity WeightedSpawnerEntity(net.minecraft.nbt.NBTTagCompound) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SWEEP_ATTACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils T gsonDeserialize(com.google.gson.Gson, java.lang.String, java.lang.Class&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource setFireDamage()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.CryptManager javax.crypto.Cipher createNetCipherInstance(int, java.security.Key) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils boolean isNumber(com.google.gson.JsonElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils int getInt(com.google.gson.JsonObject, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils com.google.gson.JsonArray getJsonArray(com.google.gson.JsonObject, java.lang.String, com.google.gson.JsonArray) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes ENCHANTMENT_TABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonSerializableSet void fromJson(com.google.gson.JsonElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.ChatAllowedCharacters java.lang.String filterAllowedCharacters(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.HttpUtil java.lang.String postMap(java.net.URL, java.util.Map&lt;java.lang.String,java.lang.Object&gt;, boolean, java.net.Proxy) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource causeFireballDamage(net.minecraft.entity.projectile.EntityFireball, net.minecraft.entity.Entity)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Session.Type MOJANG'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.ActionResult net.minecraft.util.ActionResult&lt;T&gt; newResult(net.minecraft.util.EnumActionResult, T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntitySelectors com.google.common.base.Predicate&lt;T&gt; withinRange(double, double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing net.minecraft.util.EnumFacing getFacingFromAxis(net.minecraft.util.EnumFacing.AxisDirection, net.minecraft.util.EnumFacing.Axis)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.BlockRenderLayer TRANSLUCENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes END_ROD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.ResourceLocation ResourceLocation(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntityDamageSourceIndirect net.minecraft.util.text.ITextComponent getDeathMessage(net.minecraft.entity.EntityLivingBase)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes ITEM_TAKE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes REDSTONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntitySelectors.ArmoredMob boolean apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing DOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing EAST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils com.google.gson.JsonObject getJsonObject(com.google.gson.JsonObject, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.SoundCategory VOICE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.ClassInheritanceMultiMap boolean contains(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.ResourceLocation ResourceLocation(int, java.lang.String...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes LAVA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.ClassInheritanceMultiMap java.lang.Iterable&lt;S&gt; getByClass(java.lang.Class&lt;S&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumHandSide RIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource causeExplosionDamage(net.minecraft.world.Explosion)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.SoundCategory PLAYERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Util.EnumOS UNKNOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SUSPENDED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.BitArray long[] getBackingLongArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource setDamageIsAbsolute()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumBlockRenderType INVISIBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.WeightedSpawnerEntity net.minecraft.nbt.NBTTagCompound toCompoundTag()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.ChatAllowedCharacters ILLEGAL_STRUCTURE_CHARACTERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SLIME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Rotation net.minecraft.util.EnumFacing rotate(net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing.Plane VERTICAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonSerializableSet com.google.gson.JsonElement getSerializableElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.IJsonSerializable void fromJson(com.google.gson.JsonElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.util.IJsonSerializable com.google.gson.JsonElement getSerializableElement()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.util.JsonUtils com.google.gson.JsonArray getJsonArray(com.google.gson.JsonObject, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SNOWBALL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.LowerStringMap V remove(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils com.google.gson.JsonArray getJsonArray(com.google.gson.JsonElement, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils T deserializeClass(com.google.gson.JsonObject, java.lang.String, com.google.gson.JsonDeserializationContext, java.lang.Class&lt;? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.ChatAllowedCharacters ILLEGAL_FILE_CHARACTERS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntitySelectors IS_STANDALONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumHandSide net.minecraft.util.EnumHandSide opposite()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SPELL_WITCH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource setDifficultyScaled()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource setExplosion()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.WeightedRandom T getRandomItem(java.util.Random, java.util.List&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils int getInt(com.google.gson.JsonElement, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Mirror net.minecraft.util.Rotation toRotation(net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Rotation CLOCKWISE_90'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Session.Type net.minecraft.util.Session.Type setSessionType(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumHand MAIN_HAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils com.google.gson.JsonObject getJsonObject(com.google.gson.JsonObject, java.lang.String, com.google.gson.JsonObject) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Util.EnumOS WINDOWS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.CryptManager javax.crypto.SecretKey decryptSharedKey(java.security.PrivateKey, byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.MapPopulator java.util.Map&lt;K,V&gt; populateMap(java.lang.Iterable&lt;K&gt;, java.lang.Iterable&lt;V&gt;, java.util.Map&lt;K,V&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing NORTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Util net.minecraft.util.Util.EnumOS getOSType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.CombatTracker net.minecraft.util.text.ITextComponent getDeathMessage()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntitySelectors IS_SHULKER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing.Axis X'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.WeightedRandom T getRandomItem(java.util.Random, java.util.List&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Mirror net.minecraft.util.Rotation toRotation(net.minecraft.util.EnumFacing)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumTypeAdapterFactory com.google.gson.TypeAdapter&lt;T&gt; create(com.google.gson.Gson, com.google.gson.reflect.TypeToken&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumHand OFF_HAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.IStringSerializable java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.util.ResourceLocation java.lang.String[] splitObjectName(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.SoundCategory WEATHER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.ScreenShotHelper java.awt.image.BufferedImage createScreenshot(int, int, net.minecraft.client.shader.Framebuffer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Session.Type LEGACY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.BlockRenderLayer CUTOUT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.MovementInput net.minecraft.util.math.Vec2f getMoveVector()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntityDamageSourceIndirect net.minecraft.util.text.ITextComponent getDeathMessage(net.minecraft.entity.EntityLivingBase) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing WEST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource setMagicDamage()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing.Axis Y'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.MapPopulator java.util.Map&lt;K,V&gt; populateMap(java.lang.Iterable&lt;K&gt;, java.lang.Iterable&lt;V&gt;, java.util.Map&lt;K,V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes DAMAGE_INDICATOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing.Plane net.minecraft.util.EnumFacing[] facings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntityDamageSource net.minecraft.util.text.ITextComponent getDeathMessage(net.minecraft.entity.EntityLivingBase)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils java.lang.String getString(com.google.gson.JsonObject, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Util T getLastElement(java.util.List&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntitySelectors CAN_AI_TARGET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Session java.lang.String getUsername()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes WATER_DROP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource setDamageAllowedInCreativeMode()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SMOKE_LARGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes WATER_BUBBLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.ObjectIntIdentityMap identityMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumActionResult SUCCESS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource causeIndirectDamage(net.minecraft.entity.Entity, net.minecraft.entity.EntityLivingBase)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils java.lang.String getString(com.google.gson.JsonElement, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing.Axis Z'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes EXPLOSION_HUGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.FoodStats void onUpdate(net.minecraft.entity.player.EntityPlayer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing.AxisDirection POSITIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing net.minecraft.util.EnumFacing rotateAround(net.minecraft.util.EnumFacing.Axis)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SNOW_SHOVEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing.Plane HORIZONTAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils T deserializeClass(com.google.gson.JsonObject, java.lang.String, com.google.gson.JsonDeserializationContext, java.lang.Class&lt;? extends T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntitySelectors.ArmoredMob boolean apply(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource causeExplosionDamage(net.minecraft.entity.EntityLivingBase)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing.Plane net.minecraft.util.EnumFacing random(java.util.Random) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes TOWN_AURA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Mirror LEFT_RIGHT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes PORTAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes VILLAGER_HAPPY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SPELL_MOB'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Util.EnumOS OSX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.MapPopulator java.util.Map&lt;K,V&gt; createMap(java.lang.Iterable&lt;K&gt;, java.lang.Iterable&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnchantmentNameParts java.lang.String generateNewRandomName(net.minecraft.client.gui.FontRenderer, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.SoundCategory NEUTRAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes DRAGON_BREATH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.text.ITextComponent getDeathMessage(net.minecraft.entity.EntityLivingBase) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils float getFloat(com.google.gson.JsonObject, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils net.minecraft.item.Item getItem(com.google.gson.JsonElement, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Rotation CLOCKWISE_180'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SPELL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Mirror FRONT_BACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes DRIP_LAVA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.LazyLoadBase T load()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.util.Rotation COUNTERCLOCKWISE_90'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes WATER_SPLASH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils boolean getBoolean(com.google.gson.JsonObject, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils net.minecraft.item.Item getItem(com.google.gson.JsonObject, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntityDamageSource net.minecraft.util.text.ITextComponent getDeathMessage(net.minecraft.entity.EntityLivingBase) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils float getFloat(com.google.gson.JsonObject, java.lang.String, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing HORIZONTALS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.MapPopulator java.util.Map&lt;K,V&gt; createMap(java.lang.Iterable&lt;K&gt;, java.lang.Iterable&lt;V&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.CryptManager javax.crypto.Cipher createNetCipherInstance(int, java.security.Key)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes MOB_APPEARANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.BlockRenderLayer SOLID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnchantmentNameParts net.minecraft.util.EnchantmentNameParts getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntityDamageSource net.minecraft.util.EntityDamageSource setIsThornsDamage()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes FLAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils T deserializeClass(com.google.gson.JsonObject, java.lang.String, T, com.google.gson.JsonDeserializationContext, java.lang.Class&lt;? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.WeightedRandom T getRandomItem(java.util.Random, java.util.List&lt;T&gt;, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes ITEM_CRACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.LowerStringMap boolean containsKey(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.LowerStringMap V get(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing net.minecraft.util.EnumFacing rotateAround(net.minecraft.util.EnumFacing.Axis) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.WeightedRandom int getTotalWeight(java.util.List&lt;? extends net.minecraft.util.WeightedRandom.Item&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes BLOCK_DUST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.FoodStats void readNBT(net.minecraft.nbt.NBTTagCompound) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Rotation NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes CLOUD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.LowerStringMap java.lang.Object put(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils boolean isString(com.google.gson.JsonElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Rotation net.minecraft.util.Rotation add(net.minecraft.util.Rotation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.FoodStats void addStats(net.minecraft.item.ItemFood, net.minecraft.item.ItemStack) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing UP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Session Session(java.lang.String, java.lang.String, java.lang.String, java.lang.String) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes CRIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes HEART'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource setProjectile()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Util.EnumOS LINUX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.WeightedRandom T getRandomItem(java.util.Random, java.util.List&lt;T&gt;, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Mirror NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes BLOCK_CRACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumActionResult FAIL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes EXPLOSION_LARGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.LowerStringMap void putAll(java.util.Map&lt;? extends java.lang.String,? extends V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumBlockRenderType ENTITYBLOCK_ANIMATED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SPELL_INSTANT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes FALLING_DUST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumBlockRenderType MODEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils boolean getBoolean(com.google.gson.JsonObject, java.lang.String, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumActionResult PASS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes BARRIER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing net.minecraft.util.EnumFacing rotateYCCW()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.SoundCategory RECORDS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.Rotation net.minecraft.util.Rotation add(net.minecraft.util.Rotation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntitySelectors IS_ALIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils int getInt(com.google.gson.JsonObject, java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing net.minecraft.util.EnumFacing rotateY()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.FoodStats void writeNBT(net.minecraft.nbt.NBTTagCompound) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.BlockRenderLayer CUTOUT_MIPPED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumBlockRenderType LIQUID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes VILLAGER_ANGRY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils boolean getBoolean(com.google.gson.JsonElement, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils net.minecraft.item.Item getItem(com.google.gson.JsonElement, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SUSPENDED_DEPTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource setDamageBypassesArmor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils java.lang.String getString(com.google.gson.JsonObject, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils T deserializeClass(com.google.gson.JsonElement, java.lang.String, com.google.gson.JsonDeserializationContext, java.lang.Class&lt;? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource causePlayerDamage(net.minecraft.entity.player.EntityPlayer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing net.minecraft.util.EnumFacing getFacingFromVector(float, float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.FrameTimer long[] getFrames()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumHandSide LEFT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.SoundCategory MUSIC'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes DRIP_WATER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntitySelectors HAS_INVENTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing SOUTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.LowerStringMap V put(java.lang.String, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.WeightedRandom T getRandomItem(java.util.List&lt;T&gt;, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SPELL_MOB_AMBIENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource causeMobDamage(net.minecraft.entity.EntityLivingBase)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes SMOKE_NORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes EXPLOSION_NORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntityDamageSource net.minecraft.util.math.Vec3d getDamageLocation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils float getFloat(com.google.gson.JsonElement, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.DamageSource net.minecraft.util.DamageSource causeIndirectMagicDamage(net.minecraft.entity.Entity, net.minecraft.entity.Entity)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes WATER_WAKE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.HttpUtil java.lang.String buildPostString(java.util.Map&lt;java.lang.String,java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.SoundCategory AMBIENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumParticleTypes NOTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.SoundCategory MASTER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils com.google.gson.JsonObject getJsonObject(com.google.gson.JsonElement, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EnumFacing net.minecraft.util.EnumFacing random(java.util.Random) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.EntitySelectors com.google.common.base.Predicate&lt;T&gt; getTeamCollisionPredicate(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.JsonUtils T deserializeClass(com.google.gson.JsonElement, java.lang.String, com.google.gson.JsonDeserializationContext, java.lang.Class&lt;? extends T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

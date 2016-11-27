@@ -1,0 +1,125 @@
+<root>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor java.util.Collection&lt;org.jetbrains.kotlin.compiler.plugin.CliOption&gt; getPluginOptions()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations org.jetbrains.kotlin.resolve.BindingContext getBindingContext()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations org.jetbrains.kotlin.codegen.state.KotlinTypeMapper getTypeMapper()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor org.jetbrains.kotlin.compiler.plugin.CliOption access$getINCREMENTAL_DATA_FILE_OPTION$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingComponentRegistrar void registerProjectComponents(org.jetbrains.kotlin.com.intellij.mock.MockProject, org.jetbrains.kotlin.config.CompilerConfiguration) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor java.lang.String access$getANNOTATION_PROCESSING_COMPILER_PLUGIN_ID$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor org.jetbrains.kotlin.compiler.plugin.CliOption access$getCLASS_FILES_OUTPUT_DIR_OPTION$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor.Companion java.lang.String getANNOTATION_PROCESSING_COMPILER_PLUGIN_ID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations org.jetbrains.kotlin.com.intellij.psi.PsiClass getTopLevelClassParent(org.jetbrains.kotlin.com.intellij.psi.PsiElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor void processOption(org.jetbrains.kotlin.compiler.plugin.CliOption, java.lang.String, org.jetbrains.kotlin.config.CompilerConfiguration) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor org.jetbrains.kotlin.compiler.plugin.CliOption access$getVERBOSE_MODE_OPTION$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingConfigurationKeys org.jetbrains.kotlin.config.CompilerConfigurationKey&lt;java.lang.String&gt; getCLASS_FILES_OUTPUT_DIR()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations void analyzeFile(org.jetbrains.kotlin.com.intellij.psi.PsiJavaFile) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations org.jetbrains.kotlin.annotation.processing.RoundAnnotations copy()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor.Companion org.jetbrains.kotlin.compiler.plugin.CliOption getANNOTATION_PROCESSOR_CLASSPATH_OPTION()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor org.jetbrains.kotlin.compiler.plugin.CliOption access$getGENERATED_OUTPUT_DIR_OPTION$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingConfigurationKeys org.jetbrains.kotlin.config.CompilerConfigurationKey&lt;java.lang.String&gt; getGENERATED_OUTPUT_DIR()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingConfigurationKeys org.jetbrains.kotlin.config.CompilerConfigurationKey&lt;java.lang.String&gt; getVERBOSE_MODE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations void analyzeFiles(java.util.Collection&lt;? extends org.jetbrains.kotlin.psi.KtFile&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations RoundAnnotations(org.jetbrains.kotlin.incremental.components.SourceRetentionAnnotationHandler, org.jetbrains.kotlin.resolve.BindingContext, org.jetbrains.kotlin.codegen.state.KotlinTypeMapper) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations java.util.Set&lt;java.lang.String&gt; getAnalyzedClasses()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingConfigurationKeys org.jetbrains.kotlin.config.CompilerConfigurationKey&lt;java.util.List&lt;java.lang.String&gt;&gt; getANNOTATION_PROCESSOR_CLASSPATH()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingComponentRegistrar void registerProjectComponents(org.jetbrains.kotlin.com.intellij.mock.MockProject, org.jetbrains.kotlin.config.CompilerConfiguration) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor void processOption(org.jetbrains.kotlin.compiler.plugin.CliOption, java.lang.String, org.jetbrains.kotlin.config.CompilerConfiguration) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor.Companion org.jetbrains.kotlin.compiler.plugin.CliOption getVERBOSE_MODE_OPTION()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor void processOption(org.jetbrains.kotlin.compiler.plugin.CliOption, java.lang.String, org.jetbrains.kotlin.config.CompilerConfiguration) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingConfigurationKeys INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations void analyzePsiJavaFiles(java.util.Collection&lt;? extends org.jetbrains.kotlin.com.intellij.psi.PsiJavaFile&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor.Companion org.jetbrains.kotlin.compiler.plugin.CliOption getGENERATED_OUTPUT_DIR_OPTION()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations RoundAnnotations(org.jetbrains.kotlin.incremental.components.SourceRetentionAnnotationHandler, org.jetbrains.kotlin.resolve.BindingContext, org.jetbrains.kotlin.codegen.state.KotlinTypeMapper) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor.Companion org.jetbrains.kotlin.compiler.plugin.CliOption getINCREMENTAL_DATA_FILE_OPTION()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations void analyzeFile(org.jetbrains.kotlin.psi.KtFile) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor java.lang.String getPluginId()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor.Companion org.jetbrains.kotlin.compiler.plugin.CliOption getCLASS_FILES_OUTPUT_DIR_OPTION()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingCommandLineProcessor org.jetbrains.kotlin.compiler.plugin.CliOption access$getANNOTATION_PROCESSOR_CLASSPATH_OPTION$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.AnnotationProcessingConfigurationKeys org.jetbrains.kotlin.config.CompilerConfigurationKey&lt;java.lang.String&gt; getINCREMENTAL_DATA_FILE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations boolean analyzeDeclaration(org.jetbrains.kotlin.com.intellij.psi.PsiElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations java.util.List access$getBLACKLISTED_ANNOTATATIONS$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.annotation.processing.RoundAnnotations java.util.Map&lt;java.lang.String,java.util.List&lt;org.jetbrains.kotlin.com.intellij.psi.PsiModifierListOwner&gt;&gt; getAnnotationsMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

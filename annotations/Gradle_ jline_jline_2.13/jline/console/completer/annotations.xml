@@ -1,0 +1,134 @@
+<root>
+    <item name='jline.console.completer.ArgumentCompleter.AbstractArgumentDelimiter jline.console.completer.ArgumentCompleter.ArgumentList delimit(java.lang.CharSequence, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter ArgumentCompleter(jline.console.completer.ArgumentCompleter.ArgumentDelimiter, java.util.Collection&lt;jline.console.completer.Completer&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.CandidateListCompletionHandler boolean complete(jline.console.ConsoleReader, java.util.List&lt;java.lang.CharSequence&gt;, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.CandidateListCompletionHandler void setBuffer(jline.console.ConsoleReader, java.lang.CharSequence, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter.ArgumentList ArgumentList(java.lang.String[], int, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter ArgumentCompleter(java.util.List&lt;jline.console.completer.Completer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.NullCompleter INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.AggregateCompleter java.util.Collection&lt;jline.console.completer.Completer&gt; getCompleters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.StringsCompleter java.util.Collection&lt;java.lang.String&gt; getStrings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.AnsiStringsCompleter AnsiStringsCompleter(java.util.Collection&lt;java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.AnsiStringsCompleter int complete(java.lang.String, int, java.util.List&lt;java.lang.CharSequence&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter.ArgumentDelimiter jline.console.completer.ArgumentCompleter.ArgumentList delimit(java.lang.CharSequence, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='jline.console.completer.AggregateCompleter int complete(java.lang.String, int, java.util.List&lt;java.lang.CharSequence&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter ArgumentCompleter(jline.console.completer.ArgumentCompleter.ArgumentDelimiter, jline.console.completer.Completer...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.CompletionHandler boolean complete(jline.console.ConsoleReader, java.util.List&lt;java.lang.CharSequence&gt;, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='jline.console.completer.CandidateListCompletionHandler void printCandidates(jline.console.ConsoleReader, java.util.Collection&lt;java.lang.CharSequence&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.FileNameCompleter java.io.File getUserHome()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.FileNameCompleter java.io.File getUserDir()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.CandidateListCompletionHandler boolean complete(jline.console.ConsoleReader, java.util.List&lt;java.lang.CharSequence&gt;, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.CandidateListCompletionHandler void setBuffer(jline.console.ConsoleReader, java.lang.CharSequence, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter ArgumentCompleter(jline.console.completer.ArgumentCompleter.ArgumentDelimiter, java.util.Collection&lt;jline.console.completer.Completer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.StringsCompleter StringsCompleter(java.util.Collection&lt;java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter.ArgumentDelimiter jline.console.completer.ArgumentCompleter.ArgumentList delimit(java.lang.CharSequence, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter int complete(java.lang.String, int, java.util.List&lt;java.lang.CharSequence&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.EnumCompleter EnumCompleter(java.lang.Class&lt;? extends java.lang.Enum&lt;?&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.NullCompleter int complete(java.lang.String, int, java.util.List&lt;java.lang.CharSequence&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='jline.console.completer.FileNameCompleter int complete(java.lang.String, int, java.util.List&lt;java.lang.CharSequence&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.StringsCompleter int complete(java.lang.String, int, java.util.List&lt;java.lang.CharSequence&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter java.util.List&lt;jline.console.completer.Completer&gt; getCompleters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter.WhitespaceArgumentDelimiter boolean isDelimiterChar(java.lang.CharSequence, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.AggregateCompleter AggregateCompleter(java.util.Collection&lt;jline.console.completer.Completer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter.AbstractArgumentDelimiter jline.console.completer.ArgumentCompleter.ArgumentList delimit(java.lang.CharSequence, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter jline.console.completer.ArgumentCompleter.ArgumentDelimiter getDelimiter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='jline.console.completer.Completer int complete(java.lang.String, int, java.util.List&lt;java.lang.CharSequence&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='jline.console.completer.CompletionHandler boolean complete(jline.console.ConsoleReader, java.util.List&lt;java.lang.CharSequence&gt;, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='jline.console.completer.ArgumentCompleter.AbstractArgumentDelimiter boolean isDelimiterChar(java.lang.CharSequence, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='jline.console.completer.CandidateListCompletionHandler void printCandidates(jline.console.ConsoleReader, java.util.Collection&lt;java.lang.CharSequence&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

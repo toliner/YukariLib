@@ -1,0 +1,32 @@
+<root>
+    <item name='net.minecraft.server.network.NetHandlerStatusServer void onDisconnect(net.minecraft.util.text.ITextComponent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.server.network.NetHandlerStatusServer void processPing(net.minecraft.network.status.client.CPacketPing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.server.network.NetHandlerLoginServer com.mojang.authlib.GameProfile getOfflineProfile(com.mojang.authlib.GameProfile) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.server.network.NetHandlerLoginServer void processLoginStart(net.minecraft.network.login.client.CPacketLoginStart) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.server.network.NetHandlerHandshakeTCP void onDisconnect(net.minecraft.util.text.ITextComponent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.server.network.NetHandlerLoginServer com.mojang.authlib.GameProfile getOfflineProfile(com.mojang.authlib.GameProfile)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.server.network.NetHandlerLoginServer void processEncryptionResponse(net.minecraft.network.login.client.CPacketEncryptionResponse) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.server.network.NetHandlerLoginServer void onDisconnect(net.minecraft.util.text.ITextComponent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,329 @@
+<root>
+    <item name='akka.actor.dsl.Creators.Act.class void whenStarting(akka.actor.dsl.Creators.Act, scala.Function0) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Inbox java.lang.Object receive(scala.concurrent.duration.FiniteDuration) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class akka.actor.SupervisorStrategy.Restart$ Restart(akka.actor.dsl.Creators.Act)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxExtension akka.actor.dsl.Inbox akka$actor$dsl$Inbox$InboxExtension$$$outer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxExtension.class akka.actor.ActorRef newReceiver(akka.actor.ActorDSL.Extension)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor..anonfun.2 2(akka.actor.dsl.Inbox.InboxActor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Get$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class akka.actor.SupervisorStrategy.Stop$ Stop(akka.actor.dsl.Creators.Act)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Select$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.class akka.actor.ActorRef actor(akka.actor.ActorDSL$, akka.actor.ActorRefFactory, java.lang.String, scala.Function0, scala.reflect.ClassTag) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Get akka.actor.dsl.Inbox.Query withClient(akka.actor.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox..anon.1 int compare(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox akka.actor.ActorRef senderFromInbox(akka.actor.dsl.Inbox.Inbox) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxExtension akka.actor.ActorRef newReceiver()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor..anonfun.1 1(akka.actor.dsl.Inbox.InboxActor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor InboxActor(akka.actor.ActorDSL$, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators akka.actor.ActorRef actor(java.lang.String, scala.Function0&lt;T&gt;, scala.reflect.ClassTag&lt;T&gt;, akka.actor.ActorRefFactory) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.actor.dsl.Inbox.class akka.actor.ActorRef senderFromInbox(akka.actor.ActorDSL$, akka.actor.dsl.Inbox.Inbox) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.class akka.actor.dsl.Inbox.Inbox inbox(akka.actor.ActorDSL$, akka.actor.ActorSystem)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators akka.actor.ActorRef actor(akka.actor.ActorRefFactory, scala.Function0&lt;T&gt;, scala.reflect.ClassTag&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.actor.dsl.Inbox.class void $init$(akka.actor.ActorDSL$) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.class akka.actor.dsl.Inbox.Inbox inbox(akka.actor.ActorDSL$, akka.actor.ActorSystem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Get$ akka.actor.dsl.Inbox.Get apply(scala.concurrent.duration.Deadline, akka.actor.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.class akka.actor.ActorRef actor(akka.actor.ActorDSL$, akka.actor.ActorRefFactory, java.lang.String, scala.Function0, scala.reflect.ClassTag) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Inbox void send(akka.actor.ActorRef, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void unbecome(akka.actor.dsl.Creators.Act) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Query akka.actor.dsl.Inbox.Query withClient(akka.actor.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.actor.dsl.Inbox.StartWatch akka.actor.dsl.Inbox.StartWatch copy(akka.actor.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Inbox Inbox(akka.actor.ActorDSL$, akka.actor.ActorSystem) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators akka.actor.ActorRef actor(scala.Function0&lt;T&gt;, scala.reflect.ClassTag&lt;T&gt;, akka.actor.ActorRefFactory) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Inbox $outer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor scala.Function1&lt;akka.actor.dsl.Inbox.Query,java.lang.Object&gt; clientPredicate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void becomeStacked(akka.actor.dsl.Creators.Act, scala.PartialFunction) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void whenFailing(akka.actor.dsl.Creators.Act, scala.Function2) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.class akka.actor.dsl.Inbox.Inbox inbox(akka.actor.ActorDSL$, akka.actor.ActorSystem) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox..anon.1 int compare(akka.actor.dsl.Inbox.Query, akka.actor.dsl.Inbox.Query) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Inbox Inbox(akka.actor.ActorDSL$, akka.actor.ActorSystem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Select akka.actor.dsl.Inbox.Select copy(scala.concurrent.duration.Deadline, scala.PartialFunction&lt;java.lang.Object,java.lang.Object&gt;, akka.actor.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor void aroundReceive(scala.PartialFunction&lt;java.lang.Object,scala.runtime.BoxedUnit&gt;, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class akka.actor.SupervisorStrategy.Resume$ Resume(akka.actor.dsl.Creators.Act)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class akka.actor.AllForOneStrategy$ AllForOneStrategy(akka.actor.dsl.Creators.Act)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class akka.actor.SupervisorStrategy.Escalate$ Escalate(akka.actor.dsl.Creators.Act)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor void enqueueQuery(akka.actor.dsl.Inbox.Query) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxExtension.class void $init$(akka.actor.ActorDSL.Extension) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Kick$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Inbox void watch(akka.actor.ActorRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Get akka.actor.dsl.Inbox.Get withClient(akka.actor.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox..anon.1 int compare(akka.actor.dsl.Inbox.Query, akka.actor.dsl.Inbox.Query) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Select akka.actor.dsl.Inbox.Query withClient(akka.actor.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.class akka.actor.ActorRef actor(akka.actor.ActorDSL$, java.lang.String, scala.Function0, scala.reflect.ClassTag, akka.actor.ActorRefFactory) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void postRestart(akka.actor.dsl.Creators.Act, java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void whenStopping(akka.actor.dsl.Creators.Act, scala.Function0) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Get$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.StartWatch$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void become(akka.actor.dsl.Creators.Act, scala.PartialFunction) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Select$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Kick$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Get$ java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.StartWatch$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Get akka.actor.dsl.Inbox.Get copy(scala.concurrent.duration.Deadline, akka.actor.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Inbox akka.actor.ActorDSL$ akka$actor$dsl$Inbox$Inbox$$$outer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void postStop(akka.actor.dsl.Creators.Act) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Select$ akka.actor.dsl.Inbox.Select apply(scala.concurrent.duration.Deadline, scala.PartialFunction&lt;java.lang.Object,java.lang.Object&gt;, akka.actor.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxExtension.class akka.actor.ActorRef newReceiver(akka.actor.ActorDSL.Extension) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox akka.actor.dsl.Inbox.Inbox inbox(akka.actor.ActorSystem)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.actor.dsl.Inbox.StartWatch java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor akka.actor.SupervisorStrategy supervisorStrategy()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.class akka.actor.ActorRef actor(akka.actor.ActorDSL$, akka.actor.ActorRefFactory, scala.Function0, scala.reflect.ClassTag) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Inbox T select(scala.concurrent.duration.FiniteDuration, scala.PartialFunction&lt;java.lang.Object,T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators akka.actor.ActorRef actor(akka.actor.ActorRefFactory, java.lang.String, scala.Function0&lt;T&gt;, scala.reflect.ClassTag&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Select java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor..anonfun.receive.1 1(akka.actor.dsl.Inbox.InboxActor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.StartWatch$ akka.actor.dsl.Inbox.StartWatch apply(akka.actor.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Kick$ java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class scala.PartialFunction receive(akka.actor.dsl.Creators.Act)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor akka.actor.ActorDSL$ akka$actor$dsl$Inbox$InboxActor$$$outer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.class akka.actor.ActorRef actor(akka.actor.ActorDSL$, akka.actor.ActorRefFactory, scala.Function0, scala.reflect.ClassTag) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Inbox T select(scala.concurrent.duration.FiniteDuration, scala.PartialFunction&lt;java.lang.Object,T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor..anonfun.receive.1..anonfun.3 boolean apply(akka.actor.dsl.Inbox.Query) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Select akka.actor.dsl.Inbox.Select withClient(akka.actor.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void superviseWith(akka.actor.dsl.Creators.Act, akka.actor.SupervisorStrategy) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class akka.actor.SupervisorStrategy supervisorStrategy(akka.actor.dsl.Creators.Act) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void whenRestarted(akka.actor.dsl.Creators.Act, scala.Function1) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class akka.actor.OneForOneStrategy$ OneForOneStrategy(akka.actor.dsl.Creators.Act)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.StartWatch$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void preRestart(akka.actor.dsl.Creators.Act, java.lang.Throwable, scala.Option) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Get java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor..anonfun.receive.2 2(akka.actor.dsl.Inbox.InboxActor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor $outer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.class akka.actor.ActorRef actor(akka.actor.ActorDSL$, scala.Function0, scala.reflect.ClassTag, akka.actor.ActorRefFactory) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor..anonfun.receive.1..anonfun.3 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void $init$(akka.actor.dsl.Creators.Act) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox.InboxActor scala.Function1&lt;java.lang.Object,java.lang.Object&gt; messagePredicate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox akka.actor.dsl.Inbox.Inbox inbox(akka.actor.ActorSystem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.actor.dsl.Inbox.Select$ java.lang.Object apply(java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Creators.Act.class void preStart(akka.actor.dsl.Creators.Act) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.actor.dsl.Inbox..anon.1 int compare(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

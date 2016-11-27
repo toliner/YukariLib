@@ -1,0 +1,131 @@
+<root>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidOnDestroyClassBuilderInterceptorExtension org.jetbrains.kotlin.codegen.ClassBuilderFactory interceptClassBuilderFactory(org.jetbrains.kotlin.codegen.ClassBuilderFactory, org.jetbrains.kotlin.resolve.BindingContext, org.jetbrains.kotlin.diagnostics.DiagnosticSink) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion java.lang.String getCLEAR_CACHE_METHOD_NAME()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidOnDestroyClassBuilderInterceptorExtension org.jetbrains.kotlin.codegen.ClassBuilderFactory interceptClassBuilderFactory(org.jetbrains.kotlin.codegen.ClassBuilderFactory, org.jetbrains.kotlin.resolve.BindingContext, org.jetbrains.kotlin.diagnostics.DiagnosticSink) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType.Companion org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType getClassType(org.jetbrains.kotlin.descriptors.ClassifierDescriptor)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension org.jetbrains.kotlin.codegen.StackValue applyProperty(org.jetbrains.kotlin.codegen.StackValue, org.jetbrains.kotlin.resolve.calls.model.ResolvedCall&lt;?&gt;, org.jetbrains.kotlin.codegen.extensions.ExpressionCodegenExtension.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension org.jetbrains.kotlin.codegen.StackValue applyProperty(org.jetbrains.kotlin.codegen.StackValue, org.jetbrains.kotlin.resolve.calls.model.ResolvedCall&lt;?&gt;, org.jetbrains.kotlin.codegen.extensions.ExpressionCodegenExtension.Context) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension org.jetbrains.kotlin.codegen.StackValue applyFunction(org.jetbrains.kotlin.codegen.StackValue, org.jetbrains.kotlin.resolve.calls.model.ResolvedCall&lt;?&gt;, org.jetbrains.kotlin.codegen.extensions.ExpressionCodegenExtension.Context) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion boolean isCacheSupported(org.jetbrains.kotlin.descriptors.ClassDescriptor, org.jetbrains.kotlin.descriptors.PropertyDescriptor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension void generateClassSyntheticParts(org.jetbrains.kotlin.codegen.ClassBuilder, org.jetbrains.kotlin.codegen.state.GenerationState, org.jetbrains.kotlin.psi.KtClassOrObject, org.jetbrains.kotlin.descriptors.ClassDescriptor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension void generateClassSyntheticParts(org.jetbrains.kotlin.codegen.ClassBuilder, org.jetbrains.kotlin.codegen.state.GenerationState, org.jetbrains.kotlin.psi.KtClassOrObject, org.jetbrains.kotlin.descriptors.ClassDescriptor) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion java.lang.String access$getPROPERTY_NAME$p(org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension org.jetbrains.kotlin.codegen.StackValue applyFunction(org.jetbrains.kotlin.codegen.StackValue, org.jetbrains.kotlin.resolve.calls.model.ResolvedCall&lt;?&gt;, org.jetbrains.kotlin.codegen.extensions.ExpressionCodegenExtension.Context) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType.Companion org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType getClassType(org.jetbrains.kotlin.descriptors.ClassifierDescriptor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidOnDestroyClassBuilderInterceptorExtension org.jetbrains.kotlin.codegen.ClassBuilderFactory interceptClassBuilderFactory(org.jetbrains.kotlin.codegen.ClassBuilderFactory, org.jetbrains.kotlin.resolve.BindingContext, org.jetbrains.kotlin.diagnostics.DiagnosticSink)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType VIEW'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion java.lang.String access$getCACHED_FIND_VIEW_BY_ID_METHOD_NAME$p(org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType AndroidClassType(java.lang.String, int, java.lang.String, boolean, boolean, int, kotlin.jvm.internal.DefaultConstructorMarker) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension java.lang.String access$getCLEAR_CACHE_METHOD_NAME$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType ACTIVITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.SyntheticProperty.WhenMappings $EnumSwitchMapping$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidOnDestroyClassBuilderInterceptorExtension org.jetbrains.kotlin.codegen.ClassBuilderFactory interceptClassBuilderFactory(org.jetbrains.kotlin.codegen.ClassBuilderFactory, org.jetbrains.kotlin.resolve.BindingContext, org.jetbrains.kotlin.diagnostics.DiagnosticSink) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType AndroidClassType(java.lang.String, boolean, boolean) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion boolean isCacheSupported$default(org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion, org.jetbrains.kotlin.descriptors.ClassDescriptor, org.jetbrains.kotlin.descriptors.PropertyDescriptor, int, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType java.lang.String getInternalClassName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension org.jetbrains.kotlin.codegen.StackValue applyProperty(org.jetbrains.kotlin.codegen.StackValue, org.jetbrains.kotlin.resolve.calls.model.ResolvedCall&lt;?&gt;, org.jetbrains.kotlin.codegen.extensions.ExpressionCodegenExtension.Context) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType SUPPORT_FRAGMENT_ACTIVITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension org.jetbrains.kotlin.codegen.StackValue applyFunction(org.jetbrains.kotlin.codegen.StackValue, org.jetbrains.kotlin.resolve.calls.model.ResolvedCall&lt;?&gt;, org.jetbrains.kotlin.codegen.extensions.ExpressionCodegenExtension.Context) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension java.lang.String access$getCACHED_FIND_VIEW_BY_ID_METHOD_NAME$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType UNKNOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.WhenMappings $EnumSwitchMapping$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension void generateClassSyntheticParts(org.jetbrains.kotlin.codegen.ClassBuilder, org.jetbrains.kotlin.codegen.state.GenerationState, org.jetbrains.kotlin.psi.KtClassOrObject, org.jetbrains.kotlin.descriptors.ClassDescriptor) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension void generateClassSyntheticParts(org.jetbrains.kotlin.codegen.ClassBuilder, org.jetbrains.kotlin.codegen.state.GenerationState, org.jetbrains.kotlin.psi.KtClassOrObject, org.jetbrains.kotlin.descriptors.ClassDescriptor) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType SUPPORT_FRAGMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion java.lang.String access$getPROPERTY_NAME$p(org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension java.lang.String access$getON_DESTROY_METHOD_NAME$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion java.lang.String access$getCACHED_FIND_VIEW_BY_ID_METHOD_NAME$p(org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidClassType FRAGMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion java.lang.String getON_DESTROY_METHOD_NAME()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.SyntheticProperty.WhenMappings $EnumSwitchMapping$1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion boolean isCacheSupported$default(org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension.Companion, org.jetbrains.kotlin.descriptors.ClassDescriptor, org.jetbrains.kotlin.descriptors.PropertyDescriptor, int, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.android.synthetic.codegen.AndroidExpressionCodegenExtension java.lang.String access$getPROPERTY_NAME$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

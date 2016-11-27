@@ -1,0 +1,1055 @@
+<root>
+    <item name='scala.swing.event.ButtonClicked$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseWheelMoved MouseWheelMoved(java.awt.event.MouseWheelEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsRemoved$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusGained$ java.lang.Object apply(java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseClicked$ scala.swing.event.MouseClicked apply(scala.swing.Component, java.awt.Point, int, int, boolean, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableChanged$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusGained$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseClicked MouseClicked(java.awt.event.MouseEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableColumnsSelected$ scala.swing.event.TableColumnsSelected apply(scala.swing.Table, scala.collection.immutable.Range, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementHidden$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosed$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeInvisible$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsRemoved java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.SelectionChanged$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseEntered scala.swing.event.MouseEntered copy(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsAdded scala.Some&lt;scala.Tuple2&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range&gt;&gt; unapply(scala.swing.event.ListElementsAdded&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentRemoved$ scala.swing.event.ComponentRemoved apply(scala.swing.Container, scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ButtonClicked scala.swing.event.ButtonClicked copy(scala.swing.AbstractButton)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FontChanged java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeiconified$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.InputEvent.class boolean consumed(scala.swing.event.InputEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ActionEvent scala.Option&lt;scala.swing.Component&gt; unapply(scala.swing.event.ActionEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MousePressed scala.swing.event.MousePressed copy(scala.swing.Component, java.awt.Point, int, int, boolean, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ForegroundChanged scala.swing.event.ForegroundChanged copy(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuCanceled scala.swing.event.PopupMenuCanceled apply(scala.swing.PopupMenu)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FontChanged$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableUpdated$ scala.swing.event.TableUpdated apply(scala.swing.Table, scala.collection.immutable.Range, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsAdded$ scala.swing.event.ListElementsAdded&lt;A&gt; apply(scala.swing.ListView&lt;A&gt;, scala.collection.immutable.Range)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosing$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ActionEvent$ scala.Option&lt;scala.swing.Component&gt; unapply(scala.swing.event.ActionEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListChanged scala.Some&lt;scala.swing.ListView&lt;A&gt;&gt; unapply(scala.swing.event.ListChanged&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeInvisible scala.swing.event.PopupMenuWillBecomeInvisible apply(scala.swing.PopupMenu)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeiconified$ scala.swing.event.WindowDeiconified apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementResized$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosing$ scala.swing.event.WindowClosing apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowOpened$ scala.swing.event.WindowOpened apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MousePressed$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableChanged scala.swing.event.TableChanged copy(scala.swing.Table)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseExited$ scala.swing.event.MouseExited apply(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsAdded scala.swing.event.TableRowsAdded copy(scala.swing.Table, scala.collection.immutable.Range)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuCanceled java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeVisible scala.swing.event.PopupMenuWillBecomeVisible copy(scala.swing.PopupMenu)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ForegroundChanged$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsAdded$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsAdded$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowActivated$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeVisible$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseClicked$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseExited$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuCanceled$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.Key.Location$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseMoved scala.swing.event.MouseMoved copy(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentAdded$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ActionEvent$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseReleased MouseReleased(java.awt.event.MouseEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListSelectionChanged$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.EditDone scala.swing.event.EditDone copy(scala.swing.TextField)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosing scala.swing.event.WindowClosing copy(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementHidden$ scala.swing.event.UIElementHidden apply(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuCanceled$ scala.swing.event.PopupMenuCanceled apply(scala.swing.PopupMenu)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowIconified$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsRemoved scala.Some&lt;scala.Tuple2&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range&gt;&gt; unapply(scala.swing.event.ListElementsRemoved&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentRemoved$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementHidden java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseExited scala.swing.event.MouseExited apply(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusLost$ scala.swing.event.FocusLost apply(scala.swing.Component, scala.Option&lt;scala.swing.Component&gt;, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.CaretUpdate$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.InputEvent.class long when(scala.swing.event.InputEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementShown$ scala.swing.event.UIElementShown apply(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.CaretUpdate scala.swing.event.CaretUpdate copy(scala.swing.TextComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableUpdated scala.swing.event.TableUpdated copy(scala.swing.Table, scala.collection.immutable.Range, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyPressed$ scala.swing.event.KeyPressed apply(scala.swing.Component, scala.Enumeration.Value, int, scala.Enumeration.Value, java.awt.event.KeyEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseDragged scala.swing.event.MouseDragged copy(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseMoved$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseWheelMoved scala.swing.event.MouseWheelMoved apply(scala.swing.Component, java.awt.Point, int, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseDragged$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementResized scala.swing.event.UIElementResized apply(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentAdded scala.swing.event.ComponentAdded apply(scala.swing.Container, scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowActivated scala.swing.event.WindowActivated apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeactivated$ scala.swing.event.WindowDeactivated apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyReleased scala.swing.event.KeyReleased apply(scala.swing.Component, scala.Enumeration.Value, int, scala.Enumeration.Value, java.awt.event.KeyEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsSelected$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusGained scala.swing.event.FocusGained apply(scala.swing.Component, scala.Option&lt;scala.swing.Component&gt;, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.AdjustingEvent.class boolean committed(scala.swing.event.AdjustingEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementResized$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseReleased$ scala.swing.event.MouseReleased apply(scala.swing.Component, java.awt.Point, int, int, boolean, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ValueChanged$ scala.Option&lt;scala.swing.Component&gt; unapply(scala.swing.event.ValueChanged) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ActionEvent scala.Option&lt;scala.swing.Component&gt; unapply(scala.swing.event.ActionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.SelectionChanged java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ColorChanged$ java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementShown$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementShown$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableUpdated$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeiconified scala.swing.event.WindowDeiconified copy(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsRemoved scala.swing.event.TableRowsRemoved apply(scala.swing.Table, scala.collection.immutable.Range)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableUpdated scala.swing.event.TableUpdated apply(scala.swing.Table, scala.collection.immutable.Range, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MousePressed scala.swing.event.MousePressed apply(scala.swing.Component, java.awt.Point, int, int, boolean, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableUpdated$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementMoved$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MousePressed$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableUpdated java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentAdded$ java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusLost$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsAdded scala.swing.event.ListElementsAdded&lt;A&gt; apply(scala.swing.ListView&lt;A&gt;, scala.collection.immutable.Range)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MousePressed java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeactivated$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementHidden$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ValueChanged$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowOpened$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsAdded$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowOpened scala.swing.event.WindowOpened apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentRemoved$ java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeiconified scala.swing.event.WindowDeiconified apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListChanged$ scala.swing.event.ListChanged&lt;A&gt; apply(scala.swing.ListView&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosing$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MousePressed MousePressed(java.awt.event.MouseEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ForegroundChanged$ scala.swing.event.ForegroundChanged apply(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeactivated java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseMoved$ scala.swing.event.MouseMoved apply(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.CaretUpdate$ scala.swing.event.CaretUpdate apply(scala.swing.TextComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowActivated java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableStructureChanged$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowActivated$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseMoved MouseMoved(java.awt.event.MouseEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyTyped scala.swing.event.KeyTyped apply(scala.swing.Component, char, int, scala.Enumeration.Value, java.awt.event.KeyEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseExited MouseExited(java.awt.event.MouseEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ColorChanged$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementMoved scala.swing.event.UIElementMoved copy(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyPressed java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsRemoved scala.swing.event.ListElementsRemoved&lt;A&gt; apply(scala.swing.ListView&lt;A&gt;, scala.collection.immutable.Range)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsSelected java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseEntered$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListChanged$ scala.Some&lt;scala.swing.ListView&lt;A&gt;&gt; unapply(scala.swing.event.ListChanged&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementResized scala.swing.event.UIElementResized copy(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseDragged scala.swing.event.MouseDragged apply(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseReleased scala.swing.event.MouseReleased apply(scala.swing.Component, java.awt.Point, int, int, boolean, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsAdded scala.Some&lt;scala.Tuple2&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range&gt;&gt; unapply(scala.swing.event.ListElementsAdded&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsRemoved$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyPressed KeyPressed(java.awt.event.KeyEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowIconified$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowActivated$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowActivated scala.swing.event.WindowActivated copy(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosed java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusGained scala.swing.event.FocusGained copy(scala.swing.Component, scala.Option&lt;scala.swing.Component&gt;, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyTyped scala.swing.event.KeyTyped copy(scala.swing.Component, char, int, scala.Enumeration.Value, java.awt.event.KeyEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyPressed scala.swing.event.KeyPressed apply(scala.swing.Component, scala.Enumeration.Value, int, scala.Enumeration.Value, java.awt.event.KeyEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsRemoved$ scala.Some&lt;scala.Tuple2&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range&gt;&gt; unapply(scala.swing.event.ListElementsRemoved&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseEntered MouseEntered(java.awt.event.MouseEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosing java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseEntered java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuCanceled scala.swing.event.PopupMenuCanceled copy(scala.swing.PopupMenu)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ActionEvent$ scala.Option&lt;scala.swing.Component&gt; unapply(scala.swing.event.ActionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ValueChanged scala.Option&lt;scala.swing.Component&gt; unapply(scala.swing.event.ValueChanged) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.BackgroundChanged$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.EditDone$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ColorChanged java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableColumnsSelected$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentAdded$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusLost$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ColorChanged$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusLost scala.swing.event.FocusLost apply(scala.swing.Component, scala.Option&lt;scala.swing.Component&gt;, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListChanged scala.swing.event.ListChanged&lt;A&gt; apply(scala.swing.ListView&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseReleased$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyTyped java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListChanged scala.Some&lt;scala.swing.ListView&lt;A&gt;&gt; unapply(scala.swing.event.ListChanged&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseExited scala.swing.event.MouseExited copy(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ButtonClicked$ scala.swing.event.ButtonClicked apply(scala.swing.AbstractButton)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsSelected scala.swing.event.TableRowsSelected copy(scala.swing.Table, scala.collection.immutable.Range, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentRemoved scala.swing.event.ComponentRemoved copy(scala.swing.Container, scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyTyped KeyTyped(java.awt.event.KeyEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.EditDone scala.swing.event.EditDone apply(scala.swing.TextField)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseMoved java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.BackgroundChanged scala.swing.event.BackgroundChanged copy(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseMoved$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseWheelMoved$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.BackgroundChanged$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.CaretUpdate scala.swing.event.CaretUpdate apply(scala.swing.TextComponent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementHidden$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowIconified scala.swing.event.WindowIconified apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FontChanged$ scala.swing.event.FontChanged apply(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseWheelMoved scala.swing.event.MouseWheelMoved copy(scala.swing.Component, java.awt.Point, int, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementMoved java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsRemoved$ scala.swing.event.ListElementsRemoved&lt;A&gt; apply(scala.swing.ListView&lt;A&gt;, scala.collection.immutable.Range)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeInvisible$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeiconified$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusGained java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableChanged$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FontChanged scala.swing.event.FontChanged copy(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentAdded scala.swing.event.ComponentAdded copy(scala.swing.Container, scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementMoved scala.swing.event.UIElementMoved apply(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosed$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeiconified$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsSelected scala.swing.event.TableRowsSelected apply(scala.swing.Table, scala.collection.immutable.Range, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableStructureChanged$ scala.swing.event.TableStructureChanged apply(scala.swing.Table)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentAdded java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowIconified$ scala.swing.event.WindowIconified apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseWheelMoved java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.BackgroundChanged java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseReleased scala.swing.event.MouseReleased copy(scala.swing.Component, java.awt.Point, int, int, boolean, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.BackgroundChanged scala.swing.event.BackgroundChanged apply(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.InputEvent.class void consume(scala.swing.event.InputEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsRemoved scala.swing.event.TableRowsRemoved copy(scala.swing.Table, scala.collection.immutable.Range)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableUpdated$ java.lang.Object apply(java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableStructureChanged java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyReleased$ scala.swing.event.KeyReleased apply(scala.swing.Component, scala.Enumeration.Value, int, scala.Enumeration.Value, java.awt.event.KeyEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowOpened$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.SelectionChanged$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuCanceled$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeVisible$ scala.swing.event.PopupMenuWillBecomeVisible apply(scala.swing.PopupMenu)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeInvisible$ scala.swing.event.PopupMenuWillBecomeInvisible apply(scala.swing.PopupMenu)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseWheelMoved$ scala.swing.event.MouseWheelMoved apply(scala.swing.Component, java.awt.Point, int, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementResized$ scala.swing.event.UIElementResized apply(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FontChanged$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ValueChanged$ scala.Option&lt;scala.swing.Component&gt; unapply(scala.swing.event.ValueChanged)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsAdded$ scala.swing.event.TableRowsAdded apply(scala.swing.Table, scala.collection.immutable.Range)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsAdded$ scala.Some&lt;scala.Tuple2&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range&gt;&gt; unapply(scala.swing.event.ListElementsAdded&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ButtonClicked$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseDragged$ scala.swing.event.MouseDragged apply(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentRemoved$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ForegroundChanged$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeVisible$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowOpened scala.swing.event.WindowOpened copy(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowOpened java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.SelectionChanged$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableChanged$ scala.swing.event.TableChanged apply(scala.swing.Table)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseClicked$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowIconified$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableColumnsSelected scala.swing.event.TableColumnsSelected apply(scala.swing.Table, scala.collection.immutable.Range, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ValueChanged scala.Option&lt;scala.swing.Component&gt; unapply(scala.swing.event.ValueChanged)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentRemoved scala.swing.event.ComponentRemoved apply(scala.swing.Container, scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListChanged$ scala.Some&lt;scala.swing.ListView&lt;A&gt;&gt; unapply(scala.swing.event.ListChanged&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusLost scala.swing.event.FocusLost copy(scala.swing.Component, scala.Option&lt;scala.swing.Component&gt;, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeactivated scala.swing.event.WindowDeactivated copy(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusGained$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsRemoved$ scala.Some&lt;scala.Tuple2&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range&gt;&gt; unapply(scala.swing.event.ListElementsRemoved&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeVisible java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseClicked java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementMoved$ scala.swing.event.UIElementMoved apply(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusLost java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListChanged$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.EditDone$ scala.swing.event.EditDone apply(scala.swing.TextField)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsAdded java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowActivated$ scala.swing.event.WindowActivated apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableStructureChanged scala.swing.event.TableStructureChanged apply(scala.swing.Table)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.CaretUpdate$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyPressed$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsSelected$ java.lang.Object apply(java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosing$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosed$ scala.swing.event.WindowClosed apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableColumnsSelected java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseExited java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyReleased java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListSelectionChanged scala.Option&lt;scala.Tuple3&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range,java.lang.Object&gt;&gt; unapply(scala.swing.event.ListSelectionChanged&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementResized$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseExited$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusGained$ scala.swing.event.FocusGained apply(scala.swing.Component, scala.Option&lt;scala.swing.Component&gt;, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.Key$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.CaretUpdate$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyPressed scala.swing.event.KeyPressed copy(scala.swing.Component, scala.Enumeration.Value, int, scala.Enumeration.Value, java.awt.event.KeyEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuCanceled$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ColorChanged scala.swing.event.ColorChanged apply(scala.swing.Component, java.awt.Color)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosed scala.swing.event.WindowClosed apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsSelected$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyReleased KeyReleased(java.awt.event.KeyEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FontChanged$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableColumnsSelected$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsAdded$ java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ForegroundChanged scala.swing.event.ForegroundChanged apply(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableChanged java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsRemoved$ java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementShown$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementResized java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsSelected$ scala.swing.event.TableRowsSelected apply(scala.swing.Table, scala.collection.immutable.Range, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentAdded$ scala.swing.event.ComponentAdded apply(scala.swing.Container, scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.EditDone$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableStructureChanged$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.SelectionChanged$ scala.swing.event.SelectionChanged apply(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeactivated$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeInvisible scala.swing.event.PopupMenuWillBecomeInvisible copy(scala.swing.PopupMenu)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementMoved$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowIconified java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeiconified java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ForegroundChanged java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsAdded scala.swing.event.TableRowsAdded apply(scala.swing.Table, scala.collection.immutable.Range)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.Key.Modifier$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementShown java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.BackgroundChanged$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeVisible scala.swing.event.PopupMenuWillBecomeVisible apply(scala.swing.PopupMenu)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseEntered$ scala.swing.event.MouseEntered apply(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyReleased$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowOpened$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListSelectionChanged$ scala.Option&lt;scala.Tuple3&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range,java.lang.Object&gt;&gt; unapply(scala.swing.event.ListSelectionChanged&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowIconified scala.swing.event.WindowIconified copy(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.SelectionChanged scala.swing.event.SelectionChanged apply(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableColumnsSelected scala.swing.event.TableColumnsSelected copy(scala.swing.Table, scala.collection.immutable.Range, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseDragged java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeactivated scala.swing.event.WindowDeactivated apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseClicked scala.swing.event.MouseClicked copy(scala.swing.Component, java.awt.Point, int, int, boolean, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseWheelMoved$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseReleased java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeInvisible$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableChanged scala.swing.event.TableChanged apply(scala.swing.Table)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseEntered scala.swing.event.MouseEntered apply(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyPressed$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementMoved$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementShown scala.swing.event.UIElementShown apply(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyTyped$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ButtonClicked scala.swing.event.ButtonClicked apply(scala.swing.AbstractButton)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsRemoved scala.Some&lt;scala.Tuple2&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range&gt;&gt; unapply(scala.swing.event.ListElementsRemoved&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsRemoved$ scala.swing.event.TableRowsRemoved apply(scala.swing.Table, scala.collection.immutable.Range)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementHidden scala.swing.event.UIElementHidden apply(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyTyped$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.SelectionChanged scala.swing.event.SelectionChanged copy(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableChanged$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowDeactivated$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListSelectionChanged scala.Option&lt;scala.Tuple3&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range,java.lang.Object&gt;&gt; unapply(scala.swing.event.ListSelectionChanged&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseClicked scala.swing.event.MouseClicked apply(scala.swing.Component, java.awt.Point, int, int, boolean, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ButtonClicked$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeInvisible java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.PopupMenuWillBecomeVisible$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.EditDone java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableStructureChanged$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ColorChanged$ scala.swing.event.ColorChanged apply(scala.swing.Component, java.awt.Color)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementShown scala.swing.event.UIElementShown copy(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseEntered$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosed scala.swing.event.WindowClosed copy(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ColorChanged scala.swing.event.ColorChanged copy(scala.swing.Component, java.awt.Color)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableColumnsSelected$ java.lang.Object apply(java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.CaretUpdate java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.UIElementHidden scala.swing.event.UIElementHidden copy(scala.swing.UIElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MousePressed$ scala.swing.event.MousePressed apply(scala.swing.Component, java.awt.Point, int, int, boolean, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyReleased scala.swing.event.KeyReleased copy(scala.swing.Component, scala.Enumeration.Value, int, scala.Enumeration.Value, java.awt.event.KeyEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableRowsRemoved$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyReleased$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListElementsAdded$ scala.Some&lt;scala.Tuple2&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range&gt;&gt; unapply(scala.swing.event.ListElementsAdded&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseMoved scala.swing.event.MouseMoved apply(scala.swing.Component, java.awt.Point, int, java.awt.event.MouseEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ButtonClicked java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosed$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ComponentRemoved java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ListSelectionChanged$ scala.Option&lt;scala.Tuple3&lt;scala.swing.ListView&lt;A&gt;,scala.collection.immutable.Range,java.lang.Object&gt;&gt; unapply(scala.swing.event.ListSelectionChanged&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.BackgroundChanged$ scala.swing.event.BackgroundChanged apply(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseReleased$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.WindowClosing scala.swing.event.WindowClosing apply(scala.swing.Window)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FontChanged scala.swing.event.FontChanged apply(scala.swing.Component)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.KeyTyped$ scala.swing.event.KeyTyped apply(scala.swing.Component, char, int, scala.Enumeration.Value, java.awt.event.KeyEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.FocusLost$ java.lang.Object apply(java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseDragged MouseDragged(java.awt.event.MouseEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.TableStructureChanged scala.swing.event.TableStructureChanged copy(scala.swing.Table)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.ForegroundChanged$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.MouseDragged$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.swing.event.EditDone$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

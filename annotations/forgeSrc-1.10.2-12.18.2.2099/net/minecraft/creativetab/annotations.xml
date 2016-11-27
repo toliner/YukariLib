@@ -1,0 +1,38 @@
+<root>
+    <item name='net.minecraft.creativetab.CreativeTabs INVENTORY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.creativetab.CreativeTabs net.minecraft.creativetab.CreativeTabs setRelevantEnchantmentTypes(net.minecraft.enchantment.EnumEnchantmentType...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.creativetab.CreativeTabs BREWING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.creativetab.CreativeTabs FOOD'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.creativetab.CreativeTabs TRANSPORTATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.creativetab.CreativeTabs BUILDING_BLOCKS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.creativetab.CreativeTabs net.minecraft.creativetab.CreativeTabs setBackgroundImageName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.creativetab.CreativeTabs REDSTONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.creativetab.CreativeTabs DECORATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.creativetab.CreativeTabs net.minecraft.creativetab.CreativeTabs setNoTitle()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.creativetab.CreativeTabs net.minecraft.creativetab.CreativeTabs setNoScrollbar()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.creativetab.CreativeTabs MATERIALS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

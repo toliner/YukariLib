@@ -1,0 +1,23 @@
+<root>
+    <item name='org.apache.logging.log4j.core.appender.rolling.helper.GZCompressAction GZCompressAction(java.io.File, java.io.File, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.rolling.helper.ZipCompressAction boolean execute(java.io.File, java.io.File, boolean, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.rolling.helper.GZCompressAction GZCompressAction(java.io.File, java.io.File, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.rolling.helper.CompositeAction CompositeAction(java.util.List&lt;org.apache.logging.log4j.core.appender.rolling.helper.Action&gt;, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.rolling.helper.ZipCompressAction ZipCompressAction(java.io.File, java.io.File, boolean, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.rolling.helper.ZipCompressAction ZipCompressAction(java.io.File, java.io.File, boolean, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.rolling.helper.GZCompressAction boolean execute(java.io.File, java.io.File, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,50 @@
+<root>
+    <item name='net.minecraft.network.rcon.RConOutputStream void writeByteArray(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.rcon.RConConsoleSource net.minecraft.util.text.ITextComponent getDisplayName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.rcon.RConThreadQuery RConThreadQuery(net.minecraft.network.rcon.IServer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.rcon.RConUtils java.lang.String getBytesAsString(byte[], int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.rcon.RConConsoleSource java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.rcon.IServer java.lang.String getPlugins()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.network.rcon.RConUtils int getRemainingBytesAsLEInt(byte[], int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.rcon.RConConsoleSource net.minecraft.util.math.Vec3d getPositionVector()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.rcon.RConConsoleSource void setCommandStat(net.minecraft.command.CommandResultStats.Type, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.network.rcon.RConThreadMain RConThreadMain(net.minecraft.network.rcon.IServer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.rcon.RConConsoleSource void addChatMessage(net.minecraft.util.text.ITextComponent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.rcon.RConUtils java.lang.String getBytesAsString(byte[], int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.rcon.RConUtils HEX_DIGITS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.rcon.RConConsoleSource net.minecraft.util.math.BlockPos getPosition()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

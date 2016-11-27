@@ -1,0 +1,17 @@
+<root>
+    <item name='org.apache.logging.log4j.core.net.ssl.KeyStoreConfiguration org.apache.logging.log4j.core.net.ssl.KeyStoreConfiguration createKeyStoreConfiguration(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.net.ssl.SSLConfigurationDefaults PROTOCOL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.net.ssl.TrustStoreConfiguration org.apache.logging.log4j.core.net.ssl.TrustStoreConfiguration createTrustStoreConfiguration(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.net.ssl.SSLConfiguration org.apache.logging.log4j.core.net.ssl.SSLConfiguration createSSLConfiguration(org.apache.logging.log4j.core.net.ssl.KeyStoreConfiguration, org.apache.logging.log4j.core.net.ssl.TrustStoreConfiguration)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.net.ssl.SSLConfigurationDefaults KEYSTORE_TYPE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

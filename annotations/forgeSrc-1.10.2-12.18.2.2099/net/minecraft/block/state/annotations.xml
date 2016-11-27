@@ -1,0 +1,176 @@
+<root>
+    <item name='net.minecraft.block.state.BlockStateContainer.Builder net.minecraft.block.state.BlockStateContainer build()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation T getValue(net.minecraft.block.properties.IProperty&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation boolean shouldSideBeRendered(net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos, net.minecraft.util.EnumFacing) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation net.minecraft.util.math.RayTraceResult collisionRayTrace(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation int getPackedLightmapCoords(net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.IBlockProperties net.minecraft.block.material.Material getMaterial()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer BlockStateContainer(net.minecraft.block.Block, net.minecraft.block.properties.IProperty&lt;?&gt;...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation net.minecraft.util.math.AxisAlignedBB getBoundingBox(net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation net.minecraft.block.state.IBlockState withProperty(net.minecraft.block.properties.IProperty&lt;T&gt;, V)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.Builder net.minecraft.block.state.BlockStateContainer.Builder add(net.minecraftforge.common.property.IUnlistedProperty&lt;?&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.IBlockProperties net.minecraft.util.math.RayTraceResult collisionRayTrace(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer net.minecraft.block.state.BlockStateContainer.StateImplementation createState(net.minecraft.block.Block, com.google.common.collect.ImmutableMap&lt;net.minecraft.block.properties.IProperty&lt;?&gt;,java.lang.Comparable&lt;?&gt;&gt;, com.google.common.collect.ImmutableMap&lt;net.minecraftforge.common.property.IUnlistedProperty&lt;?&gt;,com.google.common.base.Optional&lt;?&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.IBlockProperties boolean shouldSideBeRendered(net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos, net.minecraft.util.EnumFacing) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.IBlockState net.minecraft.block.state.IBlockState withProperty(net.minecraft.block.properties.IProperty&lt;T&gt;, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.IBlockState net.minecraft.block.state.IBlockState withProperty(net.minecraft.block.properties.IProperty&lt;T&gt;, V)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.IBlockProperties net.minecraft.util.math.AxisAlignedBB getBoundingBox(net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation net.minecraft.block.state.IBlockState withProperty(net.minecraft.block.properties.IProperty&lt;T&gt;, V) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.IBlockProperties net.minecraft.util.math.AxisAlignedBB getSelectedBoundingBox(net.minecraft.world.World, net.minecraft.util.math.BlockPos)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.IBlockProperties int getPackedLightmapCoords(net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.BlockPistonStructureHelper BlockPistonStructureHelper(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.util.EnumFacing, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation net.minecraft.util.math.AxisAlignedBB getSelectedBoundingBox(net.minecraft.world.World, net.minecraft.util.math.BlockPos) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.Builder net.minecraft.block.state.BlockStateContainer.Builder add(net.minecraftforge.common.property.IUnlistedProperty&lt;?&gt;...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.IBlockState T getValue(net.minecraft.block.properties.IProperty&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation net.minecraft.util.math.RayTraceResult collisionRayTrace(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.IBlockProperties net.minecraft.util.EnumBlockRenderType getRenderType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation net.minecraft.util.math.RayTraceResult collisionRayTrace(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.Builder net.minecraft.block.state.BlockStateContainer.Builder add(net.minecraft.block.properties.IProperty&lt;?&gt;...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer BlockStateContainer(net.minecraft.block.Block, net.minecraft.block.properties.IProperty&lt;?&gt;[], com.google.common.collect.ImmutableMap&lt;net.minecraftforge.common.property.IUnlistedProperty&lt;?&gt;,com.google.common.base.Optional&lt;?&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.Builder net.minecraft.block.state.BlockStateContainer.Builder add(net.minecraft.block.properties.IProperty&lt;?&gt;...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation net.minecraft.util.math.AxisAlignedBB getSelectedBoundingBox(net.minecraft.world.World, net.minecraft.util.math.BlockPos)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation net.minecraft.util.EnumBlockRenderType getRenderType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.IBlockProperties net.minecraft.util.math.RayTraceResult collisionRayTrace(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer java.lang.String validateProperty(net.minecraft.block.Block, net.minecraft.block.properties.IProperty&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation int getLightValue(net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.IBlockProperties net.minecraft.util.math.RayTraceResult collisionRayTrace(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.IBlockState net.minecraft.block.state.IBlockState cycleProperty(net.minecraft.block.properties.IProperty&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.BlockWorldState com.google.common.base.Predicate&lt;net.minecraft.block.state.BlockWorldState&gt; hasState(com.google.common.base.Predicate&lt;net.minecraft.block.state.IBlockState&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.IBlockProperties net.minecraft.util.math.AxisAlignedBB getSelectedBoundingBox(net.minecraft.world.World, net.minecraft.util.math.BlockPos) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.IBlockProperties int getLightValue(net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateBase T cyclePropertyValue(java.util.Collection&lt;T&gt;, T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateBase net.minecraft.block.state.IBlockState cycleProperty(net.minecraft.block.properties.IProperty&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.state.BlockStateContainer.StateImplementation net.minecraft.block.material.Material getMaterial()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

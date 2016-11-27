@@ -1,0 +1,191 @@
+<root>
+    <item name='net.minecraft.realms.RealmsBufferBuilder void putBulkData(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsBufferBuilder net.minecraft.realms.RealmsBufferBuilder from(net.minecraft.client.renderer.VertexBuffer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsBufferBuilder net.minecraft.realms.RealmsBufferBuilder vertex(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsLevelSummary int compareTo(net.minecraft.realms.RealmsLevelSummary) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat ELEMENT_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat ELEMENT_PADDING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsLevelSummary int compareTo(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.Tezzelator net.minecraft.realms.Tezzelator vertex(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat ELEMENT_POSITION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat ELEMENT_NORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsBufferBuilder net.minecraft.realms.RealmsBufferBuilder color(float, float, float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsMth double average(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen void bind(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen void renderTooltip(net.minecraft.item.ItemStack, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen net.minecraft.realms.RealmsButton newButton(int, int, int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat BLOCK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat POSITION_TEX_COLOR_NORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsBufferBuilder void begin(int, net.minecraft.client.renderer.vertex.VertexFormat) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsLevelSummary int compareTo(net.minecraft.world.storage.WorldSummary) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsButton WIDGETS_LOCATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat BLOCK_NORMALS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsVertexFormat net.minecraft.realms.RealmsVertexFormat addElement(net.minecraft.realms.RealmsVertexFormatElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsBufferBuilder net.minecraft.realms.RealmsBufferBuilder color(int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat POSITION_TEX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsSliderButton java.lang.String getMessage()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsServerAddress net.minecraft.realms.RealmsServerAddress parseString(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsVertexFormat net.minecraft.realms.RealmsVertexFormat from(net.minecraft.client.renderer.vertex.VertexFormat)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen net.minecraft.realms.RealmsAnvilLevelStorageSource getLevelStorageSource()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen net.minecraft.realms.RealmsEditBox newEditBox(int, int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen void renderTooltip(java.util.List&lt;java.lang.String&gt;, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.Tezzelator net.minecraft.realms.Tezzelator tex(double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen void buttonsRemove(net.minecraft.realms.RealmsButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat POSITION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsBufferBuilder net.minecraft.realms.RealmsBufferBuilder tex(double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat POSITION_TEX2_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat POSITION_TEX_NORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsVertexFormat net.minecraft.realms.RealmsVertexFormat addElement(net.minecraft.realms.RealmsVertexFormatElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.Realms void setScreen(net.minecraft.realms.RealmsScreen) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsBufferBuilder net.minecraft.realms.RealmsBufferBuilder tex2(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat ENTITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen net.minecraft.realms.RealmsButton newButton(int, int, int, int, int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsBufferBuilder net.minecraft.realms.RealmsBufferBuilder normal(float, float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.Realms java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat ELEMENT_UV0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen void buttonClicked(net.minecraft.realms.RealmsButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.realms.Realms void deletePlayerTag(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsBufferBuilder void restoreState(net.minecraft.client.renderer.VertexBuffer.State) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen java.util.List&lt;java.lang.String&gt; fontSplit(java.lang.String, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsBufferBuilder net.minecraft.realms.RealmsVertexFormat getVertexFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat POSITION_NORMAL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat POSITION_TEX_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.Tezzelator instance'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsVertexFormat net.minecraft.realms.RealmsVertexFormatElement getElement(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.DisconnectedRealmsScreen void buttonClicked(net.minecraft.realms.RealmsButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat POSITION_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen void buttonsAdd(net.minecraft.realms.RealmsButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.Tezzelator net.minecraft.realms.RealmsBufferBuilder color(int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsButton net.minecraft.client.gui.GuiButton getProxy()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat PARTICLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsScreen net.minecraft.client.gui.GuiScreenRealmsProxy getProxy()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.Tezzelator void begin(int, net.minecraft.realms.RealmsVertexFormat) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.realms.RealmsDefaultVertexFormat ELEMENT_UV1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

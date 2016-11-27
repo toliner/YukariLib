@@ -1,0 +1,29 @@
+<root>
+    <item name='net.minecraft.util.text.event.HoverEvent.Action SHOW_ACHIEVEMENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.text.event.ClickEvent.Action RUN_COMMAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.text.event.ClickEvent.Action SUGGEST_COMMAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.text.event.ClickEvent.Action CHANGE_PAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.text.event.ClickEvent.Action OPEN_FILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.text.event.ClickEvent.Action OPEN_URL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.text.event.HoverEvent.Action SHOW_TEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.text.event.HoverEvent.Action SHOW_ITEM'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.text.event.HoverEvent.Action SHOW_ENTITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

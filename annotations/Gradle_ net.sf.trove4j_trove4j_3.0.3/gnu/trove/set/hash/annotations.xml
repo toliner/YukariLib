@@ -1,0 +1,455 @@
+<root>
+    <item name='gnu.trove.set.hash.TByteHashSet byte[] toArray(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet TByteHashSet(java.util.Collection&lt;? extends java.lang.Byte&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet void readExternal(java.io.ObjectInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet gnu.trove.iterator.TByteIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet void writeExternal(java.io.ObjectOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.THashSet T[] toArray(T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet float[] toArray(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet short[] toArray(short[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet boolean removeAll(gnu.trove.TDoubleCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCustomHashSet java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet boolean addAll(gnu.trove.TByteCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet gnu.trove.iterator.TLongIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCustomHashSet T[] toArray(T[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet void writeExternal(java.io.ObjectOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet boolean addAll(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCustomHashSet void writeExternal(java.io.ObjectOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet boolean addAll(java.util.Collection&lt;? extends java.lang.Byte&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet int[] toArray(int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.THashSet THashSet(java.util.Collection&lt;? extends E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet void readExternal(java.io.ObjectInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet TIntHashSet(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet boolean addAll(gnu.trove.TFloatCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCustomHashSet java.lang.Object[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet TShortHashSet(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet void readExternal(java.io.ObjectInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet TFloatHashSet(java.util.Collection&lt;? extends java.lang.Float&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCustomHashSet boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCustomHashSet gnu.trove.iterator.hash.TObjectHashIterator&lt;E&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCustomHashSet void readExternal(java.io.ObjectInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet boolean containsAll(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet TCharHashSet(java.util.Collection&lt;? extends java.lang.Character&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet gnu.trove.iterator.TFloatIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet boolean addAll(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet boolean removeAll(gnu.trove.TLongCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet boolean containsAll(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet long[] toArray(long[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCustomHashSet boolean addAll(java.util.Collection&lt;? extends E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.THashSet boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet float[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet boolean addAll(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet boolean removeAll(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet boolean addAll(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.THashSet boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet void readExternal(java.io.ObjectInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet short[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLinkedHashSet gnu.trove.iterator.hash.TObjectHashIterator&lt;E&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet boolean containsAll(gnu.trove.TLongCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet void writeExternal(java.io.ObjectOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet boolean containsAll(gnu.trove.TDoubleCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet boolean addAll(gnu.trove.TCharCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet int[] toArray(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet double[] toArray(double[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet void writeExternal(java.io.ObjectOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet gnu.trove.iterator.TCharIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet TShortHashSet(java.util.Collection&lt;? extends java.lang.Short&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet char[] toArray(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet TDoubleHashSet(gnu.trove.TDoubleCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet int[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet void writeExternal(java.io.ObjectOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCustomHashSet TCustomHashSet(gnu.trove.strategy.HashingStrategy&lt;? super E&gt;, java.util.Collection&lt;? extends E&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet char[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet boolean containsAll(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet TCharHashSet(gnu.trove.TCharCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet boolean containsAll(gnu.trove.TIntCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet TCharHashSet(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCustomHashSet T[] toArray(T[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet TByteHashSet(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet TIntHashSet(gnu.trove.TIntCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet short[] toArray(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet boolean addAll(java.util.Collection&lt;? extends java.lang.Double&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet gnu.trove.iterator.TDoubleIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet void readExternal(java.io.ObjectInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet boolean addAll(gnu.trove.TLongCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet void readExternal(java.io.ObjectInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet boolean containsAll(gnu.trove.TCharCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet boolean containsAll(gnu.trove.TShortCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet TLongHashSet(gnu.trove.TLongCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLinkedHashSet java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet TDoubleHashSet(java.util.Collection&lt;? extends java.lang.Double&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet boolean containsAll(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet float[] toArray(float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet byte[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet boolean addAll(gnu.trove.TIntCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet char[] toArray(char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet boolean addAll(java.util.Collection&lt;? extends java.lang.Short&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.THashSet java.util.Iterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet boolean removeAll(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet TShortHashSet(gnu.trove.TShortCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet double[] toArray(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet boolean removeAll(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet boolean removeAll(gnu.trove.TCharCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet void writeExternal(java.io.ObjectOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet boolean removeAll(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.THashSet T[] toArray(T[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet boolean removeAll(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet boolean removeAll(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet TFloatHashSet(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet void readExternal(java.io.ObjectInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet byte[] toArray(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet boolean addAll(java.util.Collection&lt;? extends java.lang.Integer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet boolean addAll(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.THashSet gnu.trove.iterator.hash.TObjectHashIterator&lt;E&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet TLongHashSet(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet boolean removeAll(gnu.trove.TShortCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet gnu.trove.iterator.TIntIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet boolean addAll(java.util.Collection&lt;? extends java.lang.Long&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.THashSet boolean addAll(java.util.Collection&lt;? extends E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet boolean addAll(gnu.trove.TDoubleCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet boolean containsAll(gnu.trove.TByteCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet boolean containsAll(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet void writeExternal(java.io.ObjectOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet boolean containsAll(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet boolean removeAll(gnu.trove.TByteCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCustomHashSet boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet boolean containsAll(gnu.trove.TFloatCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet boolean containsAll(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet boolean addAll(java.util.Collection&lt;? extends java.lang.Float&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet TLongHashSet(java.util.Collection&lt;? extends java.lang.Long&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet long[] toArray(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet boolean removeAll(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet TFloatHashSet(gnu.trove.TFloatCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet boolean addAll(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLinkedHashSet TLinkedHashSet(java.util.Collection&lt;? extends E&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet gnu.trove.iterator.TShortIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet double[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.THashSet java.lang.Object[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet TIntHashSet(java.util.Collection&lt;? extends java.lang.Integer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TLongHashSet long[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TByteHashSet TByteHashSet(gnu.trove.TByteCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet boolean addAll(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TIntHashSet boolean removeAll(gnu.trove.TIntCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.THashSet void writeExternal(java.io.ObjectOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.THashSet void readExternal(java.io.ObjectInput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TCharHashSet boolean addAll(java.util.Collection&lt;? extends java.lang.Character&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TFloatHashSet boolean removeAll(gnu.trove.TFloatCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TDoubleHashSet TDoubleHashSet(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.set.hash.TShortHashSet boolean addAll(gnu.trove.TShortCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

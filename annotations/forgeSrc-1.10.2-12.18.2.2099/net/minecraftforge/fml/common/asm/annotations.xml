@@ -1,0 +1,8 @@
+<root>
+    <item name='net.minecraftforge.fml.common.asm.ASMTransformerWrapper java.lang.String getTransformerWrapper(net.minecraft.launchwrapper.LaunchClassLoader, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.asm.FMLSanityChecker void injectData(java.util.Map&lt;java.lang.String,java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

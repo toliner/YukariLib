@@ -1,0 +1,38 @@
+<root>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBProvider org.apache.logging.log4j.core.appender.db.nosql.NoSQLConnection getConnection()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBConnection MongoDBConnection(com.mongodb.DB, com.mongodb.WriteConcern, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBObject void set(java.lang.String, org.apache.logging.log4j.core.appender.db.nosql.NoSQLObject&lt;com.mongodb.BasicDBObject&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBConnection org.apache.logging.log4j.core.appender.db.nosql.NoSQLObject[] createList(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBConnection org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBObject[] createList(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBObject void set(java.lang.String, org.apache.logging.log4j.core.appender.db.nosql.NoSQLObject&lt;com.mongodb.BasicDBObject&gt;[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBConnection org.apache.logging.log4j.core.appender.db.nosql.NoSQLObject createObject()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBObject java.lang.Object unwrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBConnection org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBObject createObject()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBConnection void insertObject(org.apache.logging.log4j.core.appender.db.nosql.NoSQLObject&lt;com.mongodb.BasicDBObject&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBObject com.mongodb.BasicDBObject unwrap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBProvider org.apache.logging.log4j.core.appender.db.nosql.mongo.MongoDBConnection getConnection()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

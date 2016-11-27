@@ -1,0 +1,101 @@
+<root>
+    <item name='net.minecraft.client.gui.inventory.GuiInventory void drawEntityOnScreen(int, int, int, float, float, net.minecraft.entity.EntityLivingBase) 5'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiEditStructure LEGAL_KEY_CODES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiContainerCreative void drawTab(net.minecraft.creativetab.CreativeTabs) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiEditStructure void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiScreenHorseInventory GuiScreenHorseInventory(net.minecraft.inventory.IInventory, net.minecraft.inventory.IInventory, net.minecraft.entity.passive.EntityHorse) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiEditCommandBlockMinecart void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiContainerCreative GuiContainerCreative(net.minecraft.entity.player.EntityPlayer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiInventory void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.CreativeCrafting void updateCraftingInventory(net.minecraft.inventory.Container, java.util.List&lt;net.minecraft.item.ItemStack&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.CreativeCrafting void sendProgressBarUpdate(net.minecraft.inventory.Container, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.CreativeCrafting void sendSlotContents(net.minecraft.inventory.Container, int, net.minecraft.item.ItemStack) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiContainerCreative boolean isMouseOverTab(net.minecraft.creativetab.CreativeTabs, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiFurnace GuiFurnace(net.minecraft.entity.player.InventoryPlayer, net.minecraft.inventory.IInventory) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiBrewingStand GuiBrewingStand(net.minecraft.entity.player.InventoryPlayer, net.minecraft.inventory.IInventory) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiBeacon void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiChest GuiChest(net.minecraft.inventory.IInventory, net.minecraft.inventory.IInventory) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiContainerCreative void renderToolTip(net.minecraft.item.ItemStack, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiEditSign void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiScreenHorseInventory GuiScreenHorseInventory(net.minecraft.inventory.IInventory, net.minecraft.inventory.IInventory, net.minecraft.entity.passive.EntityHorse) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiInventory GuiInventory(net.minecraft.entity.player.EntityPlayer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiContainerCreative void actionPerformed(net.minecraft.client.gui.GuiButton) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiCrafting GuiCrafting(net.minecraft.entity.player.InventoryPlayer, net.minecraft.world.World, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiContainerCreative boolean renderCreativeInventoryHoveringText(net.minecraft.creativetab.CreativeTabs, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiContainer INVENTORY_BACKGROUND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.CreativeCrafting void updateCraftingInventory(net.minecraft.inventory.Container, java.util.List&lt;net.minecraft.item.ItemStack&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.GuiCrafting GuiCrafting(net.minecraft.entity.player.InventoryPlayer, net.minecraft.world.World) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.gui.inventory.CreativeCrafting void sendAllWindowProperties(net.minecraft.inventory.Container, net.minecraft.inventory.IInventory) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

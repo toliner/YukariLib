@@ -1,0 +1,71 @@
+<root>
+    <item name='scala.xml.transform.BasicTransformer java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.RewriteRule scala.collection.Seq&lt;scala.xml.Node&gt; transform(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.transform.RuleTransformer..anonfun.transform.1 java.lang.Object apply(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.RuleTransformer..anonfun.transform.1 java.lang.Object apply(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer scala.collection.Seq&lt;scala.xml.Node&gt; transform(scala.collection.Iterator&lt;scala.xml.Node&gt;, scala.xml.NodeBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer..anonfun.transform.1 scala.xml.NodeBuffer apply(scala.xml.NodeBuffer, scala.xml.Node) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.RuleTransformer scala.collection.Seq&lt;scala.xml.Node&gt; transform(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer..anonfun.transform.1 java.lang.Object apply(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer..anonfun.transform.1 1(scala.xml.transform.BasicTransformer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer..anonfun.transform.1 java.lang.Object apply(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer scala.collection.Seq&lt;scala.xml.Node&gt; transform(scala.collection.Seq&lt;scala.xml.Node&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer..anonfun.transform.1 scala.xml.NodeBuffer apply(scala.xml.NodeBuffer, scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer scala.xml.Node apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.RuleTransformer..anonfun.transform.1 scala.collection.Seq&lt;scala.xml.Node&gt; apply(scala.collection.Seq&lt;scala.xml.Node&gt;, scala.xml.transform.RewriteRule) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.RuleTransformer..anonfun.transform.1 scala.collection.Seq&lt;scala.xml.Node&gt; apply(scala.collection.Seq&lt;scala.xml.Node&gt;, scala.xml.transform.RewriteRule) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer..anonfun.1 1(scala.xml.transform.BasicTransformer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer scala.collection.Seq&lt;scala.xml.Node&gt; transform(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer boolean unchanged(scala.xml.Node, scala.collection.Seq&lt;scala.xml.Node&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer..anonfun.1 boolean apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.RewriteRule scala.collection.Seq&lt;scala.xml.Node&gt; transform(scala.collection.Seq&lt;scala.xml.Node&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer scala.collection.Seq&lt;scala.xml.Node&gt; transform(scala.xml.Node)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.transform.BasicTransformer..anonfun.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

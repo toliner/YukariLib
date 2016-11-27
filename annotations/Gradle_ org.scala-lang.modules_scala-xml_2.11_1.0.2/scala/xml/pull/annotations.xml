@@ -1,0 +1,326 @@
+<root>
+    <item name='scala.xml.pull.ProducerConsumerIterator.class boolean available(scala.xml.pull.ProducerConsumerIterator) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ProducerConsumerIterator..anonfun.fillBuffer.1 1(scala.xml.pull.ProducerConsumerIterator&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq elem(int, java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.xml.NodeSeq)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvText scala.xml.pull.EvText apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ProducerConsumerIterator..anonfun.fillBuffer.2 2(scala.xml.pull.ProducerConsumerIterator&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvProcInstr$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser java.lang.String xCharRef(scala.collection.Iterator&lt;java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvText$ scala.xml.pull.EvText apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemStart$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser T returning(T, scala.Function1&lt;T,scala.runtime.BoxedUnit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader java.util.concurrent.LinkedBlockingQueue&lt;scala.xml.pull.XMLEvent&gt; scala$xml$pull$ProducerConsumerIterator$$queue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ExceptionEvent$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ExceptionEvent scala.xml.pull.ExceptionEvent apply(java.lang.Exception)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser..anonfun.setEvent.1 1(scala.xml.pull.XMLEventReader.Parser) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ExceptionEvent$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser java.lang.String xCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ProducerConsumerIterator.class java.util.concurrent.LinkedBlockingQueue scala$xml$pull$ProducerConsumerIterator$$queue(scala.xml.pull.ProducerConsumerIterator) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemEnd$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser boolean isSpace(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemEnd java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvComment scala.xml.pull.EvComment apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ProducerConsumerIterator.class java.lang.Object next(scala.xml.pull.ProducerConsumerIterator) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.parsing.MarkupHandler initialize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvComment$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq entityRef(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemEnd scala.xml.pull.EvElemEnd apply(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq setEvent(scala.collection.Seq&lt;scala.xml.pull.XMLEvent&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemStart scala.xml.pull.EvElemStart apply(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq comment(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvProcInstr scala.xml.pull.EvProcInstr copy(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvProcInstr$ java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ProducerConsumerIterator java.util.concurrent.LinkedBlockingQueue&lt;T&gt; scala$xml$pull$ProducerConsumerIterator$$queue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq setEvent(scala.collection.Seq&lt;scala.xml.pull.XMLEvent&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemStart$ scala.xml.pull.EvElemStart apply(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser T xTakeUntil(scala.Function2&lt;java.lang.Object,java.lang.String,T&gt;, scala.Function0&lt;java.lang.Object&gt;, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ProducerConsumerIterator.class boolean hasNext(scala.xml.pull.ProducerConsumerIterator) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvComment java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ProducerConsumerIterator.class java.util.concurrent.LinkedBlockingQueue scala$xml$pull$ProducerConsumerIterator$$queue(scala.xml.pull.ProducerConsumerIterator)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser $outer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvEntityRef$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvEntityRef$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemStart$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemStart java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.package$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.Tuple2&lt;java.lang.String,java.lang.Object&gt; xTag(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvEntityRef scala.xml.pull.EvEntityRef copy(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser T xTakeUntil(scala.Function2&lt;java.lang.Object,java.lang.String,T&gt;, scala.Function0&lt;java.lang.Object&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser java.lang.String xCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvText scala.xml.pull.EvText copy(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvText$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvText java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq elem(int, java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.xml.NodeSeq) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.pull.ProducerConsumerIterator.class void $init$(scala.xml.pull.ProducerConsumerIterator) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.Tuple2&lt;scala.xml.MetaData,scala.xml.NamespaceBinding&gt; xAttributes(scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvProcInstr java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvEntityRef$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser Parser(scala.xml.pull.XMLEventReader, scala.io.Source) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser B saving(A, scala.Function1&lt;A,scala.runtime.BoxedUnit&gt;, scala.Function0&lt;B&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemEnd$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser void xToken(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.io.Source externalSource(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq content(scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ExceptionEvent java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvComment scala.xml.pull.EvComment copy(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser java.lang.String xCharRef(scala.collection.Iterator&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq text(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.pull.EvElemEnd scala.xml.pull.EvElemEnd copy(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemEnd$ java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser..anonfun.run.1 1(scala.xml.pull.XMLEventReader.Parser) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.pull.XMLEventReader scala$xml$pull$XMLEventReader$Parser$$$outer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser B saving(A, scala.Function1&lt;A,scala.runtime.BoxedUnit&gt;, scala.Function0&lt;B&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvEntityRef$ scala.xml.pull.EvEntityRef apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvComment$ scala.xml.pull.EvComment apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ProducerConsumerIterator..anonfun.produce.1 1(scala.xml.pull.ProducerConsumerIterator&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvEntityRef java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.pull.EvEntityRef scala.xml.pull.EvEntityRef apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ExceptionEvent$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemStart$ java.lang.Object apply(java.lang.Object, java.lang.Object, java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.POISON$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq text(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ExceptionEvent scala.xml.pull.ExceptionEvent copy(java.lang.Exception)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ProducerConsumerIterator.class void produce(scala.xml.pull.ProducerConsumerIterator, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemStart scala.xml.pull.EvElemStart copy(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.ExceptionEvent$ scala.xml.pull.ExceptionEvent apply(java.lang.Exception)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvProcInstr scala.xml.pull.EvProcInstr apply(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq comment(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.pull.EvText$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvComment$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvElemEnd$ scala.xml.pull.EvElemEnd apply(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser boolean isValidIANAEncoding(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvComment$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvProcInstr$ scala.xml.pull.EvProcInstr apply(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.POISON$ POISON$(scala.xml.pull.XMLEventReader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvText$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.Tuple3&lt;scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.Object&gt;&gt; prolog()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.EvProcInstr$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.POISON$ java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.xml.dtd.ExternalID externalID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.pull.XMLEventReader.Parser scala.Tuple2&lt;scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.String&gt;&gt; textDecl()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

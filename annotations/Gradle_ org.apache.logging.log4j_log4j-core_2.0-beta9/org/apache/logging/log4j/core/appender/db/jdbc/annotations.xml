@@ -1,0 +1,20 @@
+<root>
+    <item name='org.apache.logging.log4j.core.appender.db.jdbc.JDBCDatabaseManager org.apache.logging.log4j.core.appender.db.jdbc.JDBCDatabaseManager getJDBCDatabaseManager(java.lang.String, int, org.apache.logging.log4j.core.appender.db.jdbc.ConnectionSource, java.lang.String, org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.jdbc.JDBCAppender org.apache.logging.log4j.core.appender.db.jdbc.JDBCAppender createAppender(java.lang.String, java.lang.String, org.apache.logging.log4j.core.Filter, org.apache.logging.log4j.core.appender.db.jdbc.ConnectionSource, java.lang.String, java.lang.String, org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.jdbc.JDBCDatabaseManager void writeInternal(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.jdbc.JDBCAppender org.apache.logging.log4j.core.appender.db.jdbc.JDBCAppender createAppender(java.lang.String, java.lang.String, org.apache.logging.log4j.core.Filter, org.apache.logging.log4j.core.appender.db.jdbc.ConnectionSource, java.lang.String, java.lang.String, org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig[]) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.jdbc.JDBCAppender org.apache.logging.log4j.core.appender.db.jdbc.JDBCAppender createAppender(java.lang.String, java.lang.String, org.apache.logging.log4j.core.Filter, org.apache.logging.log4j.core.appender.db.jdbc.ConnectionSource, java.lang.String, java.lang.String, org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig[]) 6'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

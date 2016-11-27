@@ -1,0 +1,32 @@
+<root>
+    <item name='io.netty.handler.ssl.util.FingerprintTrustManagerFactory FingerprintTrustManagerFactory(byte[]...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.ssl.util.SimpleTrustManagerFactory SimpleTrustManagerFactory(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.ssl.util.FingerprintTrustManagerFactory FingerprintTrustManagerFactory(java.lang.Iterable&lt;java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.ssl.util.SelfSignedCertificate java.io.File certificate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.ssl.util.InsecureTrustManagerFactory INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.ssl.util.InsecureTrustManagerFactory javax.net.ssl.TrustManager[] engineGetTrustManagers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.ssl.util.SelfSignedCertificate java.io.File privateKey()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.handler.ssl.util.SimpleTrustManagerFactory javax.net.ssl.TrustManager[] engineGetTrustManagers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='io.netty.handler.ssl.util.FingerprintTrustManagerFactory javax.net.ssl.TrustManager[] engineGetTrustManagers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

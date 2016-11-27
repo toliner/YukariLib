@@ -1,0 +1,620 @@
+<root>
+    <item name='net.minecraftforge.client.model.Attributes DEFAULT_BAKED_FORMAT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemTextureQuadConverter net.minecraftforge.client.model.pipeline.UnpackedBakedQuad genQuad(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraftforge.common.model.TRSRTransformation, float, float, float, float, float, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.util.EnumFacing, int) 7'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt; defaultTextureGetter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel.Loader boolean accepts(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraftforge.client.model.ModelDynBucket retexture(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.VanillaLoader java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.SimpleModelState com.google.common.base.Optional&lt;net.minecraftforge.common.model.TRSRTransformation&gt; apply(com.google.common.base.Optional&lt;? extends net.minecraftforge.common.model.IModelPart&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer javax.vecmath.Matrix4f parseMatrix(com.google.gson.JsonElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemTextureQuadConverter java.util.List&lt;net.minecraftforge.client.model.pipeline.UnpackedBakedQuad&gt; convertTextureHorizontal(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraftforge.common.model.TRSRTransformation, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.client.renderer.texture.TextureAtlasSprite, float, net.minecraft.util.EnumFacing, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader void setCustomStateMapper(net.minecraft.block.Block, net.minecraft.client.renderer.block.statemap.IStateMapper) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraftforge.client.model.ModelDynBucket retexture(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer javax.vecmath.Quat4f parseRotation(com.google.gson.JsonElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader net.minecraft.client.renderer.block.model.ModelBlockDefinition getModelBlockDefinition(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid.FluidLoader INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader void setBucketModelDefinition(net.minecraft.item.Item) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader net.minecraft.client.renderer.block.model.ModelBlockDefinition getModelBlockDefinition(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.VanillaLoader boolean accepts(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel net.minecraftforge.client.model.MultiLayerModel process(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IPerspectiveAwareModel.MapWrapper org.apache.commons.lang3.tuple.Pair&lt;? extends net.minecraft.client.renderer.block.model.IBakedModel,javax.vecmath.Matrix4f&gt; handlePerspective(net.minecraft.client.renderer.block.model.IBakedModel, com.google.common.collect.ImmutableMap&lt;net.minecraft.client.renderer.block.model.ItemCameraTransforms.TransformType,net.minecraftforge.common.model.TRSRTransformation&gt;, net.minecraft.client.renderer.block.model.ItemCameraTransforms.TransformType) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ICustomModelLoader net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel.Loader net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoaderRegistry net.minecraftforge.common.model.animation.IAnimationStateMachine loadASM(net.minecraft.util.ResourceLocation, com.google.common.collect.ImmutableMap&lt;java.lang.String,net.minecraftforge.common.animation.ITimeValue&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemTextureQuadConverter net.minecraftforge.client.model.pipeline.UnpackedBakedQuad genQuad(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraftforge.common.model.TRSRTransformation, float, float, float, float, float, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.util.EnumFacing, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.White LOCATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Variant.Deserializer net.minecraft.util.ResourceLocation getBlockLocation(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Variant.Deserializer net.minecraft.util.ResourceLocation getBlockLocation(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraftforge.client.model.ModelDynBucket process(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel net.minecraftforge.client.model.MultiLayerModel process(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid.FluidLoader void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraftforge.client.model.ModelDynBucket process(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel com.google.common.collect.ImmutableList&lt;net.minecraft.client.renderer.block.model.BakedQuad&gt; getQuadsForSprite(int, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Optional&lt;net.minecraftforge.common.model.TRSRTransformation&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader net.minecraft.client.renderer.block.model.ModelResourceLocation getInventoryVariant(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Variant SET_VALUE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel net.minecraftforge.client.model.IModel process(com.google.common.collect.ImmutableMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Variant.Deserializer net.minecraftforge.client.model.ForgeBlockStateV1.Variant deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MapModelState com.google.common.base.Optional&lt;net.minecraftforge.common.model.TRSRTransformation&gt; apply(com.google.common.base.Optional&lt;? extends net.minecraftforge.common.model.IModelPart&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraftforge.client.model.IModel process(com.google.common.collect.ImmutableMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelStateComposition com.google.common.base.Optional&lt;net.minecraftforge.common.model.TRSRTransformation&gt; apply(com.google.common.base.Optional&lt;? extends net.minecraftforge.common.model.IModelPart&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ICustomModelLoader net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid net.minecraftforge.client.model.ModelFluid process(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.Attributes boolean moreSpecific(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraft.client.renderer.vertex.VertexFormat) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiModelState net.minecraftforge.common.model.IModelState getPartState(net.minecraftforge.common.model.IModelState, net.minecraftforge.client.model.IModel, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.White void register(net.minecraft.client.renderer.texture.TextureMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader void registerMultipartVariant(net.minecraft.client.renderer.block.model.ModelBlockDefinition, java.util.Collection&lt;net.minecraft.client.renderer.block.model.ModelResourceLocation&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid LAVA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoaderRegistry net.minecraft.util.ResourceLocation getActualLocation(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IModelSimpleProperties net.minecraftforge.client.model.IModel gui3d(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel com.google.common.collect.ImmutableList&lt;net.minecraft.client.renderer.block.model.BakedQuad&gt; getQuadsForSprite(int, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Optional&lt;net.minecraftforge.common.model.TRSRTransformation&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel net.minecraftforge.client.model.IModel retexture(com.google.common.collect.ImmutableMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemTextureQuadConverter net.minecraftforge.client.model.pipeline.UnpackedBakedQuad genQuad(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraftforge.common.model.TRSRTransformation, float, float, float, float, float, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.util.EnumFacing, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Deserializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer javax.vecmath.Quat4f parseAxisRotation(com.google.gson.JsonElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MapModelState net.minecraftforge.client.model.MapModelState.Wrapper wrap(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid.FluidLoader net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.Attributes boolean moreSpecific(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraft.client.renderer.vertex.VertexFormat) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiModelState com.google.common.base.Optional&lt;net.minecraftforge.common.model.TRSRTransformation&gt; apply(com.google.common.base.Optional&lt;? extends net.minecraftforge.common.model.IModelPart&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.VanillaLoader void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel net.minecraftforge.client.model.ItemLayerModel retexture(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket.LoaderDynBucket net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader void setCustomModelResourceLocation(net.minecraft.item.Item, int, net.minecraft.client.renderer.block.model.ModelResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IModelCustomData net.minecraftforge.client.model.IModel process(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.IModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid.FluidLoader boolean accepts(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.VariantLoader net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer javax.vecmath.Quat4f parseRotation(com.google.gson.JsonElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel ItemLayerModel(net.minecraft.client.renderer.block.model.ModelBlock) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel.Loader INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemTextureQuadConverter java.util.List&lt;net.minecraftforge.client.model.pipeline.UnpackedBakedQuad&gt; convertTexture(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraftforge.common.model.TRSRTransformation, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.client.renderer.texture.TextureAtlasSprite, float, net.minecraft.util.EnumFacing, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel.Loader net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemTextureQuadConverter java.util.List&lt;net.minecraftforge.client.model.pipeline.UnpackedBakedQuad&gt; convertTexture(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraftforge.common.model.TRSRTransformation, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.client.renderer.texture.TextureAtlasSprite, float, net.minecraft.util.EnumFacing, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader net.minecraft.util.ResourceLocation getModelLocation(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket.LoaderDynBucket net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.VanillaLoader INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.VanillaLoader net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader net.minecraft.util.ResourceLocation getModelLocation(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Variant.Deserializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel.Loader net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.IPerspectiveAwareModel.MapWrapper org.apache.commons.lang3.tuple.Pair&lt;? extends net.minecraft.client.renderer.block.model.IBakedModel,javax.vecmath.Matrix4f&gt; handlePerspective(net.minecraft.client.renderer.block.model.IBakedModel, net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.block.model.ItemCameraTransforms.TransformType) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader void onPostBakeEvent(net.minecraft.util.registry.IRegistry&lt;net.minecraft.client.renderer.block.model.ModelResourceLocation,net.minecraft.client.renderer.block.model.IBakedModel&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Deserializer net.minecraftforge.client.model.ForgeBlockStateV1 deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IRetexturableModel net.minecraftforge.client.model.IModel retexture(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader void registerVariant(net.minecraft.client.renderer.block.model.ModelBlockDefinition, net.minecraft.client.renderer.block.model.ModelResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraftforge.client.model.IModel retexture(com.google.common.collect.ImmutableMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid net.minecraftforge.client.model.IModel process(com.google.common.collect.ImmutableMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader void setCustomMeshDefinition(net.minecraft.item.Item, net.minecraft.client.renderer.ItemMeshDefinition) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel.Loader boolean accepts(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel net.minecraftforge.common.model.IModelState getDefaultState()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid net.minecraftforge.client.model.IModel process(com.google.common.collect.ImmutableMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel.Loader void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraftforge.client.model.IModel process(com.google.common.collect.ImmutableMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IModelSimpleProperties net.minecraftforge.client.model.IModel smoothLighting(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer net.minecraftforge.common.model.TRSRTransformation deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraftforge.common.model.IModelState getDefaultState()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.VariantLoader void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.IPerspectiveAwareModel.MapWrapper net.minecraft.client.renderer.block.model.ItemOverrideList getOverrides()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer float[] parseFloatArray(com.google.gson.JsonElement, int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IRetexturableModel net.minecraftforge.client.model.IModel retexture(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader void registerVariant(net.minecraft.client.renderer.block.model.ModelBlockDefinition, net.minecraft.client.renderer.block.model.ModelResourceLocation) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Deserializer net.minecraftforge.client.model.ForgeBlockStateV1 deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IModel net.minecraftforge.common.model.IModelState getDefaultState()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer net.minecraftforge.common.model.TRSRTransformation deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ICustomModelLoader boolean accepts(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket.LoaderDynBucket void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiModelState MultiModelState(com.google.common.collect.ImmutableList&lt;org.apache.commons.lang3.tuple.Pair&lt;M,S&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid net.minecraftforge.common.model.IModelState getDefaultState()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket MODEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Variant net.minecraftforge.client.model.BlockStateLoader.SubModel asGenericSubModel()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket LOCATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid net.minecraftforge.client.model.ModelFluid process(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Variant.Deserializer net.minecraftforge.client.model.ForgeBlockStateV1.Variant deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel net.minecraftforge.client.model.IModel process(com.google.common.collect.ImmutableMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.White INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer javax.vecmath.Matrix4f parseMatrix(com.google.gson.JsonElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer float[] parseFloatArray(com.google.gson.JsonElement, int, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraftforge.client.model.IModel retexture(com.google.common.collect.ImmutableMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel.Loader net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel net.minecraftforge.common.model.IModelState getDefaultState()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.VariantLoader INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.VariantLoader boolean accepts(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.TRSRDeserializer javax.vecmath.Quat4f parseAxisRotation(com.google.gson.JsonElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Variant.Deserializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemTextureQuadConverter java.util.List&lt;net.minecraftforge.client.model.pipeline.UnpackedBakedQuad&gt; convertTextureVertical(net.minecraft.client.renderer.vertex.VertexFormat, net.minecraftforge.common.model.TRSRTransformation, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.client.renderer.texture.TextureAtlasSprite, float, net.minecraft.util.EnumFacing, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel.Loader void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ForgeBlockStateV1.Deserializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel net.minecraftforge.client.model.ItemLayerModel retexture(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket.LoaderDynBucket INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiModelState net.minecraftforge.common.model.IModelState getPartState(net.minecraftforge.common.model.IModelState, net.minecraftforge.client.model.IModel, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid.FluidLoader net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelFluid WATER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoaderRegistry net.minecraft.util.ResourceLocation getActualLocation(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel net.minecraftforge.client.model.IModel retexture(com.google.common.collect.ImmutableMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.VariantLoader net.minecraftforge.client.model.IModel loadModel(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader net.minecraft.client.renderer.block.model.ModelResourceLocation getInventoryVariant(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IModelUVLock net.minecraftforge.client.model.IModel uvlock(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.ItemLayerModel.Loader INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelDynBucket.LoaderDynBucket boolean accepts(net.minecraft.util.ResourceLocation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.ModelLoader.VariantLoader java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.model.IModelCustomData net.minecraftforge.client.model.IModel process(com.google.common.collect.ImmutableMap&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.client.model.MultiLayerModel net.minecraft.client.renderer.block.model.IBakedModel bake(net.minecraftforge.common.model.IModelState, net.minecraft.client.renderer.vertex.VertexFormat, com.google.common.base.Function&lt;net.minecraft.util.ResourceLocation,net.minecraft.client.renderer.texture.TextureAtlasSprite&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

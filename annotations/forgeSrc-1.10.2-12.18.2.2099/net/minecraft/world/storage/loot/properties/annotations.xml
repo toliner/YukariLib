@@ -1,0 +1,71 @@
+<root>
+    <item name='net.minecraft.world.storage.loot.properties.EntityProperty boolean testProperty(java.util.Random, net.minecraft.entity.Entity) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityOnFire.Serializer net.minecraft.world.storage.loot.properties.EntityOnFire deserialize(com.google.gson.JsonElement, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityOnFire.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.properties.EntityProperty, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityProperty.Serializer com.google.gson.JsonElement serialize(T, com.google.gson.JsonSerializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityOnFire.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.properties.EntityOnFire, com.google.gson.JsonSerializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityOnFire.Serializer net.minecraft.world.storage.loot.properties.EntityProperty deserialize(com.google.gson.JsonElement, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityProperty.Serializer T deserialize(com.google.gson.JsonElement, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityOnFire.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.properties.EntityOnFire, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityOnFire boolean testProperty(java.util.Random, net.minecraft.entity.Entity) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityPropertyManager net.minecraft.world.storage.loot.properties.EntityProperty.Serializer&lt;?&gt; getSerializerForName(net.minecraft.util.ResourceLocation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityPropertyManager void registerProperty(net.minecraft.world.storage.loot.properties.EntityProperty.Serializer&lt;? extends T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityProperty.Serializer com.google.gson.JsonElement serialize(T, com.google.gson.JsonSerializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityOnFire.Serializer net.minecraft.world.storage.loot.properties.EntityProperty deserialize(com.google.gson.JsonElement, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityPropertyManager net.minecraft.world.storage.loot.properties.EntityProperty.Serializer&lt;T&gt; getSerializerFor(T)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityOnFire.Serializer com.google.gson.JsonElement serialize(net.minecraft.world.storage.loot.properties.EntityProperty, com.google.gson.JsonSerializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityProperty.Serializer T deserialize(com.google.gson.JsonElement, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityOnFire.Serializer net.minecraft.world.storage.loot.properties.EntityOnFire deserialize(com.google.gson.JsonElement, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.world.storage.loot.properties.EntityPropertyManager net.minecraft.world.storage.loot.properties.EntityProperty.Serializer&lt;T&gt; getSerializerFor(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

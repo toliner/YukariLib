@@ -1,0 +1,1787 @@
+<root>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleShortMap unmodifiableMap(gnu.trove.map.TDoubleShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TLongCollection synchronizedCollection(gnu.trove.TLongCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatFloatMap synchronizedMap(gnu.trove.map.TFloatFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongShortMap synchronizedMap(gnu.trove.map.TLongShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharIntMap unmodifiableMap(gnu.trove.map.TCharIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TIntSet unmodifiableSet(gnu.trove.set.TIntSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteCharMap unmodifiableMap(gnu.trove.map.TByteCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntCharMap synchronizedMap(gnu.trove.map.TIntCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TIntList unmodifiableList(gnu.trove.list.TIntList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatLongMap synchronizedMap(gnu.trove.map.TFloatLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongFloatMap synchronizedMap(gnu.trove.map.TLongFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TIntObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleLongMap synchronizedMap(gnu.trove.map.TDoubleLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Float,java.lang.Double&gt; wrap(gnu.trove.map.TFloatDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TByteList synchronizedList(gnu.trove.list.TByteList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection boolean addAll(gnu.trove.TFloatCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TIntCollection boolean addAll(gnu.trove.TIntCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TIntCollection synchronizedCollection(gnu.trove.TIntCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TShortObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortFloatMap synchronizedMap(gnu.trove.map.TShortFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntByteMap unmodifiableMap(gnu.trove.map.TIntByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TIntCollection int[] toArray(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectFloatMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectFloatMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TShortCollection short[] toArray(short[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortFloatMap synchronizedMap(gnu.trove.map.TShortFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleByteMap unmodifiableMap(gnu.trove.map.TDoubleByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntByteMap unmodifiableMap(gnu.trove.map.TIntByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleLongMap synchronizedMap(gnu.trove.map.TDoubleLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TShortObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TLongCollection boolean containsAll(gnu.trove.TLongCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TLongCollection unmodifiableCollection(gnu.trove.TLongCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Long,java.lang.Character&gt; wrap(gnu.trove.map.TLongCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TIntObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.List&lt;java.lang.Character&gt; wrap(gnu.trove.list.TCharList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection gnu.trove.iterator.TFloatIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TIntCollection boolean addAll(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongShortMap synchronizedMap(gnu.trove.map.TLongShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TLongSet unmodifiableSet(gnu.trove.set.TLongSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCharCollection boolean containsAll(gnu.trove.TCharCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntLongMap synchronizedMap(gnu.trove.map.TIntLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteFloatMap synchronizedMap(gnu.trove.map.TByteFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TCharSet synchronizedSet(gnu.trove.set.TCharSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatFloatMap synchronizedMap(gnu.trove.map.TFloatFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Integer,java.lang.Float&gt; wrap(gnu.trove.map.TIntFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TShortCollection unmodifiableCollection(gnu.trove.TShortCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleShortMap unmodifiableMap(gnu.trove.map.TDoubleShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleDoubleMap synchronizedMap(gnu.trove.map.TDoubleDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteCharMap unmodifiableMap(gnu.trove.map.TByteCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectDoubleMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectDoubleMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Long,java.lang.Short&gt; wrap(gnu.trove.map.TLongShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection boolean addAll(java.util.Collection&lt;? extends java.lang.Byte&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;T,java.lang.Float&gt; wrap(gnu.trove.map.TObjectFloatMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;T,java.lang.Character&gt; wrap(gnu.trove.map.TObjectCharMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatDoubleMap synchronizedMap(gnu.trove.map.TFloatDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Double,java.lang.Short&gt; wrap(gnu.trove.map.TDoubleShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TByteCollection unmodifiableCollection(gnu.trove.TByteCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntFloatMap unmodifiableMap(gnu.trove.map.TIntFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortCharMap synchronizedMap(gnu.trove.map.TShortCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteByteMap unmodifiableMap(gnu.trove.map.TByteByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TByteCollection synchronizedCollection(gnu.trove.TByteCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Long,T&gt; wrap(gnu.trove.map.TLongObjectMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Short,java.lang.Byte&gt; wrap(gnu.trove.map.TShortByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection float[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntCharMap synchronizedMap(gnu.trove.map.TIntCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TCharObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TByteList synchronizedList(gnu.trove.list.TByteList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortIntMap unmodifiableMap(gnu.trove.map.TShortIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteLongMap synchronizedMap(gnu.trove.map.TByteLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatDoubleMap synchronizedMap(gnu.trove.map.TFloatDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleFloatMap unmodifiableMap(gnu.trove.map.TDoubleFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectIntMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectIntMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TShortCollection short[] toArray(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Short,java.lang.Character&gt; wrap(gnu.trove.map.TShortCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TByteCollection unmodifiableCollection(gnu.trove.TByteCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TIntCollection unmodifiableCollection(gnu.trove.TIntCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntFloatMap unmodifiableMap(gnu.trove.map.TIntFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Double,java.lang.Byte&gt; wrap(gnu.trove.map.TDoubleByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;T,java.lang.Short&gt; wrap(gnu.trove.map.TObjectShortMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatIntMap unmodifiableMap(gnu.trove.map.TFloatIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection boolean addAll(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntIntMap synchronizedMap(gnu.trove.map.TIntIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteShortMap synchronizedMap(gnu.trove.map.TByteShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatIntMap synchronizedMap(gnu.trove.map.TFloatIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TLongCollection synchronizedCollection(gnu.trove.TLongCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectFloatMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectFloatMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteShortMap unmodifiableMap(gnu.trove.map.TByteShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TShortList unmodifiableList(gnu.trove.list.TShortList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntFloatMap synchronizedMap(gnu.trove.map.TIntFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TIntList unmodifiableList(gnu.trove.list.TIntList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCharCollection boolean addAll(gnu.trove.TCharCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TByteObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TLongObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TLongList unmodifiableList(gnu.trove.list.TLongList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection boolean containsAll(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TCharObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TDoubleList synchronizedList(gnu.trove.list.TDoubleList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteFloatMap unmodifiableMap(gnu.trove.map.TByteFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatShortMap synchronizedMap(gnu.trove.map.TFloatShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDoubleCollection boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongFloatMap synchronizedMap(gnu.trove.map.TLongFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongShortMap unmodifiableMap(gnu.trove.map.TLongShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Set&lt;java.lang.Double&gt; wrap(gnu.trove.set.TDoubleSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Short,T&gt; wrap(gnu.trove.map.TShortObjectMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Double,java.lang.Float&gt; wrap(gnu.trove.map.TDoubleFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.List&lt;java.lang.Float&gt; wrap(gnu.trove.list.TFloatList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Integer,T&gt; wrap(gnu.trove.map.TIntObjectMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongByteMap synchronizedMap(gnu.trove.map.TLongByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Character,java.lang.Long&gt; wrap(gnu.trove.map.TCharLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TByteCollection synchronizedCollection(gnu.trove.TByteCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TFloatCollection synchronizedCollection(gnu.trove.TFloatCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TByteObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleShortMap synchronizedMap(gnu.trove.map.TDoubleShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortCharMap synchronizedMap(gnu.trove.map.TShortCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TDoubleList synchronizedList(gnu.trove.list.TDoubleList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TCharList unmodifiableList(gnu.trove.list.TCharList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCharCollection boolean addAll(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TLongList unmodifiableList(gnu.trove.list.TLongList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortShortMap synchronizedMap(gnu.trove.map.TShortShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TByteObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TShortCollection short[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatIntMap unmodifiableMap(gnu.trove.map.TFloatIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TIntCollection int[] toArray(int[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TByteList unmodifiableList(gnu.trove.list.TByteList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Byte,java.lang.Float&gt; wrap(gnu.trove.map.TByteFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection byte[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TIntCollection unmodifiableCollection(gnu.trove.TIntCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteShortMap unmodifiableMap(gnu.trove.map.TByteShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatLongMap synchronizedMap(gnu.trove.map.TFloatLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TShortCollection boolean containsAll(gnu.trove.TShortCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntLongMap synchronizedMap(gnu.trove.map.TIntLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TShortCollection synchronizedCollection(gnu.trove.TShortCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection gnu.trove.iterator.TByteIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteFloatMap synchronizedMap(gnu.trove.map.TByteFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectDoubleMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectDoubleMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntCharMap unmodifiableMap(gnu.trove.map.TIntCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TIntCollection boolean removeAll(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TIntObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectLongMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectLongMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TShortSet unmodifiableSet(gnu.trove.set.TShortSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteCharMap synchronizedMap(gnu.trove.map.TByteCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TIntCollection boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TIntCollection gnu.trove.iterator.TIntIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleLongMap unmodifiableMap(gnu.trove.map.TDoubleLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TIntList synchronizedList(gnu.trove.list.TIntList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TDoubleSet unmodifiableSet(gnu.trove.set.TDoubleSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TLongCollection boolean addAll(gnu.trove.TLongCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCharCollection boolean removeAll(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Set&lt;java.lang.Long&gt; wrap(gnu.trove.set.TLongSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntFloatMap synchronizedMap(gnu.trove.map.TIntFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCharCollection char[] toArray(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TByteSet synchronizedSet(gnu.trove.set.TByteSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharDoubleMap unmodifiableMap(gnu.trove.map.TCharDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectByteMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectByteMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TFloatObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.List&lt;java.lang.Long&gt; wrap(gnu.trove.list.TLongList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatIntMap synchronizedMap(gnu.trove.map.TFloatIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleDoubleMap unmodifiableMap(gnu.trove.map.TDoubleDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteByteMap synchronizedMap(gnu.trove.map.TByteByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatByteMap synchronizedMap(gnu.trove.map.TFloatByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TLongSet synchronizedSet(gnu.trove.set.TLongSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Byte,java.lang.Byte&gt; wrap(gnu.trove.map.TByteByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortDoubleMap unmodifiableMap(gnu.trove.map.TShortDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDoubleCollection boolean addAll(java.util.Collection&lt;? extends java.lang.Double&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TCharList synchronizedList(gnu.trove.list.TCharList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatDoubleMap unmodifiableMap(gnu.trove.map.TFloatDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteShortMap synchronizedMap(gnu.trove.map.TByteShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleIntMap synchronizedMap(gnu.trove.map.TDoubleIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleByteMap synchronizedMap(gnu.trove.map.TDoubleByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectDoubleMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectDoubleMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectLongMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectLongMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteLongMap unmodifiableMap(gnu.trove.map.TByteLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortLongMap unmodifiableMap(gnu.trove.map.TShortLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteCharMap synchronizedMap(gnu.trove.map.TByteCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntByteMap synchronizedMap(gnu.trove.map.TIntByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDoubleCollection double[] toArray(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TFloatList unmodifiableList(gnu.trove.list.TFloatList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TFloatSet synchronizedSet(gnu.trove.set.TFloatSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Double,T&gt; wrap(gnu.trove.map.TDoubleObjectMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleFloatMap unmodifiableMap(gnu.trove.map.TDoubleFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Byte,java.lang.Double&gt; wrap(gnu.trove.map.TByteDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Character,java.lang.Float&gt; wrap(gnu.trove.map.TCharFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDoubleCollection boolean removeAll(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Character,java.lang.Integer&gt; wrap(gnu.trove.map.TCharIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TCharList unmodifiableList(gnu.trove.list.TCharList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Set&lt;java.lang.Character&gt; wrap(gnu.trove.set.TCharSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TIntCollection boolean containsAll(gnu.trove.TIntCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectIntMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectIntMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongFloatMap unmodifiableMap(gnu.trove.map.TLongFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TDoubleCollection synchronizedCollection(gnu.trove.TDoubleCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharFloatMap unmodifiableMap(gnu.trove.map.TCharFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDoubleCollection boolean addAll(gnu.trove.TDoubleCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TLongSet unmodifiableSet(gnu.trove.set.TLongSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntIntMap unmodifiableMap(gnu.trove.map.TIntIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCharCollection boolean addAll(java.util.Collection&lt;? extends java.lang.Character&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.List&lt;java.lang.Integer&gt; wrap(gnu.trove.list.TIntList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TFloatList synchronizedList(gnu.trove.list.TFloatList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection boolean removeAll(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharLongMap unmodifiableMap(gnu.trove.map.TCharLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Double,java.lang.Long&gt; wrap(gnu.trove.map.TDoubleLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Float,java.lang.Long&gt; wrap(gnu.trove.map.TFloatLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteByteMap unmodifiableMap(gnu.trove.map.TByteByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TCharSet unmodifiableSet(gnu.trove.set.TCharSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TIntSet unmodifiableSet(gnu.trove.set.TIntSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatByteMap unmodifiableMap(gnu.trove.map.TFloatByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.List&lt;java.lang.Byte&gt; wrap(gnu.trove.list.TByteList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCharCollection boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Double,java.lang.Integer&gt; wrap(gnu.trove.map.TDoubleIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatCharMap unmodifiableMap(gnu.trove.map.TFloatCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Set&lt;java.lang.Integer&gt; wrap(gnu.trove.set.TIntSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TShortCollection boolean removeAll(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TCharSet synchronizedSet(gnu.trove.set.TCharSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectCharMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectCharMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TCharCollection unmodifiableCollection(gnu.trove.TCharCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharCharMap synchronizedMap(gnu.trove.map.TCharCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection boolean addAll(java.util.Collection&lt;? extends java.lang.Float&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntIntMap synchronizedMap(gnu.trove.map.TIntIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TFloatCollection unmodifiableCollection(gnu.trove.TFloatCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TShortCollection boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TFloatSet unmodifiableSet(gnu.trove.set.TFloatSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteIntMap synchronizedMap(gnu.trove.map.TByteIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;T,java.lang.Integer&gt; wrap(gnu.trove.map.TObjectIntMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Long,java.lang.Long&gt; wrap(gnu.trove.map.TLongLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TLongCollection long[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; wrap(gnu.trove.map.TIntLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection byte[] toArray(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharIntMap synchronizedMap(gnu.trove.map.TCharIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TCharObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongDoubleMap unmodifiableMap(gnu.trove.map.TLongDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TDoubleCollection unmodifiableCollection(gnu.trove.TDoubleCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Float,java.lang.Float&gt; wrap(gnu.trove.map.TFloatFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection boolean addAll(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TFloatCollection boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDoubleCollection boolean removeAll(gnu.trove.TDoubleCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectByteMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectByteMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteDoubleMap unmodifiableMap(gnu.trove.map.TByteDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatFloatMap unmodifiableMap(gnu.trove.map.TFloatFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection boolean removeAll(gnu.trove.TFloatCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TLongCollection boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortIntMap synchronizedMap(gnu.trove.map.TShortIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Float,java.lang.Short&gt; wrap(gnu.trove.map.TFloatShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntDoubleMap unmodifiableMap(gnu.trove.map.TIntDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntShortMap unmodifiableMap(gnu.trove.map.TIntShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TIntSet synchronizedSet(gnu.trove.set.TIntSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TShortCollection boolean addAll(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharCharMap unmodifiableMap(gnu.trove.map.TCharCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharShortMap unmodifiableMap(gnu.trove.map.TCharShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleByteMap unmodifiableMap(gnu.trove.map.TDoubleByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongLongMap unmodifiableMap(gnu.trove.map.TLongLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharDoubleMap synchronizedMap(gnu.trove.map.TCharDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection float[] toArray(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortLongMap synchronizedMap(gnu.trove.map.TShortLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TLongCollection boolean containsAll(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TDoubleSet synchronizedSet(gnu.trove.set.TDoubleSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteIntMap unmodifiableMap(gnu.trove.map.TByteIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortFloatMap unmodifiableMap(gnu.trove.map.TShortFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongIntMap synchronizedMap(gnu.trove.map.TLongIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharLongMap synchronizedMap(gnu.trove.map.TCharLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Short,java.lang.Short&gt; wrap(gnu.trove.map.TShortShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteDoubleMap synchronizedMap(gnu.trove.map.TByteDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatCharMap synchronizedMap(gnu.trove.map.TFloatCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TLongObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TDoubleSet synchronizedSet(gnu.trove.set.TDoubleSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDoubleCollection boolean addAll(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortShortMap unmodifiableMap(gnu.trove.map.TShortShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharFloatMap synchronizedMap(gnu.trove.map.TCharFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongLongMap synchronizedMap(gnu.trove.map.TLongLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleFloatMap synchronizedMap(gnu.trove.map.TDoubleFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectCharMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectCharMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;T,java.lang.Byte&gt; wrap(gnu.trove.map.TObjectByteMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortByteMap unmodifiableMap(gnu.trove.map.TShortByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntDoubleMap synchronizedMap(gnu.trove.map.TIntDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TShortSet synchronizedSet(gnu.trove.set.TShortSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TFloatObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectIntMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectIntMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectLongMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectLongMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongByteMap unmodifiableMap(gnu.trove.map.TLongByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TShortList synchronizedList(gnu.trove.list.TShortList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharShortMap synchronizedMap(gnu.trove.map.TCharShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TLongCollection long[] toArray(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.List&lt;java.lang.Double&gt; wrap(gnu.trove.list.TDoubleList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Double,java.lang.Character&gt; wrap(gnu.trove.map.TDoubleCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Float,java.lang.Byte&gt; wrap(gnu.trove.map.TFloatByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TLongCollection boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntDoubleMap synchronizedMap(gnu.trove.map.TIntDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortLongMap synchronizedMap(gnu.trove.map.TShortLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntLongMap unmodifiableMap(gnu.trove.map.TIntLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Byte,java.lang.Integer&gt; wrap(gnu.trove.map.TByteIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongByteMap unmodifiableMap(gnu.trove.map.TLongByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Long,java.lang.Double&gt; wrap(gnu.trove.map.TLongDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleCharMap synchronizedMap(gnu.trove.map.TDoubleCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntShortMap synchronizedMap(gnu.trove.map.TIntShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharShortMap synchronizedMap(gnu.trove.map.TCharShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectShortMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectShortMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteIntMap unmodifiableMap(gnu.trove.map.TByteIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharByteMap unmodifiableMap(gnu.trove.map.TCharByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Set&lt;java.lang.Float&gt; wrap(gnu.trove.set.TFloatSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TShortCollection boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDoubleCollection boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharLongMap synchronizedMap(gnu.trove.map.TCharLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TLongCollection boolean addAll(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCharCollection boolean removeAll(gnu.trove.TCharCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TShortCollection gnu.trove.iterator.TShortIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TLongCollection gnu.trove.iterator.TLongIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Byte,T&gt; wrap(gnu.trove.map.TByteObjectMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharDoubleMap synchronizedMap(gnu.trove.map.TCharDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleIntMap unmodifiableMap(gnu.trove.map.TDoubleIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatCharMap synchronizedMap(gnu.trove.map.TFloatCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Byte,java.lang.Character&gt; wrap(gnu.trove.map.TByteCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TByteSet unmodifiableSet(gnu.trove.set.TByteSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongCharMap unmodifiableMap(gnu.trove.map.TLongCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection boolean containsAll(gnu.trove.TByteCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongDoubleMap synchronizedMap(gnu.trove.map.TLongDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortDoubleMap synchronizedMap(gnu.trove.map.TShortDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TLongCollection boolean removeAll(gnu.trove.TLongCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectCharMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectCharMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TLongObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectByteMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectByteMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectShortMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectShortMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Integer,java.lang.Byte&gt; wrap(gnu.trove.map.TIntByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TLongCollection long[] toArray(long[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TDoubleCollection unmodifiableCollection(gnu.trove.TDoubleCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TShortSet synchronizedSet(gnu.trove.set.TShortSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatLongMap unmodifiableMap(gnu.trove.map.TFloatLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Character,java.lang.Short&gt; wrap(gnu.trove.map.TCharShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectShortMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectShortMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatShortMap unmodifiableMap(gnu.trove.map.TFloatShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Short,java.lang.Long&gt; wrap(gnu.trove.map.TShortLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectFloatMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectFloatMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleCharMap synchronizedMap(gnu.trove.map.TDoubleCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectIntMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectIntMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TShortCollection boolean removeAll(gnu.trove.TShortCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TShortCollection boolean addAll(java.util.Collection&lt;? extends java.lang.Short&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TCharCollection synchronizedCollection(gnu.trove.TCharCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleCharMap unmodifiableMap(gnu.trove.map.TDoubleCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntLongMap unmodifiableMap(gnu.trove.map.TIntLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongCharMap synchronizedMap(gnu.trove.map.TLongCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortByteMap synchronizedMap(gnu.trove.map.TShortByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCharCollection char[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TDoubleList unmodifiableList(gnu.trove.list.TDoubleList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortDoubleMap unmodifiableMap(gnu.trove.map.TShortDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Integer,java.lang.Short&gt; wrap(gnu.trove.map.TIntShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TDoubleObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongIntMap synchronizedMap(gnu.trove.map.TLongIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleIntMap synchronizedMap(gnu.trove.map.TDoubleIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TLongList synchronizedList(gnu.trove.list.TLongList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Integer,java.lang.Integer&gt; wrap(gnu.trove.map.TIntIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCharCollection gnu.trove.iterator.TCharIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortShortMap unmodifiableMap(gnu.trove.map.TShortShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TShortList synchronizedList(gnu.trove.list.TShortList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleFloatMap synchronizedMap(gnu.trove.map.TDoubleFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Long,java.lang.Byte&gt; wrap(gnu.trove.map.TLongByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TFloatList unmodifiableList(gnu.trove.list.TFloatList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TIntList synchronizedList(gnu.trove.list.TIntList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Character,java.lang.Byte&gt; wrap(gnu.trove.map.TCharByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TCharCollection synchronizedCollection(gnu.trove.TCharCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Long,java.lang.Integer&gt; wrap(gnu.trove.map.TLongIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TDoubleObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectLongMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectLongMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongIntMap unmodifiableMap(gnu.trove.map.TLongIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleIntMap unmodifiableMap(gnu.trove.map.TDoubleIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TDoubleObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection boolean removeAll(byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortDoubleMap synchronizedMap(gnu.trove.map.TShortDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TShortObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongCharMap unmodifiableMap(gnu.trove.map.TLongCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Character,java.lang.Character&gt; wrap(gnu.trove.map.TCharCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortCharMap unmodifiableMap(gnu.trove.map.TShortCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TIntCollection int[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatLongMap unmodifiableMap(gnu.trove.map.TFloatLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TLongCollection boolean addAll(java.util.Collection&lt;? extends java.lang.Long&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntByteMap synchronizedMap(gnu.trove.map.TIntByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatDoubleMap unmodifiableMap(gnu.trove.map.TFloatDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortByteMap synchronizedMap(gnu.trove.map.TShortByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Float,java.lang.Integer&gt; wrap(gnu.trove.map.TFloatIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Short,java.lang.Float&gt; wrap(gnu.trove.map.TShortFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Integer,java.lang.Double&gt; wrap(gnu.trove.map.TIntDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatShortMap unmodifiableMap(gnu.trove.map.TFloatShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Long,java.lang.Float&gt; wrap(gnu.trove.map.TLongFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharByteMap unmodifiableMap(gnu.trove.map.TCharByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharIntMap synchronizedMap(gnu.trove.map.TCharIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatCharMap unmodifiableMap(gnu.trove.map.TFloatCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharShortMap unmodifiableMap(gnu.trove.map.TCharShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongByteMap synchronizedMap(gnu.trove.map.TLongByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TByteList unmodifiableList(gnu.trove.list.TByteList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Set&lt;java.lang.Short&gt; wrap(gnu.trove.set.TShortSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TShortCollection synchronizedCollection(gnu.trove.TShortCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Character,T&gt; wrap(gnu.trove.map.TCharObjectMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharFloatMap unmodifiableMap(gnu.trove.map.TCharFloatMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongLongMap unmodifiableMap(gnu.trove.map.TLongLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TCharCollection unmodifiableCollection(gnu.trove.TCharCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Byte,java.lang.Short&gt; wrap(gnu.trove.map.TByteShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectCharMap&lt;K&gt; synchronizedMap(gnu.trove.map.TObjectCharMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TLongCollection boolean removeAll(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TShortList unmodifiableList(gnu.trove.list.TShortList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortCharMap unmodifiableMap(gnu.trove.map.TShortCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectShortMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectShortMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharByteMap synchronizedMap(gnu.trove.map.TCharByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TLongObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongFloatMap unmodifiableMap(gnu.trove.map.TLongFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;T,java.lang.Long&gt; wrap(gnu.trove.map.TObjectLongMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TIntCollection boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleShortMap synchronizedMap(gnu.trove.map.TDoubleShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharLongMap unmodifiableMap(gnu.trove.map.TCharLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleCharMap unmodifiableMap(gnu.trove.map.TDoubleCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection boolean containsAll(gnu.trove.TFloatCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatFloatMap unmodifiableMap(gnu.trove.map.TFloatFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TShortObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongShortMap unmodifiableMap(gnu.trove.map.TLongShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCharCollection boolean containsAll(char[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortLongMap unmodifiableMap(gnu.trove.map.TShortLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteLongMap unmodifiableMap(gnu.trove.map.TByteLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TDoubleSet unmodifiableSet(gnu.trove.set.TDoubleSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TIntCollection boolean containsAll(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharByteMap synchronizedMap(gnu.trove.map.TCharByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectDoubleMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectDoubleMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TByteSet synchronizedSet(gnu.trove.set.TByteSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharCharMap unmodifiableMap(gnu.trove.map.TCharCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntShortMap unmodifiableMap(gnu.trove.map.TIntShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TLongList synchronizedList(gnu.trove.list.TLongList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TDoubleList unmodifiableList(gnu.trove.list.TDoubleList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TShortCollection boolean containsAll(short[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortFloatMap unmodifiableMap(gnu.trove.map.TShortFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TShortCollection boolean addAll(gnu.trove.TShortCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TFloatObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntDoubleMap unmodifiableMap(gnu.trove.map.TIntDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDoubleCollection gnu.trove.iterator.TDoubleIterator iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TIntCollection boolean removeAll(gnu.trove.TIntCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteFloatMap unmodifiableMap(gnu.trove.map.TByteFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCharCollection char[] toArray(char[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TIntSet synchronizedSet(gnu.trove.set.TIntSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TShortSet unmodifiableSet(gnu.trove.set.TShortSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteDoubleMap unmodifiableMap(gnu.trove.map.TByteDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TFloatCollection synchronizedCollection(gnu.trove.TFloatCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDoubleCollection boolean containsAll(double[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TDoubleObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongIntMap unmodifiableMap(gnu.trove.map.TLongIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.List&lt;java.lang.Short&gt; wrap(gnu.trove.list.TShortList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDoubleCollection double[] toArray()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TByteObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection boolean containsAll(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Double,java.lang.Double&gt; wrap(gnu.trove.map.TDoubleDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectFloatMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectFloatMap&lt;K&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Short,java.lang.Double&gt; wrap(gnu.trove.map.TShortDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortShortMap synchronizedMap(gnu.trove.map.TShortShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Float,T&gt; wrap(gnu.trove.map.TFloatObjectMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleByteMap synchronizedMap(gnu.trove.map.TDoubleByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection boolean removeAll(gnu.trove.TByteCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Float,java.lang.Character&gt; wrap(gnu.trove.map.TFloatCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCharCollection boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntShortMap synchronizedMap(gnu.trove.map.TIntShortMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Short,java.lang.Integer&gt; wrap(gnu.trove.map.TShortIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TFloatSet unmodifiableSet(gnu.trove.set.TFloatSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteByteMap synchronizedMap(gnu.trove.map.TByteByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortByteMap unmodifiableMap(gnu.trove.map.TShortByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharIntMap unmodifiableMap(gnu.trove.map.TCharIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TCharObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatShortMap synchronizedMap(gnu.trove.map.TFloatShortMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntObjectMap&lt;V&gt; synchronizedMap(gnu.trove.map.TIntObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharCharMap synchronizedMap(gnu.trove.map.TCharCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleLongMap unmodifiableMap(gnu.trove.map.TDoubleLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortIntMap synchronizedMap(gnu.trove.map.TShortIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongDoubleMap unmodifiableMap(gnu.trove.map.TLongDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntCharMap unmodifiableMap(gnu.trove.map.TIntCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteIntMap synchronizedMap(gnu.trove.map.TByteIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Character,java.lang.Double&gt; wrap(gnu.trove.map.TCharDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Set&lt;java.lang.Byte&gt; wrap(gnu.trove.set.TByteSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection float[] toArray(float[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharFloatMap synchronizedMap(gnu.trove.map.TCharFloatMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection byte[] toArray(byte[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongCharMap synchronizedMap(gnu.trove.map.TLongCharMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatObjectMap&lt;V&gt; unmodifiableMap(gnu.trove.map.TFloatObjectMap&lt;V&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TIntCollection synchronizedCollection(gnu.trove.TIntCollection)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongLongMap synchronizedMap(gnu.trove.map.TLongLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TFloatCollection boolean containsAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDoubleCollection double[] toArray(double[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TFloatList synchronizedList(gnu.trove.list.TFloatList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TCharDoubleMap unmodifiableMap(gnu.trove.map.TCharDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TDoubleCollection synchronizedCollection(gnu.trove.TDoubleCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleDoubleMap unmodifiableMap(gnu.trove.map.TDoubleDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection boolean addAll(gnu.trove.TByteCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Byte,java.lang.Long&gt; wrap(gnu.trove.map.TByteLongMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatByteMap unmodifiableMap(gnu.trove.map.TFloatByteMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TIntCollection boolean addAll(java.util.Collection&lt;? extends java.lang.Integer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteDoubleMap synchronizedMap(gnu.trove.map.TByteDoubleMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;T,java.lang.Double&gt; wrap(gnu.trove.map.TObjectDoubleMap&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TFloatCollection unmodifiableCollection(gnu.trove.TFloatCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TObjectByteMap&lt;K&gt; unmodifiableMap(gnu.trove.map.TObjectByteMap&lt;K&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TShortIntMap unmodifiableMap(gnu.trove.map.TShortIntMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TDoubleCollection boolean containsAll(gnu.trove.TDoubleCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TDecorators java.util.Map&lt;java.lang.Integer,java.lang.Character&gt; wrap(gnu.trove.map.TIntCharMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TByteLongMap synchronizedMap(gnu.trove.map.TByteLongMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TLongDoubleMap synchronizedMap(gnu.trove.map.TLongDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TByteSet unmodifiableSet(gnu.trove.set.TByteSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.list.TCharList synchronizedList(gnu.trove.list.TCharList)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TLongCollection unmodifiableCollection(gnu.trove.TLongCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TFloatSet synchronizedSet(gnu.trove.set.TFloatSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TLongSet synchronizedSet(gnu.trove.set.TLongSet) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TFloatByteMap synchronizedMap(gnu.trove.map.TFloatByteMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TByteCollection boolean removeAll(java.util.Collection&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TDoubleDoubleMap synchronizedMap(gnu.trove.map.TDoubleDoubleMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.TShortCollection unmodifiableCollection(gnu.trove.TShortCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.set.TCharSet unmodifiableSet(gnu.trove.set.TCharSet)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='gnu.trove.TCollections gnu.trove.map.TIntIntMap unmodifiableMap(gnu.trove.map.TIntIntMap)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

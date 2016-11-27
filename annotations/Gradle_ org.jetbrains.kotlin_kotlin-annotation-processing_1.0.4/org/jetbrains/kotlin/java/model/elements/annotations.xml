@@ -1,0 +1,548 @@
+<root>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String access$renderAnnotation(org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer, javax.lang.model.element.AnnotationMirror)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String access$withMargin(org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement java.util.List&lt;org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement&gt; getTypeParameters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeEnumValueAnnotationValue org.jetbrains.kotlin.com.intellij.psi.PsiEnumConstant getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationAnnotationValue JeAnnotationAnnotationValue(org.jetbrains.kotlin.com.intellij.psi.PsiAnnotation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement JeClassInitializerExecutableElement(org.jetbrains.kotlin.com.intellij.psi.PsiClassInitializer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement R accept(javax.lang.model.element.ElementVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement org.jetbrains.kotlin.java.model.JeName getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement org.jetbrains.kotlin.java.model.types.JeNoneType getReturnType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement org.jetbrains.kotlin.com.intellij.psi.PsiModifierListOwner getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeElementRenderer java.lang.String render(org.jetbrains.kotlin.java.model.JeElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement java.util.Set&lt;javax.lang.model.element.Modifier&gt; getModifiers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeExpressionAnnotationValue JeExpressionAnnotationValue(org.jetbrains.kotlin.com.intellij.psi.PsiExpression) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement A getAnnotation(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeErrorAnnotationValue R accept(javax.lang.model.element.AnnotationValueVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement java.util.List&lt;org.jetbrains.kotlin.java.model.elements.JeVariableElement&gt; getParameters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement java.util.Set&lt;javax.lang.model.element.Modifier&gt; getModifiers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement java.util.List&lt;javax.lang.model.type.TypeMirror&gt; getBounds()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement javax.lang.model.type.TypeMirror asType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationMirror javax.lang.model.type.DeclaredType getAnnotationType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement javax.lang.model.type.TypeMirror asType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElementKt javax.lang.model.type.TypeMirror getReceiverTypeMirror(org.jetbrains.kotlin.com.intellij.psi.PsiMethod) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement org.jetbrains.kotlin.java.model.JeName getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement org.jetbrains.kotlin.com.intellij.psi.PsiTypeParameter getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement java.util.List&lt;javax.lang.model.type.TypeMirror&gt; getThrownTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String access$getMARGIN$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement org.jetbrains.kotlin.com.intellij.psi.PsiElement getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement R accept(javax.lang.model.element.ElementVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement A getAnnotation(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement org.jetbrains.kotlin.com.intellij.psi.PsiModifierListOwner getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeAnnotationValue javax.lang.model.type.TypeMirror getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement org.jetbrains.kotlin.com.intellij.psi.PsiElement getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeSingletonArrayAnnotationValue org.jetbrains.kotlin.com.intellij.psi.PsiAnnotationMemberValue getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement javax.lang.model.element.ElementKind getKind()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement javax.lang.model.element.Name getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement java.util.List&lt;org.jetbrains.kotlin.java.model.JeElement&gt; getEnclosedElements()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement org.jetbrains.kotlin.java.model.types.JeNoneType getReceiverType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement javax.lang.model.element.ElementKind getKind()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement javax.lang.model.element.NestingKind getNestingKind()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement javax.lang.model.type.TypeMirror getReceiverType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement java.util.List&lt;org.jetbrains.kotlin.java.model.elements.JeAnnotationMirror&gt; getAnnotationMirrors()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeAnnotationValue JeTypeAnnotationValue(org.jetbrains.kotlin.com.intellij.psi.PsiClassObjectAccessExpression) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeAnnotationValue R accept(javax.lang.model.element.AnnotationValueVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement org.jetbrains.kotlin.com.intellij.psi.PsiPackage getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement org.jetbrains.kotlin.java.model.types.JePackageTypeMirror asType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement JeMethodExecutableElement(org.jetbrains.kotlin.com.intellij.psi.PsiMethod) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement javax.lang.model.type.TypeMirror asType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElementKt javax.lang.model.type.TypeMirror getReceiverTypeMirror(org.jetbrains.kotlin.com.intellij.psi.PsiMethod)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationAnnotationValue org.jetbrains.kotlin.java.model.elements.JeAnnotationMirror getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement javax.lang.model.type.TypeMirror getSuperclass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeErrorAnnotationValue org.jetbrains.kotlin.com.intellij.psi.PsiElement getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String access$getLINE_SEPARATOR$cp()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement org.jetbrains.kotlin.com.intellij.psi.PsiModifierListOwner getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeErrorAnnotationValue JeErrorAnnotationValue(org.jetbrains.kotlin.com.intellij.psi.PsiElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeExpressionAnnotationValue org.jetbrains.kotlin.com.intellij.psi.PsiExpression getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer Companion'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationAnnotationValue java.lang.Object getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String access$renderAnnotationValue(org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer, javax.lang.model.element.AnnotationValue) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement javax.lang.model.type.TypeMirror getReturnType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement javax.lang.model.element.ElementKind getKind()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationMirror java.util.Map&lt;? extends javax.lang.model.element.ExecutableElement,javax.lang.model.element.AnnotationValue&gt; getAllElementValues()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement java.util.List&lt;javax.lang.model.element.Element&gt; getEnclosedElements()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeEnumValueAnnotationValue org.jetbrains.kotlin.java.model.elements.JeVariableElement getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement java.util.List&lt;org.jetbrains.kotlin.java.model.elements.JeAnnotationMirror&gt; getAnnotationMirrors()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement R accept(javax.lang.model.element.ElementVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement org.jetbrains.kotlin.com.intellij.psi.PsiClass getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement JePackageElement(org.jetbrains.kotlin.com.intellij.psi.PsiPackage) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement java.util.List&lt;javax.lang.model.element.Element&gt; getAllMembers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeSingletonArrayAnnotationValue JeSingletonArrayAnnotationValue(org.jetbrains.kotlin.com.intellij.psi.PsiAnnotationMemberValue) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeArrayAnnotationValue java.lang.Object getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeEnumValueAnnotationValue JeEnumValueAnnotationValue(org.jetbrains.kotlin.com.intellij.psi.PsiEnumConstant) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement A getAnnotation(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement javax.lang.model.element.ElementKind getKind()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String render(org.jetbrains.kotlin.java.model.JeElement)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeAnnotationValue org.jetbrains.kotlin.com.intellij.psi.PsiClassObjectAccessExpression getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement javax.lang.model.element.ElementKind getKind()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement JeTypeElement(org.jetbrains.kotlin.com.intellij.psi.PsiClass) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement java.util.List&lt;javax.lang.model.type.TypeMirror&gt; getInterfaces()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer.WhenMappings $EnumSwitchMapping$0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement org.jetbrains.kotlin.java.model.JeName getQualifiedName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement R accept(javax.lang.model.element.ElementVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationAnnotationValue R accept(javax.lang.model.element.AnnotationValueVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement java.util.List&lt;javax.lang.model.element.Element&gt; getEnclosedElements()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement java.util.Set&lt;javax.lang.model.element.Modifier&gt; getModifiers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement java.util.List&lt;javax.lang.model.element.TypeParameterElement&gt; getTypeParameters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement org.jetbrains.kotlin.com.intellij.psi.PsiElement getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement R accept(javax.lang.model.element.ElementVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement javax.lang.model.type.TypeMirror asType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String access$renderAnnotation(org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer, javax.lang.model.element.AnnotationMirror) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement java.util.Set&lt;javax.lang.model.element.Modifier&gt; getModifiers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePrimitiveAnnotationValue R accept(javax.lang.model.element.AnnotationValueVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement org.jetbrains.kotlin.java.model.JeName getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement org.jetbrains.kotlin.java.model.JeName getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement javax.lang.model.element.Name getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeSingletonArrayAnnotationValue R accept(javax.lang.model.element.AnnotationValueVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationValueKt javax.lang.model.element.AnnotationValue JeAnnotationValue(org.jetbrains.kotlin.com.intellij.psi.PsiAnnotationMemberValue)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeEnumValueAnnotationValue java.lang.Object getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement javax.lang.model.element.Name getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement java.lang.Void getAnnotation(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeElementRenderer java.lang.String render(org.jetbrains.kotlin.java.model.JeElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement java.util.List&lt;org.jetbrains.kotlin.java.model.elements.JeTypeElement&gt; getEnclosedElements()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeSingletonArrayAnnotationValue java.lang.Object getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement java.util.List&lt;org.jetbrains.kotlin.java.model.elements.JeAnnotationMirror&gt; getAnnotationMirrors()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeLiteralAnnotationValue JeLiteralAnnotationValue(org.jetbrains.kotlin.com.intellij.psi.PsiLiteral) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String access$renderAnnotation(org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer, javax.lang.model.element.AnnotationMirror) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement JeTypeParameterElement(org.jetbrains.kotlin.com.intellij.psi.PsiTypeParameter, org.jetbrains.kotlin.java.model.JeElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement org.jetbrains.kotlin.com.intellij.psi.PsiModifierListOwner getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement java.util.List&lt;javax.lang.model.element.AnnotationMirror&gt; getAnnotationMirrors()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String access$renderAnnotationValue(org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer, javax.lang.model.element.AnnotationValue)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement javax.lang.model.element.Name getQualifiedName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement A getAnnotation(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement JeVariableElement(org.jetbrains.kotlin.com.intellij.psi.PsiVariable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationAnnotationValue org.jetbrains.kotlin.com.intellij.psi.PsiAnnotation getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement java.util.Set&lt;javax.lang.model.element.Modifier&gt; getModifiers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement org.jetbrains.kotlin.java.model.types.JeMethodExecutableTypeMirror asType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement javax.lang.model.element.Name getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement org.jetbrains.kotlin.com.intellij.psi.PsiElement getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement org.jetbrains.kotlin.com.intellij.psi.PsiModifierListOwner getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String access$renderAnnotationValue(org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer, javax.lang.model.element.AnnotationValue) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String render(org.jetbrains.kotlin.java.model.JeElement) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement org.jetbrains.kotlin.com.intellij.psi.PsiElement getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement javax.lang.model.type.TypeMirror getReturnType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement java.util.List&lt;javax.lang.model.element.Element&gt; getEnclosedElements()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement java.util.List&lt;javax.lang.model.element.Element&gt; getEnclosedElements()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement org.jetbrains.kotlin.com.intellij.psi.PsiVariable getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement java.util.List&lt;org.jetbrains.kotlin.java.model.elements.JeAnnotationMirror&gt; getAnnotationMirrors()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement java.util.List&lt;javax.lang.model.element.VariableElement&gt; getParameters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement java.util.List&lt;javax.lang.model.element.AnnotationMirror&gt; getAnnotationMirrors()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeArrayAnnotationValue JeArrayAnnotationValue(org.jetbrains.kotlin.com.intellij.psi.PsiArrayInitializerMemberValue) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement javax.lang.model.element.Name getQualifiedName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement org.jetbrains.kotlin.java.model.JeName getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeArrayAnnotationValue R accept(javax.lang.model.element.AnnotationValueVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement javax.lang.model.type.TypeMirror asType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeLiteralAnnotationValue org.jetbrains.kotlin.com.intellij.psi.PsiLiteral getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String access$withMargin(org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeArrayAnnotationValue java.util.List&lt;javax.lang.model.element.AnnotationValue&gt; getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement javax.lang.model.type.TypeMirror getReceiverType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement javax.lang.model.element.ElementKind getKind()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement java.util.Set&lt;javax.lang.model.element.Modifier&gt; getModifiers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeEnumValueAnnotationValue R accept(javax.lang.model.element.AnnotationValueVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationMirror java.util.Map&lt;? extends javax.lang.model.element.ExecutableElement,javax.lang.model.element.AnnotationValue&gt; getElementValues()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeArrayAnnotationValue org.jetbrains.kotlin.com.intellij.psi.PsiArrayInitializerMemberValue getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement org.jetbrains.kotlin.com.intellij.psi.PsiMethod getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement org.jetbrains.kotlin.java.model.JeName getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationMirror JeAnnotationMirror(org.jetbrains.kotlin.com.intellij.psi.PsiAnnotation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement java.lang.Void getAnnotation(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeSingletonArrayAnnotationValue java.util.List&lt;javax.lang.model.element.AnnotationValue&gt; getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeVariableElement javax.lang.model.type.TypeMirror asType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement A[] getAnnotationsByType(java.lang.Class&lt;A&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement org.jetbrains.kotlin.com.intellij.psi.PsiElement getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeMethodExecutableElement org.jetbrains.kotlin.com.intellij.psi.PsiModifierListOwner getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeAnnotationValue java.lang.Object getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationMirror org.jetbrains.kotlin.com.intellij.psi.PsiAnnotation getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement R accept(javax.lang.model.element.ElementVisitor&lt;R,P&gt;, P) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeAnnotationValueKt javax.lang.model.element.AnnotationValue JeAnnotationValue(org.jetbrains.kotlin.com.intellij.psi.PsiAnnotationMemberValue) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement org.jetbrains.kotlin.java.model.types.JeClassInitializerExecutableTypeMirror asType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer java.lang.String access$withMargin(org.jetbrains.kotlin.java.model.elements.DefaultJeElementRenderer, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement org.jetbrains.kotlin.java.model.JeName getQualifiedName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement org.jetbrains.kotlin.com.intellij.psi.PsiClassInitializer getPsi()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeClassInitializerExecutableElement java.util.List&lt;javax.lang.model.type.TypeMirror&gt; getThrownTypes()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JePackageElement javax.lang.model.element.Name getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement java.util.List&lt;org.jetbrains.kotlin.java.model.elements.JeTypeParameterElement&gt; getTypeParameters()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.jetbrains.kotlin.java.model.elements.JeTypeElement javax.lang.model.element.Name getSimpleName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

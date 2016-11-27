@@ -1,0 +1,44 @@
+<root>
+    <item name='net.minecraftforge.fluids.capability.templates.FluidHandlerItemStackSimple FLUID_NBT_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.EmptyFluidHandler EMPTY_TANK_INFO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.EmptyFluidHandler INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.EmptyFluidHandler net.minecraftforge.fluids.capability.IFluidTankProperties[] getTankProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.FluidHandlerItemStack void setFluid(net.minecraftforge.fluids.FluidStack) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.EmptyFluidHandler EMPTY_TANK_PROPERTIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.FluidHandlerItemStackSimple void setFluid(net.minecraftforge.fluids.FluidStack) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.FluidHandlerConcatenate FluidHandlerConcatenate(java.util.Collection&lt;net.minecraftforge.fluids.capability.IFluidHandler&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.EmptyFluidHandler net.minecraftforge.fluids.FluidTankInfo getInfo()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.FluidHandlerItemStackSimple net.minecraftforge.fluids.capability.IFluidTankProperties[] getTankProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.FluidHandlerFluidMap net.minecraftforge.fluids.capability.templates.FluidHandlerFluidMap addHandler(net.minecraftforge.fluids.Fluid, net.minecraftforge.fluids.capability.IFluidHandler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.FluidHandlerItemStack net.minecraftforge.fluids.capability.IFluidTankProperties[] getTankProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.FluidHandlerItemStack FLUID_NBT_KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.templates.EmptyFluidHandler EMPTY_TANK_PROPERTIES_ARRAY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

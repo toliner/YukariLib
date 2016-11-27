@@ -1,0 +1,233 @@
+<root>
+    <item name='akka.serialization.Serialization Serialization(akka.actor.ExtendedActorSystem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.JavaSerializer java.lang.Object fromBinary(byte[], scala.Option&lt;java.lang.Class&lt;?&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.5 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.JavaSerializer$ akka.serialization.JavaSerializer.CurrentSystem currentSystem()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension$ akka.actor.Extension apply(akka.actor.ActorSystem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.6 java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.JavaSerializer$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.NullSerializer$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.9 scala.Tuple2&lt;java.lang.Object,akka.serialization.Serializer&gt; apply(scala.Tuple2&lt;java.lang.Object,akka.serialization.Serializer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.6 scala.Tuple2&lt;java.lang.Class&lt;java.lang.Object&gt;,akka.serialization.Serializer&gt; apply(scala.Tuple2&lt;java.lang.String,java.lang.String&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.sort.1 scala.collection.mutable.ArrayBuffer&lt;scala.Tuple2&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;&gt; apply(scala.collection.mutable.ArrayBuffer&lt;scala.Tuple2&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;&gt;, scala.Tuple2&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.serializerOf.1 1(akka.serialization.Serialization, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serializer java.lang.Object fromBinary(byte[], scala.Option&lt;java.lang.Class&lt;?&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.6 scala.Tuple2&lt;java.lang.Class&lt;java.lang.Object&gt;,akka.serialization.Serializer&gt; apply(scala.Tuple2&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.3 3(akka.serialization.Serialization) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.sort.1 scala.collection.mutable.ArrayBuffer&lt;scala.Tuple2&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;&gt; apply(scala.collection.mutable.ArrayBuffer&lt;scala.Tuple2&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;&gt;, scala.Tuple2&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization.Information java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization akka.serialization.Serializer findSerializerFor(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension akka.serialization.Serialization createExtension(akka.actor.ExtendedActorSystem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.6 6(akka.serialization.Serialization) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.sort.1..anonfun.7 boolean apply(scala.Tuple2&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization.Settings..anonfun.configToMap.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension$ akka.actor.Extension createExtension(akka.actor.ExtendedActorSystem)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.1 boolean apply(scala.Tuple2&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.9 scala.Tuple2&lt;java.lang.Object,akka.serialization.Serializer&gt; apply(scala.Tuple2&lt;java.lang.Object,akka.serialization.Serializer&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization.Information akka.serialization.Serialization.Information copy(akka.actor.Address, akka.actor.ActorSystem)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.9 java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension$ akka.actor.ExtensionId lookup()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.deserialize.1 1(akka.serialization.Serialization, byte[], int, scala.Option) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.unique.1.1 boolean apply(scala.Tuple2&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.NullSerializer java.lang.Object fromBinary(byte[], scala.Option&lt;java.lang.Class&lt;?&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.serialization.Serializer.class java.lang.Object fromBinary(akka.serialization.Serializer, byte[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension$ akka.serialization.SerializationExtension$ lookup()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization.Information$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization$ scala.util.DynamicVariable&lt;akka.serialization.Serialization.Information&gt; currentTransportInformation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.8 java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.unique.1.2 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension$ akka.serialization.Serialization createExtension(akka.actor.ExtendedActorSystem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization.Information$ akka.serialization.Serialization.Information apply(akka.actor.Address, akka.actor.ActorSystem)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization$ java.lang.String serializedActorPath(akka.actor.ActorRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.unique.1.2 boolean apply(scala.Tuple2&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.sort.1 java.lang.Object apply(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.sort.1..anonfun.7 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.5 boolean apply(scala.Tuple2&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.deserialize.2 2(akka.serialization.Serialization, byte[], java.lang.Class) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.serialize.1 1(akka.serialization.Serialization, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.8 java.util.concurrent.ConcurrentHashMap&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt; apply(java.util.concurrent.ConcurrentHashMap&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;, scala.Tuple2&lt;java.lang.Class&lt;?&gt;,akka.serialization.Serializer&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.unique.1.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.JavaSerializer akka.serialization.JavaSerializer.CurrentSystem currentSystem()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension akka.serialization.Serialization createExtension(akka.actor.ExtendedActorSystem)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension akka.serialization.SerializationExtension$ lookup()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization java.lang.String serializedActorPath(akka.actor.ActorRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization akka.serialization.Serializer serializerFor(java.lang.Class&lt;?&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.9 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.ByteArraySerializer java.lang.Object fromBinary(byte[], scala.Option&lt;java.lang.Class&lt;?&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.sort.1 java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.6 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension akka.actor.Extension apply(akka.actor.ActorSystem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.JSerializer java.lang.Object fromBinary(byte[], scala.Option&lt;java.lang.Class&lt;?&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.3 scala.Tuple2&lt;java.lang.String,akka.serialization.Serializer&gt; apply(scala.Tuple2&lt;java.lang.String,java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization..anonfun.3 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization akka.serialization.Serialization.Settings settings()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serializer.class java.lang.Object fromBinary(akka.serialization.Serializer, byte[], java.lang.Class) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization akka.actor.ExtendedActorSystem system()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension$ akka.actor.Extension createExtension(akka.actor.ExtendedActorSystem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization.Settings..anonfun.configToMap.1 scala.Tuple2&lt;java.lang.String,java.lang.String&gt; apply(scala.Tuple2&lt;java.lang.String,java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization.Information$ java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.SerializationExtension$ akka.serialization.Serialization createExtension(akka.actor.ExtendedActorSystem)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization akka.event.LoggingAdapter log()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='akka.serialization.Serialization.Information$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

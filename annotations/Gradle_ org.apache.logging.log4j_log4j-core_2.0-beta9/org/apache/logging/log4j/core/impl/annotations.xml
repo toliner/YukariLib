@@ -1,0 +1,89 @@
+<root>
+    <item name='org.apache.logging.log4j.core.impl.Log4jLogEvent org.apache.logging.log4j.core.impl.Log4jLogEvent deserialize(java.io.Serializable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.Log4jLogEvent java.io.Serializable serialize(org.apache.logging.log4j.core.impl.Log4jLogEvent, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableFormatOptions DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableProxy ThrowableProxy(java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableFormatOptions CLASS_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.Log4jContextFactory org.apache.logging.log4j.spi.LoggerContext getContext(java.lang.String, java.lang.ClassLoader, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableFormatOptions LINE_NUMBER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableFormatOptions LOCALIZED_MESSAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.Log4jContextFactory org.apache.logging.log4j.spi.LoggerContext getContext(java.lang.String, java.lang.ClassLoader, boolean, java.net.URI)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableProxy void formatWrapper(java.lang.StringBuilder, org.apache.logging.log4j.core.impl.ThrowableProxy, java.util.List&lt;java.lang.String&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableProxy void formatWrapper(java.lang.StringBuilder, org.apache.logging.log4j.core.impl.ThrowableProxy) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.DefaultLogEventFactory org.apache.logging.log4j.core.LogEvent createEvent(java.lang.String, org.apache.logging.log4j.Marker, java.lang.String, org.apache.logging.log4j.Level, org.apache.logging.log4j.message.Message, java.util.List&lt;org.apache.logging.log4j.core.config.Property&gt;, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.Log4jContextFactory org.apache.logging.log4j.core.LoggerContext getContext(java.lang.String, java.lang.ClassLoader, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.Log4jLogEvent org.apache.logging.log4j.core.impl.Log4jLogEvent createEvent(java.lang.String, org.apache.logging.log4j.Marker, java.lang.String, org.apache.logging.log4j.Level, org.apache.logging.log4j.message.Message, org.apache.logging.log4j.core.impl.ThrowableProxy, java.util.Map&lt;java.lang.String,java.lang.String&gt;, org.apache.logging.log4j.ThreadContext.ContextStack, java.lang.String, java.lang.StackTraceElement, long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableProxy org.apache.logging.log4j.core.impl.StackTracePackageElement[] getPackageData()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableFormatOptions org.apache.logging.log4j.core.impl.ThrowableFormatOptions newInstance(java.lang.String[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.Log4jContextFactory org.apache.logging.log4j.core.LoggerContext getContext(java.lang.String, java.lang.ClassLoader, boolean, java.net.URI)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableFormatOptions METHOD_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableProxy void formatWrapper(java.lang.StringBuilder, org.apache.logging.log4j.core.impl.ThrowableProxy, java.util.List&lt;java.lang.String&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.LogEventFactory org.apache.logging.log4j.core.LogEvent createEvent(java.lang.String, org.apache.logging.log4j.Marker, java.lang.String, org.apache.logging.log4j.Level, org.apache.logging.log4j.message.Message, java.util.List&lt;org.apache.logging.log4j.core.config.Property&gt;, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.Log4jLogEvent java.lang.Object writeReplace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ContextAnchor THREAD_CONTEXT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableFormatOptions MESSAGE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableFormatOptions FILE_NAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableProxy void formatWrapper(java.lang.StringBuilder, org.apache.logging.log4j.core.impl.ThrowableProxy) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.Log4jLogEvent org.apache.logging.log4j.core.impl.Log4jLogEvent deserialize(java.io.Serializable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.Log4jLogEvent java.io.Serializable serialize(org.apache.logging.log4j.core.impl.Log4jLogEvent, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.impl.ThrowableProxy java.lang.Throwable getThrowable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

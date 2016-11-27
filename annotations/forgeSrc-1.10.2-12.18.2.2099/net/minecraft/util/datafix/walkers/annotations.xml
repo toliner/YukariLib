@@ -1,0 +1,17 @@
+<root>
+    <item name='net.minecraft.util.datafix.walkers.BlockEntityTag net.minecraft.nbt.NBTTagCompound process(net.minecraft.util.datafix.IDataFixer, net.minecraft.nbt.NBTTagCompound, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.datafix.walkers.BlockEntityTag net.minecraft.nbt.NBTTagCompound process(net.minecraft.util.datafix.IDataFixer, net.minecraft.nbt.NBTTagCompound, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.datafix.walkers.EntityTag net.minecraft.nbt.NBTTagCompound process(net.minecraft.util.datafix.IDataFixer, net.minecraft.nbt.NBTTagCompound, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.datafix.walkers.EntityTag net.minecraft.nbt.NBTTagCompound process(net.minecraft.util.datafix.IDataFixer, net.minecraft.nbt.NBTTagCompound, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.datafix.walkers.Filtered net.minecraft.nbt.NBTTagCompound process(net.minecraft.util.datafix.IDataFixer, net.minecraft.nbt.NBTTagCompound, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

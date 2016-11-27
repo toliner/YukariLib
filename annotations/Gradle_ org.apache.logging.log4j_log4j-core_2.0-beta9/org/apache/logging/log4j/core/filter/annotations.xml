@@ -1,0 +1,257 @@
+<root>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, org.apache.logging.log4j.message.Message, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.TimeFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.CompositeFilter org.apache.logging.log4j.core.filter.CompositeFilter addFilter(org.apache.logging.log4j.core.Filter)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.MarkerFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.String, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.DynamicThresholdFilter java.lang.String getKey()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.ThreadContextMapFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.String, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.Object, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.DynamicThresholdFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.DynamicThresholdFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.Object, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.CompositeFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, org.apache.logging.log4j.message.Message, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter org.apache.logging.log4j.core.Filter.Result getOnMismatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.DynamicThresholdFilter org.apache.logging.log4j.core.filter.DynamicThresholdFilter createFilter(java.lang.String, org.apache.logging.log4j.core.helpers.KeyValuePair[], java.lang.String, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, org.apache.logging.log4j.message.Message, java.lang.Throwable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.CompositeFilter org.apache.logging.log4j.core.filter.CompositeFilter createFilters(org.apache.logging.log4j.core.Filter[])'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.ThresholdFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.String, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.MarkerFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.Object, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.TimeFilter org.apache.logging.log4j.core.filter.TimeFilter createFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.MapFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, org.apache.logging.log4j.message.Message, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.ThresholdFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.Object, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.ThreadContextMapFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.CompositeFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.String, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.BurstFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter org.apache.logging.log4j.core.Filter.Result getOnMatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.StructuredDataFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.MapFilter MapFilter(java.util.Map&lt;java.lang.String,java.util.List&lt;java.lang.String&gt;&gt;, boolean, org.apache.logging.log4j.core.Filter.Result, org.apache.logging.log4j.core.Filter.Result) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter onMatch'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.DynamicThresholdFilter org.apache.logging.log4j.core.filter.DynamicThresholdFilter createFilter(java.lang.String, org.apache.logging.log4j.core.helpers.KeyValuePair[], java.lang.String, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.RegexFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.CompositeFilter org.apache.logging.log4j.core.Filter.Result getOnMatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter onMismatch'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.ThresholdFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, org.apache.logging.log4j.message.Message, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.MarkerFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.Object, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.RegexFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, org.apache.logging.log4j.message.Message, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.CompositeFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.Object, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.MapFilter java.util.Map&lt;java.lang.String,java.util.List&lt;java.lang.String&gt;&gt; getMap()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.DynamicThresholdFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, org.apache.logging.log4j.message.Message, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.CompositeFilter org.apache.logging.log4j.core.Filter.Result getOnMismatch()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.BurstFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.String, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.String, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.ThreadContextMapFilter ThreadContextMapFilter(java.util.Map&lt;java.lang.String,java.util.List&lt;java.lang.String&gt;&gt;, boolean, org.apache.logging.log4j.core.Filter.Result, org.apache.logging.log4j.core.Filter.Result) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.RegexFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.String, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.RegexFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.Object, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.MarkerFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, org.apache.logging.log4j.message.Message, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.CompositeFilter org.apache.logging.log4j.core.filter.CompositeFilter removeFilter(org.apache.logging.log4j.core.Filter)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.ThresholdFilter org.apache.logging.log4j.core.filter.ThresholdFilter createFilter(java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.BurstFilter org.apache.logging.log4j.core.filter.BurstFilter createFilter(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.ThreadContextMapFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, org.apache.logging.log4j.message.Message, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.ThreadContextMapFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.Object, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.BurstFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.Object, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.CompositeFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.DynamicThresholdFilter org.apache.logging.log4j.core.filter.DynamicThresholdFilter createFilter(java.lang.String, org.apache.logging.log4j.core.helpers.KeyValuePair[], java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.MapFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.StructuredDataFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, org.apache.logging.log4j.message.Message, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.ThresholdFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.BurstFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, org.apache.logging.log4j.message.Message, java.lang.Throwable) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.DynamicThresholdFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.String, java.lang.Object...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.filter.AbstractFilter org.apache.logging.log4j.core.Filter.Result filter(org.apache.logging.log4j.core.Logger, org.apache.logging.log4j.Level, org.apache.logging.log4j.Marker, java.lang.String, java.lang.Object...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

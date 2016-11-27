@@ -1,0 +1,122 @@
+<root>
+    <item name='net.minecraftforge.client.ForgeHooksClient com.google.common.base.Optional&lt;net.minecraftforge.common.model.TRSRTransformation&gt; applyTransform(net.minecraft.client.renderer.block.model.ItemTransformVec3f, com.google.common.base.Optional&lt;? extends net.minecraftforge.common.model.IModelPart&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraft.client.renderer.block.model.BlockFaceUV applyUVLock(net.minecraft.client.renderer.block.model.BlockFaceUV, net.minecraft.util.EnumFacing, net.minecraftforge.common.model.ITransformation) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void postDraw(net.minecraft.client.renderer.vertex.VertexFormatElement.EnumUsage, net.minecraft.client.renderer.vertex.VertexFormat, int, int, java.nio.ByteBuffer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void preDraw(net.minecraft.client.renderer.vertex.VertexFormatElement.EnumUsage, net.minecraft.client.renderer.vertex.VertexFormat, int, int, java.nio.ByteBuffer) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient javax.vecmath.Matrix4f getMatrix(net.minecraft.client.renderer.block.model.ModelRotation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraftforge.client.event.ScreenshotEvent onScreenshot(java.awt.image.BufferedImage, java.io.File)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient boolean shouldCauseBlockBreakReset(net.minecraft.item.ItemStack, net.minecraft.item.ItemStack) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void onModelBake(net.minecraft.client.renderer.block.model.ModelManager, net.minecraft.util.registry.IRegistry&lt;net.minecraft.client.renderer.block.model.ModelResourceLocation,net.minecraft.client.renderer.block.model.IBakedModel&gt;, net.minecraftforge.client.model.ModelLoader) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void transform(org.lwjgl.util.vector.Vector3f, javax.vecmath.Matrix4f) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraft.client.renderer.block.model.IBakedModel getDamageModel(net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.block.state.IBlockState, net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient int getSkyBlendColour(net.minecraft.world.World, net.minecraft.util.math.BlockPos) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void preDraw(net.minecraft.client.renderer.vertex.VertexFormatElement.EnumUsage, net.minecraft.client.renderer.vertex.VertexFormat, int, int, java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraftforge.client.event.RenderGameOverlayEvent.BossInfo bossBarRenderPre(net.minecraft.client.gui.ScaledResolution, net.minecraft.world.BossInfoLerping, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraft.client.renderer.block.model.IBakedModel handleCameraTransforms(net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.client.renderer.block.model.ItemCameraTransforms.TransformType, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraft.client.renderer.block.model.BlockFaceUV applyUVLock(net.minecraft.client.renderer.block.model.BlockFaceUV, net.minecraft.util.EnumFacing, net.minecraftforge.common.model.ITransformation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void putQuadColor(net.minecraft.client.renderer.VertexBuffer, net.minecraft.client.renderer.block.model.BakedQuad, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraft.client.renderer.block.model.BlockFaceUV applyUVLock(net.minecraft.client.renderer.block.model.BlockFaceUV, net.minecraft.util.EnumFacing, net.minecraftforge.common.model.ITransformation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraft.client.renderer.block.model.BlockFaceUV applyUVLock(net.minecraft.client.renderer.block.model.BlockFaceUV, net.minecraft.util.EnumFacing, net.minecraftforge.common.model.ITransformation) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient boolean shouldCauseBlockBreakReset(net.minecraft.item.ItemStack, net.minecraft.item.ItemStack) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void orientBedCamera(net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos, net.minecraft.block.state.IBlockState, net.minecraft.entity.Entity) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void fillNormal(int[], net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraft.client.renderer.block.model.IBakedModel getDamageModel(net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.block.state.IBlockState, net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient javax.vecmath.Matrix4f getMatrix(net.minecraft.client.renderer.block.model.ItemTransformVec3f)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void transform(org.lwjgl.util.vector.Vector3f, javax.vecmath.Matrix4f) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void onModelBake(net.minecraft.client.renderer.block.model.ModelManager, net.minecraft.util.registry.IRegistry&lt;net.minecraft.client.renderer.block.model.ModelResourceLocation,net.minecraft.client.renderer.block.model.IBakedModel&gt;, net.minecraftforge.client.model.ModelLoader) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.GuiIngameForge GuiIngameForge(net.minecraft.client.Minecraft) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraft.client.renderer.block.model.IBakedModel getDamageModel(net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.block.state.IBlockState, net.minecraft.world.IBlockAccess, net.minecraft.util.math.BlockPos) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void postDraw(net.minecraft.client.renderer.vertex.VertexFormatElement.EnumUsage, net.minecraft.client.renderer.vertex.VertexFormat, int, int, java.nio.ByteBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraft.client.model.ModelBiped getArmorModel(net.minecraft.entity.EntityLivingBase, net.minecraft.item.ItemStack, net.minecraft.inventory.EntityEquipmentSlot, net.minecraft.client.model.ModelBiped) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void preDraw(net.minecraft.client.renderer.vertex.VertexFormatElement.EnumUsage, net.minecraft.client.renderer.vertex.VertexFormat, int, int, java.nio.ByteBuffer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient void onTextureStitchedPre(net.minecraft.client.renderer.texture.TextureMap) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient java.lang.String fixDomain(java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient javax.vecmath.Matrix4f getMatrix(net.minecraft.client.renderer.block.model.ModelRotation)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ClientCommandHandler instance'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient javax.vecmath.Matrix4f getMatrix(net.minecraft.client.renderer.block.model.ItemTransformVec3f) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient com.google.common.base.Optional&lt;net.minecraftforge.common.model.TRSRTransformation&gt; applyTransform(javax.vecmath.Matrix4f, com.google.common.base.Optional&lt;? extends net.minecraftforge.common.model.IModelPart&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient net.minecraft.client.audio.ISound playSound(net.minecraft.client.audio.SoundManager, net.minecraft.client.audio.ISound) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ForgeHooksClient java.lang.String getArmorTexture(net.minecraft.entity.Entity, net.minecraft.item.ItemStack, java.lang.String, net.minecraft.inventory.EntityEquipmentSlot, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.MinecraftForgeClient net.minecraft.world.ChunkCache getRegionRenderCache(net.minecraft.world.World, net.minecraft.util.math.BlockPos) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.client.ClientCommandHandler void autoComplete(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

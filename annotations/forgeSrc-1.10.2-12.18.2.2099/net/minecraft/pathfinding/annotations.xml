@@ -1,0 +1,338 @@
+<root>
+    <item name='net.minecraft.pathfinding.PathWorldListener void notifyBlockUpdate(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.block.state.IBlockState, net.minecraft.block.state.IBlockState, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.Path net.minecraft.util.math.Vec3d getVectorFromIndex(net.minecraft.entity.Entity, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.Path net.minecraft.pathfinding.Path read(net.minecraft.network.PacketBuffer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType TRAPDOOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathFinder net.minecraft.pathfinding.Path findPath(net.minecraft.world.IBlockAccess, net.minecraft.entity.EntityLiving, net.minecraft.util.math.BlockPos, float) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigate net.minecraft.pathfinding.PathFinder getPathFinder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType DAMAGE_CACTUS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathHeap net.minecraft.pathfinding.PathPoint dequeue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.Path net.minecraft.util.math.Vec3d getPosition(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateGround net.minecraft.pathfinding.PathFinder getPathFinder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathPoint float distanceToSquared(net.minecraft.pathfinding.PathPoint) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType RAIL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathHeap net.minecraft.pathfinding.PathPoint addPoint(net.minecraft.pathfinding.PathPoint) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigate net.minecraft.util.math.Vec3d getEntityPosition()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.NodeProcessor pointMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathPoint net.minecraft.pathfinding.PathPoint createFromBuffer(net.minecraft.network.PacketBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateGround boolean isDirectPathBetweenPoints(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d, int, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.Path net.minecraft.util.math.Vec3d getPosition(net.minecraft.entity.Entity)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigate net.minecraft.pathfinding.Path getPathToPos(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateGround net.minecraft.pathfinding.Path getPathToEntityLiving(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateSwimmer PathNavigateSwimmer(net.minecraft.entity.EntityLiving, net.minecraft.world.World) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathPoint float distanceManhattan(net.minecraft.pathfinding.PathPoint) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType DOOR_OPEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.NodeProcessor net.minecraft.pathfinding.PathNodeType getPathNodeType(net.minecraft.world.IBlockAccess, int, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.NodeProcessor void initProcessor(net.minecraft.world.IBlockAccess, net.minecraft.entity.EntityLiving) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.Path Path(net.minecraft.pathfinding.PathPoint[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType FENCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType OPEN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathFinder net.minecraft.pathfinding.Path findPath(net.minecraft.world.IBlockAccess, net.minecraft.entity.EntityLiving, net.minecraft.entity.Entity, float) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateSwimmer boolean isDirectPathBetweenPoints(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d, int, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathHeap net.minecraft.pathfinding.PathPoint addPoint(net.minecraft.pathfinding.PathPoint)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.SwimNodeProcessor net.minecraft.pathfinding.PathNodeType getPathNodeType(net.minecraft.world.IBlockAccess, int, int, int, net.minecraft.entity.EntityLiving, int, int, int, boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.SwimNodeProcessor net.minecraft.pathfinding.PathNodeType getPathNodeType(net.minecraft.world.IBlockAccess, int, int, int, net.minecraft.entity.EntityLiving, int, int, int, boolean, boolean) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.NodeProcessor int findPathOptions(net.minecraft.pathfinding.PathPoint[], net.minecraft.pathfinding.PathPoint, net.minecraft.pathfinding.PathPoint, float) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateClimber boolean tryMoveToEntityLiving(net.minecraft.entity.Entity, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType DAMAGE_FIRE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathWorldListener boolean didBlockChange(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.block.state.IBlockState, net.minecraft.block.state.IBlockState) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathWorldListener void notifyLightSet(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.WalkNodeProcessor net.minecraft.pathfinding.PathNodeType getPathNodeType(net.minecraft.world.IBlockAccess, int, int, int, net.minecraft.entity.EntityLiving, int, int, int, boolean, boolean) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateGround boolean isDirectPathBetweenPoints(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d, int, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType DOOR_IRON_CLOSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType DANGER_CACTUS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathPoint net.minecraft.pathfinding.PathPoint cloneMove(int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateGround net.minecraft.pathfinding.Path getPathToPos(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathWorldListener void onEntityAdded(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.SwimNodeProcessor net.minecraft.pathfinding.PathNodeType getPathNodeType(net.minecraft.world.IBlockAccess, int, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigate boolean canEntityStandOnPos(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathWorldListener void notifyBlockUpdate(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.block.state.IBlockState, net.minecraft.block.state.IBlockState, int) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigate boolean isDirectPathBetweenPoints(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d, int, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateClimber net.minecraft.pathfinding.Path getPathToPos(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateSwimmer net.minecraft.pathfinding.PathFinder getPathFinder()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType DANGER_FIRE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateSwimmer boolean isDirectPathBetweenPoints(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d, int, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType WALKABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathPoint net.minecraft.pathfinding.PathPoint createFromBuffer(net.minecraft.network.PacketBuffer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathPoint float distanceTo(net.minecraft.pathfinding.PathPoint) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathFinder net.minecraft.pathfinding.Path findPath(net.minecraft.world.IBlockAccess, net.minecraft.entity.EntityLiving, net.minecraft.entity.Entity, float) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.WalkNodeProcessor net.minecraft.pathfinding.PathNodeType getPathNodeType(net.minecraft.world.IBlockAccess, int, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathHeap void changeDistance(net.minecraft.pathfinding.PathPoint, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.NodeProcessor net.minecraft.pathfinding.PathNodeType getPathNodeType(net.minecraft.world.IBlockAccess, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType LAVA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateSwimmer boolean canEntityStandOnPos(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType DAMAGE_OTHER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathWorldListener boolean didBlockChange(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.block.state.IBlockState, net.minecraft.block.state.IBlockState) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType WATER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateGround PathNavigateGround(net.minecraft.entity.EntityLiving, net.minecraft.world.World) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigate PathNavigate(net.minecraft.entity.EntityLiving, net.minecraft.world.World) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigate net.minecraft.pathfinding.Path getPathToEntityLiving(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.Path net.minecraft.util.math.Vec3d getCurrentPos()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathWorldListener void onEntityRemoved(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.NodeProcessor net.minecraft.pathfinding.PathPoint openPoint(int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathFinder net.minecraft.pathfinding.Path findPath(net.minecraft.world.IBlockAccess, net.minecraft.entity.EntityLiving, net.minecraft.util.math.BlockPos, float) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathWorldListener void notifyBlockUpdate(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.block.state.IBlockState, net.minecraft.block.state.IBlockState, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateClimber net.minecraft.pathfinding.Path getPathToEntityLiving(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigate boolean isDirectPathBetweenPoints(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d, int, int, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateClimber PathNavigateClimber(net.minecraft.entity.EntityLiving, net.minecraft.world.World) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.Path net.minecraft.util.math.Vec3d getVectorFromIndex(net.minecraft.entity.Entity, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.WalkNodeProcessor void initProcessor(net.minecraft.world.IBlockAccess, net.minecraft.entity.EntityLiving) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateSwimmer net.minecraft.util.math.Vec3d getEntityPosition()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.NodeProcessor net.minecraft.pathfinding.PathNodeType getPathNodeType(net.minecraft.world.IBlockAccess, int, int, int, net.minecraft.entity.EntityLiving, int, int, int, boolean, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.Path net.minecraft.pathfinding.Path read(net.minecraft.network.PacketBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigateGround net.minecraft.util.math.Vec3d getEntityPosition()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.SwimNodeProcessor int findPathOptions(net.minecraft.pathfinding.PathPoint[], net.minecraft.pathfinding.PathPoint, net.minecraft.pathfinding.PathPoint, float) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.PathWorldListener void playEvent(net.minecraft.entity.player.EntityPlayer, int, net.minecraft.util.math.BlockPos, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.SwimNodeProcessor net.minecraft.pathfinding.PathNodeType getPathNodeType(net.minecraft.world.IBlockAccess, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType DANGER_OTHER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.WalkNodeProcessor int findPathOptions(net.minecraft.pathfinding.PathPoint[], net.minecraft.pathfinding.PathPoint, net.minecraft.pathfinding.PathPoint, float) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.WalkNodeProcessor net.minecraft.pathfinding.PathNodeType getPathNodeType(net.minecraft.world.IBlockAccess, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.NodeProcessor net.minecraft.pathfinding.PathNodeType getPathNodeType(net.minecraft.world.IBlockAccess, int, int, int, net.minecraft.entity.EntityLiving, int, int, int, boolean, boolean) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType DOOR_WOOD_CLOSED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNavigate boolean tryMoveToEntityLiving(net.minecraft.entity.Entity, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.pathfinding.PathNodeType BLOCKED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

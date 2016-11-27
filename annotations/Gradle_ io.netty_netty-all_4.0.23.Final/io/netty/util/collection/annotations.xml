@@ -1,0 +1,32 @@
+<root>
+    <item name='io.netty.util.collection.IntObjectHashMap java.lang.Iterable&lt;io.netty.util.collection.IntObjectMap.Entry&lt;V&gt;&gt; entries()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.util.collection.IntObjectMap java.lang.Iterable&lt;io.netty.util.collection.IntObjectMap.Entry&lt;V&gt;&gt; entries()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='io.netty.util.collection.IntObjectHashMap int[] keys()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.util.collection.IntObjectHashMap void putAll(io.netty.util.collection.IntObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.util.collection.IntObjectHashMap java.util.Iterator&lt;io.netty.util.collection.IntObjectMap.Entry&lt;V&gt;&gt; iterator()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.util.collection.IntObjectMap int[] keys()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='io.netty.util.collection.IntObjectMap void putAll(io.netty.util.collection.IntObjectMap&lt;V&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

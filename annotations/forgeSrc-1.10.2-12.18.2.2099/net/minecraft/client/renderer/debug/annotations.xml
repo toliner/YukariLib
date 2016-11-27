@@ -1,0 +1,17 @@
+<root>
+    <item name='net.minecraft.client.renderer.debug.DebugRendererPathfinding void renderPathLine(float, net.minecraft.pathfinding.Path) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.debug.DebugRenderer debugRendererChunkBorder'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.debug.DebugRenderer debugRendererPathfinding'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.debug.DebugRenderer debugRendererWater'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.debug.DebugRenderer debugRendererHeightMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

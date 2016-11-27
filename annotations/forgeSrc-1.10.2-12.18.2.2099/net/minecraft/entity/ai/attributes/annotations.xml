@@ -1,0 +1,110 @@
+<root>
+    <item name='net.minecraft.entity.ai.attributes.AttributeMap net.minecraft.entity.ai.attributes.IAttributeInstance createInstance(net.minecraft.entity.ai.attributes.IAttribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AttributeMap descriptionToAttributeInstanceMap'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.IAttributeInstance boolean hasModifier(net.minecraft.entity.ai.attributes.AttributeModifier) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.ModifiableAttributeInstance net.minecraft.entity.ai.attributes.IAttribute getAttribute()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.IAttributeInstance void removeModifier(net.minecraft.entity.ai.attributes.AttributeModifier) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AbstractAttributeMap attributesByName'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.BaseAttribute BaseAttribute(net.minecraft.entity.ai.attributes.IAttribute, java.lang.String, double) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AbstractAttributeMap void onAttributeModified(net.minecraft.entity.ai.attributes.IAttributeInstance) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.BaseAttribute java.lang.String getAttributeUnlocalizedName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.IAttribute java.lang.String getAttributeUnlocalizedName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.RangedAttribute net.minecraft.entity.ai.attributes.RangedAttribute setDescription(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AbstractAttributeMap void applyAttributeModifiers(com.google.common.collect.Multimap&lt;java.lang.String,net.minecraft.entity.ai.attributes.AttributeModifier&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.RangedAttribute RangedAttribute(net.minecraft.entity.ai.attributes.IAttribute, java.lang.String, double, double, double) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.ModifiableAttributeInstance ModifiableAttributeInstance(net.minecraft.entity.ai.attributes.AbstractAttributeMap, net.minecraft.entity.ai.attributes.IAttribute) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.ModifiableAttributeInstance void removeModifier(net.minecraft.entity.ai.attributes.AttributeModifier) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.BaseAttribute net.minecraft.entity.ai.attributes.BaseAttribute setShouldWatch(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AbstractAttributeMap void removeAttributeModifiers(com.google.common.collect.Multimap&lt;java.lang.String,net.minecraft.entity.ai.attributes.AttributeModifier&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AbstractAttributeMap net.minecraft.entity.ai.attributes.IAttributeInstance registerAttribute(net.minecraft.entity.ai.attributes.IAttribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.ModifiableAttributeInstance void applyModifier(net.minecraft.entity.ai.attributes.AttributeModifier) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AttributeMap net.minecraft.entity.ai.attributes.IAttributeInstance createInstance(net.minecraft.entity.ai.attributes.IAttribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.IAttributeInstance void applyModifier(net.minecraft.entity.ai.attributes.AttributeModifier) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AttributeMap net.minecraft.entity.ai.attributes.IAttributeInstance registerAttribute(net.minecraft.entity.ai.attributes.IAttribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AttributeModifier net.minecraft.entity.ai.attributes.AttributeModifier setSaved(boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.IAttributeInstance net.minecraft.entity.ai.attributes.IAttribute getAttribute()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AbstractAttributeMap net.minecraft.entity.ai.attributes.IAttributeInstance createInstance(net.minecraft.entity.ai.attributes.IAttribute)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.ModifiableAttributeInstance boolean hasModifier(net.minecraft.entity.ai.attributes.AttributeModifier) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AttributeMap void onAttributeModified(net.minecraft.entity.ai.attributes.IAttributeInstance) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.attributes.AbstractAttributeMap net.minecraft.entity.ai.attributes.IAttributeInstance createInstance(net.minecraft.entity.ai.attributes.IAttribute) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

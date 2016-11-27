@@ -1,0 +1,122 @@
+<root>
+    <item name='org.apache.logging.log4j.core.layout.JSONLayout java.lang.String toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.PatternLayout DEFAULT_CONVERSION_PATTERN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.SyslogLayout java.util.Map&lt;java.lang.String,java.lang.String&gt; getContentFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.RFC5424Layout org.apache.logging.log4j.core.layout.RFC5424Layout createLayout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.apache.logging.log4j.core.layout.LoggerFields[], org.apache.logging.log4j.core.config.Configuration)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.SerializedLayout org.apache.logging.log4j.core.layout.SerializedLayout createLayout()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.JSONLayout java.io.Serializable toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.XMLLayout java.util.Map&lt;java.lang.String,java.lang.String&gt; getContentFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.SerializedLayout java.io.Serializable toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.PatternLayout SIMPLE_CONVERSION_PATTERN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.PatternLayout TTCC_CONVERSION_PATTERN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.LoggerFields org.apache.logging.log4j.core.layout.LoggerFields createLoggerFields(org.apache.logging.log4j.core.helpers.KeyValuePair[], java.lang.String, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.LoggerFields org.apache.logging.log4j.core.layout.LoggerFields createLoggerFields(org.apache.logging.log4j.core.helpers.KeyValuePair[], java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.JSONLayout org.apache.logging.log4j.core.layout.JSONLayout createLayout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.SerializedLayout java.lang.String getContentType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.HTMLLayout java.io.Serializable toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.RFC5424Layout java.util.Map&lt;java.lang.String,java.lang.String&gt; getContentFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.SyslogLayout java.lang.String toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.HTMLLayout java.util.Map&lt;java.lang.String,java.lang.String&gt; getContentFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.PatternLayout void setConversionPattern(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.RFC5424Layout java.io.Serializable toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.HTMLLayout java.lang.String toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.SerializedLayout java.util.Map&lt;java.lang.String,java.lang.String&gt; getContentFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.JSONLayout java.util.Map&lt;java.lang.String,java.lang.String&gt; getContentFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.RFC5424Layout java.lang.String toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.PatternLayout KEY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.XMLLayout java.lang.String toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.SyslogLayout org.apache.logging.log4j.core.layout.SyslogLayout createLayout(java.lang.String, java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.XMLLayout org.apache.logging.log4j.core.layout.XMLLayout createLayout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.XMLLayout java.io.Serializable toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.RFC5424Layout DEFAULT_MDCID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.PatternLayout java.util.Map&lt;java.lang.String,java.lang.String&gt; getContentFormat()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.HTMLLayout org.apache.logging.log4j.core.layout.HTMLLayout createLayout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.RFC5424Layout java.lang.String getProcId()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.SyslogLayout java.io.Serializable toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.PatternLayout java.io.Serializable toSerializable(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.RFC5424Layout DEFAULT_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.AbstractStringLayout java.lang.String getContentType()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.layout.PatternLayout org.apache.logging.log4j.core.layout.PatternLayout createLayout(java.lang.String, org.apache.logging.log4j.core.config.Configuration, org.apache.logging.log4j.core.pattern.RegexReplacement, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

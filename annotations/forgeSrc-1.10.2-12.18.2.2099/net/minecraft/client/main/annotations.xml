@@ -1,0 +1,5 @@
+<root>
+    <item name='net.minecraft.client.main.GameConfiguration.FolderInformation net.minecraft.client.resources.ResourceIndex getAssetsIndex()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

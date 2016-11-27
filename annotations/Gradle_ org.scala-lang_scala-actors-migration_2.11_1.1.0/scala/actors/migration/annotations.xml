@@ -1,0 +1,302 @@
+<root>
+    <item name='scala.actors.migration.ActWithStash.ActorContext void setReceiveTimeout(scala.concurrent.duration.Duration) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.package scala.actors.ActorRef actorSender()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout scala.actors.migration.Timeout copy(scala.concurrent.duration.Duration)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class scala.PartialFunction wrapWithSystemMessageHandling(scala.actors.migration.ActWithStash, scala.PartialFunction) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout$ scala.actors.migration.Timeout longToTimeout(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash..anonfun.1..anon.1 scala.PartialFunction&lt;java.lang.Object,scala.runtime.BoxedUnit&gt; receive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActorDSL..anonfun.actor.1 scala.actors.migration.InternalActorRef apply()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.package$ scala.actors.ActorRef selectActorRef(scala.actors.remote.Node, scala.Symbol)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.AskableActorRef scala.concurrent.Future&lt;java.lang.Object&gt; $qmark(java.lang.Object, scala.actors.migration.Timeout) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.package..anon.2 scala.concurrent.Future&lt;java.lang.Object&gt; $qmark(java.lang.Object, scala.concurrent.duration.Duration) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActorDSL scala.actors.ActorRef actor(scala.Function0&lt;T&gt;, scala.reflect.ClassTag&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.package..anon.1 scala.actors.Actor receiver()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.InternalActorRef..anonfun..qmark.1 scala.actors.migration.InternalActorRef scala$actors$migration$InternalActorRef$$anonfun$$$outer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Terminated$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout$ scala.actors.migration.Timeout never()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class scala.actors.ActorRef sender(scala.actors.migration.ActWithStash)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash..anonfun.1..anon.1 scala.PartialFunction&lt;java.lang.Object,scala.runtime.BoxedUnit&gt; wrapWithSystemMessageHandling(scala.PartialFunction&lt;java.lang.Object,scala.runtime.BoxedUnit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout$ scala.actors.migration.Timeout apply(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.pattern$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class scala.PartialFunction wrapWithSystemMessageHandling(scala.actors.migration.ActWithStash, scala.PartialFunction)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.ActorContext scala.actors.migration.ActWithStash scala$actors$migration$ActWithStash$ActorContext$$$outer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActorDSL$ scala.actors.ActorRef actor(scala.Function0&lt;T&gt;, scala.reflect.ClassTag&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.package$ scala.actors.ActorRef actorSender()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Terminated scala.actors.migration.Terminated copy(scala.actors.ActorRef, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout scala.actors.migration.Timeout apply(long, java.util.concurrent.TimeUnit)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash scala.actors.migration.ActWithStash start()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.actors.migration.Timeout scala.actors.migration.Timeout durationToTimeout(scala.concurrent.duration.Duration)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.InternalActorRef..anonfun..qmark.1 1(scala.actors.migration.InternalActorRef, java.lang.Object, long, scala.concurrent.Promise) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout$ scala.actors.migration.Timeout durationToTimeout(scala.concurrent.duration.Duration)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.package..anon.2..anonfun..qmark.1 1(scala.actors.migration.package..anon.2, java.lang.Object, long, scala.concurrent.Promise) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash..anonfun.1..anon.1 scala.PartialFunction&lt;java.lang.Object,scala.runtime.BoxedUnit&gt; wrapWithSystemMessageHandling(scala.PartialFunction&lt;java.lang.Object,scala.runtime.BoxedUnit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.package..anon.1 scala.actors.InternalActor receiver()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash..anonfun.1 java.lang.Object apply()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash$ java.lang.Object mkBody(scala.Function0&lt;A&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash scala.PartialFunction&lt;java.lang.Object,scala.runtime.BoxedUnit&gt; receive()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.actors.migration.ActWithStash..anonfun.internalAct.1 1(scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash..anonfun.wrapWithSystemMessageHandling.1 1(scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class void preAct(scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActorDSL$ java.lang.ThreadLocal&lt;scala.collection.immutable.Stack&lt;java.lang.Object&gt;&gt; contextStack()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.DeathPactException java.lang.Throwable fillInStackTrace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class void act(scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class scala.actors.migration.ActWithStash start(scala.actors.migration.ActWithStash)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash..anonfun.1..anon.1 scala.actors.InternalActor start()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class scala.PartialFunction wrapWithSystemMessageHandling(scala.actors.migration.ActWithStash, scala.PartialFunction) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.OutputChannelRef scala.concurrent.Future&lt;java.lang.Object&gt; $qmark(java.lang.Object, scala.concurrent.duration.Duration) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.actors.migration.Timeout$ scala.actors.migration.Timeout intToTimeout(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Terminated java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class void internalPostStop(scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash scala.PartialFunction&lt;java.lang.Object,scala.runtime.BoxedUnit&gt; wrapWithSystemMessageHandling(scala.PartialFunction&lt;java.lang.Object,scala.runtime.BoxedUnit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.actors.migration.Timeout$ scala.actors.migration.Timeout zero()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Terminated scala.actors.migration.Terminated apply(scala.actors.ActorRef, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout scala.actors.migration.Timeout apply(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash..anonfun.1..anon.1 scala.actors.ActorRef sender()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.DeathPactException scala.actors.migration.DeathPactException fillInStackTrace()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout scala.actors.migration.Timeout never()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class void stash(scala.actors.migration.ActWithStash, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class void unstashAll(scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout scala.actors.migration.Timeout intToTimeout(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash scala.PartialFunction&lt;java.lang.Object,scala.runtime.BoxedUnit&gt; wrapWithSystemMessageHandling(scala.PartialFunction&lt;java.lang.Object,scala.runtime.BoxedUnit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.actors.migration.Timeout$ scala.actors.migration.Timeout apply(scala.concurrent.duration.Duration)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.ActorContext ActorContext(scala.actors.migration.ActWithStash, scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Terminated$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class void scala$actors$migration$ActWithStash$$unbecome(scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.pattern$ scala.actors.migration.AskableActorRef ask(scala.actors.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class scala.actors.migration.ActWithStash start(scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class void preRestart(scala.actors.migration.ActWithStash, java.lang.Throwable, scala.Option) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout scala.actors.migration.Timeout apply(scala.concurrent.duration.Duration)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash$ scala.actors.ActorRef deadLettersActor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.package..anon.2..anonfun..qmark.1 scala.actors.migration.package..anon.2 scala$actors$migration$package$$anon$$anonfun$$$outer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Terminated$ scala.actors.migration.Terminated apply(scala.actors.ActorRef, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActorDSL..anonfun.actor.1 java.lang.Object apply()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.InternalActorRef..anonfun..qmark.1..anonfun.1 1(scala.actors.migration.InternalActorRef..anonfun..qmark.1) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class void $init$(scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash..anonfun.1..anon.1 scala.actors.Reactor start()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class void scala$actors$migration$ActWithStash$$become(scala.actors.migration.ActWithStash, scala.PartialFunction, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class void internalAct(scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout$ scala.actors.migration.Timeout apply(long, java.util.concurrent.TimeUnit)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash..anonfun.1 scala.actors.migration.ActWithStash..anonfun.1..anon.1 apply()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.ActorContext $outer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.package scala.actors.ActorRef selectActorRef(scala.actors.remote.Node, scala.Symbol)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.package$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.DeathPactException$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout scala.actors.migration.Timeout longToTimeout(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.package..anon.2..anonfun..qmark.1..anonfun.1 1(scala.actors.migration.package..anon.2..anonfun..qmark.1) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActorDSL$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.InternalActorRef scala.concurrent.Future&lt;java.lang.Object&gt; $qmark(java.lang.Object, scala.concurrent.duration.Duration) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash..anonfun.1..anon.1 scala.actors.migration.ActWithStash start()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.Timeout$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash.class scala.actors.ActorRef sender(scala.actors.migration.ActWithStash) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.pattern scala.actors.migration.AskableActorRef ask(scala.actors.ActorRef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.actors.migration.ActWithStash scala.actors.ActorRef sender()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.actors.migration.Timeout scala.actors.migration.Timeout zero()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,32 @@
+<root>
+    <item name='io.netty.bootstrap.Bootstrap java.lang.Object clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.bootstrap.Bootstrap io.netty.channel.ChannelFuture connect(java.net.SocketAddress) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.bootstrap.Bootstrap io.netty.bootstrap.Bootstrap remoteAddress(java.net.SocketAddress)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.bootstrap.Bootstrap io.netty.bootstrap.AbstractBootstrap clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.bootstrap.Bootstrap io.netty.bootstrap.Bootstrap clone()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.bootstrap.Bootstrap io.netty.bootstrap.AbstractBootstrap validate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.bootstrap.Bootstrap io.netty.bootstrap.Bootstrap validate()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.bootstrap.Bootstrap io.netty.bootstrap.Bootstrap remoteAddress(java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.bootstrap.Bootstrap io.netty.bootstrap.Bootstrap remoteAddress(java.net.InetAddress, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='io.netty.bootstrap.Bootstrap io.netty.channel.ChannelFuture connect(java.net.SocketAddress, java.net.SocketAddress) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

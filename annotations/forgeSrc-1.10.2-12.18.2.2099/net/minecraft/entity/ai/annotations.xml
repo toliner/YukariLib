@@ -1,0 +1,149 @@
+<root>
+    <item name='net.minecraft.entity.ai.RandomPositionGenerator net.minecraft.util.math.Vec3d findRandomTargetBlockAwayFrom(net.minecraft.entity.EntityCreature, int, int, net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityMoveHelper.Action WAIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIAttackRanged EntityAIAttackRanged(net.minecraft.entity.IRangedAttackMob, double, int, int, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIMoveThroughVillage EntityAIMoveThroughVillage(net.minecraft.entity.EntityCreature, double, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.RandomPositionGenerator net.minecraft.util.math.Vec3d findRandomTargetBlockTowards(net.minecraft.entity.EntityCreature, int, int, net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIAvoidEntity EntityAIAvoidEntity(net.minecraft.entity.EntityCreature, java.lang.Class&lt;T&gt;, float, double, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIMate EntityAIMate(net.minecraft.entity.passive.EntityAnimal, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIFleeSun EntityAIFleeSun(net.minecraft.entity.EntityCreature, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityMoveHelper void read(net.minecraft.entity.ai.EntityMoveHelper) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIOpenDoor EntityAIOpenDoor(net.minecraft.entity.EntityLiving, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIAvoidEntity EntityAIAvoidEntity(net.minecraft.entity.EntityCreature, java.lang.Class&lt;T&gt;, com.google.common.base.Predicate&lt;? super T&gt;, float, double, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAINearestAttackableTarget theNearestAttackableTargetSorter'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityMoveHelper.Action STRAFE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIAttackMelee void checkAndPerformAttack(net.minecraft.entity.EntityLivingBase, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIHurtByTarget void setEntityAttackTarget(net.minecraft.entity.EntityCreature, net.minecraft.entity.EntityLivingBase) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIRestrictOpenDoor EntityAIRestrictOpenDoor(net.minecraft.entity.EntityCreature) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIOcelotAttack EntityAIOcelotAttack(net.minecraft.entity.EntityLiving) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAINearestAttackableTarget.Sorter int compare(net.minecraft.entity.Entity, net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityMoveHelper.Action MOVE_TO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIHarvestFarmland boolean shouldMoveTo(net.minecraft.world.World, net.minecraft.util.math.BlockPos) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAINearestAttackableTarget.Sorter int compare(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAISwimming EntityAISwimming(net.minecraft.entity.EntityLiving) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIMoveToBlock boolean shouldMoveTo(net.minecraft.world.World, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIOcelotSit boolean shouldMoveTo(net.minecraft.world.World, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIAttackRanged EntityAIAttackRanged(net.minecraft.entity.IRangedAttackMob, double, int, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIEatGrass EntityAIEatGrass(net.minecraft.entity.EntityLiving) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.RandomPositionGenerator net.minecraft.util.math.Vec3d findRandomTargetBlockTowards(net.minecraft.entity.EntityCreature, int, int, net.minecraft.util.math.Vec3d) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIVillagerMate EntityAIVillagerMate(net.minecraft.entity.passive.EntityVillager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.RandomPositionGenerator net.minecraft.util.math.Vec3d findRandomTargetBlockAwayFrom(net.minecraft.entity.EntityCreature, int, int, net.minecraft.util.math.Vec3d) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIAttackMelee EntityAIAttackMelee(net.minecraft.entity.EntityCreature, double, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIZombieAttack EntityAIZombieAttack(net.minecraft.entity.monster.EntityZombie, double, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityLookHelper void setLookPositionWithEntity(net.minecraft.entity.Entity, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIFollowOwner EntityAIFollowOwner(net.minecraft.entity.passive.EntityTameable, double, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIDoorInteract EntityAIDoorInteract(net.minecraft.entity.EntityLiving) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAINearestAttackableTarget net.minecraft.util.math.AxisAlignedBB getTargetableArea(double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAITempt EntityAITempt(net.minecraft.entity.EntityCreature, double, net.minecraft.item.Item, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIBreakDoor EntityAIBreakDoor(net.minecraft.entity.EntityLiving) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAINearestAttackableTarget.Sorter int compare(net.minecraft.entity.Entity, net.minecraft.entity.Entity) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAITempt EntityAITempt(net.minecraft.entity.EntityCreature, double, boolean, java.util.Set&lt;net.minecraft.item.Item&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIBeg EntityAIBeg(net.minecraft.entity.passive.EntityWolf, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIAttackMelee double getAttackReachSqr(net.minecraft.entity.EntityLivingBase) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIMoveToBlock boolean shouldMoveTo(net.minecraft.world.World, net.minecraft.util.math.BlockPos) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIHarvestFarmland boolean shouldMoveTo(net.minecraft.world.World, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAINearestAttackableTarget.Sorter int compare(java.lang.Object, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAIOcelotSit boolean shouldMoveTo(net.minecraft.world.World, net.minecraft.util.math.BlockPos) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.EntityAINearestAttackableTarget targetEntitySelector'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.entity.ai.RandomPositionGenerator net.minecraft.util.math.Vec3d findRandomTarget(net.minecraft.entity.EntityCreature, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

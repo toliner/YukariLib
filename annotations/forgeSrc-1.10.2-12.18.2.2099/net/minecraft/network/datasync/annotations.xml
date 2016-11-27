@@ -1,0 +1,104 @@
+<root>
+    <item name='net.minecraft.network.datasync.DataSerializer void write(net.minecraft.network.PacketBuffer, T) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers TEXT_COMPONENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers BYTE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializer T read(net.minecraft.network.PacketBuffer)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers BOOLEAN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.EntityDataManager void setEntryValues(java.util.List&lt;net.minecraft.network.datasync.EntityDataManager.DataEntry&lt;?&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializer net.minecraft.network.datasync.DataParameter&lt;T&gt; createKey(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers OPTIONAL_ITEM_STACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializer T read(net.minecraft.network.PacketBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.network.datasync.EntityDataManager void writeEntries(net.minecraft.network.PacketBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.EntityDataManager void setEntryValue(net.minecraft.network.datasync.EntityDataManager.DataEntry&lt;T&gt;, net.minecraft.network.datasync.EntityDataManager.DataEntry&lt;?&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.EntityDataManager void writeEntries(java.util.List&lt;net.minecraft.network.datasync.EntityDataManager.DataEntry&lt;?&gt;&gt;, net.minecraft.network.PacketBuffer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers STRING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.EntityDataManager net.minecraft.network.datasync.DataParameter&lt;T&gt; createKey(java.lang.Class&lt;? extends net.minecraft.entity.Entity&gt;, net.minecraft.network.datasync.DataSerializer&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers OPTIONAL_BLOCK_POS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.EntityDataManager void setDirty(net.minecraft.network.datasync.DataParameter&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers FLOAT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers VARINT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializer void write(net.minecraft.network.PacketBuffer, T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers OPTIONAL_BLOCK_STATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers OPTIONAL_UNIQUE_ID'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.EntityDataManager java.util.List&lt;net.minecraft.network.datasync.EntityDataManager.DataEntry&lt;?&gt;&gt; readEntries(net.minecraft.network.PacketBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.EntityDataManager void register(net.minecraft.network.datasync.DataParameter&lt;T&gt;, T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.EntityDataManager T get(net.minecraft.network.datasync.DataParameter&lt;T&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers FACING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.EntityDataManager void setEntryValue(net.minecraft.network.datasync.EntityDataManager.DataEntry&lt;T&gt;, net.minecraft.network.datasync.EntityDataManager.DataEntry&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers ROTATIONS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.DataSerializers BLOCK_POS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.network.datasync.EntityDataManager void set(net.minecraft.network.datasync.DataParameter&lt;T&gt;, T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

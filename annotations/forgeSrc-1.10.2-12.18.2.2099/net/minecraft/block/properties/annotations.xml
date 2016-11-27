@@ -1,0 +1,71 @@
+<root>
+    <item name='net.minecraft.block.properties.PropertyBool net.minecraft.block.properties.PropertyBool create(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyInteger java.lang.String getName(java.lang.Integer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyDirection net.minecraft.block.properties.PropertyDirection create(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyEnum net.minecraft.block.properties.PropertyEnum&lt;T&gt; create(java.lang.String, java.lang.Class&lt;T&gt;, com.google.common.base.Predicate&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyEnum net.minecraft.block.properties.PropertyEnum&lt;T&gt; create(java.lang.String, java.lang.Class&lt;T&gt;, java.util.Collection&lt;T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyDirection net.minecraft.block.properties.PropertyDirection create(java.lang.String, com.google.common.base.Predicate&lt;net.minecraft.util.EnumFacing&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyEnum net.minecraft.block.properties.PropertyEnum&lt;T&gt; create(java.lang.String, java.lang.Class&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyInteger java.lang.String getName(java.lang.Comparable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyDirection net.minecraft.block.properties.PropertyDirection create(java.lang.String, java.util.Collection&lt;net.minecraft.util.EnumFacing&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyEnum net.minecraft.block.properties.PropertyEnum&lt;T&gt; create(java.lang.String, java.lang.Class&lt;T&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyInteger net.minecraft.block.properties.PropertyInteger create(java.lang.String, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyEnum java.lang.String getName(java.lang.Comparable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyEnum net.minecraft.block.properties.PropertyEnum&lt;T&gt; create(java.lang.String, java.lang.Class&lt;T&gt;, com.google.common.base.Predicate&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyEnum net.minecraft.block.properties.PropertyEnum&lt;T&gt; create(java.lang.String, java.lang.Class&lt;T&gt;, java.util.Collection&lt;T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.IProperty java.lang.String getName(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyEnum java.lang.String getName(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyBool java.lang.String getName(java.lang.Comparable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyDirection net.minecraft.block.properties.PropertyDirection create(java.lang.String, java.util.Collection&lt;net.minecraft.util.EnumFacing&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyEnum net.minecraft.block.properties.PropertyEnum&lt;T&gt; create(java.lang.String, java.lang.Class&lt;T&gt;, T...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyDirection PropertyDirection(java.lang.String, java.util.Collection&lt;net.minecraft.util.EnumFacing&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyEnum PropertyEnum(java.lang.String, java.lang.Class&lt;T&gt;, java.util.Collection&lt;T&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.block.properties.PropertyBool java.lang.String getName(java.lang.Boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

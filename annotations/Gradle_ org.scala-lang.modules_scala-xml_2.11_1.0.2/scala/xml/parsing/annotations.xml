@@ -1,0 +1,1013 @@
+<root>
+    <item name='scala.xml.parsing.MarkupParserCommon..anonfun.xProcInstr.1 1(scala.xml.parsing.MarkupParserCommon, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FatalError$ java.lang.String toString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon java.lang.String xCharRef(scala.collection.Iterator&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler..anonfun.parameterEntityDecl.1 scala.xml.dtd.ParameterEntityDecl apply(java.lang.String, scala.xml.dtd.EntityDef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests.class boolean isValidIANAEncoding(scala.xml.parsing.TokenTests, scala.collection.Seq) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.Text text(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.Tuple2&lt;java.lang.String,java.lang.String&gt; scala$xml$parsing$FactoryAdapter$$splitName(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Node create(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.Object xTakeUntil(scala.xml.parsing.MarkupParserCommon, scala.Function2, scala.Function0, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.parsing.MarkupHandler initialize(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlEntities..anonfun.1 scala.Tuple2&lt;java.lang.String,java.lang.Object&gt; apply(scala.Tuple2&lt;java.lang.String,java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.String xCharRef(scala.xml.parsing.MarkupParserCommon, scala.collection.Iterator) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.NodeSeq mkResult$1(scala.xml.parsing.MarkupHandler, int, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser scala.xml.parsing.ConstructingParser fromFile(java.io.File, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class void xEQ(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.WithLookAhead..anonfun.3 java.lang.Object apply()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser scala.Tuple2&lt;java.lang.String,java.lang.Object&gt; xTag(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.document.1 void apply(scala.xml.Node) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FatalError$ scala.xml.parsing.FatalError apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void content1(scala.xml.parsing.MarkupHandler, scala.xml.NamespaceBinding, scala.xml.NodeBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class scala.Tuple2 xTag(scala.xml.parsing.MarkupParserCommon, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class void xSpaceOpt(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests..anonfun.isValidIANAEncoding.1 1(scala.xml.parsing.TokenTests) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.NodeSeq comment(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.NodeSeq elem(int, java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.xml.NodeSeq)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Text makeText(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.Object xTakeUntil(scala.xml.parsing.MarkupParserCommon, scala.Function2, scala.Function0, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Node create(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anon.4 4(scala.xml.parsing.MarkupHandler, scala.runtime.ObjectRef) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests.class boolean isSpace(scala.xml.parsing.TokenTests, scala.collection.Seq) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.DefaultMarkupHandler scala.xml.NodeSeq text(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.ExternalSources scala.io.Source externalSource(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void reportSyntaxError(scala.xml.parsing.MarkupHandler, int, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon..anonfun.xCharRef.5 5(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.xml.Text createText(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.Comment comment(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.NodeSeq text(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.xCharData.2 2(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void reportValidationError(scala.xml.parsing.MarkupHandler, int, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler scala.xml.NodeSeq elem(int, java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.xml.NodeSeq)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class scala.Tuple2 xTag(scala.xml.parsing.MarkupParserCommon, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser B saving(A, scala.Function1&lt;A,scala.runtime.BoxedUnit&gt;, scala.Function0&lt;B&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.NodeSeq entityRef(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser scala.xml.parsing.ConstructingParser fromSource(scala.io.Source, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.Tuple2 textDecl(scala.xml.parsing.MarkupHandler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests boolean isValidIANAEncoding(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.WithLookAhead scala.xml.parsing.MarkupHandler scala$xml$parsing$MarkupParser$WithLookAhead$$$outer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void elementDecl(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.Object xTakeUntil(scala.xml.parsing.MarkupParserCommon, scala.Function2, scala.Function0, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.DefaultMarkupHandler scala.xml.NodeSeq elem(int, java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.xml.NodeSeq) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.xml.Node createNode(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.immutable.List&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anon.4 4(scala.xml.parsing.MarkupHandler, scala.runtime.ObjectRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser scala.Tuple2&lt;java.lang.String,java.lang.Object&gt; xTag(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void markupDecl(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.NodeSeq mkResult$1(scala.xml.parsing.MarkupHandler, int, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.WithLookAhead..anonfun.3 scala.xml.parsing.MarkupParser.WithLookAhead..anonfun.3..anon.3 apply()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.appendText.1 scala.xml.NodeBuffer apply(scala.xml.Text)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlEntities..anonfun.2 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser void xToken(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon..anonfun.xCharRef.7 7(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests.class boolean charOK$1(scala.xml.parsing.TokenTests, char) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.collection.BufferedIterator lookahead(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.Tuple2 mkAttributes(scala.xml.parsing.MarkupHandler, java.lang.String, scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ExternalSources.class scala.io.Source externalSource(scala.xml.parsing.MarkupHandler, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.xml.Node loadXML(org.xml.sax.InputSource, javax.xml.parsers.SAXParser) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser scala.xml.parsing.MarkupHandler initialize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void reportSyntaxError(scala.xml.parsing.MarkupHandler, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.MetaData xmlProcInstr(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser scala.Tuple2&lt;scala.xml.MetaData,scala.xml.NamespaceBinding&gt; xAttributes(scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.String xCharRef(scala.xml.parsing.MarkupParserCommon, scala.collection.Iterator) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Elem createNode(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.immutable.List&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.parsing.MarkupHandler initialize(scala.xml.parsing.MarkupHandler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.Tuple3 prolog(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void push(scala.xml.parsing.MarkupHandler, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.WithLookAhead java.lang.Object iter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter boolean eqElements(scala.collection.Seq&lt;scala.xml.Node&gt;, scala.collection.Seq&lt;scala.xml.Node&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.xCharData.2 scala.xml.NodeSeq apply(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser scala.Tuple2&lt;scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.String&gt;&gt; textDecl()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon java.lang.String xCharRef(scala.collection.Iterator&lt;java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon T xTakeUntil(scala.Function2&lt;java.lang.Object,java.lang.String,T&gt;, scala.Function0&lt;java.lang.Object&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser B saving(A, scala.Function1&lt;A,scala.runtime.BoxedUnit&gt;, scala.Function0&lt;B&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Text makeText(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser scala.Tuple2&lt;scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.String&gt;&gt; textDecl()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.Tuple2 textDecl(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.WithLookAhead..anonfun.3 3(scala.xml.parsing.MarkupParser.WithLookAhead) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon T returning(T, scala.Function1&lt;T,scala.runtime.BoxedUnit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.XhtmlEntities$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FatalError scala.xml.parsing.FatalError copy(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.String xCharRef(scala.xml.parsing.MarkupParserCommon, scala.collection.Iterator)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.Comment comment(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlEntities..anonfun.1 scala.Tuple2&lt;java.lang.String,java.lang.Object&gt; apply(scala.Tuple2&lt;java.lang.String,java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.Tuple2&lt;java.lang.String,java.lang.String&gt; scala$xml$parsing$FactoryAdapter$$splitName(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon scala.Tuple2&lt;java.lang.String,java.lang.Object&gt; xTag(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.DefaultMarkupHandler scala.xml.NodeSeq entityRef(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser void xToken(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.collection.mutable.StringBuilder buffer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.ProcInstr procInstr(int, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser$ scala.xml.parsing.ConstructingParser fromFile(java.io.File, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon T xTakeUntil(scala.Function2&lt;java.lang.Object,java.lang.String,T&gt;, scala.Function0&lt;java.lang.Object&gt;, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.DefaultMarkupHandler scala.xml.NodeSeq comment(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Elem create(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq&lt;scala.xml.Node&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests.class boolean isNameChar(scala.xml.parsing.TokenTests, char) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class java.lang.Object markupDecl1(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.String xAttributeValue(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.String xName(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void attrDecl(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser scala.xml.parsing.MarkupHandler initialize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler scala.xml.NodeSeq entityRef(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.Document document(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anon.1 1(scala.xml.parsing.MarkupHandler, scala.xml.NodeBuffer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser scala.Tuple2&lt;scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.String&gt;&gt; textDecl()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Elem create(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq&lt;scala.xml.Node&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Node createNode(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.immutable.List) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.xCharData.2 java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.NodeSeq element(scala.xml.parsing.MarkupHandler, scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler..anonfun.parsedEntityDecl.1 scala.xml.dtd.ParsedEntityDecl apply(java.lang.String, scala.xml.dtd.EntityDef)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler scala.xml.NodeSeq comment(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void pop(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.ProcInstr procInstr(int, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.NodeSeq content(scala.xml.parsing.MarkupHandler, scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.DefaultMarkupHandler scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.appendText.1 scala.xml.NodeBuffer apply(scala.xml.Text) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class boolean eof(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser java.lang.String xCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.DefaultMarkupHandler scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.collection.mutable.Stack&lt;scala.xml.Node&gt; hStack()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon..anonfun.xCharRef.3 3(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser java.lang.String xCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.Object errorAndResult(scala.xml.parsing.MarkupParserCommon, java.lang.String, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser T returning(T, scala.Function1&lt;T,scala.runtime.BoxedUnit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon java.lang.String xCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.Tuple3 prolog(scala.xml.parsing.MarkupHandler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.NodeSeq elem(int, java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.xml.NodeSeq) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class void xEndTag(scala.xml.parsing.MarkupParserCommon, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests..anonfun.isName.1 1(scala.xml.parsing.TokenTests) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.xml.Text createText(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser scala.xml.dtd.ExternalID externalID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon..anonfun.xToken.1 1(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Node createNode(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.immutable.List)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler scala.xml.NodeSeq comment(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.xCharData.2 java.lang.Object apply(java.lang.Object, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConsoleErrorHandler.class void error(scala.xml.parsing.ConsoleErrorHandler, org.xml.sax.SAXParseException) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.DefaultMarkupHandler scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.NodeSeq xComment(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser scala.xml.dtd.ExternalID externalID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.Object returning(scala.xml.parsing.MarkupParserCommon, java.lang.Object, scala.Function1) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void extSubset(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.NodeSeq xCharData(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Elem createNode(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.immutable.List&lt;scala.xml.Node&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests.class boolean isAlphaDigit(scala.xml.parsing.TokenTests, char) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.ProcInstr procInstr(int, java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests.class boolean isPubIDChar(scala.xml.parsing.TokenTests, char) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void notationDecl(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser scala.xml.parsing.MarkupHandler initialize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.DefaultMarkupHandler scala.xml.NodeSeq comment(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.FatalError$ java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser java.lang.String xCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser java.lang.String xCharRef(scala.collection.Iterator&lt;java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser T xTakeUntil(scala.Function2&lt;java.lang.Object,java.lang.String,T&gt;, scala.Function0&lt;java.lang.Object&gt;, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void parseDTD(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon..anonfun.xCharRef.6 6(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.NodeSeq element1(scala.xml.parsing.MarkupHandler, scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon void xToken(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser T returning(T, scala.Function1&lt;T,scala.runtime.BoxedUnit&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Text createText(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Node construct(int, scala.collection.immutable.List, java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser boolean isValidIANAEncoding(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.NodeSeq content(scala.xml.parsing.MarkupHandler, scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Node createNode(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.immutable.List) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void $init$(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser scala.Tuple2&lt;scala.xml.MetaData,scala.xml.NamespaceBinding&gt; xAttributes(scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class java.lang.String xEntityValue(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FatalError$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.String xCharRef(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Elem createNode(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.immutable.List&lt;scala.xml.Node&gt;) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.Tuple2 xAttributes(scala.xml.parsing.MarkupHandler, scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests.class boolean checkPubID(scala.xml.parsing.TokenTests, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.WithLookAhead..anonfun.3 scala.xml.parsing.MarkupParser.WithLookAhead scala$xml$parsing$MarkupParser$WithLookAhead$$anonfun$$$outer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser scala.xml.dtd.ExternalID externalID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser T xTakeUntil(scala.Function2&lt;java.lang.Object,java.lang.String,T&gt;, scala.Function0&lt;java.lang.Object&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.collection.mutable.Stack&lt;scala.xml.MetaData&gt; attribStack()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Node makeNode(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.NodeSeq mkProcInstr(scala.xml.parsing.MarkupHandler, int, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests boolean isSpace(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.WithLookAhead $outer'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon..anonfun.xCharRef.8 8(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.NodeSeq comment(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser boolean isSpace(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.document.1 1(scala.xml.parsing.MarkupHandler, scala.runtime.IntRef, scala.runtime.ObjectRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser T xTakeUntil(scala.Function2&lt;java.lang.Object,java.lang.String,T&gt;, scala.Function0&lt;java.lang.Object&gt;, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlEntities..anonfun.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.xml.Node createNode(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.immutable.List&lt;scala.xml.Node&gt;) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Elem create(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq&lt;scala.xml.Node&gt;) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlEntities..anonfun.1 java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon java.lang.String xCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class java.lang.String pubidLiteral(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.String xCharRef(scala.xml.parsing.MarkupParserCommon, scala.Function0, scala.Function0) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler scala.xml.NodeSeq text(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.NodeSeq text(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.Object saving(scala.xml.parsing.MarkupParserCommon, java.lang.Object, scala.Function1, scala.Function0) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon..anonfun.xCharRef.4 4(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.document.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter boolean eqElements(scala.collection.Seq&lt;scala.xml.Node&gt;, scala.collection.Seq&lt;scala.xml.Node&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.DefaultMarkupHandler scala.xml.NodeSeq elem(int, java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.xml.NodeSeq)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser java.lang.String xCharRef(scala.collection.Iterator&lt;java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser T xTakeUntil(scala.Function2&lt;java.lang.Object,java.lang.String,T&gt;, scala.Function0&lt;java.lang.Object&gt;, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser java.lang.String xCharRef(scala.Function0&lt;java.lang.Object&gt;, scala.Function0&lt;scala.runtime.BoxedUnit&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.xml.parsing.FactoryAdapter adapter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser java.lang.String xCharRef(scala.collection.Iterator&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser B saving(A, scala.Function1&lt;A,scala.runtime.BoxedUnit&gt;, scala.Function0&lt;B&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.xCharData.2 scala.xml.NodeSeq apply(int, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.xml.Node createNode(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.immutable.List&lt;scala.xml.Node&gt;) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser scala.xml.NodeSeq content(scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler scala.xml.NodeSeq elem(int, java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, boolean, scala.xml.NodeSeq) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.FatalError scala.xml.parsing.FatalError apply(java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void nextch(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.Object saving(scala.xml.parsing.MarkupParserCommon, java.lang.Object, scala.Function1, scala.Function0) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.Text text(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.collection.mutable.StringBuilder putChar(scala.xml.parsing.MarkupHandler, char) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.String xCharRef(scala.xml.parsing.MarkupParserCommon, scala.Function0, scala.Function0) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.appendText.1 1(scala.xml.parsing.MarkupHandler, int, scala.xml.NodeBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser scala.Tuple2&lt;scala.xml.MetaData,scala.xml.NamespaceBinding&gt; xAttributes(scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void intSubset(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class java.lang.String systemLiteral(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler..anonfun.parsedEntityDecl.1 java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.Object xProcInstr(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConsoleErrorHandler.class void fatalError(scala.xml.parsing.ConsoleErrorHandler, org.xml.sax.SAXParseException) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.Tuple2 xAttributes(scala.xml.parsing.MarkupHandler, scala.xml.NamespaceBinding) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class void xToken(scala.xml.parsing.MarkupParserCommon, char) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.EntityRef entityRef(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler..anonfun.parameterEntityDecl.1 java.lang.Object apply(java.lang.Object, java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class void xSpace(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter void endElement(java.lang.String, java.lang.String, java.lang.String) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.dtd.ExternalID externalID(scala.xml.parsing.MarkupHandler)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter..anonfun.1 1(scala.xml.parsing.FactoryAdapter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon..anonfun.xProcInstr.2 2(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Text createText(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter boolean nodeEquals(scala.xml.Node, java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq&lt;scala.xml.Node&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void entityDecl(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingHandler scala.xml.NodeSeq procInstr(int, java.lang.String, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.NodeSeq mkResult$1(scala.xml.parsing.MarkupHandler, int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser java.lang.String xCharRef(scala.collection.Iterator&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser scala.xml.NodeSeq content(scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon..anonfun.peek.1 1(scala.xml.parsing.MarkupParserCommon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser scala.Tuple3&lt;scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.Object&gt;&gt; prolog()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser B saving(A, scala.Function1&lt;A,scala.runtime.BoxedUnit&gt;, scala.Function0&lt;B&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser scala.io.Source externalSource(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class char ch(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser scala.xml.NodeSeq content(scala.xml.NamespaceBinding)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.WithLookAhead..anonfun.3..anon.3 3(scala.xml.parsing.MarkupParser.WithLookAhead..anonfun.3) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.appendText.1 java.lang.Object apply(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.1 1(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlEntities..anonfun.2 scala.Tuple2&lt;java.lang.String,scala.xml.dtd.ParsedEntityDecl&gt; apply(scala.Tuple2&lt;java.lang.String,java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.TokenTests..anonfun.isSpace.1 1(scala.xml.parsing.TokenTests) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.String xAttributeValue(scala.xml.parsing.MarkupParserCommon, char) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class scala.xml.dtd.ExternalID externalID(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.XhtmlEntities..anonfun.2 scala.Tuple2&lt;java.lang.String,scala.xml.dtd.ParsedEntityDecl&gt; apply(scala.Tuple2&lt;java.lang.String,java.lang.Object&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class void xToken(scala.xml.parsing.MarkupParserCommon, scala.collection.Seq) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void pushExternal(scala.xml.parsing.MarkupHandler, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupHandler scala.xml.NodeSeq text(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser$ scala.xml.parsing.ConstructingParser fromSource(scala.io.Source, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void appendText(scala.xml.parsing.MarkupHandler, int, scala.xml.NodeBuffer, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class char ch_returning_nextch(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class java.lang.String xCharRef(scala.xml.parsing.MarkupParserCommon, scala.Function0, scala.Function0)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FatalError java.lang.String productPrefix()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.WithLookAhead WithLookAhead(scala.xml.parsing.MarkupHandler, scala.io.Source) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser boolean isValidIANAEncoding(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon B saving(A, scala.Function1&lt;A,scala.runtime.BoxedUnit&gt;, scala.Function0&lt;B&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.XhtmlEntities..anonfun.2 java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.collection.mutable.Stack&lt;java.lang.String&gt; tagStack()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.xCharData.1 1(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.2 2(scala.xml.parsing.MarkupHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser scala.io.Source externalSource(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.TokenTests..anonfun.checkPubID.1 1(scala.xml.parsing.TokenTests) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser scala.Tuple3&lt;scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.Object&gt;&gt; prolog()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon.class void xToken(scala.xml.parsing.MarkupParserCommon, scala.collection.Seq) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.DefaultMarkupHandler scala.xml.NodeSeq text(int, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.WithLookAhead..anon.2 2(scala.xml.parsing.MarkupParser.WithLookAhead) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter..anonfun.startElement.1 1(scala.xml.parsing.FactoryAdapter, org.xml.sax.Attributes, scala.runtime.ObjectRef, scala.runtime.ObjectRef) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser scala.io.Source externalSource(java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter scala.xml.Node load(java.net.URL) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser.class void xHandleError(scala.xml.parsing.MarkupHandler, char, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParser..anonfun.appendText.1 java.lang.Object apply(java.lang.Object)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.MarkupParserCommon B saving(A, scala.Function1&lt;A,scala.runtime.BoxedUnit&gt;, scala.Function0&lt;B&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='scala.xml.parsing.XhtmlParser boolean isSpace(scala.collection.Seq&lt;java.lang.Object&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.NoBindingFactoryAdapter scala.xml.Node create(java.lang.String, java.lang.String, scala.xml.MetaData, scala.xml.NamespaceBinding, scala.collection.Seq)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.ConstructingParser scala.Tuple3&lt;scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.String&gt;,scala.Option&lt;java.lang.Object&gt;&gt; prolog()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.parsing.FactoryAdapter void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

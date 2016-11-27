@@ -1,0 +1,128 @@
+<root>
+    <item name='net.minecraft.client.audio.ISound.AttenuationType NONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.Sound java.lang.Object cloneEntry()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.Sound net.minecraft.util.ResourceLocation getSoundLocation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.SoundListSerializer net.minecraft.client.audio.SoundList deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.Sound Sound(java.lang.String, float, float, int, net.minecraft.client.audio.Sound.Type, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.MusicTicker.MusicType END_BOSS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.MusicTicker.MusicType MENU'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.Sound net.minecraft.client.audio.Sound cloneEntry()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.Sound.Type FILE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.SoundRegistry void add(net.minecraft.client.audio.SoundEventAccessor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.ISoundEventAccessor T cloneEntry()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.audio.PositionedSoundRecord net.minecraft.client.audio.PositionedSoundRecord getMusicRecord(net.minecraft.util.SoundEvent)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.SoundListSerializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.ISoundEventListener void soundPlay(net.minecraft.client.audio.ISound, net.minecraft.client.audio.SoundEventAccessor) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.audio.Sound.Type SOUND_EVENT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.SoundHandler MISSING_SOUND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.MusicTicker.MusicType GAME'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.MusicTicker.MusicType NETHER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.MovingSound MovingSound(net.minecraft.util.SoundEvent, net.minecraft.util.SoundCategory) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.MusicTicker.MusicType CREDITS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.PositionedSoundRecord PositionedSoundRecord(net.minecraft.util.SoundEvent, net.minecraft.util.SoundCategory, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.PositionedSoundRecord PositionedSoundRecord(net.minecraft.util.SoundEvent, net.minecraft.util.SoundCategory, float, float, net.minecraft.util.math.BlockPos) 4'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.Sound net.minecraft.util.ResourceLocation getSoundAsOggLocation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.PositionedSoundRecord net.minecraft.client.audio.PositionedSoundRecord getMasterRecord(net.minecraft.util.SoundEvent, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.PositionedSoundRecord net.minecraft.client.audio.PositionedSoundRecord getMusicRecord(net.minecraft.util.SoundEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.SoundHandler void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.PositionedSoundRecord PositionedSoundRecord(net.minecraft.util.SoundEvent, net.minecraft.util.SoundCategory, float, float, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.PositionedSoundRecord net.minecraft.client.audio.PositionedSoundRecord getRecordSoundRecord(net.minecraft.util.SoundEvent, float, float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.MusicTicker void playMusic(net.minecraft.client.audio.MusicTicker.MusicType) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.ISound net.minecraft.client.audio.SoundEventAccessor createAccessor(net.minecraft.client.audio.SoundHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.audio.MusicTicker.MusicType END'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.SoundListSerializer java.lang.Object deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.PositionedSoundRecord net.minecraft.client.audio.PositionedSoundRecord getMasterRecord(net.minecraft.util.SoundEvent, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.MusicTicker.MusicType CREATIVE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.PositionedSound PositionedSound(net.minecraft.util.SoundEvent, net.minecraft.util.SoundCategory) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.PositionedSound net.minecraft.client.audio.SoundEventAccessor createAccessor(net.minecraft.client.audio.SoundHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.ISound.AttenuationType LINEAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.PositionedSoundRecord net.minecraft.client.audio.PositionedSoundRecord getRecordSoundRecord(net.minecraft.util.SoundEvent, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.audio.SoundListSerializer net.minecraft.client.audio.SoundList deserialize(com.google.gson.JsonElement, java.lang.reflect.Type, com.google.gson.JsonDeserializationContext) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

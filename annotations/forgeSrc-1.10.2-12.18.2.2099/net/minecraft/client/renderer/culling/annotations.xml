@@ -1,0 +1,14 @@
+<root>
+    <item name='net.minecraft.client.renderer.culling.ClippingHelperImpl net.minecraft.client.renderer.culling.ClippingHelper getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.culling.ICamera boolean isBoundingBoxInFrustum(net.minecraft.util.math.AxisAlignedBB) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.culling.Frustum boolean isBoundingBoxInFrustum(net.minecraft.util.math.AxisAlignedBB) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

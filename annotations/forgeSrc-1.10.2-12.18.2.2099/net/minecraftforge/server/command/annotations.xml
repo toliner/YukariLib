@@ -1,0 +1,59 @@
+<root>
+    <item name='net.minecraftforge.server.command.CommandTreeBase void execute(net.minecraft.server.MinecraftServer, net.minecraft.command.ICommandSender, java.lang.String[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.server.command.ForgeCommand java.lang.String getCommandUsage(net.minecraft.command.ICommandSender)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.server.command.CommandTreeBase void execute(net.minecraft.server.MinecraftServer, net.minecraft.command.ICommandSender, java.lang.String[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.server.command.ForgeCommand void execute(net.minecraft.server.MinecraftServer, net.minecraft.command.ICommandSender, java.lang.String[]) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.server.command.CommandTreeBase void addSubcommand(net.minecraft.command.ICommand) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.server.command.CommandTreeBase void execute(net.minecraft.server.MinecraftServer, net.minecraft.command.ICommandSender, java.lang.String[]) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.server.command.CommandTreeBase boolean isUsernameIndex(java.lang.String[], int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.server.command.CommandTreeBase java.util.List&lt;net.minecraft.command.ICommand&gt; getSortedCommandList()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.server.command.CommandTreeBase java.util.List&lt;java.lang.String&gt; getTabCompletionOptions(net.minecraft.server.MinecraftServer, net.minecraft.command.ICommandSender, java.lang.String[], net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.server.command.CommandTreeBase java.util.List&lt;java.lang.String&gt; getTabCompletionOptions(net.minecraft.server.MinecraftServer, net.minecraft.command.ICommandSender, java.lang.String[], net.minecraft.util.math.BlockPos) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.server.command.ForgeCommand void execute(net.minecraft.server.MinecraftServer, net.minecraft.command.ICommandSender, java.lang.String[]) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.server.command.ForgeCommand java.lang.String getCommandName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.server.command.ForgeCommand void execute(net.minecraft.server.MinecraftServer, net.minecraft.command.ICommandSender, java.lang.String[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+</root>

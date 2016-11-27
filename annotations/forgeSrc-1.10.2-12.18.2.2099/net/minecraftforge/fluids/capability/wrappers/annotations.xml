@@ -1,0 +1,26 @@
+<root>
+    <item name='net.minecraftforge.fluids.capability.wrappers.FluidBucketWrapper boolean canFillFluidType(net.minecraftforge.fluids.FluidStack) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.wrappers.FluidContainerItemWrapper net.minecraftforge.fluids.capability.IFluidTankProperties[] getTankProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.wrappers.BlockLiquidWrapper net.minecraftforge.fluids.capability.IFluidTankProperties[] getTankProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.wrappers.FluidContainerItemWrapper net.minecraftforge.fluids.capability.FluidTankProperties[] getTankProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.wrappers.FluidHandlerWrapper net.minecraftforge.fluids.capability.IFluidTankProperties[] getTankProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.wrappers.FluidContainerRegistryWrapper net.minecraftforge.fluids.capability.IFluidTankProperties[] getTankProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.wrappers.FluidBlockWrapper net.minecraftforge.fluids.capability.IFluidTankProperties[] getTankProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fluids.capability.wrappers.FluidBucketWrapper net.minecraftforge.fluids.capability.IFluidTankProperties[] getTankProperties()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

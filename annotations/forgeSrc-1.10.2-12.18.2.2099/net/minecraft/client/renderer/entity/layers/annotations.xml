@@ -1,0 +1,191 @@
+<root>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerArmorBase T getArmorModelHook(net.minecraft.entity.EntityLivingBase, net.minecraft.item.ItemStack, net.minecraft.inventory.EntityEquipmentSlot, T) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSnowmanHead void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerEnderDragonEyes void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerBipedArmor net.minecraft.client.model.ModelBiped getArmorModelHook(net.minecraft.entity.EntityLivingBase, net.minecraft.item.ItemStack, net.minecraft.inventory.EntityEquipmentSlot, net.minecraft.client.model.ModelBiped) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerMooshroomMushroom void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerArmorBase void setModelSlotVisible(T, net.minecraft.inventory.EntityEquipmentSlot) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerCape void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerEndermanEyes void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerCreeperCharge void doRenderLayer(net.minecraft.entity.monster.EntityCreeper, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerArmorBase net.minecraft.util.ResourceLocation getArmorResource(net.minecraft.entity.Entity, net.minecraft.item.ItemStack, net.minecraft.inventory.EntityEquipmentSlot, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerArmorBase void renderEnchantedGlint(net.minecraft.client.renderer.entity.RenderLivingBase&lt;?&gt;, net.minecraft.entity.EntityLivingBase, net.minecraft.client.model.ModelBase, float, float, float, float, float, float, float) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerEndermanEyes void doRenderLayer(net.minecraft.entity.monster.EntityEnderman, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerEnderDragonDeath void doRenderLayer(net.minecraft.entity.boss.EntityDragon, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerBipedArmor void setModelSlotVisible(net.minecraft.client.model.ModelBiped, net.minecraft.inventory.EntityEquipmentSlot) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerWolfCollar void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerElytra void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSpiderEyes void doRenderLayer(T, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerRenderer void doRenderLayer(E, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerWitherAura void doRenderLayer(net.minecraft.entity.boss.EntityWither, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerArmorBase net.minecraft.util.ResourceLocation getArmorResource(net.minecraft.entity.Entity, net.minecraft.item.ItemStack, net.minecraft.inventory.EntityEquipmentSlot, java.lang.String) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerBipedArmor void setModelSlotVisible(net.minecraft.client.model.ModelBase, net.minecraft.inventory.EntityEquipmentSlot) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerDeadmau5Head void doRenderLayer(net.minecraft.client.entity.AbstractClientPlayer, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerArmorBase net.minecraft.item.ItemStack getItemStackFromSlot(net.minecraft.entity.EntityLivingBase, net.minecraft.inventory.EntityEquipmentSlot) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerCustomHead void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerMooshroomMushroom void doRenderLayer(net.minecraft.entity.passive.EntityMooshroom, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerArrow void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerBipedArmor net.minecraft.client.model.ModelBase getArmorModelHook(net.minecraft.entity.EntityLivingBase, net.minecraft.item.ItemStack, net.minecraft.inventory.EntityEquipmentSlot, net.minecraft.client.model.ModelBase) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerBipedArmor void setModelVisible(net.minecraft.client.model.ModelBiped) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerWolfCollar void doRenderLayer(net.minecraft.entity.passive.EntityWolf, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerBipedArmor void setModelSlotVisible(net.minecraft.client.model.ModelBiped, net.minecraft.inventory.EntityEquipmentSlot) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSpiderEyes void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerCreeperCharge void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerBipedArmor void setModelSlotVisible(net.minecraft.client.model.ModelBase, net.minecraft.inventory.EntityEquipmentSlot) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSaddle void doRenderLayer(net.minecraft.entity.passive.EntityPig, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerWitherAura void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerElytra void doRenderLayer(net.minecraft.client.entity.AbstractClientPlayer, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerHeldBlock void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSlimeGel void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSlimeGel void doRenderLayer(net.minecraft.entity.monster.EntitySlime, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSnowmanHead void doRenderLayer(net.minecraft.entity.monster.EntitySnowman, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerDeadmau5Head void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSkeletonType void doRenderLayer(net.minecraft.entity.monster.EntitySkeleton, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSkeletonType void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSheepWool void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerHeldItemWitch void doRenderLayer(net.minecraft.entity.monster.EntityWitch, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerArmorBase ENCHANTED_ITEM_GLINT_RES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSaddle void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerIronGolemFlower void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerSheepWool void doRenderLayer(net.minecraft.entity.passive.EntitySheep, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerArmorBase void setModelSlotVisible(T, net.minecraft.inventory.EntityEquipmentSlot) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerHeldItemWitch void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerIronGolemFlower void doRenderLayer(net.minecraft.entity.monster.EntityIronGolem, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerArmorBase void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerHeldItem void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerHeldBlock void doRenderLayer(net.minecraft.entity.monster.EntityEnderman, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerArmorBase void renderEnchantedGlint(net.minecraft.client.renderer.entity.RenderLivingBase&lt;?&gt;, net.minecraft.entity.EntityLivingBase, net.minecraft.client.model.ModelBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerEnderDragonDeath void doRenderLayer(net.minecraft.entity.EntityLivingBase, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.entity.layers.LayerCape void doRenderLayer(net.minecraft.client.entity.AbstractClientPlayer, float, float, float, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

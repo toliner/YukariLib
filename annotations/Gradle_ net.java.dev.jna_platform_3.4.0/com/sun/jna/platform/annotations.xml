@@ -1,0 +1,92 @@
+<root>
+    <item name='com.sun.jna.platform.FileMonitor void addWatch(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils.TransparentContentPane void paintDirect(java.awt.image.BufferedImage, java.awt.Rectangle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils void setComponentMask(java.awt.Component, java.awt.Shape) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils void setForceHeavyweightPopups(java.awt.Window, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils void setWindowTransparent(java.awt.Window, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.RepaintTrigger void paintComponent(java.awt.Graphics) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils void setWindowMask(java.awt.Window, java.awt.Shape) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils java.awt.Shape toShape(java.awt.image.Raster) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.RasterRangesUtils boolean outputOccupiedRangesOfBinaryPixels(byte[], int, int, com.sun.jna.platform.RasterRangesUtils.RangesOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils java.awt.Shape toShape(java.awt.image.Raster)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.FileMonitor void watch(java.io.File, int, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils.TransparentContentPane void eventDispatched(java.awt.AWTEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils void whenDisplayable(java.awt.Component, java.lang.Runnable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils void setWindowMask(java.awt.Component, java.awt.Shape) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils void setWindowMask(java.awt.Component, javax.swing.Icon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.FileMonitor com.sun.jna.platform.FileMonitor getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.FileMonitor void addWatch(java.io.File, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils void setWindowMask(java.awt.Window, javax.swing.Icon) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.FileUtils com.sun.jna.platform.FileUtils getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils.TransparentContentPane void paintDirect(java.awt.image.BufferedImage, java.awt.Rectangle) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='com.sun.jna.platform.RasterRangesUtils boolean outputOccupiedRanges(java.awt.image.Raster, com.sun.jna.platform.RasterRangesUtils.RangesOutput) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.RepaintTrigger com.sun.jna.platform.WindowUtils.RepaintTrigger.Listener createListener()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.FileUtils void moveToTrash(java.io.File[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils void setWindowMask(java.awt.Component, java.awt.image.Raster) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.platform.WindowUtils.NativeWindowUtils void setLayersTransparent(java.awt.Window, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

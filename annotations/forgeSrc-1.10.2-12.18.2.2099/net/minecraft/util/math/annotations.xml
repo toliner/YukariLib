@@ -1,0 +1,494 @@
+<root>
+    <item name='net.minecraft.util.math.RayTraceResult RayTraceResult(net.minecraft.util.math.Vec3d, net.minecraft.util.EnumFacing, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos north(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos offset(net.minecraft.util.EnumFacing, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB AxisAlignedBB(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3i int compareTo(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec2f UNIT_Y'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.Vec3i crossProduct(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos up(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos retain()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.RayTraceResult.Type BLOCK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB AxisAlignedBB(net.minecraft.util.math.BlockPos, net.minecraft.util.math.BlockPos) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.AxisAlignedBB contract(double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.AxisAlignedBB union(net.minecraft.util.math.AxisAlignedBB)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.ChunkPos net.minecraft.util.math.BlockPos getBlock(int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos move(net.minecraft.util.EnumFacing, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.Vec3i crossProduct(net.minecraft.util.math.Vec3i)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos down()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB double calculateZOffset(net.minecraft.util.math.AxisAlignedBB, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d subtractReverse(net.minecraft.util.math.Vec3d)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.AxisAlignedBB expand(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos add(int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d fromPitchYawVector(net.minecraft.util.math.Vec2f) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d normalize()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos move(net.minecraft.util.EnumFacing, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos crossProduct(net.minecraft.util.math.Vec3i)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Rotations net.minecraft.nbt.NBTTagList writeToNBT()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d double distanceTo(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos subtract(net.minecraft.util.math.Vec3i)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d subtractReverse(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.BlockPos toImmutable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.AxisAlignedBB union(net.minecraft.util.math.AxisAlignedBB) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos add(net.minecraft.util.math.Vec3i)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB boolean intersects(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.Vec3i crossProduct(net.minecraft.util.math.Vec3i)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.ChunkPos double getDistanceSq(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.AxisAlignedBB expandXyz(double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.Vec3i crossProduct(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos BlockPos(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d rotatePitch(float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Cartesian java.lang.Iterable&lt;T[]&gt; cartesianProduct(java.lang.Class&lt;T&gt;, java.lang.Iterable&lt;? extends java.lang.Iterable&lt;? extends T&gt;&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(net.minecraft.util.math.Vec3i)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos add(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.RayTraceResult RayTraceResult(net.minecraft.util.math.RayTraceResult.Type, net.minecraft.util.math.Vec3d, net.minecraft.util.EnumFacing, net.minecraft.util.math.BlockPos) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d crossProduct(net.minecraft.util.math.Vec3d)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos add(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d subtract(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos setPos(int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos west(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec2f NEGATIVE_UNIT_X'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos java.lang.Iterable&lt;net.minecraft.util.math.BlockPos&gt; getAllInBox(net.minecraft.util.math.BlockPos, net.minecraft.util.math.BlockPos)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d subtract(net.minecraft.util.math.Vec3d)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3i net.minecraft.util.math.Vec3i crossProduct(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos move(net.minecraft.util.EnumFacing)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.AxisAlignedBB setMaxY(double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos move(net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec2f NEGATIVE_UNIT_Y'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.RayTraceResult.Type MISS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos java.lang.Iterable&lt;net.minecraft.util.math.BlockPos.MutableBlockPos&gt; getAllInBoxMutable(net.minecraft.util.math.BlockPos, net.minecraft.util.math.BlockPos)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d getIntermediateWithYValue(net.minecraft.util.math.Vec3d, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB boolean intersectsWithXY(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Rotations Rotations(net.minecraft.nbt.NBTTagList) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos east()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec2f ONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos move(net.minecraft.util.EnumFacing, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB AxisAlignedBB(net.minecraft.util.math.BlockPos, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos setPos(net.minecraft.entity.Entity)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(net.minecraft.util.math.Vec3i)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos setPos(net.minecraft.util.math.Vec3i)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.AxisAlignedBB offset(net.minecraft.util.math.BlockPos)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos BlockPos(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos java.lang.Iterable&lt;net.minecraft.util.math.BlockPos&gt; getAllInBox(net.minecraft.util.math.BlockPos, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos move(net.minecraft.util.EnumFacing, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB boolean intersectsWithYZ(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(net.minecraft.entity.Entity)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Cartesian java.lang.Iterable&lt;java.util.List&lt;T&gt;&gt; cartesianProduct(java.lang.Iterable&lt;? extends java.lang.Iterable&lt;? extends T&gt;&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos east(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.RayTraceResult RayTraceResult(net.minecraft.util.math.Vec3d, net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos BlockPos(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos down(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d getIntermediateWithZValue(net.minecraft.util.math.Vec3d, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos move(net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec2f ZERO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(net.minecraft.entity.Entity)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d addVector(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos move(net.minecraft.util.EnumFacing)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.AxisAlignedBB offset(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos retain(net.minecraft.util.math.Vec3i)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos MutableBlockPos(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos move(net.minecraft.util.EnumFacing, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos ORIGIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.AxisAlignedBB addCoord(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.RayTraceResult calculateIntercept(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos north()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos retain(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos java.lang.Iterable&lt;net.minecraft.util.math.BlockPos&gt; getAllInBox(net.minecraft.util.math.BlockPos, net.minecraft.util.math.BlockPos) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos west()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB AxisAlignedBB(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.ChunkPos net.minecraft.util.math.BlockPos getCenterBlock(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos move(net.minecraft.util.EnumFacing)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos up()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB double calculateXOffset(net.minecraft.util.math.AxisAlignedBB, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.Vec3d getCenter()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.RayTraceResult RayTraceResult(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.MathHelper java.util.UUID getRandomUUID()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec2f MAX'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d add(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3i NULL_VECTOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB boolean intersectsWith(net.minecraft.util.math.AxisAlignedBB) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.RayTraceResult calculateIntercept(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.MathHelper java.util.UUID getRandomUuid(java.util.Random)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Cartesian java.lang.Iterable&lt;T[]&gt; cartesianProduct(java.lang.Class&lt;T&gt;, java.lang.Iterable&lt;? extends java.lang.Iterable&lt;? extends T&gt;&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d double dotProduct(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.MathHelper double average(long[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos toImmutable()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos setPos(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos south(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d scale(double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos retain(int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d add(net.minecraft.util.math.Vec3d)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos crossProduct(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB AxisAlignedBB(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d Vec3d(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d ZERO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.RayTraceResult.Type ENTITY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos java.lang.Iterable&lt;net.minecraft.util.math.BlockPos.MutableBlockPos&gt; getAllInBoxMutable(net.minecraft.util.math.BlockPos, net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos subtract(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3i net.minecraft.util.math.Vec3i crossProduct(net.minecraft.util.math.Vec3i)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB boolean intersects(net.minecraft.util.math.Vec3d, net.minecraft.util.math.Vec3d) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d crossProduct(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d subtract(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.ChunkPos ChunkPos(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec2f MIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.MathHelper java.util.UUID getRandomUuid(java.util.Random) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d getIntermediateWithXValue(net.minecraft.util.math.Vec3d, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB net.minecraft.util.math.AxisAlignedBB offset(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.MathHelper long getPositionRandom(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d double squareDistanceTo(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos move(net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos setPos(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d fromPitchYawVector(net.minecraft.util.math.Vec2f)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec2f UNIT_X'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d rotateYaw(float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos south()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB boolean isVecInside(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos fromLong(long)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.MutableBlockPos net.minecraft.util.math.BlockPos.MutableBlockPos move(net.minecraft.util.EnumFacing, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos java.lang.Iterable&lt;net.minecraft.util.math.BlockPos.MutableBlockPos&gt; getAllInBoxMutable(net.minecraft.util.math.BlockPos, net.minecraft.util.math.BlockPos) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos setPos(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos net.minecraft.util.math.BlockPos offset(net.minecraft.util.EnumFacing)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3d net.minecraft.util.math.Vec3d fromPitchYaw(float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3i int compareTo(java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec3i double distanceSq(net.minecraft.util.math.Vec3i) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB boolean intersectsWithXZ(net.minecraft.util.math.Vec3d) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.AxisAlignedBB double calculateYOffset(net.minecraft.util.math.AxisAlignedBB, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos retain(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.BlockPos.PooledMutableBlockPos net.minecraft.util.math.BlockPos.PooledMutableBlockPos setPos(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.util.math.Vec4b Vec4b(net.minecraft.util.math.Vec4b) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

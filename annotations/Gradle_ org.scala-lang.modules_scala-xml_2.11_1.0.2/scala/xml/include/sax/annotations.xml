@@ -1,0 +1,47 @@
+<root>
+    <item name='scala.xml.include.sax.EncodingHeuristics.EncodingNames$ java.lang.String littleUTF16()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.EncodingHeuristics.EncodingNames$ java.lang.String default()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.XIncludeFilter java.lang.String XINCLUDE_NAMESPACE()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.XIncludeFilter void endElement(java.lang.String, java.lang.String, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.EncodingHeuristics.EncodingNames$ java.lang.String littleUCS4()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.EncodingHeuristics.EncodingNames$ java.lang.String utf8()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.EncodingHeuristics.EncodingNames$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.EncodingHeuristics.EncodingNames$ java.lang.String unusualUCS4()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.XIncludeFilter void setDocumentLocator(org.xml.sax.Locator) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.XIncluder void startElement(java.lang.String, java.lang.String, java.lang.String, org.xml.sax.Attributes) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.EncodingHeuristics$ MODULE$'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.EncodingHeuristics$ java.lang.String readEncodingFromStream(java.io.InputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.EncodingHeuristics java.lang.String readEncodingFromStream(java.io.InputStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.EncodingHeuristics.EncodingNames$ java.lang.String bigUTF16()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='scala.xml.include.sax.EncodingHeuristics.EncodingNames$ java.lang.String bigUCS4()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

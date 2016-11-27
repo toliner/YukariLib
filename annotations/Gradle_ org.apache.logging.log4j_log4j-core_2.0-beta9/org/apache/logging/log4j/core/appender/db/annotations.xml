@@ -1,0 +1,20 @@
+<root>
+    <item name='org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppender void append(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.AbstractDatabaseManager M getManager(java.lang.String, T, org.apache.logging.log4j.core.appender.ManagerFactory&lt;M,T&gt;)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.AbstractDatabaseManager void writeInternal(org.apache.logging.log4j.core.LogEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='org.apache.logging.log4j.core.appender.db.AbstractDatabaseAppender void replaceManager(T) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

@@ -1,0 +1,5 @@
+<root>
+    <item name='org.lwjgl.util.jinput.LWJGLEnvironmentPlugin net.java.games.input.Controller[] getControllers()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

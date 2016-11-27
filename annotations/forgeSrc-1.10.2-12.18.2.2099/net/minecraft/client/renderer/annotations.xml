@@ -1,0 +1,584 @@
+<root>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation FLIP_DOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.EntityRenderer void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void notifyLightSet(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void setupTerrain(net.minecraft.entity.Entity, double, net.minecraft.client.renderer.culling.ICamera, int, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation FLIP_EAST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation UP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation DOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer void renderModelBrightnessColor(net.minecraft.client.renderer.block.model.IBakedModel, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp AND_INVERTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void notifyBlockUpdate(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.block.state.IBlockState, net.minecraft.block.state.IBlockState, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation EAST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.EnumNeighborInfo WEST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor ONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void addChainedFilledBoxVertices(net.minecraft.client.renderer.VertexBuffer, double, double, double, double, double, double, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.TexGen R'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor ONE_MINUS_CONSTANT_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.Tessellator net.minecraft.client.renderer.VertexBuffer getBuffer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer void renderModelBrightnessColor(net.minecraft.block.state.IBlockState, net.minecraft.client.renderer.block.model.IBakedModel, float, float, float, float) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor ZERO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.ActiveRenderInfo net.minecraft.block.state.IBlockState getBlockStateAtEntityViewpoint(net.minecraft.world.World, net.minecraft.entity.Entity, float) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.EntityRenderer net.minecraft.client.gui.MapItemRenderer getMapItemRenderer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.VertexBuffer void setVertexState(net.minecraft.client.renderer.VertexBuffer.State) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp OR_REVERSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.ActiveRenderInfo void updateRenderInfo(net.minecraft.entity.player.EntityPlayer, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor ONE_MINUS_CONSTANT_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer boolean renderModel(net.minecraft.world.IBlockAccess, net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.client.renderer.VertexBuffer, boolean) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderItem void renderItemIntoGUI(net.minecraft.item.ItemStack, int, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation FLIP_UP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void notifyBlockUpdate(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.block.state.IBlockState, net.minecraft.block.state.IBlockState, int) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.ActiveRenderInfo net.minecraft.util.math.Vec3d projectViewFromEntity(net.minecraft.entity.Entity, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp COPY_INVERTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void colorLogicOp(net.minecraft.client.renderer.GlStateManager.LogicOp) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.VertexBuffer net.minecraft.client.renderer.VertexBuffer tex(double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation SOUTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp SET'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.EnumNeighborInfo NORTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.TexGen S'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.EnumFaceDirection SOUTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.Profile DEFAULT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderItem net.minecraft.client.renderer.block.model.IBakedModel getItemModelWithOverrides(net.minecraft.item.ItemStack, net.minecraft.world.World, net.minecraft.entity.EntityLivingBase) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp CLEAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.FogMode EXP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.EnumFaceDirection WEST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void texGen(net.minecraft.client.renderer.GlStateManager.TexGen, int, java.nio.FloatBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.ItemRenderer ItemRenderer(net.minecraft.client.Minecraft) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BannerTextures SHIELD_BASE_TEXTURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelShapes net.minecraft.client.renderer.block.statemap.BlockStateMapper getBlockStateMapper()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor ONE_MINUS_DST_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void onEntityRemoved(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.CullFace BACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation FLIP_NORTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.EnumFaceDirection DOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager java.nio.FloatBuffer quatToGlMatrix(java.nio.FloatBuffer, org.lwjgl.util.vector.Quaternion)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RegionRenderCacheBuilder net.minecraft.client.renderer.VertexBuffer getWorldRendererByLayer(net.minecraft.util.BlockRenderLayer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor CONSTANT_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor CONSTANT_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.ItemModelMesher int getMetadata(net.minecraft.item.ItemStack) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.Tessellator net.minecraft.client.renderer.Tessellator getInstance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void renderFilledBox(net.minecraft.util.math.AxisAlignedBB, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor SRC_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BannerTextures BANNER_BASE_TEXTURE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.VertexBuffer net.minecraft.client.renderer.VertexBuffer lightmap(int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor SRC_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void blendFunc(net.minecraft.client.renderer.GlStateManager.SourceFactor, net.minecraft.client.renderer.GlStateManager.DestFactor) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.EnumNeighborInfo net.minecraft.client.renderer.BlockModelRenderer.EnumNeighborInfo getNeighbourInfo(net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.Matrix4f Matrix4f(float[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp NAND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void onEntityAdded(net.minecraft.entity.Entity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.VertexBuffer net.minecraft.client.renderer.VertexBuffer.State getVertexState()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void notifyBlockUpdate(net.minecraft.world.World, net.minecraft.util.math.BlockPos, net.minecraft.block.state.IBlockState, net.minecraft.block.state.IBlockState, int) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor ONE_MINUS_SRC_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void tryBlendFuncSeparate(net.minecraft.client.renderer.GlStateManager.SourceFactor, net.minecraft.client.renderer.GlStateManager.DestFactor, net.minecraft.client.renderer.GlStateManager.SourceFactor, net.minecraft.client.renderer.GlStateManager.DestFactor) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockRendererDispatcher boolean renderBlock(net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.world.IBlockAccess, net.minecraft.client.renderer.VertexBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void disableTexGenCoord(net.minecraft.client.renderer.GlStateManager.TexGen) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void setFog(net.minecraft.client.renderer.GlStateManager.FogMode) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void tryBlendFuncSeparate(net.minecraft.client.renderer.GlStateManager.SourceFactor, net.minecraft.client.renderer.GlStateManager.DestFactor, net.minecraft.client.renderer.GlStateManager.SourceFactor, net.minecraft.client.renderer.GlStateManager.DestFactor) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void rotate(org.lwjgl.util.vector.Quaternion) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.TexGen Q'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.EnumFaceDirection NORTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.ActiveRenderInfo net.minecraft.block.state.IBlockState getBlockStateAtEntityViewpoint(net.minecraft.world.World, net.minecraft.entity.Entity, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelShapes net.minecraft.client.renderer.texture.TextureAtlasSprite getTexture(net.minecraft.block.state.IBlockState) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor DST_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderItem void renderItemModel(net.minecraft.item.ItemStack, net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.client.renderer.block.model.ItemCameraTransforms.TransformType, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BannerTextures SHIELD_DESIGNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.VertexBuffer void begin(int, net.minecraft.client.renderer.vertex.VertexFormat) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void blendFunc(net.minecraft.client.renderer.GlStateManager.SourceFactor, net.minecraft.client.renderer.GlStateManager.DestFactor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.EnumNeighborInfo SOUTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockRendererDispatcher void renderBlockDamage(net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.client.renderer.texture.TextureAtlasSprite, net.minecraft.world.IBlockAccess) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.Profile TRANSPARENT_MODEL'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderItem boolean shouldRenderItemIn3D(net.minecraft.item.ItemStack) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.CullFace FRONT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp NOOP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation FLIP_SOUTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void tryBlendFuncSeparate(net.minecraft.client.renderer.GlStateManager.SourceFactor, net.minecraft.client.renderer.GlStateManager.DestFactor, net.minecraft.client.renderer.GlStateManager.SourceFactor, net.minecraft.client.renderer.GlStateManager.DestFactor) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager java.nio.FloatBuffer quatToGlMatrix(java.nio.FloatBuffer, org.lwjgl.util.vector.Quaternion) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void drawSelectionBoundingBox(net.minecraft.util.math.AxisAlignedBB, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void enableTexGenCoord(net.minecraft.client.renderer.GlStateManager.TexGen) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.ItemModelMesher net.minecraft.client.renderer.block.model.IBakedModel getItemModel(net.minecraft.item.ItemStack) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.ThreadDownloadImageData void loadTexture(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.ViewFrustum net.minecraft.client.renderer.chunk.RenderChunk getRenderChunk(net.minecraft.util.math.BlockPos) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.EntityRenderer EntityRenderer(net.minecraft.client.Minecraft, net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor ONE_MINUS_DST_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.ItemMeshDefinition net.minecraft.client.renderer.block.model.ModelResourceLocation getModelLocation(net.minecraft.item.ItemStack)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.BannerTextures.Cache net.minecraft.util.ResourceLocation getResourceLocation(java.lang.String, java.util.List&lt;net.minecraft.tileentity.TileEntityBanner.EnumBannerPattern&gt;, java.util.List&lt;net.minecraft.item.EnumDyeColor&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation FLIP_WEST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp COPY'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void renderWorldBorder(net.minecraft.entity.Entity, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor ZERO'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp OR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.ItemRenderer void renderItemInFirstPerson(net.minecraft.client.entity.AbstractClientPlayer, float, float, net.minecraft.util.EnumHand, float, net.minecraft.item.ItemStack, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.CullFace FRONT_AND_BACK'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal org.lwjgl.util.vector.Vector3f getViewVector(net.minecraft.entity.Entity, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderItem net.minecraft.client.renderer.ItemModelMesher getItemModelMesher()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor CONSTANT_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor ONE_MINUS_DST_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor CONSTANT_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp INVERT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.FogMode LINEAR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp EQUIV'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void tryBlendFuncSeparate(net.minecraft.client.renderer.GlStateManager.SourceFactor, net.minecraft.client.renderer.GlStateManager.DestFactor, net.minecraft.client.renderer.GlStateManager.SourceFactor, net.minecraft.client.renderer.GlStateManager.DestFactor) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.VertexBuffer net.minecraft.client.renderer.VertexBuffer color(int, int, int, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor ONE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager java.nio.FloatBuffer quatToGlMatrix(java.nio.FloatBuffer, org.lwjgl.util.vector.Quaternion) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor DST_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.EntityRenderer void drawNameplate(net.minecraft.client.gui.FontRenderer, java.lang.String, float, float, float, int, float, float, boolean, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer boolean renderModel(net.minecraft.world.IBlockAccess, net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.client.renderer.VertexBuffer, boolean, long) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.EnumFaceDirection EAST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void texGen(net.minecraft.client.renderer.GlStateManager.TexGen, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor ONE_MINUS_CONSTANT_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.VertexBuffer net.minecraft.client.renderer.VertexBuffer color(float, float, float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.EnumNeighborInfo UP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer void renderModelBrightness(net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.block.state.IBlockState, float, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.FogMode EXP2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp NOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockRendererDispatcher void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor ONE_MINUS_SRC_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.WorldVertexBufferUploader void draw(net.minecraft.client.renderer.VertexBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor ONE_MINUS_SRC_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp AND_REVERSE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation WEST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal RenderGlobal(net.minecraft.client.Minecraft) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockRendererDispatcher void renderBlockBrightness(net.minecraft.block.state.IBlockState, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderItem void onResourceManagerReload(net.minecraft.client.resources.IResourceManager) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.EnumFaceDirection UP'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor DST_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockRendererDispatcher net.minecraft.client.renderer.BlockModelRenderer getBlockModelRenderer()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp OR_INVERTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor DST_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.ActiveRenderInfo net.minecraft.util.math.Vec3d projectViewFromEntity(net.minecraft.entity.Entity, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.OpenGlHelper void openFile(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.VertexBuffer net.minecraft.client.renderer.VertexBuffer pos(double, double, double)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor SRC_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void cullFace(net.minecraft.client.renderer.GlStateManager.CullFace) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal org.lwjgl.util.vector.Vector3f getViewVector(net.minecraft.entity.Entity, double) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void drawBlockDamageTexture(net.minecraft.client.renderer.Tessellator, net.minecraft.client.renderer.VertexBuffer, net.minecraft.entity.Entity, float) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.TexGen T'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer void renderModelBrightness(net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.block.state.IBlockState, float, boolean) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor ONE_MINUS_DST_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor SRC_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void enableBlendProfile(net.minecraft.client.renderer.GlStateManager.Profile) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void playEvent(net.minecraft.entity.player.EntityPlayer, int, net.minecraft.util.math.BlockPos, int) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.renderer.VertexBufferUploader void draw(net.minecraft.client.renderer.VertexBuffer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer boolean renderModelSmooth(net.minecraft.world.IBlockAccess, net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.client.renderer.VertexBuffer, boolean, long) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.ChunkRenderContainer void preRenderChunk(net.minecraft.client.renderer.chunk.RenderChunk) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.VertexBuffer net.minecraft.client.renderer.VertexBuffer normal(float, float, float)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockFluidRenderer boolean renderFluid(net.minecraft.world.IBlockAccess, net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.client.renderer.VertexBuffer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer boolean renderModel(net.minecraft.world.IBlockAccess, net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.client.renderer.VertexBuffer, boolean) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BannerTextures BANNER_DESIGNS'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor ONE_MINUS_CONSTANT_ALPHA'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.Orientation NORTH'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.Profile PLAYER_SKIN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp XOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.EnumFaceDirection net.minecraft.client.renderer.EnumFaceDirection getFacing(net.minecraft.util.EnumFacing) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.DestFactor ONE_MINUS_SRC_COLOR'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.SourceFactor SRC_ALPHA_SATURATE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.EnumNeighborInfo DOWN'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager.LogicOp AND'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.RenderGlobal void drawBoundingBox(net.minecraft.client.renderer.VertexBuffer, double, double, double, double, double, double, float, float, float, float) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer.EnumNeighborInfo EAST'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.GlStateManager void disableBlendProfile(net.minecraft.client.renderer.GlStateManager.Profile) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.VertexBuffer void addVertexData(int[]) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.renderer.BlockModelRenderer boolean renderModelFlat(net.minecraft.world.IBlockAccess, net.minecraft.client.renderer.block.model.IBakedModel, net.minecraft.block.state.IBlockState, net.minecraft.util.math.BlockPos, net.minecraft.client.renderer.VertexBuffer, boolean, long) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

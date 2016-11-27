@@ -1,0 +1,11 @@
+<root>
+    <item name='com.sun.jna.ptr.NativeLongByReference NativeLongByReference(com.sun.jna.NativeLong) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.ptr.NativeLongByReference com.sun.jna.NativeLong getValue()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='com.sun.jna.ptr.NativeLongByReference void setValue(com.sun.jna.NativeLong) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

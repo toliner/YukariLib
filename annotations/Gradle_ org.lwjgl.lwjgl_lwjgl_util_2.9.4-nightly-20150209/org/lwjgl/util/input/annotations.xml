@@ -1,0 +1,14 @@
+<root>
+    <item name='org.lwjgl.util.input.ControllerAdapter java.lang.String getAxisName(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.lwjgl.util.input.ControllerAdapter java.lang.String getRumblerName(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.lwjgl.util.input.ControllerAdapter java.lang.String getButtonName(int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.lwjgl.util.input.ControllerAdapter java.lang.String getName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

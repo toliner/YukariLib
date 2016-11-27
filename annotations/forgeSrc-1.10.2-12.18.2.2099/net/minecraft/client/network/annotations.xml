@@ -1,0 +1,248 @@
+<root>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSpawnMob(net.minecraft.network.play.server.SPacketSpawnMob) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSpawnPosition(net.minecraft.network.play.server.SPacketSpawnPosition) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handlePlayerListItem(net.minecraft.network.play.server.SPacketPlayerListItem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleUseBed(net.minecraft.network.play.server.SPacketUseBed) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSpawnExperienceOrb(net.minecraft.network.play.server.SPacketSpawnExperienceOrb) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleWindowItems(net.minecraft.network.play.server.SPacketWindowItems) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleRespawn(net.minecraft.network.play.server.SPacketRespawn) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleDisplayObjective(net.minecraft.network.play.server.SPacketDisplayObjective) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handlePlayerListHeaderFooter(net.minecraft.network.play.server.SPacketPlayerListHeaderFooter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleEntityStatus(net.minecraft.network.play.server.SPacketEntityStatus) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleCustomPayload(net.minecraft.network.play.server.SPacketCustomPayload) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSoundEffect(net.minecraft.network.play.server.SPacketSoundEffect) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleUpdateHealth(net.minecraft.network.play.server.SPacketUpdateHealth) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleTabComplete(net.minecraft.network.play.server.SPacketTabComplete) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.ServerPinger void ping(net.minecraft.client.multiplayer.ServerData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleBlockChange(net.minecraft.network.play.server.SPacketBlockChange) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleTimeUpdate(net.minecraft.network.play.server.SPacketTimeUpdate) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleTitle(net.minecraft.network.play.server.SPacketTitle) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleStatistics(net.minecraft.network.play.server.SPacketStatistics) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleChunkData(net.minecraft.network.play.server.SPacketChunkData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleEntityProperties(net.minecraft.network.play.server.SPacketEntityProperties) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleHeldItemChange(net.minecraft.network.play.server.SPacketHeldItemChange) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleResourcePack(net.minecraft.network.play.server.SPacketResourcePackSend) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSpawnPainting(net.minecraft.network.play.server.SPacketSpawnPainting) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleChangeGameState(net.minecraft.network.play.server.SPacketChangeGameState) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSetPassengers(net.minecraft.network.play.server.SPacketSetPassengers) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetworkPlayerInfo NetworkPlayerInfo(net.minecraft.network.play.server.SPacketPlayerListItem.AddPlayerData) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSignEditorOpen(net.minecraft.network.play.server.SPacketSignEditorOpen) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleDestroyEntities(net.minecraft.network.play.server.SPacketDestroyEntities) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleConfirmTransaction(net.minecraft.network.play.server.SPacketConfirmTransaction) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleEntityHeadLook(net.minecraft.network.play.server.SPacketEntityHeadLook) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleBlockBreakAnim(net.minecraft.network.play.server.SPacketBlockBreakAnim) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSetSlot(net.minecraft.network.play.server.SPacketSetSlot) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleCollectItem(net.minecraft.network.play.server.SPacketCollectItem) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleEntityVelocity(net.minecraft.network.play.server.SPacketEntityVelocity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleEntityEquipment(net.minecraft.network.play.server.SPacketEntityEquipment) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleCamera(net.minecraft.network.play.server.SPacketCamera) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleServerDifficulty(net.minecraft.network.play.server.SPacketServerDifficulty) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSpawnPlayer(net.minecraft.network.play.server.SPacketSpawnPlayer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleChat(net.minecraft.network.play.server.SPacketChat) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerLoginClient void onDisconnect(net.minecraft.util.text.ITextComponent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleBlockAction(net.minecraft.network.play.server.SPacketBlockAction) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleDisconnect(net.minecraft.network.play.server.SPacketDisconnect) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleExplosion(net.minecraft.network.play.server.SPacketExplosion) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleScoreboardObjective(net.minecraft.network.play.server.SPacketScoreboardObjective) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleCustomSound(net.minecraft.network.play.server.SPacketCustomSound) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleEntityEffect(net.minecraft.network.play.server.SPacketEntityEffect) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerHandshakeMemory void onDisconnect(net.minecraft.util.text.ITextComponent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleEntityMovement(net.minecraft.network.play.server.SPacketEntity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleEntityMetadata(net.minecraft.network.play.server.SPacketEntityMetadata) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleEntityAttach(net.minecraft.network.play.server.SPacketEntityAttach) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleJoinGame(net.minecraft.network.play.server.SPacketJoinGame) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleMaps(net.minecraft.network.play.server.SPacketMaps) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleEntityTeleport(net.minecraft.network.play.server.SPacketEntityTeleport) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handlePlayerPosLook(net.minecraft.network.play.server.SPacketPlayerPosLook) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleParticles(net.minecraft.network.play.server.SPacketParticles) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleUpdateTileEntity(net.minecraft.network.play.server.SPacketUpdateTileEntity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleEffect(net.minecraft.network.play.server.SPacketEffect) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.LanServerDetector.LanServerList void addServer(java.lang.String, java.net.InetAddress) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleAnimation(net.minecraft.network.play.server.SPacketAnimation) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void processChunkUnload(net.minecraft.network.play.server.SPacketUnloadChunk) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleTeams(net.minecraft.network.play.server.SPacketTeams) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleOpenWindow(net.minecraft.network.play.server.SPacketOpenWindow) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void onDisconnect(net.minecraft.util.text.ITextComponent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerLoginClient void handleDisconnect(net.minecraft.network.login.server.SPacketDisconnect) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerLoginClient void handleEncryptionRequest(net.minecraft.network.login.server.SPacketEncryptionRequest) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleKeepAlive(net.minecraft.network.play.server.SPacketKeepAlive) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleCombatEvent(net.minecraft.network.play.server.SPacketCombatEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerLoginClient void handleLoginSuccess(net.minecraft.network.login.server.SPacketLoginSuccess) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSetExperience(net.minecraft.network.play.server.SPacketSetExperience) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleUpdateEntityNBT(net.minecraft.network.play.server.SPacketUpdateBossInfo) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleRemoveEntityEffect(net.minecraft.network.play.server.SPacketRemoveEntityEffect) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSpawnGlobalEntity(net.minecraft.network.play.server.SPacketSpawnGlobalEntity) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleUpdateScore(net.minecraft.network.play.server.SPacketUpdateScore) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleCooldown(net.minecraft.network.play.server.SPacketCooldown) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handlePlayerAbilities(net.minecraft.network.play.server.SPacketPlayerAbilities) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleMultiBlockChange(net.minecraft.network.play.server.SPacketMultiBlockChange) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleSpawnObject(net.minecraft.network.play.server.SPacketSpawnObject) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraft.client.network.NetHandlerPlayClient void handleWorldBorder(net.minecraft.network.play.server.SPacketWorldBorder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

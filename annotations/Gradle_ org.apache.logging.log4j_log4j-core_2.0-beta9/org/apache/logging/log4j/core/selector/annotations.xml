@@ -1,0 +1,11 @@
+<root>
+    <item name='org.apache.logging.log4j.core.selector.BasicContextSelector org.apache.logging.log4j.core.LoggerContext locateContext(java.lang.String, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.selector.BasicContextSelector org.apache.logging.log4j.core.LoggerContext getContext(java.lang.String, java.lang.ClassLoader, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='org.apache.logging.log4j.core.selector.BasicContextSelector org.apache.logging.log4j.core.LoggerContext getContext(java.lang.String, java.lang.ClassLoader, boolean, java.net.URI)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

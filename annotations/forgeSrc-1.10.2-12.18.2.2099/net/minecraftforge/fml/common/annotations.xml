@@ -1,0 +1,512 @@
+<root>
+    <item name='net.minecraftforge.fml.common.LoadController net.minecraftforge.fml.common.LoaderState.ModState getModState(net.minecraftforge.fml.common.ModContainer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLModContainer FMLModContainer(java.lang.String, net.minecraftforge.fml.common.discovery.ModCandidate, java.util.Map&lt;java.lang.String,java.lang.Object&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState.ModState AVAILABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState.ModState UNLOADED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter.ScalaAdapter void setInternalProxies(net.minecraftforge.fml.common.ModContainer, net.minecraftforge.fml.relauncher.Side, java.lang.ClassLoader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoadController void distributeStateMessage(java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.AutomaticEventSubscriber void inject(net.minecraftforge.fml.common.ModContainer, net.minecraftforge.fml.common.discovery.ASMDataTable, net.minecraftforge.fml.relauncher.Side) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState POSTINITIALIZATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLContainer boolean registerBus(com.google.common.eventbus.EventBus, net.minecraftforge.fml.common.LoadController) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModAPIManager void manageAPI(net.minecraftforge.fml.common.ModClassLoader, net.minecraftforge.fml.common.discovery.ModDiscoverer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ProgressManager.ProgressBar void step(java.lang.Class&lt;?&gt;, java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLContainer boolean checkModLists(java.util.Map&lt;java.lang.String,java.lang.String&gt;, net.minecraftforge.fml.relauncher.Side) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLContainer void readData(net.minecraft.world.storage.SaveHandler, net.minecraft.world.storage.WorldInfo, java.util.Map&lt;java.lang.String,net.minecraft.nbt.NBTBase&gt;, net.minecraft.nbt.NBTTagCompound) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModContainer.Disableable YES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ProxyInjector void inject(net.minecraftforge.fml.common.ModContainer, net.minecraftforge.fml.common.discovery.ASMDataTable, net.minecraftforge.fml.relauncher.Side, net.minecraftforge.fml.common.ILanguageAdapter) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState NOINIT'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoadController void errorOccurred(net.minecraftforge.fml.common.ModContainer, java.lang.Throwable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.MetadataCollection net.minecraftforge.fml.common.MetadataCollection from(java.io.InputStream, java.lang.String)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.MCPDummyContainer net.minecraftforge.fml.common.ModContainer.Disableable canBeDisabled()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.DummyModContainer java.lang.String getSortingRules()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.Loader java.lang.String getFMLVersionString()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState SERVER_STARTING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLModContainer FMLModContainer(java.lang.String, net.minecraftforge.fml.common.discovery.ModCandidate, java.util.Map&lt;java.lang.String,java.lang.Object&gt;) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModContainer boolean registerBus(com.google.common.eventbus.EventBus, net.minecraftforge.fml.common.LoadController) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.Loader net.minecraftforge.fml.common.ICrashCallable getCallableCrashInformation()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModContainer java.lang.String getSortingRules()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.ProgressManager net.minecraftforge.fml.common.ProgressManager.ProgressBar push(java.lang.String, int, boolean)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLCommonHandler net.minecraftforge.fml.common.FMLCommonHandler instance()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ObfuscationReflectionHelper void setPrivateValue(java.lang.Class&lt;? super T&gt;, T, E, java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ObfuscationReflectionHelper T getPrivateValue(java.lang.Class&lt;? super E&gt;, E, java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ProgressManager void pop(net.minecraftforge.fml.common.ProgressManager.ProgressBar) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLContainer net.minecraft.nbt.NBTTagCompound getDataForWriting(net.minecraft.world.storage.SaveHandler, net.minecraft.world.storage.WorldInfo)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState.ModState ERRORED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModAPIManager void manageAPI(net.minecraftforge.fml.common.ModClassLoader, net.minecraftforge.fml.common.discovery.ModDiscoverer) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModContainerFactory net.minecraftforge.fml.common.ModContainer build(net.minecraftforge.fml.common.discovery.asm.ASMModParser, java.io.File, net.minecraftforge.fml.common.discovery.ModCandidate) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ProxyInjector void inject(net.minecraftforge.fml.common.ModContainer, net.minecraftforge.fml.common.discovery.ASMDataTable, net.minecraftforge.fml.relauncher.Side, net.minecraftforge.fml.common.ILanguageAdapter) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.WorldAccessContainer void readData(net.minecraft.world.storage.SaveHandler, net.minecraft.world.storage.WorldInfo, java.util.Map&lt;java.lang.String,net.minecraft.nbt.NBTBase&gt;, net.minecraft.nbt.NBTTagCompound) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.EnhancedRuntimeException void printStackTrace(net.minecraftforge.fml.common.EnhancedRuntimeException.WrappedPrintStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState AVAILABLE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLModContainer boolean registerBus(com.google.common.eventbus.EventBus, net.minecraftforge.fml.common.LoadController) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLCommonHandler net.minecraftforge.fml.relauncher.Side getEffectiveSide()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState SERVER_STOPPING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.InjectedModContainer void bindMetadata(net.minecraftforge.fml.common.MetadataCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter.ScalaAdapter void setProxy(java.lang.reflect.Field, java.lang.Class&lt;?&gt;, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.Loader java.util.List&lt;java.lang.String&gt; fireMissingMappingEvent(java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer&gt;, boolean, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer[]&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer[]&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState ERRORED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.MetadataCollection.ArtifactVersionAdapter net.minecraftforge.fml.common.versioning.ArtifactVersion read(com.google.gson.stream.JsonReader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLContainer java.lang.Class&lt;?&gt; getCustomResourcePackClass()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLModContainer void bindMetadata(net.minecraftforge.fml.common.MetadataCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.IFMLSidedHandler void fireNetRegistrationEvent(net.minecraftforge.fml.common.eventhandler.EventBus, net.minecraft.network.NetworkManager, java.util.Set&lt;java.lang.String&gt;, java.lang.String, net.minecraftforge.fml.relauncher.Side) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter.JavaAdapter void setInternalProxies(net.minecraftforge.fml.common.ModContainer, net.minecraftforge.fml.relauncher.Side, java.lang.ClassLoader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.WorldAccessContainer net.minecraft.nbt.NBTTagCompound getDataForWriting(net.minecraft.world.storage.SaveHandler, net.minecraft.world.storage.WorldInfo)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState INITIALIZATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ObfuscationReflectionHelper T getPrivateValue(java.lang.Class&lt;? super E&gt;, E, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ObfuscationReflectionHelper java.lang.String[] remapFieldNames(java.lang.String, java.lang.String...)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLCommonHandler boolean handleServerHandshake(net.minecraft.network.handshake.client.C00Handshake, net.minecraft.network.NetworkManager) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter void setProxy(java.lang.reflect.Field, java.lang.Class&lt;?&gt;, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.InjectedModContainer boolean registerBus(com.google.common.eventbus.EventBus, net.minecraftforge.fml.common.LoadController) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter.ScalaAdapter java.lang.Object getNewInstance(net.minecraftforge.fml.common.FMLModContainer, java.lang.Class&lt;?&gt;, java.lang.ClassLoader, java.lang.reflect.Method) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLContainer net.minecraft.nbt.NBTTagCompound getDataForWriting(net.minecraft.world.storage.SaveHandler, net.minecraft.world.storage.WorldInfo) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.IFMLSidedHandler java.io.File getSavesDirectory()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.IFMLSidedHandler net.minecraftforge.fml.relauncher.Side getSide()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.Java8VersionException void printStackTrace(net.minecraftforge.fml.common.EnhancedRuntimeException.WrappedPrintStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.MetadataCollection.ArtifactVersionAdapter java.lang.Object read(com.google.gson.stream.JsonReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.IFMLSidedHandler net.minecraft.util.IThreadListener getWorldThread(net.minecraft.network.INetHandler) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.ObfuscationReflectionHelper void setPrivateValue(java.lang.Class&lt;? super T&gt;, T, E, java.lang.String...) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ObfuscationReflectionHelper T getPrivateValue(java.lang.Class&lt;? super E&gt;, E, java.lang.String...) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModClassLoader net.minecraftforge.fml.common.asm.transformers.ModAPITransformer addModAPITransformer(net.minecraftforge.fml.common.discovery.ASMDataTable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ZipperUtil void zip(java.io.File, java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter.ScalaAdapter void setProxy(java.lang.reflect.Field, java.lang.Class&lt;?&gt;, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.Loader java.util.List&lt;java.lang.String&gt; fireMissingMappingEvent(java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer&gt;, boolean, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer[]&gt;, java.util.Map&lt;net.minecraft.util.ResourceLocation,java.lang.Integer[]&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.IFMLSidedHandler void fireNetRegistrationEvent(net.minecraftforge.fml.common.eventhandler.EventBus, net.minecraft.network.NetworkManager, java.util.Set&lt;java.lang.String&gt;, java.lang.String, net.minecraftforge.fml.relauncher.Side) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoadController void propogateStateMessage(net.minecraftforge.fml.common.event.FMLEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState.ModState LOADED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState LOADING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLContainer void modConstruction(net.minecraftforge.fml.common.event.FMLConstructionEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModClassLoader boolean isDefaultLibrary(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter void setInternalProxies(net.minecraftforge.fml.common.ModContainer, net.minecraftforge.fml.relauncher.Side, java.lang.ClassLoader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.MetadataCollection.ArtifactVersionAdapter java.lang.Object read(com.google.gson.stream.JsonReader) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModContainer.Disableable DEPENDENCIES'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLModContainer java.util.Map&lt;java.lang.String,java.lang.String&gt; getSharedModDescriptor()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.IFMLSidedHandler void addModAsResource(net.minecraftforge.fml.common.ModContainer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLContainer java.lang.Object getMod()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModAPIManager INSTANCE'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter.JavaAdapter void setProxy(java.lang.reflect.Field, java.lang.Class&lt;?&gt;, java.lang.Object) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModAPIManager void injectAPIModContainers(java.util.List&lt;net.minecraftforge.fml.common.ModContainer&gt;, java.util.Map&lt;java.lang.String,net.minecraftforge.fml.common.ModContainer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModContainer.Disableable RESTART'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ClassNameUtils java.lang.String shortName(java.lang.Class&lt;?&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoadController void distributeStateMessage(net.minecraftforge.fml.common.LoaderState, java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.DummyModContainer void bindMetadata(net.minecraftforge.fml.common.MetadataCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter.JavaAdapter java.lang.Object getNewInstance(net.minecraftforge.fml.common.FMLModContainer, java.lang.Class&lt;?&gt;, java.lang.ClassLoader, java.lang.reflect.Method) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLModContainer void handleModStateEvent(net.minecraftforge.fml.common.event.FMLEvent) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState.ModState CONSTRUCTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter java.lang.Object getNewInstance(net.minecraftforge.fml.common.FMLModContainer, java.lang.Class&lt;?&gt;, java.lang.ClassLoader, java.lang.reflect.Method) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.FMLContainer java.lang.String getGuiClassName()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter.JavaAdapter void setProxy(java.lang.reflect.Field, java.lang.Class&lt;?&gt;, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModAPIManager void registerDataTableAndParseAPI(net.minecraftforge.fml.common.discovery.ASMDataTable) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModAPIManager void injectAPIModContainers(java.util.List&lt;net.minecraftforge.fml.common.ModContainer&gt;, java.util.Map&lt;java.lang.String,net.minecraftforge.fml.common.ModContainer&gt;) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState SERVER_ABOUT_TO_START'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModContainer void bindMetadata(net.minecraftforge.fml.common.MetadataCollection) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState.ModState DISABLED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ILanguageAdapter void setProxy(java.lang.reflect.Field, java.lang.Class&lt;?&gt;, java.lang.Object) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.MetadataCollection.ArtifactVersionAdapter net.minecraftforge.fml.common.versioning.ArtifactVersion read(com.google.gson.stream.JsonReader)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModClassLoader void addFile(java.io.File) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModClassLoader net.minecraftforge.fml.common.asm.transformers.ModAPITransformer addModAPITransformer(net.minecraftforge.fml.common.discovery.ASMDataTable)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.WrongMinecraftVersionException void printStackTrace(net.minecraftforge.fml.common.EnhancedRuntimeException.WrappedPrintStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderException void printStackTrace(net.minecraftforge.fml.common.EnhancedRuntimeException.WrappedPrintStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.MissingModsException void printStackTrace(net.minecraftforge.fml.common.EnhancedRuntimeException.WrappedPrintStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModContainer net.minecraftforge.fml.common.ModContainer.Disableable canBeDisabled()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.IFMLSidedHandler void queryUser(net.minecraftforge.fml.common.StartupQuery) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoadController void printModStates(java.lang.StringBuilder) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState.ModState POSTINITIALIZED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState CONSTRUCTING'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState SERVER_STARTED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ObfuscationReflectionHelper void setPrivateValue(java.lang.Class&lt;? super T&gt;, T, E, int) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.DummyModContainer net.minecraftforge.fml.common.ModContainer.Disableable canBeDisabled()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.DummyModContainer boolean registerBus(com.google.common.eventbus.EventBus, net.minecraftforge.fml.common.LoadController) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.MCPDummyContainer boolean registerBus(com.google.common.eventbus.EventBus, net.minecraftforge.fml.common.LoadController) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.ObfuscationReflectionHelper java.lang.String[] remapFieldNames(java.lang.String, java.lang.String...) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState.ModState INITIALIZED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModAPIManager void cleanupAPIContainers(java.util.List&lt;net.minecraftforge.fml.common.ModContainer&gt;) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.Loader void injectData(java.lang.Object...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ProgressManager net.minecraftforge.fml.common.ProgressManager.ProgressBar push(java.lang.String, int)'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.WorldAccessContainer net.minecraft.nbt.NBTTagCompound getDataForWriting(net.minecraft.world.storage.SaveHandler, net.minecraft.world.storage.WorldInfo) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState SERVER_STOPPED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.IFMLSidedHandler java.lang.String getCurrentLanguage()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.AutomaticEventSubscriber void inject(net.minecraftforge.fml.common.ModContainer, net.minecraftforge.fml.common.discovery.ASMDataTable, net.minecraftforge.fml.relauncher.Side) 1'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.DuplicateModsFoundException void printStackTrace(net.minecraftforge.fml.common.EnhancedRuntimeException.WrappedPrintStream) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.WrongMinecraftVersionException WrongMinecraftVersionException(net.minecraftforge.fml.common.ModContainer, java.lang.String) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModMetadata java.lang.String printableSortingRules()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ICrashCallable java.lang.String getLabel()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+        <annotation name='org.jetbrains.kannotator.runtime.annotations.Propagated'>
+            <val name="value" val="{org.jetbrains.kannotator.controlFlow.builder.analysis.NullabilityKey.class}"/>
+        </annotation>
+    </item>
+    <item name='net.minecraftforge.fml.common.Loader MC_VERSION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModContainer.Disableable NEVER'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState PREINITIALIZATION'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ObfuscationReflectionHelper java.lang.String[] remapFieldNames(java.lang.String, java.lang.String...) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.LoaderState.ModState PREINITIALIZED'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.Loader net.minecraftforge.fml.common.LoaderState.ModState getModState(net.minecraftforge.fml.common.ModContainer) 0'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ModContainerFactory net.minecraftforge.fml.common.ModContainer build(net.minecraftforge.fml.common.discovery.asm.ASMModParser, java.io.File, net.minecraftforge.fml.common.discovery.ModCandidate) 2'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+    <item name='net.minecraftforge.fml.common.ProxyInjector void inject(net.minecraftforge.fml.common.ModContainer, net.minecraftforge.fml.common.discovery.ASMDataTable, net.minecraftforge.fml.relauncher.Side, net.minecraftforge.fml.common.ILanguageAdapter) 3'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>
