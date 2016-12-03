@@ -9,7 +9,6 @@ buildscript {
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
         classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.5-2'
-        classpath 'org.jetbrains:annotations:13.0'
     }
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
@@ -40,7 +39,6 @@ configurations {
 dependencies {
     embed 'org.jetbrains.kotlin:kotlin-stdlib:0.12.613'
     compile 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.5-2'
-    embed 'org.jetbrains:annotations:13.0'
 }
 
 jar {
