@@ -1,8 +1,8 @@
 package c6h2cl2.YukariLib
 
-import net.minecraftforge.fml.common.Mod
-import net.minecraftforge.fml.common.ModMetadata
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+import cpw.mods.fml.common.Mod
+import cpw.mods.fml.common.ModMetadata
+import cpw.mods.fml.common.event.FMLPreInitializationEvent
 
 /**
  * @author C6H2Cl2
@@ -14,11 +14,11 @@ class YukariLibCore {
         val DOMAIN = MOD_ID.toLowerCase()
         val Version = "1.0.0"
         @Mod.Metadata
-        var metadata :ModMetadata? = null
+        var metadata : ModMetadata? = null
     }
 
     @Mod.EventHandler
-    fun preinit(event:FMLPreInitializationEvent){
+    fun preinit(event: FMLPreInitializationEvent){
         loadMeta()
     }
 
