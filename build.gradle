@@ -25,7 +25,7 @@ tasks.withType(Jar) {
 sourceCompatibility = "1.8"
 targetCompatibility = "1.8"
 
-version = "1.0.0-1.7.10"
+version = "1.0.1-1.7.10"
 group= "c6h2cl2.YukariLib"
 archivesBaseName = "YukariLib"
 
@@ -41,7 +41,7 @@ configurations {
 
 dependencies {
     embed 'org.jetbrains.kotlin:kotlin-stdlib:0.12.613'
-    compile 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.5-2'
+    embed 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.5-2'
 }
 
 jar {
