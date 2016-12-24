@@ -7,12 +7,12 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent
 /**
  * @author C6H2Cl2
  */
-@Mod(modid = "YukariLib",useMetadata = true)
+@Mod(modid = YukariLibCore.MOD_ID,version = YukariLibCore.Version,useMetadata = true)
 class YukariLibCore {
     companion object{
-        val MOD_ID = "YukariLib"
-        val DOMAIN = MOD_ID.toLowerCase()
-        val Version = "1.0.2"
+        const val MOD_ID = "YukariLib"
+        const val DOMAIN = "yukarilib"
+        const val Version = "1.0.2"
         @Mod.Metadata
         var metadata :ModMetadata? = null
     }
@@ -24,7 +24,7 @@ class YukariLibCore {
 
     private fun loadMeta(){
         val meta = metadata as ModMetadata
-        meta.modId = DOMAIN
+        meta.modId = MOD_ID
         meta.name = MOD_ID
         meta.version = Version
         meta.authorList.add("C6H2Cl2")
