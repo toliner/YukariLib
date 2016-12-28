@@ -1,8 +1,12 @@
 package c6h2cl2.YukariLib
 
+import net.minecraft.client.Minecraft
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.ModMetadata
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.net.URL
 
 /**
  * @author C6H2Cl2
@@ -19,6 +23,12 @@ class YukariLibCore {
 
     @Mod.EventHandler
     fun preinit(event:FMLPreInitializationEvent){
+        if (event.side.isClient){
+            val userName = Minecraft.getMinecraft().session.username
+            val url = URL("https://api.mojang.com/users/profiles/minecraft/$userName")
+            val reader = BufferedReader(InputStreamReader(url.openStream()))
+            if(reader.readLine() == null) throw PlayerNotOfficialPurchasedException()
+        }
         loadMeta()
     }
 
