@@ -26,8 +26,9 @@ class YukariLibCore {
         if (event.side.isClient){
             val userName = Minecraft.getMinecraft().session.username
             val url = URL("https://api.mojang.com/users/profiles/minecraft/$userName")
-            val reader = BufferedReader(InputStreamReader(url.openStream()))
-            if(reader.readLine() == null) throw PlayerNotOfficialPurchasedException()
+            BufferedReader(InputStreamReader(url.openStream())).use {
+                if(it.readLine() == null) throw PlayerNotOfficialPurchasedException()
+            }
         }
         loadMeta()
     }
