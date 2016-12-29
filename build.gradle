@@ -9,10 +9,14 @@ buildscript {
             name = "sonatype"
             url = "https://oss.sonatype.org/content/repositories/snapshots/"
         }
+        maven {
+            name = "kotlin"
+            url = "http://dl.bintray.com/kotlin/kotlin-eap-1.1/"
+        }
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.5-2'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.1-M04'
     }
 }
 apply plugin: 'forge'
@@ -22,10 +26,9 @@ tasks.withType(Jar) {
     compileJava.options.encoding = 'UTF-8'
     compileJava.options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
 }
-sourceCompatibility = "1.8"
-targetCompatibility = "1.8"
+sourceCompatibility = targetCompatibility = "1.8"
 
-version = "1.0.1-1.7.10"
+version = "1.0.2-1.7.10"
 group= "c6h2cl2.YukariLib"
 archivesBaseName = "YukariLib"
 
@@ -39,9 +42,15 @@ configurations {
     compile.extendsFrom(embed)
 }
 
+repositories{
+    maven {
+        name = "kotlin"
+        url = "http://dl.bintray.com/kotlin/kotlin-eap-1.1/"
+    }
+}
+
 dependencies {
-    embed 'org.jetbrains.kotlin:kotlin-stdlib:0.12.613'
-    embed 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.5-2'
+    embed 'org.jetbrains.kotlin:kotlin-stdlib:1.1-M04'
 }
 
 jar {

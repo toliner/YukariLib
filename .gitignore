@@ -25,3 +25,4 @@ build/
 .gradle/
 gradle/
 gradlew
+buildlog*
