@@ -1,14 +1,19 @@
 buildscript {
     repositories {
+        mavenCentral()
         jcenter()
         maven {
             name = "forge"
             url = "http://files.minecraftforge.net/maven"
         }
+        maven {
+            name = "kotlin"
+            url = "http://dl.bintray.com/kotlin/kotlin-eap-1.1/"
+        }
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.5-3'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.1-M04'
     }
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
@@ -16,7 +21,7 @@ apply plugin: "kotlin"
 
 tasks.withType(Jar) {
     compileJava.options.encoding = 'UTF-8'
-    compileJava.options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation" <<"-Xms2G" << "-Xmx4G"
+    compileJava.options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
 }
 sourceCompatibility = targetCompatibility = "1.8"
 
@@ -35,9 +40,15 @@ configurations {
     compile.extendsFrom(embed)
 }
 
+repositories{
+    maven {
+        name = "kotlin"
+        url = "http://dl.bintray.com/kotlin/kotlin-eap-1.1/"
+    }
+}
+
 dependencies {
-    embed 'org.jetbrains.kotlin:kotlin-stdlib:0.12.613'
-    compile 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.5-3'
+    embed 'org.jetbrains.kotlin:kotlin-stdlib:1.1-M04'
 }
 
 jar {

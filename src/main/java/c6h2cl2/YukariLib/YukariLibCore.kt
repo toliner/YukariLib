@@ -11,29 +11,30 @@ import java.net.URL
 /**
  * @author C6H2Cl2
  */
-@Mod(modid = YukariLibCore.MOD_ID,version = YukariLibCore.Version,useMetadata = true)
+@Mod(modid = YukariLibCore.MOD_ID, version = YukariLibCore.Version, useMetadata = true)
 class YukariLibCore {
-    companion object{
+    companion object {
         const val MOD_ID = "YukariLib"
         const val DOMAIN = "yukarilib"
         const val Version = "1.0.2"
+        @JvmField
         @Mod.Metadata
-        var metadata :ModMetadata? = null
+        var metadata: ModMetadata? = null
     }
 
     @Mod.EventHandler
-    fun preinit(event:FMLPreInitializationEvent){
-        if (event.side.isClient){
+    fun preinit(event: FMLPreInitializationEvent) {
+        if (event.side.isClient) {
             val userName = Minecraft.getMinecraft().session.username
             val url = URL("https://api.mojang.com/users/profiles/minecraft/$userName")
             BufferedReader(InputStreamReader(url.openStream())).use {
-                if(it.readLine() == null) throw PlayerNotOfficialPurchasedException()
+                if (it.readLine() == null) throw PlayerNotOfficialPurchasedException()
             }
         }
         loadMeta()
     }
 
-    private fun loadMeta(){
+    private fun loadMeta() {
         val meta = metadata as ModMetadata
         meta.modId = MOD_ID
         meta.name = MOD_ID
