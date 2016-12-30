@@ -25,3 +25,6 @@ build/
 .gradle/
 gradle/
 gradlew
+buildlog.txt
+gradle-app.setting
+gradle.properties
