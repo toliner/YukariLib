@@ -1,6 +1,7 @@
 package c6h2cl2.YukariLib
 
 import net.minecraft.client.Minecraft
+import net.minecraft.launchwrapper.Launch
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.ModMetadata
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -16,7 +17,7 @@ class YukariLibCore {
     companion object {
         const val MOD_ID = "YukariLib"
         const val DOMAIN = "yukarilib"
-        const val Version = "1.0.2"
+        const val Version = "1.0.2.1"
         @JvmField
         @Mod.Metadata
         var metadata: ModMetadata? = null
@@ -28,7 +29,11 @@ class YukariLibCore {
             val userName = Minecraft.getMinecraft().session.username
             val url = URL("https://api.mojang.com/users/profiles/minecraft/$userName")
             BufferedReader(InputStreamReader(url.openStream())).use {
-                if (it.readLine() == null) throw PlayerNotOfficialPurchasedException()
+                if (it.readLine() == null){
+                    if(Launch.blackboard["fml.deobfuscatedEnvironment"]?.equals(true) == false){
+                        throw PlayerNotOfficialPurchasedException()
+                    }
+                }
             }
         }
         loadMeta()
