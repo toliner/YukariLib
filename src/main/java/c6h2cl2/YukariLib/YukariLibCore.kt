@@ -12,12 +12,12 @@ import java.net.URL
 /**
  * @author C6H2Cl2
  */
-@Mod(modid = "YukariLib",useMetadata = true)
+@Mod(modid = YukariLibCore.MOD_ID,version = YukariLibCore.Version,useMetadata = true)
 class YukariLibCore {
     companion object{
-        val MOD_ID = "YukariLib"
-        val DOMAIN = MOD_ID.toLowerCase()
-        val Version = "1.0.2"
+        const val MOD_ID = "YukariLib"
+        const val DOMAIN = "yukarilib"
+        const val Version = "1.0.3"
         @Mod.Metadata
         var metadata : ModMetadata? = null
     }

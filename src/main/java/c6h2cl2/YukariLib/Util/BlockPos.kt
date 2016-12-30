@@ -10,7 +10,7 @@ import net.minecraftforge.common.util.ForgeDirection
 /**
  * @author C6H2Cl2
  */
-data class BlockPos(var x: Int,var y: Int,var z: Int) {
+data class BlockPos(var x: Int, var y: Int, var z: Int) {
 
     val up: BlockPos
         get() = BlockPos(x, y + 1, z)
@@ -37,6 +37,12 @@ data class BlockPos(var x: Int,var y: Int,var z: Int) {
     fun getTileEntityFromPos(world: IBlockAccess): TileEntity? {
         return world.getTileEntity(x, y, z)
     }
+
+    fun getDistance(posFrom: BlockPos, posTo: BlockPos): Double {
+        return Math.sqrt(Math.pow((posFrom.x - posTo.x).toDouble(), 2.0) + Math.pow((posFrom.y - posTo.y).toDouble(), 2.0) + Math.pow((posFrom.z - posTo.z).toDouble(), 2.0))
+    }
+
+    fun getDistance(pos: BlockPos): Double = getDistance(this, pos)
 
     fun getBlockDirection(tilePos: BlockPos): ForgeDirection {
         if (up == tilePos) {
