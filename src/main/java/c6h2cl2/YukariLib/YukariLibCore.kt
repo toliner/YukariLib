@@ -12,7 +12,7 @@ import java.net.URL
 /**
  * @author C6H2Cl2
  */
-@Mod(modid = YukariLibCore.MOD_ID, version = YukariLibCore.Version, useMetadata = true)
+@Mod(modid = YukariLibCore.DOMAIN, version = YukariLibCore.Version, useMetadata = true)
 class YukariLibCore {
     companion object {
         const val MOD_ID = "YukariLib"
