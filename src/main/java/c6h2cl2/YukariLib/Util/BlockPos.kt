@@ -10,8 +10,10 @@ import net.minecraftforge.common.util.ForgeDirection
 /**
  * @author C6H2Cl2
  */
-data class BlockPos(var x: Int, var y: Int, var z: Int) {
-
+data class BlockPos(private var x: Int,private var y: Int,private var z: Int) {
+    constructor(nbtTagCompound: NBTTagCompound, name: String = "blockPos") : this(0,0,0){
+        readFromNBT(nbtTagCompound,name)
+    }
     val up: BlockPos
         get() = BlockPos(x, y + 1, z)
 
@@ -62,18 +64,24 @@ data class BlockPos(var x: Int, var y: Int, var z: Int) {
         }
     }
 
-    @JvmOverloads fun writeToNBT(tagCompound: NBTTagCompound, tagName: String = "blockPos") {
+    @JvmOverloads fun writeToNBT(tagCompound: NBTTagCompound, tagName: String = "blockPos") :NBTTagCompound{
         val tag = NBTTagCompound()
         tag.setInteger("x", x)
         tag.setInteger("y", y)
         tag.setInteger("z", z)
         tagCompound.setTag(tagName, tag)
+        return tagCompound
     }
 
-    @JvmOverloads fun readFromNBT(tagCompound: NBTTagCompound, tagName: String = "blockPos") {
+    @JvmOverloads fun readFromNBT(tagCompound: NBTTagCompound, tagName: String = "blockPos") :BlockPos{
         val tag = tagCompound.getCompoundTag(tagName)
         x = tag.getInteger("x")
         y = tag.getInteger("y")
         z = tag.getInteger("z")
+        return this
     }
+
+    fun getX() = x
+    fun getY() = y
+    fun getZ() = z
 }
