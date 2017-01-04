@@ -1,10 +1,14 @@
 package c6h2cl2.YukariLib
 
+import c6h2cl2.YukariLib.Event.YukariLibEventHandler
 import cpw.mods.fml.common.Mod
+import cpw.mods.fml.common.Mod.EventHandler
 import cpw.mods.fml.common.ModMetadata
+import cpw.mods.fml.common.event.FMLInitializationEvent
 import cpw.mods.fml.common.event.FMLPreInitializationEvent
 import net.minecraft.client.Minecraft
 import net.minecraft.launchwrapper.Launch
+import net.minecraftforge.common.MinecraftForge
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.net.URL
@@ -36,6 +40,11 @@ class YukariLibCore {
             }
         }
         loadMeta()
+    }
+
+    @EventHandler
+    fun init(event: FMLInitializationEvent){
+        MinecraftForge.EVENT_BUS.register(YukariLibEventHandler())
     }
 
     private fun loadMeta(){
