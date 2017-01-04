@@ -1,15 +1,19 @@
 package c6h2cl2.YukariLib
 
+import c6h2cl2.YukariLib.Common.CommonProxy
 import c6h2cl2.YukariLib.Event.YukariLibEventHandler
 import cpw.mods.fml.common.Mod
 import cpw.mods.fml.common.Mod.EventHandler
 import cpw.mods.fml.common.ModMetadata
+import cpw.mods.fml.common.SidedProxy
 import cpw.mods.fml.common.event.FMLInitializationEvent
 import cpw.mods.fml.common.event.FMLPreInitializationEvent
 import net.minecraft.client.Minecraft
 import net.minecraft.launchwrapper.Launch
 import net.minecraftforge.common.MinecraftForge
+import net.minecraftforge.common.config.Configuration
 import java.io.BufferedReader
+import java.io.File
 import java.io.InputStreamReader
 import java.net.URL
 
@@ -24,6 +28,10 @@ class YukariLibCore {
         const val Version = "1.0.3"
         @Mod.Metadata
         var metadata : ModMetadata? = null
+        @SidedProxy(clientSide = "c6h2cl2.YukariLib.Client.ClientProxy", serverSide = "c6h2cl2.YukariLib.Common.CommonProxy")
+        var proxy: CommonProxy? = null
+        private var enableDeathLog = true
+        fun isEnableDeathLog() = enableDeathLog
     }
 
     @Mod.EventHandler
@@ -40,11 +48,20 @@ class YukariLibCore {
             }
         }
         loadMeta()
+        getConfig()
     }
 
     @EventHandler
     fun init(event: FMLInitializationEvent){
         MinecraftForge.EVENT_BUS.register(YukariLibEventHandler())
+    }
+
+    private fun getConfig() {
+        val proxy = proxy as CommonProxy
+        val cfg = Configuration(File(proxy.getDir(), "config/YukariLib.cfg"))
+        cfg.load()
+        enableDeathLog = cfg.getBoolean("Enable Death Log", "Common", true, "Set false to disable player position log on death.")
+        cfg.save()
     }
 
     private fun loadMeta(){
