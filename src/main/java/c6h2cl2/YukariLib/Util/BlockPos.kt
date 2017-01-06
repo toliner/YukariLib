@@ -6,14 +6,22 @@ import net.minecraft.tileentity.TileEntity
 import net.minecraft.world.IBlockAccess
 import net.minecraft.world.World
 import net.minecraftforge.common.util.ForgeDirection
+import net.minecraftforge.common.util.ForgeDirection.DOWN
+import net.minecraftforge.common.util.ForgeDirection.EAST
+import net.minecraftforge.common.util.ForgeDirection.NORTH
+import net.minecraftforge.common.util.ForgeDirection.SOUTH
+import net.minecraftforge.common.util.ForgeDirection.UNKNOWN
+import net.minecraftforge.common.util.ForgeDirection.UP
+import net.minecraftforge.common.util.ForgeDirection.WEST
 
 /**
  * @author C6H2Cl2
  */
-data class BlockPos(private var x: Int,private var y: Int,private var z: Int) {
-    constructor(nbtTagCompound: NBTTagCompound, name: String = "blockPos") : this(0,0,0){
-        readFromNBT(nbtTagCompound,name)
+data class BlockPos(private var x: Int, private var y: Int, private var z: Int) {
+    constructor(nbtTagCompound: NBTTagCompound, name: String = "blockPos") : this(0, 0, 0) {
+        readFromNBT(nbtTagCompound, name)
     }
+
     val up: BlockPos
         get() = BlockPos(x, y + 1, z)
 
@@ -64,7 +72,7 @@ data class BlockPos(private var x: Int,private var y: Int,private var z: Int) {
         }
     }
 
-    @JvmOverloads fun writeToNBT(tagCompound: NBTTagCompound, tagName: String = "blockPos") :NBTTagCompound{
+    @JvmOverloads fun writeToNBT(tagCompound: NBTTagCompound, tagName: String = "blockPos"): NBTTagCompound {
         val tag = NBTTagCompound()
         tag.setInteger("x", x)
         tag.setInteger("y", y)
@@ -73,7 +81,7 @@ data class BlockPos(private var x: Int,private var y: Int,private var z: Int) {
         return tagCompound
     }
 
-    @JvmOverloads fun readFromNBT(tagCompound: NBTTagCompound, tagName: String = "blockPos") :BlockPos{
+    @JvmOverloads fun readFromNBT(tagCompound: NBTTagCompound, tagName: String = "blockPos"): BlockPos {
         val tag = tagCompound.getCompoundTag(tagName)
         x = tag.getInteger("x")
         y = tag.getInteger("y")
@@ -84,4 +92,36 @@ data class BlockPos(private var x: Int,private var y: Int,private var z: Int) {
     fun getX() = x
     fun getY() = y
     fun getZ() = z
+
+    fun getPosForDirection(direction: ForgeDirection): BlockPos {
+        return when (direction) {
+            DOWN -> down
+            UP -> up
+            NORTH -> north
+            SOUTH -> south
+            EAST -> east
+            WEST -> west
+            UNKNOWN -> this
+        }
+    }
+
+    operator fun plus(pos: BlockPos): BlockPos {
+        return BlockPos(x + pos.x, y + pos.y, z + pos.z)
+    }
+
+    operator fun plusAssign(pos: BlockPos){
+        this.x += pos.x
+        this.y += pos.y
+        this.z += pos.z
+    }
+
+    operator fun minus(pos: BlockPos):BlockPos{
+        return BlockPos(x - pos.x, y - pos.y, z - pos.z)
+    }
+
+    operator fun minusAssign(pos: BlockPos){
+        this.x -= pos.x
+        this.y -= pos.y
+        this.z -= pos.z
+    }
 }
