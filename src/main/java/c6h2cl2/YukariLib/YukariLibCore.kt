@@ -2,6 +2,7 @@ package c6h2cl2.YukariLib
 
 import c6h2cl2.YukariLib.Common.CommonProxy
 import c6h2cl2.YukariLib.Event.YukariLibEventHandler
+import com.mojang.util.UUIDTypeAdapter
 import cpw.mods.fml.common.Mod
 import cpw.mods.fml.common.Mod.EventHandler
 import cpw.mods.fml.common.ModMetadata
@@ -10,6 +11,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent
 import cpw.mods.fml.common.event.FMLPreInitializationEvent
 import net.minecraft.client.Minecraft
 import net.minecraft.launchwrapper.Launch
+import net.minecraft.util.Session
 import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.common.config.Configuration
 import java.io.BufferedReader
@@ -20,14 +22,14 @@ import java.net.URL
 /**
  * @author C6H2Cl2
  */
-@Mod(modid = YukariLibCore.MOD_ID,version = YukariLibCore.Version,useMetadata = true)
+@Mod(modid = YukariLibCore.MOD_ID, version = YukariLibCore.Version, useMetadata = true)
 class YukariLibCore {
-    companion object{
+    companion object {
         const val MOD_ID = "YukariLib"
         const val DOMAIN = "yukarilib"
-        const val Version = "1.0.3"
+        const val Version = "1.1.0"
         @Mod.Metadata
-        var metadata : ModMetadata? = null
+        var metadata: ModMetadata? = null
         @SidedProxy(clientSide = "c6h2cl2.YukariLib.Client.ClientProxy", serverSide = "c6h2cl2.YukariLib.Common.CommonProxy")
         var proxy: CommonProxy? = null
         private var enableDeathLog = true
@@ -35,16 +37,23 @@ class YukariLibCore {
     }
 
     @Mod.EventHandler
-    fun preinit(event: FMLPreInitializationEvent){
-        if (event.side.isClient) {
-            val userName = Minecraft.getMinecraft().session.username
+    fun preinit(event: FMLPreInitializationEvent) {
+        if (event.side.isClient && Launch.blackboard["fml.deobfuscatedEnvironment"]?.equals(true) == false) {
+            var purchased = true
+            val session = Minecraft.getMinecraft().session
+            val userName = session.username
             val url = URL("https://api.mojang.com/users/profiles/minecraft/$userName")
             BufferedReader(InputStreamReader(url.openStream())).use {
-                if (it.readLine() == null){
-                    if(Launch.blackboard["fml.deobfuscatedEnvironment"]?.equals(true) == false){
-                        throw PlayerNotOfficialPurchasedException()
-                    }
-                }
+                purchased = it.readLine() != null
+            }
+            try {
+                UUIDTypeAdapter.fromString(session.playerID)
+            } catch (e: Exception) {
+                purchased =  false
+            }
+            purchased = (purchased && !Minecraft.getMinecraft().isDemo)
+            if(!purchased){
+                throw PlayerNotOfficialPurchasedException()
             }
         }
         loadMeta()
@@ -52,7 +61,7 @@ class YukariLibCore {
     }
 
     @EventHandler
-    fun init(event: FMLInitializationEvent){
+    fun init(event: FMLInitializationEvent) {
         MinecraftForge.EVENT_BUS.register(YukariLibEventHandler())
     }
 
@@ -64,7 +73,7 @@ class YukariLibCore {
         cfg.save()
     }
 
-    private fun loadMeta(){
+    private fun loadMeta() {
         val meta = metadata as ModMetadata
         meta.modId = DOMAIN
         meta.name = MOD_ID
