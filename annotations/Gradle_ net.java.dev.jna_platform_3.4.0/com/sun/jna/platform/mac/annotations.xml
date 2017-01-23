@@ -1,5 +1,0 @@
-<root>
-    <item name='com.sun.jna.platform.mac.MacFileUtils void moveToTrash(java.io.File[]) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

@@ -1,5 +1,0 @@
-<root>
-    <item name='LZMA.LzmaInputStream int read(byte[], int, int) 0'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>

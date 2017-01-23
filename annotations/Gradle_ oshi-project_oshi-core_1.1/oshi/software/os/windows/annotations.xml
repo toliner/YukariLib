@@ -1,8 +1,0 @@
-<root>
-    <item name='oshi.software.os.windows.WindowsOperatingSystem java.lang.String getFamily()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-    <item name='oshi.software.os.windows.WindowsOperatingSystem java.lang.String getManufacturer()'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>
