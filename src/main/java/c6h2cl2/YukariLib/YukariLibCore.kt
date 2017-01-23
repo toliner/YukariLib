@@ -11,7 +11,6 @@ import cpw.mods.fml.common.event.FMLInitializationEvent
 import cpw.mods.fml.common.event.FMLPreInitializationEvent
 import net.minecraft.client.Minecraft
 import net.minecraft.launchwrapper.Launch
-import net.minecraft.util.Session
 import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.common.config.Configuration
 import java.io.BufferedReader

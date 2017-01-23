@@ -40,6 +40,18 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
     val west: BlockPos
         get() = BlockPos(x - 1, y, z)
 
+    fun up(value: Int) = BlockPos(x, y + value, z)
+
+    fun down(value: Int) = BlockPos(x, y - value, z)
+
+    fun north(value: Int) = BlockPos(x, y, z - value)
+
+    fun south(value: Int) = BlockPos(x, y, z + value)
+
+    fun east(value: Int) = BlockPos(x + value, y, z)
+
+    fun west(value: Int) = BlockPos(x - value, y, z)
+
     fun getBlockFromPos(world: World): Block {
         return world.getBlock(x, y, z)
     }
@@ -109,19 +121,29 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         return BlockPos(x + pos.x, y + pos.y, z + pos.z)
     }
 
-    operator fun plusAssign(pos: BlockPos){
+    operator fun plusAssign(pos: BlockPos) {
         this.x += pos.x
         this.y += pos.y
         this.z += pos.z
     }
 
-    operator fun minus(pos: BlockPos):BlockPos{
+    operator fun minus(pos: BlockPos): BlockPos {
         return BlockPos(x - pos.x, y - pos.y, z - pos.z)
     }
 
-    operator fun minusAssign(pos: BlockPos){
+    operator fun minusAssign(pos: BlockPos) {
         this.x -= pos.x
         this.y -= pos.y
         this.z -= pos.z
+    }
+
+    operator fun times(value: Int): BlockPos {
+        return BlockPos(x * value, y * value, z * value)
+    }
+
+    operator fun timesAssign(value: Int){
+        x *= value
+        y *= value
+        z *= value
     }
 }
