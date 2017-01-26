@@ -2,7 +2,6 @@ package c6h2cl2.YukariLib.Util
 
 import net.minecraft.block.Block
 import net.minecraft.nbt.NBTTagCompound
-import net.minecraft.tileentity.TileEntity
 import net.minecraft.world.IBlockAccess
 import net.minecraft.world.World
 import net.minecraftforge.common.util.ForgeDirection
@@ -17,7 +16,8 @@ import net.minecraftforge.common.util.ForgeDirection.WEST
 /**
  * @author C6H2Cl2
  */
-data class BlockPos(private var x: Int, private var y: Int, private var z: Int) {
+data class BlockPos(private var x: Int, private var y: Int, private var z: Int) :Comparable<BlockPos>{
+
     constructor(nbtTagCompound: NBTTagCompound, name: String = "blockPos") : this(0, 0, 0) {
         readFromNBT(nbtTagCompound, name)
     }
@@ -56,9 +56,7 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         return world.getBlock(x, y, z)
     }
 
-    fun getTileEntityFromPos(world: IBlockAccess): TileEntity? {
-        return world.getTileEntity(x, y, z)
-    }
+    fun getTileEntityFromPos(world: IBlockAccess) = world.getTileEntity(x, y, z)
 
     fun getDistance(posFrom: BlockPos, posTo: BlockPos): Double {
         return Math.sqrt(Math.pow((posFrom.x - posTo.x).toDouble(), 2.0) + Math.pow((posFrom.y - posTo.y).toDouble(), 2.0) + Math.pow((posFrom.z - posTo.z).toDouble(), 2.0))
@@ -117,9 +115,9 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         }
     }
 
-    operator fun plus(pos: BlockPos): BlockPos {
-        return BlockPos(x + pos.x, y + pos.y, z + pos.z)
-    }
+    override fun compareTo(other: BlockPos) = getDistance(other).toInt()
+
+    operator fun plus(pos: BlockPos) = BlockPos(x + pos.x, y + pos.y, z + pos.z)
 
     operator fun plusAssign(pos: BlockPos) {
         this.x += pos.x
@@ -127,9 +125,7 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         this.z += pos.z
     }
 
-    operator fun minus(pos: BlockPos): BlockPos {
-        return BlockPos(x - pos.x, y - pos.y, z - pos.z)
-    }
+    operator fun minus(pos: BlockPos) = BlockPos(x - pos.x, y - pos.y, z - pos.z)
 
     operator fun minusAssign(pos: BlockPos) {
         this.x -= pos.x
@@ -137,9 +133,7 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         this.z -= pos.z
     }
 
-    operator fun times(value: Int): BlockPos {
-        return BlockPos(x * value, y * value, z * value)
-    }
+    operator fun times(value: Int) = BlockPos(x * value, y * value, z * value)
 
     operator fun timesAssign(value: Int){
         x *= value
