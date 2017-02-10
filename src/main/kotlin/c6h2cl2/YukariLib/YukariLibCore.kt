@@ -27,11 +27,14 @@ class YukariLibCore {
         const val MOD_ID = "YukariLib"
         const val DOMAIN = "yukarilib"
         const val Version = "1.1.0"
+        @JvmStatic
         @Mod.Metadata
         var metadata: ModMetadata? = null
+        @JvmStatic
         @SidedProxy(clientSide = "c6h2cl2.YukariLib.Client.ClientProxy", serverSide = "c6h2cl2.YukariLib.Common.CommonProxy")
         var proxy: CommonProxy? = null
         private var enableDeathLog = true
+        @JvmStatic
         fun isEnableDeathLog() = enableDeathLog
     }
 

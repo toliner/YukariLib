@@ -12,16 +12,27 @@ import net.minecraftforge.common.util.ForgeDirection.SOUTH
 import net.minecraftforge.common.util.ForgeDirection.UNKNOWN
 import net.minecraftforge.common.util.ForgeDirection.UP
 import net.minecraftforge.common.util.ForgeDirection.WEST
+import kotlin.comparisons.maxOf
+import kotlin.comparisons.minOf
 
 /**
  * @author C6H2Cl2
  */
-data class BlockPos(private var x: Int, private var y: Int, private var z: Int) :Comparable<BlockPos>{
+data class BlockPos(private var x: Int, private var y: Int, private var z: Int){
+    companion object {
+        @JvmStatic
+        val Empty = BlockPos(0, 0, 0)
+        @JvmStatic
+        val Max_Pos = BlockPos(Int.MAX_VALUE, Int.MAX_VALUE, Int.MAX_VALUE)
+        @JvmStatic
+        val Min_Pos = BlockPos(Int.MIN_VALUE, Int.MIN_VALUE, Int.MIN_VALUE)
+    }
 
     constructor(nbtTagCompound: NBTTagCompound, name: String = "blockPos") : this(0, 0, 0) {
         readFromNBT(nbtTagCompound, name)
     }
 
+    // Directions
     val up: BlockPos
         get() = BlockPos(x, y + 1, z)
 
@@ -52,11 +63,10 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
 
     fun west(value: Int) = BlockPos(x - value, y, z)
 
-    fun getBlockFromPos(world: World): Block {
-        return world.getBlock(x, y, z)
-    }
-
+    //Utils
     fun getTileEntityFromPos(world: IBlockAccess) = world.getTileEntity(x, y, z)
+
+    fun getBlockFromPos(world: World) = world.getBlock(x, y, z)
 
     fun getDistance(posFrom: BlockPos, posTo: BlockPos): Double {
         return Math.sqrt(Math.pow((posFrom.x - posTo.x).toDouble(), 2.0) + Math.pow((posFrom.y - posTo.y).toDouble(), 2.0) + Math.pow((posFrom.z - posTo.z).toDouble(), 2.0))
@@ -82,6 +92,26 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         }
     }
 
+    fun getPosForDirection(direction: ForgeDirection): BlockPos {
+        return when (direction) {
+            DOWN -> down
+            UP -> up
+            NORTH -> north
+            SOUTH -> south
+            EAST -> east
+            WEST -> west
+            UNKNOWN -> this
+        }
+    }
+
+    fun searchBlock(pos: BlockPos, block: Block, world: World): List<BlockPos> {
+        val targets = arrayListOf<BlockPos>()
+        return rangeTo(pos)
+                .filter { val b = it.getBlockFromPos(world)
+                 b == block || b === block}
+    }
+
+    //NBT
     @JvmOverloads fun writeToNBT(tagCompound: NBTTagCompound, tagName: String = "blockPos"): NBTTagCompound {
         val tag = NBTTagCompound()
         tag.setInteger("x", x)
@@ -99,24 +129,13 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         return this
     }
 
+    //Getter
     fun getX() = x
+
     fun getY() = y
     fun getZ() = z
 
-    fun getPosForDirection(direction: ForgeDirection): BlockPos {
-        return when (direction) {
-            DOWN -> down
-            UP -> up
-            NORTH -> north
-            SOUTH -> south
-            EAST -> east
-            WEST -> west
-            UNKNOWN -> this
-        }
-    }
-
-    override fun compareTo(other: BlockPos) = getDistance(other).toInt()
-
+    //Operators
     operator fun plus(pos: BlockPos) = BlockPos(x + pos.x, y + pos.y, z + pos.z)
 
     operator fun plusAssign(pos: BlockPos) {
@@ -135,9 +154,19 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
 
     operator fun times(value: Int) = BlockPos(x * value, y * value, z * value)
 
-    operator fun timesAssign(value: Int){
+    operator fun timesAssign(value: Int) {
         x *= value
         y *= value
         z *= value
+    }
+
+    operator fun rangeTo(toPos: BlockPos): List<BlockPos> {
+        val list = ArrayList<BlockPos>().toMutableList()
+        for (i in minOf(x, toPos.x)..maxOf(x, toPos.x)) {
+            for (j in minOf(y, toPos.y)..maxOf(y, toPos.y)) {
+                (minOf(z, toPos.z)..maxOf(z, toPos.z)).mapTo(list) { BlockPos(i, j, it) }
+            }
+        }
+        return list.toList()
     }
 }
