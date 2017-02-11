@@ -5,4 +5,8 @@ import java.util.TreeSet
 /**
  * @author C6H2Cl2
  */
-class BlockPosSet :TreeSet<BlockPos>(java.util.Comparator(BlockPos::compareTo))
+class BlockPosSet(private val target: BlockPos = BlockPos.Empty) : TreeSet<BlockPos>(
+        java.util.Comparator {
+            o1: @ParameterName(name = "o1") BlockPos, o2: @ParameterName(name = "o2") BlockPos ->
+            (o1.getDistance(target) - o2.getDistance(target)).toInt()
+        })
