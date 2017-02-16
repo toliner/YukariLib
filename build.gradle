@@ -62,7 +62,7 @@ repositories{
 }
 
 dependencies {
-    embed "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    embed "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
     embed "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
 }
 

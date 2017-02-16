@@ -4,21 +4,15 @@ import net.minecraft.block.Block
 import net.minecraft.nbt.NBTTagCompound
 import net.minecraft.world.IBlockAccess
 import net.minecraft.world.World
+import net.minecraftforge.common.util.ForgeDirection.*
 import net.minecraftforge.common.util.ForgeDirection
-import net.minecraftforge.common.util.ForgeDirection.DOWN
-import net.minecraftforge.common.util.ForgeDirection.EAST
-import net.minecraftforge.common.util.ForgeDirection.NORTH
-import net.minecraftforge.common.util.ForgeDirection.SOUTH
-import net.minecraftforge.common.util.ForgeDirection.UNKNOWN
-import net.minecraftforge.common.util.ForgeDirection.UP
-import net.minecraftforge.common.util.ForgeDirection.WEST
 import kotlin.comparisons.maxOf
 import kotlin.comparisons.minOf
 
 /**
  * @author C6H2Cl2
  */
-data class BlockPos(private var x: Int, private var y: Int, private var z: Int){
+data class BlockPos(private var x: Int, private var y: Int, private var z: Int) {
     companion object {
         @JvmStatic
         val Empty = BlockPos(0, 0, 0)
@@ -66,7 +60,7 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int){
     //Utils
     fun getTileEntityFromPos(world: IBlockAccess) = world.getTileEntity(x, y, z)
 
-    fun getBlockFromPos(world: World) = world.getBlock(x, y, z)
+    fun getBlockFromPos(world: World): Block = world.getBlock(x, y, z)
 
     fun getDistance(posFrom: BlockPos, posTo: BlockPos): Double {
         return Math.sqrt(Math.pow((posFrom.x - posTo.x).toDouble(), 2.0) + Math.pow((posFrom.y - posTo.y).toDouble(), 2.0) + Math.pow((posFrom.z - posTo.z).toDouble(), 2.0))
@@ -107,8 +101,10 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int){
     fun searchBlock(pos: BlockPos, block: Block, world: World): List<BlockPos> {
         val targets = arrayListOf<BlockPos>()
         return rangeTo(pos)
-                .filter { val b = it.getBlockFromPos(world)
-                 b == block || b === block}
+                .filter {
+                    val b = it.getBlockFromPos(world)
+                    b == block || b === block
+                }
     }
 
     //NBT
@@ -168,5 +164,38 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int){
             }
         }
         return list.toList()
+    }
+
+    operator fun get(type: Char): Int {
+        return when (type) {
+            'x' -> x
+            'y' -> y
+            'z' -> z
+            else -> 0
+        }
+    }
+
+    operator fun get(direction: ForgeDirection): BlockPos {
+        return when (direction) {
+            UP -> up
+            DOWN -> down
+            NORTH -> north
+            SOUTH -> south
+            EAST -> east
+            WEST -> west
+            else -> Empty
+        }
+    }
+
+    operator fun get(direction: ForgeDirection, range: Int): BlockPos {
+        return when (direction) {
+            UP -> up(range)
+            DOWN -> down(range)
+            NORTH -> north(range)
+            SOUTH -> south(range)
+            EAST -> east(range)
+            WEST -> west(range)
+            else -> Empty
+        }
     }
 }
