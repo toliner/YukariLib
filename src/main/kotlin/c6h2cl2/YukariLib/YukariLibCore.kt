@@ -2,7 +2,7 @@ package c6h2cl2.YukariLib
 
 import c6h2cl2.YukariLib.Common.CommonProxy
 import c6h2cl2.YukariLib.Event.YukariLibEventHandler
-import c6h2cl2.YukariLib.Util.RegistryUtil
+import c6h2cl2.YukariLib.Util.RegisterHandler
 import com.mojang.util.UUIDTypeAdapter
 import cpw.mods.fml.common.Mod
 import cpw.mods.fml.common.Mod.EventHandler
@@ -41,10 +41,6 @@ class YukariLibCore {
 
     @Mod.EventHandler
     fun preinit(event: FMLPreInitializationEvent) {
-        val util = RegistryUtil()
-        util.build(RegistryTester)
-        util.handle()
-
         if (event.side.isClient && Launch.blackboard["fml.deobfuscatedEnvironment"]?.equals(true) == false) {
             var purchased = true
             val session = Minecraft.getMinecraft().session
