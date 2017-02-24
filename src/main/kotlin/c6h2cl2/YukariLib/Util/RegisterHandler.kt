@@ -1,5 +1,6 @@
 package c6h2cl2.YukariLib.Util
 
+import c6h2cl2.YukariLib.Block.BlockWithTileEntity
 import cpw.mods.fml.common.registry.GameRegistry
 import net.minecraft.block.Block
 import net.minecraft.item.Item
@@ -16,21 +17,25 @@ class RegisterHandler {
     private val blocks = LinkedList<Block>().toMutableList()
 
     fun handle() {
+        items.sortBy { it.unlocalizedName }
+        blocks.sortBy { it.unlocalizedName }
         blocks.forEach {
             GameRegistry.registerBlock(it, it.unlocalizedName)
         }
         items.forEach {
             GameRegistry.registerItem(it, it.unlocalizedName)
         }
+        blocks.filter { it is BlockWithTileEntity }
+                .forEach { GameRegistry.registerTileEntity((it as BlockWithTileEntity).tileClass.java,it.getTileId()) }
     }
 
     fun build(target: Any): RegisterHandler {
         //全フィールドの取得
         val members = target::class.declaredMemberProperties
         //名前でソート→KPropertyから値取得
-        val fields = members.sortedBy { s -> s.name }
-                .map { @Suppress("UNCHECKED_CAST")(it as KProperty1<Any, Any?>)}
-                .filter { !it.isAbstract && it.visibility == PUBLIC}
+        val fields = members
+                .map { @Suppress("UNCHECKED_CAST") (it as KProperty1<Any, Any?>) }
+                .filter { !it.isAbstract && it.visibility == PUBLIC }
                 .map { it.get(target) }
         //仕分けして各Listに追加
         fields.filter { it is Item }
