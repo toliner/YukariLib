@@ -41,8 +41,15 @@ abstract class CSBoxBlockContainer(material: Material) : BlockContainer(material
 
     @SideOnly(Side.CLIENT)
     override final fun getSelectedBoundingBoxFromPool(world: World?, x: Int, y: Int, z: Int): AxisAlignedBB? {
-        return null
+        if (this.isVanilaSelectedBox()) {
+            return super.getSelectedBoundingBoxFromPool(world, x, y, z)
+        } else return null
     }
+
+    /**
+     * @return CustomSelectedBoxを使う場合はfalse
+     */
+    open fun isVanilaSelectedBox(): Boolean = true
 
     open fun onBlockActivated(world: World, blockPos: BlockPos, player: EntityPlayer, hitPos: Pointer3D, side: Int, subHit: Int): Boolean = false
 
