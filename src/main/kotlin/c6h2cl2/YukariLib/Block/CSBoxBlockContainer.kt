@@ -6,10 +6,13 @@ import c6h2cl2.YukariLib.Util.BlockPos
 import c6h2cl2.YukariLib.Util.Pointer3D
 import c6h2cl2.YukariLib.Util.RayTracer
 import c6h2cl2.YukariLib.Util.RayTracer.CubeIndexed
+import cpw.mods.fml.relauncher.Side
+import cpw.mods.fml.relauncher.SideOnly
 import net.minecraft.block.BlockContainer
 import net.minecraft.block.material.Material
 import net.minecraft.client.Minecraft
 import net.minecraft.entity.player.EntityPlayer
+import net.minecraft.util.AxisAlignedBB
 import net.minecraft.util.MovingObjectPosition
 import net.minecraft.util.Vec3
 import net.minecraft.world.World
@@ -34,6 +37,11 @@ abstract class CSBoxBlockContainer(material: Material) : BlockContainer(material
         val rayTracer = RayTracer.instance
         val cubeList = ArrayList<CubeIndexed>()
         return rayTracer.rayTraceCubes(Pointer3D(startVec!!), Pointer3D(endVec!!), this.collisionRayTrace(world, blockPos, cubeList, rayTracer), blockPos, this)
+    }
+
+    @SideOnly(Side.CLIENT)
+    override final fun getSelectedBoundingBoxFromPool(world: World?, x: Int, y: Int, z: Int): AxisAlignedBB? {
+        return null
     }
 
     open fun onBlockActivated(world: World, blockPos: BlockPos, player: EntityPlayer, hitPos: Pointer3D, side: Int, subHit: Int): Boolean = false
