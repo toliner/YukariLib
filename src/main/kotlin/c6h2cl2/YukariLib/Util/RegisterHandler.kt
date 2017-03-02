@@ -4,6 +4,7 @@ import c6h2cl2.YukariLib.Block.BlockWithTileEntity
 import cpw.mods.fml.common.registry.GameRegistry
 import net.minecraft.block.Block
 import net.minecraft.item.Item
+import net.minecraft.tileentity.TileEntity
 import java.util.*
 import kotlin.reflect.KProperty1
 import kotlin.reflect.KVisibility.PUBLIC
@@ -25,8 +26,11 @@ class RegisterHandler {
         items.forEach {
             GameRegistry.registerItem(it, it.unlocalizedName)
         }
-        blocks.filter { it is BlockWithTileEntity }
-                .forEach { GameRegistry.registerTileEntity((it as BlockWithTileEntity).tileClass.java,it.getTileId()) }
+        blocks.filter { it is BlockWithTileEntity<*> }
+                .forEach {
+                    @Suppress("UNCHECKED_CAST")
+                    GameRegistry.registerTileEntity(((it as BlockWithTileEntity<*>).tileClass.java as Class<out TileEntity>),it.getTileId())
+                }
     }
 
     fun build(target: Any): RegisterHandler {
