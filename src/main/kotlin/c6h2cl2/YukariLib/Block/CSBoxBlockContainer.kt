@@ -3,10 +3,12 @@ package c6h2cl2.YukariLib.Block
 import c6h2cl2.YukariLib.Render.CustomSelectedBox
 import c6h2cl2.YukariLib.Render.ICustomSelectedBox
 import c6h2cl2.YukariLib.Util.BlockPos
-import c6h2cl2.YukariLib.Util.Pointer3D
-import c6h2cl2.YukariLib.Util.RayTracer
-import c6h2cl2.YukariLib.Util.RayTracer.CubeIndexed
+import c6h2cl2.YukariLib.Util.Client.Pointer3D
+import c6h2cl2.YukariLib.Util.Client.RayTracer
+import c6h2cl2.YukariLib.Util.Client.RayTracer.CubeIndexed
 import cpw.mods.fml.relauncher.Side
+import cpw.mods.fml.relauncher.Side.CLIENT
+import cpw.mods.fml.relauncher.Side.SERVER
 import cpw.mods.fml.relauncher.SideOnly
 import net.minecraft.block.BlockContainer
 import net.minecraft.block.material.Material
@@ -27,8 +29,12 @@ abstract class CSBoxBlockContainer(material: Material) : BlockContainer(material
         player?:return false
         val blockPos = BlockPos(x, y, z)
         val hitPos = Pointer3D(hitX, hitY, hitZ)
-        val mop = Minecraft.getMinecraft().objectMouseOver
-        return this.onBlockActivated(world, blockPos, player, hitPos, side, mop.subHit)
+        if (world.isRemote){
+            val mop = Minecraft.getMinecraft().objectMouseOver
+            return this.onBlockActivatedClient(world, blockPos, player, hitPos, side, mop.subHit)
+        }else{
+            return this.onBlockActivatedServer(world, blockPos, player, hitPos, side)
+        }
     }
 
     override final fun collisionRayTrace(world: World?, x: Int, y: Int, z: Int, startVec: Vec3?, endVec: Vec3?): MovingObjectPosition? {
@@ -51,7 +57,11 @@ abstract class CSBoxBlockContainer(material: Material) : BlockContainer(material
      */
     open fun isVanilaSelectedBox(): Boolean = true
 
-    open fun onBlockActivated(world: World, blockPos: BlockPos, player: EntityPlayer, hitPos: Pointer3D, side: Int, subHit: Int): Boolean = false
+    @SideOnly(CLIENT)
+    open fun onBlockActivatedClient(world: World, blockPos: BlockPos, player: EntityPlayer, hitPos: Pointer3D, side: Int, subHit: Int): Boolean = false
+
+    @SideOnly(SERVER)
+    open fun onBlockActivatedServer(world: World, blockPos: BlockPos, player: EntityPlayer, hitPos: Pointer3D, side: Int): Boolean = false
 
     open fun collisionRayTrace(world: World, blockPos: BlockPos, cubeList: ArrayList<CubeIndexed>, rayTracer: RayTracer): ArrayList<CubeIndexed> = cubeList
 

@@ -1,6 +1,7 @@
-package c6h2cl2.YukariLib.Util
+package c6h2cl2.YukariLib.Util.Client
 
 import c6h2cl2.YukariLib.Util.BlockPos
+import c6h2cl2.YukariLib.Util.MathHelperEx
 import net.minecraft.nbt.NBTTagCompound
 import net.minecraft.util.Vec3
 

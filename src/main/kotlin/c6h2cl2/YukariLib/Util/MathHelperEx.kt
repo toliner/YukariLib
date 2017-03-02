@@ -30,15 +30,15 @@ object MathHelperEx {
     }
 
     fun betweenIn(min: Int, x: Int, max: Int): Boolean {
-        return min <= x && x <= max
+        return x in min..max
     }
 
     fun betweenIn(min: Double, x: Double, max: Double): Boolean {
-        return min <= x && x <= max
+        return x in min..max
     }
 
     fun betweenOut(min: Int, x: Int, max: Int): Boolean {
-        return min < x && x < max
+        return x in (min + 1)..(max - 1)
     }
 
     fun betweenOut(min: Double, x: Double, max: Double): Boolean {

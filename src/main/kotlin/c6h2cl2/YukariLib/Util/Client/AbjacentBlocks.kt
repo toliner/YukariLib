@@ -1,5 +1,9 @@
-package c6h2cl2.YukariLib.Util
+package c6h2cl2.YukariLib.Util.Client
 
+import c6h2cl2.YukariLib.Util.BlockPos
+import c6h2cl2.YukariLib.Util.BlockPos.Companion
+import c6h2cl2.YukariLib.Util.MathHelperEx
+import c6h2cl2.YukariLib.Util.PosRange
 import net.minecraft.block.Block
 import net.minecraft.client.Minecraft
 import net.minecraft.entity.item.EntityItem
@@ -127,12 +131,12 @@ class AbjacentBlocks {
             val py = posRange.getBlockPos().getY()
             val pz = posRange.getBlockPos().getZ()
             val pr = posRange.getRange()
-            if (!isEnd) isEnd = this.checkBlock(BlockPos(px + 1, py, pz), pr, mode)
-            if (!isEnd) isEnd = this.checkBlock(BlockPos(px - 1, py, pz), pr, mode)
-            if (!isEnd) isEnd = this.checkBlock(BlockPos(px, py, pz + 1), pr, mode)
-            if (!isEnd) isEnd = this.checkBlock(BlockPos(px, py, pz - 1), pr, mode)
-            if (!isEnd) isEnd = this.checkBlock(BlockPos(px, py + 1, pz), pr, mode)
-            if (!isEnd) isEnd = this.checkBlock(BlockPos(px, py - 1, pz), pr, mode)
+            if (!isEnd) isEnd = this.checkBlock(c6h2cl2.YukariLib.Util.BlockPos(px + 1, py, pz), pr, mode)
+            if (!isEnd) isEnd = this.checkBlock(c6h2cl2.YukariLib.Util.BlockPos(px - 1, py, pz), pr, mode)
+            if (!isEnd) isEnd = this.checkBlock(c6h2cl2.YukariLib.Util.BlockPos(px, py, pz + 1), pr, mode)
+            if (!isEnd) isEnd = this.checkBlock(c6h2cl2.YukariLib.Util.BlockPos(px, py, pz - 1), pr, mode)
+            if (!isEnd) isEnd = this.checkBlock(c6h2cl2.YukariLib.Util.BlockPos(px, py + 1, pz), pr, mode)
+            if (!isEnd) isEnd = this.checkBlock(c6h2cl2.YukariLib.Util.BlockPos(px, py - 1, pz), pr, mode)
 
             ++i
         }

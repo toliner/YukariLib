@@ -26,10 +26,10 @@ class RegisterHandler {
         items.forEach {
             GameRegistry.registerItem(it, it.unlocalizedName)
         }
-        blocks.filter { it is BlockWithTileEntity<*> }
+        blocks.filter { it is ITileEntityContainer<*> }
                 .forEach {
                     @Suppress("UNCHECKED_CAST")
-                    GameRegistry.registerTileEntity(((it as BlockWithTileEntity<*>).tileClass.java as Class<out TileEntity>),it.getTileId())
+                    GameRegistry.registerTileEntity(((it as ITileEntityContainer<*>).tileClass.java as Class<out TileEntity>),it.getTileId())
                 }
     }
 

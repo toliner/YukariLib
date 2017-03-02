@@ -1,12 +1,11 @@
-package c6h2cl2.YukariLib.Util
+package c6h2cl2.YukariLib.Util.Client
 
+import c6h2cl2.YukariLib.Render.Cube
 import c6h2cl2.YukariLib.Util.BlockPos
-import c6h2cl2.YukariLib.Util.Cube
 import c6h2cl2.YukariLib.Util.MathHelperEx
-import c6h2cl2.YukariLib.Util.Pointer3D
 import net.minecraft.block.Block
-import net.minecraft.entity.Entity
 import net.minecraft.util.MovingObjectPosition
+import net.minecraft.util.MovingObjectPosition.MovingObjectType.BLOCK
 
 /**
  * @author kojin15.
@@ -90,7 +89,7 @@ class RayTracer {
         }
         val mop = rayTraceCubes(start, end, cubeList)
         if (mop != null) {
-            mop.typeOfHit = MovingObjectPosition.MovingObjectType.BLOCK
+            mop.typeOfHit = BLOCK
             mop.blockX = pos.getX()
             mop.blockY = pos.getY()
             mop.blockZ = pos.getZ()

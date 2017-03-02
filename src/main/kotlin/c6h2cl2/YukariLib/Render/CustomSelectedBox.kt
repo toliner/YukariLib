@@ -3,25 +3,10 @@ package c6h2cl2.YukariLib.Render
 /**
  * @author kojin15.
  */
-class CustomSelectedBox {
+class CustomSelectedBox(var middleHeight: Double, var middleWidth: Double, var middleDepth: Double, var minX: Double, var minY: Double, var minZ: Double) {
 
     var drawSide = booleanArrayOf(false, false, false, false, false, false)
     var sideLength = doubleArrayOf(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
-    var middleHeight = 0.0
-    var middleWidth = 0.0
-    var middleDepth = 0.0
-    var minX = 0.0
-    var minY = 0.0
-    var minZ = 0.0
-
-    constructor(middleHeight: Double, middleWidth: Double, middleDepth: Double, minX: Double, minY: Double, minZ: Double) {
-        this.middleDepth = middleDepth
-        this.middleHeight = middleHeight
-        this.middleWidth = middleWidth
-        this.minX = minX
-        this.minY = minY
-        this.minZ = minZ
-    }
 
     /**
      * 指定した側面を描画するかどうか
