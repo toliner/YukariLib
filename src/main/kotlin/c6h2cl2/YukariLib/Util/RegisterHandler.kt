@@ -1,6 +1,6 @@
+@file:Suppress("UNUSED")
 package c6h2cl2.YukariLib.Util
 
-import c6h2cl2.YukariLib.Block.BlockWithTileEntity
 import cpw.mods.fml.common.registry.GameRegistry
 import net.minecraft.block.Block
 import net.minecraft.item.Item

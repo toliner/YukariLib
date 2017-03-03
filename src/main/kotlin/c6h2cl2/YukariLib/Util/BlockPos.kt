@@ -1,3 +1,4 @@
+@file:Suppress("UNUSED")
 package c6h2cl2.YukariLib.Util
 
 import net.minecraft.block.Block
@@ -101,7 +102,6 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
     }
 
     fun searchBlock(pos: BlockPos, block: Block, world: World): List<BlockPos> {
-        val targets = arrayListOf<BlockPos>()
         return rangeTo(pos)
                 .filter {
                     val b = it.getBlockFromPos(world)

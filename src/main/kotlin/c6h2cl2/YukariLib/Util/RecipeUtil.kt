@@ -1,3 +1,4 @@
+@file:Suppress("UNUSED")
 package c6h2cl2.YukariLib.Util
 
 import c6h2cl2.YukariLib.IToolWithType

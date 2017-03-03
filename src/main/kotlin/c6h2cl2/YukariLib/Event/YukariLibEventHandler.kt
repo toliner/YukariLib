@@ -1,3 +1,4 @@
+@file:Suppress("UNUSED")
 package c6h2cl2.YukariLib.Event
 
 import c6h2cl2.YukariLib.Render.ICustomSelectedBox
