@@ -29,12 +29,9 @@ abstract class CSBoxBlockContainer(material: Material) : BlockContainer(material
         player?:return false
         val blockPos = BlockPos(x, y, z)
         val hitPos = Pointer3D(hitX, hitY, hitZ)
-        if (world.isRemote){
-            val mop = Minecraft.getMinecraft().objectMouseOver
-            return this.onBlockActivatedClient(world, blockPos, player, hitPos, side, mop.subHit)
-        }else{
-            return this.onBlockActivatedServer(world, blockPos, player, hitPos, side)
-        }
+        val mop = RayTracer.blockRetrace(world, player, blockPos)
+        val subHit: Int = mop?.subHit?: 0
+        return onBlockActivated(world, blockPos, player, side, subHit, hitPos)
     }
 
     override final fun collisionRayTrace(world: World?, x: Int, y: Int, z: Int, startVec: Vec3?, endVec: Vec3?): MovingObjectPosition? {
@@ -57,11 +54,7 @@ abstract class CSBoxBlockContainer(material: Material) : BlockContainer(material
      */
     open fun isVanilaSelectedBox(): Boolean = true
 
-    @SideOnly(CLIENT)
-    open fun onBlockActivatedClient(world: World, blockPos: BlockPos, player: EntityPlayer, hitPos: Pointer3D, side: Int, subHit: Int): Boolean = false
-
-    @SideOnly(SERVER)
-    open fun onBlockActivatedServer(world: World, blockPos: BlockPos, player: EntityPlayer, hitPos: Pointer3D, side: Int): Boolean = false
+    open fun onBlockActivated(world: World, pos: BlockPos, player: EntityPlayer, side: Int, subHit: Int, hitPoint: Pointer3D): Boolean = false
 
     open fun collisionRayTrace(world: World, blockPos: BlockPos, cubeList: ArrayList<CubeIndexed>, rayTracer: RayTracer): ArrayList<CubeIndexed> = cubeList
 
