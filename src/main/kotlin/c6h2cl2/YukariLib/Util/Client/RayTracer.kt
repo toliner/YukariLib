@@ -3,9 +3,16 @@ package c6h2cl2.YukariLib.Util.Client
 import c6h2cl2.YukariLib.Render.Cube
 import c6h2cl2.YukariLib.Util.BlockPos
 import c6h2cl2.YukariLib.Util.MathHelperEx
+import cpw.mods.fml.relauncher.Side
+import cpw.mods.fml.relauncher.SideOnly
 import net.minecraft.block.Block
+import net.minecraft.client.Minecraft
+import net.minecraft.entity.player.EntityPlayer
+import net.minecraft.entity.player.EntityPlayerMP
 import net.minecraft.util.MovingObjectPosition
 import net.minecraft.util.MovingObjectPosition.MovingObjectType.BLOCK
+import net.minecraft.util.Vec3
+import net.minecraft.world.World
 
 /**
  * @author kojin15.
@@ -57,7 +64,7 @@ class RayTracer {
 
         if (s_side < 0) return null
 
-        val mop = MovingObjectPosition(0, 0, 0, s_side, s_pointer.vec3())
+        val mop = MovingObjectPosition(0, 0, 0, s_side, s_pointer)
         mop.typeOfHit = null
         return mop
     }
@@ -117,5 +124,46 @@ class RayTracer {
 
     companion object {
         val instance = RayTracer()
+
+        fun blockRetrace(world: World, player: EntityPlayer, pos: BlockPos): MovingObjectPosition? {
+            val block = pos.getBlockFromPos(world)
+            val headVec = getCorrectedHeadVec(player)
+            val lookVec = player.getLook(1.0f)
+            val reach = getBlockReachDistance(player)
+            val endVec = headVec.addVector(lookVec.xCoord * reach, lookVec.yCoord * reach, lookVec.zCoord * reach)
+            return block.collisionRayTrace(world, pos.getX(), pos.getY(), pos.getZ(), headVec, endVec)
+        }
+
+        fun getCorrectedHeadVec(player: EntityPlayer): Vec3 {
+
+            val v = Vec3.createVectorHelper(player.posX, player.posY, player.posZ)
+            if (player.worldObj.isRemote) {
+                v.yCoord += (player.getEyeHeight() - player.defaultEyeHeight).toDouble()// compatibility with eye height changing mods
+            } else {
+                v.yCoord += player.getEyeHeight().toDouble()
+                if (player is EntityPlayerMP && player.isSneaking()) {
+                    v.yCoord -= 0.08
+                }
+            }
+            return v
+        }
+
+        fun getBlockReachDistance(player: EntityPlayer): Double {
+
+            return if (player.worldObj.isRemote)
+                getBlockReachDistance_client()
+            else if (player is EntityPlayerMP) getBlockReachDistance_server(player) else 5.0
+        }
+
+        private fun getBlockReachDistance_server(player: EntityPlayerMP): Double {
+
+            return player.theItemInWorldManager.blockReachDistance
+        }
+
+        @SideOnly(Side.CLIENT)
+        private fun getBlockReachDistance_client(): Double {
+
+            return Minecraft.getMinecraft().playerController.blockReachDistance.toDouble()
+        }
     }
 }

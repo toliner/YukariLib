@@ -9,7 +9,7 @@ import net.minecraft.util.AxisAlignedBB
 /**
  * @author kojin15.
  */
-open class Cube(private var minPosD: Pointer3D, private var maxPosD: Pointer3D) {
+open class Cube(private var minPosD: Pointer3D, private var maxPosD: Pointer3D): AxisAlignedBB(minPosD.getX(), minPosD.getY(), minPosD.getZ(), maxPosD.getX(), maxPosD.getY(), maxPosD.getZ()) {
     companion object {
         @JvmStatic
         val empty = Cube(0.0, 0.0, 0.0, 0.0, 0.0, 0.0)
@@ -29,18 +29,13 @@ open class Cube(private var minPosD: Pointer3D, private var maxPosD: Pointer3D) 
 
     constructor(minX: Double, minY: Double, minZ: Double, maxX: Double, maxY: Double, maxZ: Double) :
             this(Pointer3D(minX, minY, minZ), Pointer3D(maxX, maxY, maxZ))
-
     constructor(axis: AxisAlignedBB) : this(axis.minX, axis.minY, axis.minZ, axis.maxX, axis.maxY, axis.maxZ)
-
     constructor(cube: Cube) : this(cube.minPosD, cube.maxPosD)
-
     constructor(tagCompound: NBTTagCompound, tagName: String = "Cube") : this(Pointer3D.empty, Pointer3D.empty) {
         this.readFromNBT(tagCompound, tagName)
     }
 
-    fun copy(): Cube = Cube(minPosD, maxPosD)
-
-    fun axisBB(): AxisAlignedBB = AxisAlignedBB.getBoundingBox(minPosD.getX(), minPosD.getY(), minPosD.getZ(), maxPosD.getX(), maxPosD.getY(), maxPosD.getZ())
+    override fun copy(): Cube = Cube(minPosD, maxPosD)
 
     fun add(pos: Pointer3D): Cube {
         minPosD.add(pos)

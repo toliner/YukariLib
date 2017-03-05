@@ -8,7 +8,7 @@ import net.minecraft.util.Vec3
 /**
  * @author kojin15.
  */
-class Pointer3D(private var x: Double, private var y: Double, private var z: Double) {
+class Pointer3D(private var x: Double, private var y: Double, private var z: Double) : Vec3(x, y, z) {
     companion object {
         @JvmStatic
         val empty = Pointer3D(0.0, 0.0, 0.0)
@@ -22,19 +22,16 @@ class Pointer3D(private var x: Double, private var y: Double, private var z: Dou
     fun getY(): Double = y
     fun getZ(): Double = z
 
-    constructor(x: Int, y: Int, z: Int): this(x.toDouble(), y.toDouble(), z.toDouble())
-    constructor(x: Float, y: Float, z: Float): this(x.toDouble(), y.toDouble(), z.toDouble())
-    constructor(vec: Vec3): this(vec.xCoord, vec.yCoord, vec.zCoord)
-    constructor(pos: BlockPos): this(pos.getX(), pos.getY(), pos.getZ())
-    constructor(tagCompound: NBTTagCompound, tagName: String = "BlockPosD"): this(0.0, 0.0, 0.0) {
+    constructor(x: Int, y: Int, z: Int) : this(x.toDouble(), y.toDouble(), z.toDouble())
+    constructor(x: Float, y: Float, z: Float) : this(x.toDouble(), y.toDouble(), z.toDouble())
+    constructor(vec3: Vec3) : this(vec3.xCoord, vec3.yCoord, vec3.zCoord)
+    constructor(pos: BlockPos) : this(pos.getX(), pos.getY(), pos.getZ())
+    constructor(tagCompound: NBTTagCompound, tagName: String = "BlockPosD") : this(0.0, 0.0, 0.0) {
         this.readFromNBT(tagCompound, tagName)
     }
 
     fun copy(): Pointer3D = Pointer3D(x, y, z)
-
     fun squared(): Double = x * x + y * y + z * z
-
-    fun vec3(): Vec3 = Vec3.createVectorHelper(x, y, z)
 
     fun add(posD: Pointer3D): Pointer3D {
         this.x += posD.x
