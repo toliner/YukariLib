@@ -1,4 +1,5 @@
 @file:Suppress("UNUSED")
+
 package c6h2cl2.YukariLib.Util
 
 /**
@@ -20,13 +21,11 @@ object MathHelperEx {
         sinTable[49152] = 1.0
     }
 
-    fun sin(theta: Double): Double {
-
+    infix fun Double.sin(theta: Double): Double {
         return sinTable[(theta.toFloat() * 10430.378f).toInt() and 65535]
     }
 
-    fun cos(theta: Double): Double {
-
+    infix fun Double.cos(theta: Double): Double {
         return sinTable[(theta.toFloat() * 10430.378f + 16384.0f).toInt() and 65535]
     }
 
@@ -73,9 +72,9 @@ object MathHelperEx {
             ints[ints.size - 1] = Integer.valueOf(valueStr.substring(0, rest))!!
 
         val buffer = StringBuffer()
-        for (i in ints.size - 1 downTo 1) {
-            if (ints[i] != 0) buffer.append(ints[i]).append(this.digits[i - 1])
-        }
+        (ints.size - 1 downTo 1)
+                .filter { ints[it] != 0 }
+                .forEach { buffer.append(ints[it]).append(this.digits[it - 1]) }
         if (ints[0] != 0) buffer.append(ints[0])
         return buffer.toString()
     }

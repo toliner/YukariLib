@@ -1,7 +1,7 @@
+@file:Suppress("UNUSED")
 package c6h2cl2.YukariLib.Util.Client
 
 import c6h2cl2.YukariLib.Util.BlockPos
-import c6h2cl2.YukariLib.Util.BlockPos.Companion
 import c6h2cl2.YukariLib.Util.MathHelperEx
 import c6h2cl2.YukariLib.Util.PosRange
 import net.minecraft.block.Block

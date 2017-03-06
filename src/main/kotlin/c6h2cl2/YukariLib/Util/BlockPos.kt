@@ -1,8 +1,10 @@
 @file:Suppress("UNUSED")
+
 package c6h2cl2.YukariLib.Util
 
 import net.minecraft.block.Block
 import net.minecraft.nbt.NBTTagCompound
+import net.minecraft.tileentity.TileEntity
 import net.minecraft.world.IBlockAccess
 import net.minecraft.world.World
 import net.minecraftforge.common.util.ForgeDirection.*
@@ -46,20 +48,20 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
     val west: BlockPos
         get() = BlockPos(x - 1, y, z)
 
-    fun up(value: Int) = BlockPos(x, y + value, z)
+    infix fun up(value: Int) = BlockPos(x, y + value, z)
 
-    fun down(value: Int) = BlockPos(x, y - value, z)
+    infix fun down(value: Int) = BlockPos(x, y - value, z)
 
-    fun north(value: Int) = BlockPos(x, y, z - value)
+    infix fun north(value: Int) = BlockPos(x, y, z - value)
 
-    fun south(value: Int) = BlockPos(x, y, z + value)
+    infix fun south(value: Int) = BlockPos(x, y, z + value)
 
-    fun east(value: Int) = BlockPos(x + value, y, z)
+    infix fun east(value: Int) = BlockPos(x + value, y, z)
 
-    fun west(value: Int) = BlockPos(x - value, y, z)
+    infix fun west(value: Int) = BlockPos(x - value, y, z)
 
     //Utils
-    fun getTileEntityFromPos(world: IBlockAccess) = world.getTileEntity(x, y, z)
+    fun getTileEntityFromPos(world: IBlockAccess): TileEntity? = world.getTileEntity(x, y, z)
 
     fun getBlockFromPos(world: World): Block = world.getBlock(x, y, z)
 
@@ -69,7 +71,7 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         return Math.sqrt(Math.pow((posFrom.x - posTo.x).toDouble(), 2.0) + Math.pow((posFrom.y - posTo.y).toDouble(), 2.0) + Math.pow((posFrom.z - posTo.z).toDouble(), 2.0))
     }
 
-    fun getDistance(pos: BlockPos): Double = getDistance(this, pos)
+    infix fun getDistance(pos: BlockPos): Double = getDistance(this, pos)
 
     fun getBlockDirection(tilePos: BlockPos): ForgeDirection {
         if (up == tilePos) {

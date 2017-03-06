@@ -1,3 +1,4 @@
+@file:Suppress("UNUSED")
 package c6h2cl2.YukariLib
 
 import c6h2cl2.YukariLib.Common.CommonProxy
@@ -27,7 +28,7 @@ class YukariLibCore {
     companion object {
         const val MOD_ID = "YukariLib"
         const val DOMAIN = "yukarilib"
-        const val Version = "1.1.0"
+        const val Version = "1.2.0"
         @JvmStatic
         @Mod.Metadata
         var metadata: ModMetadata? = null
