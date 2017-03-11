@@ -5,8 +5,10 @@ package c6h2cl2.YukariLib.Util
 import net.minecraft.block.Block
 import net.minecraft.nbt.NBTTagCompound
 import net.minecraft.tileentity.TileEntity
+import net.minecraft.world.ChunkCoordIntPair
 import net.minecraft.world.IBlockAccess
 import net.minecraft.world.World
+import net.minecraft.world.chunk.Chunk
 import net.minecraftforge.common.util.ForgeDirection.*
 import net.minecraftforge.common.util.ForgeDirection
 import kotlin.comparisons.maxOf
@@ -67,6 +69,10 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
 
     fun getMetaFromPos(world: World): Int = world.getBlockMetadata(x, y, z)
 
+    fun getChunk(world: World): Chunk = world.getChunkFromBlockCoords(x, z)
+
+    fun getChunkCoordIntPair(world: World): ChunkCoordIntPair = getChunk(world).chunkCoordIntPair
+
     fun getDistance(posFrom: BlockPos, posTo: BlockPos): Double {
         return Math.sqrt(Math.pow((posFrom.x - posTo.x).toDouble(), 2.0) + Math.pow((posFrom.y - posTo.y).toDouble(), 2.0) + Math.pow((posFrom.z - posTo.z).toDouble(), 2.0))
     }
@@ -109,6 +115,59 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
                     val b = it.getBlockFromPos(world)
                     b == block || b === block
                 }
+    }
+
+    fun aroundPos(): List<BlockPos> {
+        return listOf(this.down, this.up, this.north, this.south, this.west, this.east)
+    }
+
+    /**
+     * directionに何も入れないかUNKNOWNだと立方体
+     * @param radius 半径
+     * @param direction DOWN,UP y座標固定 NORTH,SOUTH z座標固定 EAST,WEST x座標固定
+     */
+    fun frame(radius: Int, direction: ForgeDirection = UNKNOWN): List<BlockPos> {
+        when (direction) {
+            DOWN, UP -> {
+                val list = this.west(radius).north(radius)..this.east(radius).south(radius)
+                val list2 = this.west(radius - 1).north(radius - 1)..this.east(radius - 1).south(radius - 1)
+                return list - list2
+            }
+            NORTH, SOUTH -> {
+                val list = this.west(radius).down(radius)..this.east(radius).up(radius)
+                val list2 = this.west(radius - 1).down(radius - 1)..this.east(radius - 1).up(radius - 1)
+                return list - list2
+            }
+            EAST, WEST -> {
+                val list = this.down(radius).north(radius)..this.up(radius).south(radius)
+                val list2 = this.down(radius - 1).north(radius - 1)..this.up(radius - 1).south(radius - 1)
+                return list - list2
+            }
+            else -> {
+                val list = this.west(radius).north(radius).down(radius)..this.east(radius).south(radius).up(radius)
+
+                val list2 = this.down(radius - 1).west(radius).north(radius)..this.up(radius - 1).east(radius).south(radius)
+                val list3 = this.down(radius).west(radius - 1).north(radius - 1)..this.down(radius).east(radius - 1).south(radius - 1)
+                val list4 = this.up(radius).west(radius - 1).north(radius - 1)..this.up(radius).east(radius - 1).south(radius - 1)
+                return list - (list2 + list3 + list4)
+            }
+        }
+    }
+
+    fun outBox(radius: Int): List<BlockPos> {
+        val list = this.down(radius).west(radius).north(radius)..this.up(radius).east(radius).south(radius)
+        val list2 = this.down(radius - 1).west(radius - 1).north(radius - 1)..this.up(radius - 1).east(radius - 1).south(radius - 1)
+        return list - list2
+    }
+
+    fun setBlockFromPos(world: World, block: Block, meta: Int = 0, flag: Int = 1) {
+        world.setBlock(x, y, z, block, meta, flag)
+    }
+
+    fun markDirty(world: World) {
+        world.markBlockForUpdate(x, y, z)
+        val tile = getTileEntityFromPos(world)
+        tile?.markDirty()
     }
 
     //NBT
