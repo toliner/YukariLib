@@ -23,7 +23,7 @@ object NBTSerializeProcessor {
         // @NBTSerializableが付いているクラスである必要がある
         val annotation = target::class.annotations.find { it is NBTSerializable } as NBTSerializable? ?: throw IllegalArgumentException("argument \"target\" must be annotated with c6h2cl2.YukariLib.Util.NBT.NBTSerializable")
         //ブラックリストかホワイトリストか
-        val members = if (annotation.type == BLACKLIST) {
+        val members = if (annotation.type == WHITELIST) {
             target::class.declaredMemberProperties.filter {
                 it.annotations.find { it is NBTSerializeInclude } != null
             }
