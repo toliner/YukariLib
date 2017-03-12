@@ -1,9 +1,12 @@
 @file:Suppress("UNUSED")
 package c6h2cl2.YukariLib.Event
 
+import c6h2cl2.YukariLib.Render.ICustomBoundingBox
 import c6h2cl2.YukariLib.Render.ICustomSelectedBox
 import c6h2cl2.YukariLib.Render.RenderCustomSelectedBox
 import c6h2cl2.YukariLib.Util.BlockPos
+import c6h2cl2.YukariLib.Util.Client.Pointer3D
+import c6h2cl2.YukariLib.Util.RenderUtil
 import c6h2cl2.YukariLib.YukariLibCore
 import cpw.mods.fml.common.eventhandler.SubscribeEvent
 import net.minecraft.client.Minecraft
@@ -33,6 +36,12 @@ class YukariLibEventHandler {
         val pos = BlockPos(MOP.blockX, MOP.blockY, MOP.blockZ)
 
         if (player != null) {
+            val itemStack = player.currentEquippedItem
+            val item = itemStack.item
+            if (item is ICustomBoundingBox) {
+                val list = item.getBoundingBoxPos(itemStack, player, world, pos, MOP.sideHit, Pointer3D(MOP.hitVec))
+                RenderUtil.renderBoundingBoxFromPos(list, world, player, event.partialTicks, item.getRGBA(), item.getLineWidth())
+            }
             val block = pos.getBlockFromPos(world)
             if (block is ICustomSelectedBox && block.shouldRenderBox(MOP.subHit, player)) {
                 RenderCustomSelectedBox().drawSelectionBox(player, MOP, event.partialTicks, block.getCustomSelectedBox(MOP.subHit, player))
