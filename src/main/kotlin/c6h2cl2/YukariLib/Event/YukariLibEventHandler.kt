@@ -11,6 +11,8 @@ import c6h2cl2.YukariLib.YukariLibCore
 import cpw.mods.fml.common.eventhandler.SubscribeEvent
 import net.minecraft.client.Minecraft
 import net.minecraft.entity.player.EntityPlayer
+import net.minecraft.item.Item
+import net.minecraft.item.ItemStack
 import net.minecraft.util.ChatComponentText
 import net.minecraftforge.client.event.RenderWorldLastEvent
 import net.minecraftforge.event.entity.living.LivingDeathEvent
@@ -36,9 +38,9 @@ class YukariLibEventHandler {
         val pos = BlockPos(MOP.blockX, MOP.blockY, MOP.blockZ)
 
         if (player != null) {
-            val itemStack = player.currentEquippedItem
-            val item = itemStack.item
-            if (item is ICustomBoundingBox) {
+            val itemStack: ItemStack? = player.currentEquippedItem
+            val item: Item? = itemStack?.item
+            if (item != null && item is ICustomBoundingBox) {
                 val list = item.getBoundingBoxPos(itemStack, player, world, pos, MOP.sideHit, Pointer3D(MOP.hitVec))
                 RenderUtil.renderBoundingBoxFromPos(list, world, player, event.partialTicks, item.getRGBA(), item.getLineWidth())
             }
