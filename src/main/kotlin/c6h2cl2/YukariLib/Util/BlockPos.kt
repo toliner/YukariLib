@@ -3,6 +3,7 @@
 package c6h2cl2.YukariLib.Util
 
 import net.minecraft.block.Block
+import net.minecraft.item.ItemStack
 import net.minecraft.nbt.NBTTagCompound
 import net.minecraft.tileentity.TileEntity
 import net.minecraft.world.ChunkCoordIntPair
@@ -109,6 +110,18 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         }
     }
 
+    fun getReversePos(direction: ForgeDirection, range: Int = 1): BlockPos {
+        return when (direction) {
+            DOWN -> up(range)
+            UP -> down(range)
+            NORTH -> south(range)
+            SOUTH -> north(range)
+            EAST -> west(range)
+            WEST -> east(range)
+            UNKNOWN -> this
+        }
+    }
+
     fun searchBlock(pos: BlockPos, block: Block, world: World): List<BlockPos> {
         return rangeTo(pos)
                 .filter {
@@ -160,8 +173,29 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         return list - list2
     }
 
+    fun isBlockEqual(world: World, block: Block, meta: Int = -1): Boolean {
+        return if (!MathHelperEx.betweenIn(0, meta, 15)) {
+            getBlockFromPos(world) == block
+        } else {
+            getBlockFromPos(world) == block && getMetaFromPos(world) == meta
+        }
+    }
+
+    fun canPlaceBlock(world: World, block: Block, meta: Int): Boolean {
+        if (!block.canPlaceBlockAt(world, x, y, z)) return false
+        if (!block.canBlockStay(world, x, y, z)) return false
+        if (!block.canReplace(world, x, y, z, meta, ItemStack(block, 1, meta))) return false
+        val axis = block.getCollisionBoundingBoxFromPool(world, x, y, z)
+        return world.checkNoEntityCollision(axis)
+    }
+
     fun setBlockFromPos(world: World, block: Block, meta: Int = 0, flag: Int = 1) {
         world.setBlock(x, y, z, block, meta, flag)
+    }
+
+    fun setBlockAndSound(world: World, block: Block, meta: Int = 0, flag: Int = 1) {
+        setBlockFromPos(world, block, meta, flag)
+        world.playSoundEffect(x + 0.5, y + 0.5, z + 0.5, block.stepSound.func_150496_b(), (block.stepSound.getVolume() + 1.0f) / 2.0f, block.stepSound.pitch * 0.8f)
     }
 
     fun markDirty(world: World) {
