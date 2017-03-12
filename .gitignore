@@ -27,3 +27,4 @@ gradle/
 gradlew
 buildlog*
 repository/
+/memo.txt

@@ -35,9 +35,10 @@ class YukariLibCore {
         @JvmStatic
         @SidedProxy(clientSide = "c6h2cl2.YukariLib.Client.ClientProxy", serverSide = "c6h2cl2.YukariLib.Common.CommonProxy")
         var proxy: CommonProxy? = null
-        private var enableDeathLog = true
-        @JvmStatic
-        fun isEnableDeathLog() = enableDeathLog
+        var enableDeathLog = true
+        private set
+        var maxThreadPerObject = 8
+        private set
     }
 
     @Mod.EventHandler
@@ -74,6 +75,7 @@ class YukariLibCore {
         val cfg = Configuration(File(proxy.getDir(), "config/YukariLib.cfg"))
         cfg.load()
         enableDeathLog = cfg.getBoolean("Enable Death Log", "Common", true, "Set false to disable player position log on death.")
+        maxThreadPerObject = cfg.getInt("NBT-Thread", "Common", 8, 1, 255, "The number of thread to handle NBT-Serializing")
         cfg.save()
     }
 

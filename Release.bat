@@ -1,1 +1,1 @@
-gradlew build publish --info --offline > buildlog.txt 2>&1
+gradlew build --info --offline > buildlog.txt 2>&1

@@ -3,6 +3,7 @@ package c6h2cl2.YukariLib.Util
 
 import cpw.mods.fml.common.registry.GameRegistry
 import net.minecraft.block.Block
+import net.minecraft.creativetab.CreativeTabs
 import net.minecraft.item.Item
 import net.minecraft.tileentity.TileEntity
 import java.util.*
@@ -31,6 +32,12 @@ class RegisterHandler {
                     @Suppress("UNCHECKED_CAST")
                     GameRegistry.registerTileEntity(((it as ITileEntityContainer<*>).tileClass.java as Class<out TileEntity>),it.getTileId())
                 }
+    }
+
+    fun setCreativeTab(tab: CreativeTabs): RegisterHandler{
+        items.forEach { it.creativeTab = tab }
+        blocks.forEach { it.setCreativeTab(tab) }
+        return this
     }
 
     fun build(target: Any): RegisterHandler {

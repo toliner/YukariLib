@@ -22,7 +22,7 @@ class YukariLibEventHandler {
     //プレイヤー死亡時に座標表示
     @SubscribeEvent
     fun onPlayerDeath(event: LivingDeathEvent){
-        if (!YukariLibCore.isEnableDeathLog()) return
+        if (!YukariLibCore.enableDeathLog) return
         val player = event.entityLiving as? EntityPlayer ?: return
         player.addChatComponentMessage(ChatComponentText("You died at ${player.posX}, ${player.posY}, ${player.posZ}"))
     }

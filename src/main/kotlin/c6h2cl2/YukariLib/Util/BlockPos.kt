@@ -78,7 +78,9 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         return Math.sqrt(Math.pow((posFrom.x - posTo.x).toDouble(), 2.0) + Math.pow((posFrom.y - posTo.y).toDouble(), 2.0) + Math.pow((posFrom.z - posTo.z).toDouble(), 2.0))
     }
 
-    infix fun getDistance(pos: BlockPos): Double = getDistance(this, pos)
+    fun getDistance(pos: BlockPos): Double = getDistance(this, pos)
+
+    infix fun distance(pos: BlockPos): Double = getDistance(this, pos)
 
     fun getBlockDirection(tilePos: BlockPos): ForgeDirection {
         if (up == tilePos) {
