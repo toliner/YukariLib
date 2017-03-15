@@ -1,4 +1,4 @@
-package c6h2cl2.YukariLib.Render
+package c6h2cl2.YukariLib.Item
 
 import c6h2cl2.YukariLib.Util.BlockPos
 import c6h2cl2.YukariLib.Util.Client.Pointer3D

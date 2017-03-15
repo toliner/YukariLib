@@ -3,7 +3,6 @@ package c6h2cl2.YukariLib
 
 import c6h2cl2.YukariLib.Common.CommonProxy
 import c6h2cl2.YukariLib.Event.YukariLibEventHandler
-import c6h2cl2.YukariLib.Util.RegisterHandler
 import com.mojang.util.UUIDTypeAdapter
 import cpw.mods.fml.common.Mod
 import cpw.mods.fml.common.Mod.EventHandler
