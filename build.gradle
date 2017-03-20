@@ -1,4 +1,5 @@
 buildscript {
+    ext.kotlin_version = '1.1.1'
     repositories {
         mavenCentral()
         jcenter()
@@ -6,14 +7,10 @@ buildscript {
             name = "forge"
             url = "http://files.minecraftforge.net/maven"
         }
-        maven {
-            name = "kotlin"
-            url = "http://dl.bintray.com/kotlin/kotlin-eap-1.1/"
-        }
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.1-M04'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
@@ -25,12 +22,19 @@ tasks.withType(Jar) {
 }
 sourceCompatibility = targetCompatibility = "1.8"
 
-version = "1.0.2.1-1.11"
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = '1.8'
+        includeRuntime = true
+    }
+}
+
+version = "1.1.1"
 group= "c6h2cl2.YukariLib"
-archivesBaseName = "YukariLib"
+archivesBaseName = "YukariLib-1.11"
 
 minecraft {
-    version = "1.11-13.19.1.2189"
+    version = "1.11.2-13.20.0.2228"
     runDir = "run"
     mappings = "snapshot_20161220"
     makeObfSourceJar = false
@@ -41,15 +45,9 @@ configurations {
     compile.extendsFrom(embed)
 }
 
-repositories{
-    maven {
-        name = "kotlin"
-        url = "http://dl.bintray.com/kotlin/kotlin-eap-1.1/"
-    }
-}
-
 dependencies {
-    embed 'org.jetbrains.kotlin:kotlin-stdlib:1.1-M04'
+    embed "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    embed "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
 }
 
 jar {
@@ -74,4 +72,12 @@ processResources
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
+}
+
+task devJar(dependsOn: 'classes', type: Jar) {
+    from sourceSets.main.output
+    from sourceSets.api.output
+    from sourceSets.main.allSource
+    from sourceSets.api.allSource
+    classifier = 'dev'
 }
