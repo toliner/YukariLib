@@ -1,11 +1,17 @@
 package c6h2cl2.YukariLib
 
+import c6h2cl2.YukariLib.Common.CommonProxy
+import com.mojang.util.UUIDTypeAdapter
 import net.minecraft.client.Minecraft
 import net.minecraft.launchwrapper.Launch
+import net.minecraftforge.common.config.Configuration
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.ModMetadata
+import net.minecraftforge.fml.common.SidedProxy
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent
 import java.io.BufferedReader
+import java.io.File
+import java.io.IOException
 import java.io.InputStreamReader
 import java.net.URL
 
@@ -17,26 +23,56 @@ class YukariLibCore {
     companion object {
         const val MOD_ID = "YukariLib"
         const val DOMAIN = "yukarilib"
-        const val Version = "1.0.2.1"
-        @JvmField
+        const val Version = "1.0.3"
+        @JvmStatic
         @Mod.Metadata
         var metadata: ModMetadata? = null
+        @JvmStatic
+        @SidedProxy(clientSide = "c6h2cl2.YukariLib.Client.ClientProxy", serverSide = "c6h2cl2.YukariLib.Common.CommonProxy")
+        var proxy: CommonProxy? = null
+        var allowOffline = false
+            private set
     }
 
     @Mod.EventHandler
     fun preinit(event: FMLPreInitializationEvent) {
-        if (event.side.isClient) {
-            val userName = Minecraft.getMinecraft().session.username
+        check(event)
+        loadMeta()
+        getConfig()
+    }
+
+    private fun check(event: FMLPreInitializationEvent) {
+        if (event.side.isClient && Launch.blackboard["fml.deobfuscatedEnvironment"]?.equals(true) == false) {
+            var purchased = true
+            val session = Minecraft.getMinecraft().session
+            val userName = session.username
             val url = URL("https://api.mojang.com/users/profiles/minecraft/$userName")
-            BufferedReader(InputStreamReader(url.openStream())).use {
-                if (it.readLine() == null){
-                    if(Launch.blackboard["fml.deobfuscatedEnvironment"]?.equals(true) == false){
-                        throw PlayerNotOfficialPurchasedException()
-                    }
+            try {
+                BufferedReader(InputStreamReader(url.openStream())).use {
+                    purchased = it.readLine() != null
                 }
+            } catch (e: IOException) {
+                return
+            }
+
+            try {
+                UUIDTypeAdapter.fromString(session.playerID)
+            } catch (e: Throwable) {
+                purchased = false
+            }
+            purchased = (purchased && !Minecraft.getMinecraft().isDemo)
+            if (!purchased) {
+                throw PlayerNotOfficialPurchasedException()
             }
         }
-        loadMeta()
+    }
+
+    private fun getConfig() {
+        val proxy = proxy as CommonProxy
+        val cfg = Configuration(File(proxy.getDir(), "config/YukariLib.cfg"))
+        cfg.load()
+        allowOffline = cfg.getBoolean("Allow offline mode", "Common", true, "Set false to prohibit playing offline")
+        cfg.save()
     }
 
     private fun loadMeta() {
