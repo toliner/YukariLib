@@ -26,7 +26,7 @@ class Pointer3D(private var x: Double, private var y: Double, private var z: Dou
     constructor(x: Float, y: Float, z: Float) : this(x.toDouble(), y.toDouble(), z.toDouble())
     constructor(vec3: Vec3) : this(vec3.xCoord, vec3.yCoord, vec3.zCoord)
     constructor(pos: BlockPos) : this(pos.getX(), pos.getY(), pos.getZ())
-    constructor(tagCompound: NBTTagCompound, tagName: String = "BlockPosD") : this(0.0, 0.0, 0.0) {
+    constructor(tagCompound: NBTTagCompound, tagName: String = "Pointer3D") : this(0.0, 0.0, 0.0) {
         this.readFromNBT(tagCompound, tagName)
     }
 
@@ -127,7 +127,7 @@ class Pointer3D(private var x: Double, private var y: Double, private var z: Dou
         return this
     }
 
-    @JvmOverloads fun readFromNBT(tagCompound: NBTTagCompound, tagName: String = "BlockPosD"): Pointer3D {
+    @JvmOverloads fun readFromNBT(tagCompound: NBTTagCompound, tagName: String = "Pointer3D"): Pointer3D {
         val tag: NBTTagCompound = tagCompound.getCompoundTag(tagName)
         x = tag.getDouble("x")
         y = tag.getDouble("y")
@@ -135,7 +135,7 @@ class Pointer3D(private var x: Double, private var y: Double, private var z: Dou
         return this
     }
 
-    @JvmOverloads fun writeToNBT(tagCompound: NBTTagCompound, tagName: String = "BlockPosD"): NBTTagCompound {
+    @JvmOverloads fun writeToNBT(tagCompound: NBTTagCompound, tagName: String = "Pointer3D"): NBTTagCompound {
         val tag = NBTTagCompound()
         tag.setDouble("x", x)
         tag.setDouble("y", y)

@@ -1,7 +1,7 @@
 @file:Suppress("UNUSED")
 package c6h2cl2.YukariLib.Event
 
-import c6h2cl2.YukariLib.Render.ICustomBoundingBox
+import c6h2cl2.YukariLib.Item.ICustomBoundingBox
 import c6h2cl2.YukariLib.Render.ICustomSelectedBox
 import c6h2cl2.YukariLib.Render.RenderCustomSelectedBox
 import c6h2cl2.YukariLib.Util.BlockPos

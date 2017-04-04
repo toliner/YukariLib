@@ -3,6 +3,7 @@
 package c6h2cl2.YukariLib.Util
 
 import net.minecraft.block.Block
+import net.minecraft.item.Item
 import net.minecraft.item.ItemStack
 import net.minecraft.nbt.NBTTagCompound
 import net.minecraft.tileentity.TileEntity
@@ -33,11 +34,11 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
     }
 
     // Directions
-    val up: BlockPos
-        get() = BlockPos(x, y + 1, z)
-
     val down: BlockPos
         get() = BlockPos(x, y - 1, z)
+
+    val up: BlockPos
+        get() = BlockPos(x, y + 1, z)
 
     val north: BlockPos
         get() = BlockPos(x, y, z - 1)
@@ -45,23 +46,23 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
     val south: BlockPos
         get() = BlockPos(x, y, z + 1)
 
-    val east: BlockPos
-        get() = BlockPos(x + 1, y, z)
-
     val west: BlockPos
         get() = BlockPos(x - 1, y, z)
 
-    infix fun up(value: Int) = BlockPos(x, y + value, z)
+    val east: BlockPos
+        get() = BlockPos(x + 1, y, z)
 
     infix fun down(value: Int) = BlockPos(x, y - value, z)
+
+    infix fun up(value: Int) = BlockPos(x, y + value, z)
 
     infix fun north(value: Int) = BlockPos(x, y, z - value)
 
     infix fun south(value: Int) = BlockPos(x, y, z + value)
 
-    infix fun east(value: Int) = BlockPos(x + value, y, z)
-
     infix fun west(value: Int) = BlockPos(x - value, y, z)
+
+    infix fun east(value: Int) = BlockPos(x + value, y, z)
 
     //Utils
     fun getTileEntityFromPos(world: IBlockAccess): TileEntity? = world.getTileEntity(x, y, z)
@@ -169,18 +170,30 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
         }
     }
 
-    fun outBox(radius: Int): List<BlockPos> {
+    fun getBox(radius: Int): List<BlockPos> {
+        return (this.down(radius).north(radius).west(radius))..(this.up(radius).south(radius).east(radius))
+    }
+
+    fun getOutBox(radius: Int): List<BlockPos> {
         val list = this.down(radius).west(radius).north(radius)..this.up(radius).east(radius).south(radius)
         val list2 = this.down(radius - 1).west(radius - 1).north(radius - 1)..this.up(radius - 1).east(radius - 1).south(radius - 1)
         return list - list2
     }
 
-    fun isBlockEqual(world: World, block: Block, meta: Int = -1): Boolean {
-        return if (!MathHelperEx.betweenIn(0, meta, 15)) {
-            getBlockFromPos(world) == block
-        } else {
-            getBlockFromPos(world) == block && getMetaFromPos(world) == meta
-        }
+    fun getCircle(radius: Int): List<BlockPos> = getCircle(radius + 0.5)
+
+    fun getCircle(radius: Double): List<BlockPos> {
+        return getBox(radius.toInt()).filter { it.distance(this) <= radius }
+    }
+
+    fun getCircleFrame(radius: Int): List<BlockPos> = getCircleFrame(radius + 0.5)
+
+    fun getCircleFrame(radius: Double): List<BlockPos> {
+        return getBox(radius.toInt()).filter { MathHelperEx.betweenOut(radius - 1, it distance this, radius) }
+    }
+
+    fun isBlockEqual(world: World, block: Block, meta: Int = 0): Boolean {
+        return getBlockFromPos(world) == block && if (Item.getItemFromBlock(block).hasSubtypes) getMetaFromPos(world) == meta else true
     }
 
     fun canPlaceBlock(world: World, block: Block, meta: Int): Boolean {
@@ -226,7 +239,6 @@ data class BlockPos(private var x: Int, private var y: Int, private var z: Int) 
 
     //Getter
     fun getX() = x
-
     fun getY() = y
     fun getZ() = z
 
