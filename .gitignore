@@ -28,3 +28,4 @@ gradlew
 buildlog*
 repository/
 /memo.txt
+bin

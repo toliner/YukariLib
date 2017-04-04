@@ -9,6 +9,8 @@ import c6h2cl2.YukariLib.Util.Client.Pointer3D
 import c6h2cl2.YukariLib.Util.RenderUtil
 import c6h2cl2.YukariLib.YukariLibCore
 import cpw.mods.fml.common.eventhandler.SubscribeEvent
+import cpw.mods.fml.relauncher.Side
+import cpw.mods.fml.relauncher.SideOnly
 import net.minecraft.client.Minecraft
 import net.minecraft.entity.player.EntityPlayer
 import net.minecraft.item.Item
@@ -31,6 +33,7 @@ class YukariLibEventHandler {
 
     //セレクトボックスの表示
     @SubscribeEvent
+    @SideOnly(Side.CLIENT)
     fun worldRenderEvent(event: RenderWorldLastEvent) {
         val player = Minecraft.getMinecraft().thePlayer
         val world = Minecraft.getMinecraft().theWorld
