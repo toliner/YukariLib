@@ -38,6 +38,7 @@ class YukariLibEventHandler {
         val player = Minecraft.getMinecraft().thePlayer
         val world = Minecraft.getMinecraft().theWorld
         val MOP = Minecraft.getMinecraft().objectMouseOver
+        MOP ?: return
         val pos = BlockPos(MOP.blockX, MOP.blockY, MOP.blockZ)
 
         if (player != null) {
