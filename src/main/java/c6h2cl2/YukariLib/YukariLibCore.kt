@@ -4,6 +4,7 @@ import c6h2cl2.YukariLib.Common.CommonProxy
 import com.mojang.util.UUIDTypeAdapter
 import net.minecraft.client.Minecraft
 import net.minecraft.launchwrapper.Launch
+import net.minecraftforge.client.model.ModelLoader
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.ModMetadata
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -13,6 +14,7 @@ import java.net.URL
 import net.minecraftforge.common.config.Configuration
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber
 import net.minecraftforge.fml.common.SidedProxy
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent
 import java.io.File
 import java.io.IOException
 
@@ -21,12 +23,12 @@ import java.io.IOException
  * @author C6H2Cl2
  */
 @EventBusSubscriber
-@Mod(modid = YukariLibCore.DOMAIN, version = YukariLibCore.Version, useMetadata = true)
+@Mod(modid = YukariLibCore.DOMAIN, version = YukariLibCore.Version,name = YukariLibCore.MOD_ID ,useMetadata = true)
 class YukariLibCore {
     companion object {
         const val MOD_ID = "YukariLib"
         const val DOMAIN = "yukarilib"
-        const val Version = "1.1.1"
+        const val Version = "1.2.0"
         @JvmStatic
         @Mod.Metadata
         var metadata: ModMetadata? = null
@@ -44,8 +46,22 @@ class YukariLibCore {
         getConfig()
     }
 
+    @Mod.EventHandler
+    fun postinit(event: FMLPostInitializationEvent){
+        /*
+        FMLCommonHandler.instance().addModToResourcePack(YukariLibModContainer())
+        if (event.side.isClient){
+            loadResources()
+            FMLClientHandler.instance().addModAsResource(YukariLibModContainer())
+        }*/
+    }
+
+    private fun loadResources(){
+
+    }
+
     private fun check(event: FMLPreInitializationEvent) {
-        if (event.side.isClient && Launch.blackboard["fml.deobfuscatedEnvironment"]?.equals(true) == false) {
+        if (event.side.isClient && Launch.blackboard["fml.deobfuscatedEnvironment"]?.equals(false) ?: true) {
             var purchased = true
             val session = Minecraft.getMinecraft().session
             val userName = session.username
@@ -57,7 +73,6 @@ class YukariLibCore {
             } catch (e: IOException) {
                 return
             }
-
             try {
                 UUIDTypeAdapter.fromString(session.playerID)
             } catch (e: Throwable) {
@@ -74,7 +89,7 @@ class YukariLibCore {
         val proxy = proxy as CommonProxy
         val cfg = Configuration(File(proxy.getDir(), "config/YukariLib.cfg"))
         cfg.load()
-        allowOffline = cfg.getBoolean("Allow offline mode", "Common", true, "Set false to prohibit playing offline")
+
         cfg.save()
     }
 

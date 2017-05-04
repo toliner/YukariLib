@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '1.1.1'
+    ext.kotlin_version = '1.1.2-2'
     repositories {
         mavenCentral()
         jcenter()
@@ -29,7 +29,7 @@ compileKotlin {
     }
 }
 
-version = "1.1.1"
+version = "1.2.0"
 group= "c6h2cl2.YukariLib"
 archivesBaseName = "YukariLib-1.11"
 
@@ -52,6 +52,12 @@ dependencies {
 
 jar {
     from configurations.embed.collect { it.isDirectory() ? it : zipTree(it) }
+    /*
+    manifest {
+        attributes 'FMLCorePlugin': 'c6h2cl2.YukariLib.ASM.YukariLibLoadingPlugin'
+        attributes 'FMLCorePluginContainsMod': 'true'
+    }
+    */
 }
 
 processResources
