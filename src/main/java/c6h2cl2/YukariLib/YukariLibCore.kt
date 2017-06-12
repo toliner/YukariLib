@@ -1,10 +1,19 @@
 package c6h2cl2.YukariLib
 
 import c6h2cl2.YukariLib.Common.CommonProxy
+import c6h2cl2.YukariLib.Event.PlayerEventHandler
+import c6h2cl2.YukariLib.Util.RecipeManager
 import com.mojang.util.UUIDTypeAdapter
 import net.minecraft.client.Minecraft
+import net.minecraft.init.Items
+import net.minecraft.item.ItemStack
+import net.minecraft.item.crafting.CraftingManager
+import net.minecraft.item.crafting.Ingredient
+import net.minecraft.item.crafting.ShapelessRecipes
 import net.minecraft.launchwrapper.Launch
-import net.minecraftforge.client.model.ModelLoader
+import net.minecraft.util.NonNullList
+import net.minecraft.util.ResourceLocation
+import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.ModMetadata
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -14,7 +23,9 @@ import java.net.URL
 import net.minecraftforge.common.config.Configuration
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber
 import net.minecraftforge.fml.common.SidedProxy
+import net.minecraftforge.fml.common.event.FMLInitializationEvent
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+import net.minecraftforge.fml.common.registry.GameRegistry
 import java.io.File
 import java.io.IOException
 
@@ -28,7 +39,7 @@ class YukariLibCore {
     companion object {
         const val MOD_ID = "YukariLib"
         const val DOMAIN = "yukarilib"
-        const val Version = "1.2.0"
+        const val Version = "1.3.0-beta"
         @JvmStatic
         @Mod.Metadata
         var metadata: ModMetadata? = null
@@ -47,16 +58,12 @@ class YukariLibCore {
     }
 
     @Mod.EventHandler
-    fun postinit(event: FMLPostInitializationEvent){
-        /*
-        FMLCommonHandler.instance().addModToResourcePack(YukariLibModContainer())
-        if (event.side.isClient){
-            loadResources()
-            FMLClientHandler.instance().addModAsResource(YukariLibModContainer())
-        }*/
+    fun init(event: FMLInitializationEvent){
+        //MinecraftForge.EVENT_BUS.register(PlayerEventHandler())
     }
 
-    private fun loadResources(){
+    @Mod.EventHandler
+    fun postinit(event: FMLPostInitializationEvent){
 
     }
 

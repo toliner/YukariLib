@@ -1,5 +1,0 @@
-<root>
-    <item name='gnu.trove.strategy.IdentityHashingStrategy INSTANCE'>
-        <annotation name='org.jetbrains.annotations.NotNull'/>
-    </item>
-</root>
