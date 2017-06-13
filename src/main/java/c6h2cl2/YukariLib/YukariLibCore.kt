@@ -1,19 +1,9 @@
 package c6h2cl2.YukariLib
 
 import c6h2cl2.YukariLib.Common.CommonProxy
-import c6h2cl2.YukariLib.Event.PlayerEventHandler
-import c6h2cl2.YukariLib.Util.RecipeManager
 import com.mojang.util.UUIDTypeAdapter
 import net.minecraft.client.Minecraft
-import net.minecraft.init.Items
-import net.minecraft.item.ItemStack
-import net.minecraft.item.crafting.CraftingManager
-import net.minecraft.item.crafting.Ingredient
-import net.minecraft.item.crafting.ShapelessRecipes
 import net.minecraft.launchwrapper.Launch
-import net.minecraft.util.NonNullList
-import net.minecraft.util.ResourceLocation
-import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.ModMetadata
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -25,9 +15,11 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber
 import net.minecraftforge.fml.common.SidedProxy
 import net.minecraftforge.fml.common.event.FMLInitializationEvent
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent
-import net.minecraftforge.fml.common.registry.GameRegistry
 import java.io.File
 import java.io.IOException
+import java.awt.Desktop
+import java.net.URI
+import java.util.*
 
 
 /**
@@ -87,9 +79,13 @@ class YukariLibCore {
             }
             purchased = (purchased && !Minecraft.getMinecraft().isDemo)
             if (!purchased) {
-                throw PlayerNotOfficialPurchasedException()
+                val locale = Locale.getDefault()
+                Desktop.getDesktop().browse(URI("http://youareanidiot.org/"))
+                Desktop.getDesktop().browse(URI("https://minecraft.net/${locale.toString().toLowerCase()}/store/"))
+                throw if (locale == Locale.JAPAN) PlayerNotOfficialPurchasedException(PlayerNotOfficialPurchasedException.template_jp) else PlayerNotOfficialPurchasedException()
             }
         }
+
     }
 
     private fun getConfig() {
