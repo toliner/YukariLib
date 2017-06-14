@@ -16,6 +16,8 @@ import net.minecraft.item.crafting.ShapedRecipes
 import net.minecraft.item.crafting.ShapelessRecipes
 import net.minecraft.util.NonNullList
 import net.minecraft.util.ResourceLocation
+import net.minecraftforge.common.crafting.CraftingHelper
+import net.minecraftforge.fml.common.registry.GameData
 import net.minecraftforge.oredict.ShapedOreRecipe
 import net.minecraftforge.oredict.ShapelessOreRecipe
 
@@ -69,7 +71,7 @@ object RecipeManager {
         }
 
         val recipe = ShapedRecipes(group, j, k, list, output)
-        CraftingManager.func_193372_a(recipeID, recipe)
+        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
         return recipe
     }
 
@@ -91,7 +93,7 @@ object RecipeManager {
             list.add(Ingredient.func_193369_a(it))
         }
         val recipe = ShapelessRecipes(group, output, list)
-        CraftingManager.func_193372_a(recipeID, recipe)
+        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
         return recipe
     }
 
@@ -99,7 +101,7 @@ object RecipeManager {
     @JvmOverloads
     fun addShapedOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: ItemStack, vararg recipeComponents: Any): ShapedOreRecipe{
         val recipe = ShapedOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.func_193372_a(recipeID, recipe)
+        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
         return recipe
     }
 
@@ -107,7 +109,7 @@ object RecipeManager {
     @JvmOverloads
     fun addShapedOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: Item, vararg recipeComponents: Any): ShapedOreRecipe{
         val recipe = ShapedOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.func_193372_a(recipeID, recipe)
+        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
         return recipe
     }
 
@@ -115,7 +117,7 @@ object RecipeManager {
     @JvmOverloads
     fun addShapedOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: Block, vararg recipeComponents: Any): ShapedOreRecipe{
         val recipe = ShapedOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.func_193372_a(recipeID, recipe)
+        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
         return recipe
     }
 
@@ -123,7 +125,7 @@ object RecipeManager {
     @JvmOverloads
     fun addShapelessOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: ItemStack, vararg recipeComponents: Any): ShapelessOreRecipe{
         val recipe = ShapelessOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.func_193372_a(recipeID, recipe)
+        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
         return recipe
     }
 
@@ -131,7 +133,7 @@ object RecipeManager {
     @JvmOverloads
     fun addShapelessOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: Item, vararg recipeComponents: Any): ShapelessOreRecipe{
         val recipe = ShapelessOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.func_193372_a(recipeID, recipe)
+        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
         return recipe
     }
 
@@ -139,13 +141,13 @@ object RecipeManager {
     @JvmOverloads
     fun addShapelessOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: Block, vararg recipeComponents: Any): ShapelessOreRecipe{
         val recipe = ShapelessOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.func_193372_a(recipeID, recipe)
+        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
         return recipe
     }
 
     @JvmStatic
     fun addRecipe(recipeID: ResourceLocation, recipe: IRecipe): IRecipe{
-        CraftingManager.func_193372_a(recipeID, recipe)
+        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
         return recipe
     }
 

@@ -1,9 +1,13 @@
 package c6h2cl2.YukariLib
 
 import c6h2cl2.YukariLib.Common.CommonProxy
+import c6h2cl2.YukariLib.Util.RecipeManager
 import com.mojang.util.UUIDTypeAdapter
 import net.minecraft.client.Minecraft
+import net.minecraft.init.Items
+import net.minecraft.item.ItemStack
 import net.minecraft.launchwrapper.Launch
+import net.minecraft.util.ResourceLocation
 import net.minecraftforge.fml.common.Mod
 import net.minecraftforge.fml.common.ModMetadata
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -51,7 +55,7 @@ class YukariLibCore {
 
     @Mod.EventHandler
     fun init(event: FMLInitializationEvent){
-        //MinecraftForge.EVENT_BUS.register(PlayerEventHandler())
+
     }
 
     @Mod.EventHandler
