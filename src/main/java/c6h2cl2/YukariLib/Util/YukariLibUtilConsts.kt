@@ -11,8 +11,6 @@ import net.minecraft.util.ResourceLocation
 import net.minecraft.util.text.ITextComponent
 import net.minecraft.util.text.translation.I18n
 import net.minecraftforge.client.model.ModelLoader
-import net.minecraftforge.fml.common.registry.GameRegistry
-import net.minecraftforge.fml.common.registry.IForgeRegistryEntry
 import java.util.*
 
 /**
@@ -63,35 +61,10 @@ fun getModelResourceLocation(block: Block): ModelResourceLocation {
     return getModelResourceLocation(block.getItemBlock())
 }
 
-fun registerBlock(block: Block) {
-    GameRegistry.register(block)
-    GameRegistry.register(block.initItemBlock())
-}
-
 fun setCustomModelResourceLocation(item: Item) {
     ModelLoader.setCustomModelResourceLocation(item, 0, getModelResourceLocation(item))
 }
 
 fun setCustomModelResourceLocation(block: Block) {
     setCustomModelResourceLocation(block.getItemBlock())
-}
-
-fun <K : IForgeRegistryEntry<*>> registerAll(objects: Array<K>) {
-    objects.forEach {
-        if (it is Block) {
-            registerBlock(it)
-        } else {
-            GameRegistry.register(it)
-        }
-    }
-}
-
-fun <K : IForgeRegistryEntry<*>> registerAll(objects: Collection<K>) {
-    objects.forEach {
-        if (it is Block) {
-            registerBlock(it)
-        } else {
-            GameRegistry.register(it)
-        }
-    }
 }

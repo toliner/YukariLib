@@ -6,20 +6,13 @@ package c6h2cl2.YukariLib.Util
 import com.google.common.collect.Lists
 import com.google.common.collect.Maps
 import net.minecraft.block.Block
-import net.minecraft.entity.player.EntityPlayerMP
 import net.minecraft.item.Item
 import net.minecraft.item.ItemStack
-import net.minecraft.item.crafting.CraftingManager
-import net.minecraft.item.crafting.IRecipe
 import net.minecraft.item.crafting.Ingredient
 import net.minecraft.item.crafting.ShapedRecipes
 import net.minecraft.item.crafting.ShapelessRecipes
 import net.minecraft.util.NonNullList
 import net.minecraft.util.ResourceLocation
-import net.minecraftforge.common.crafting.CraftingHelper
-import net.minecraftforge.fml.common.registry.GameData
-import net.minecraftforge.oredict.ShapedOreRecipe
-import net.minecraftforge.oredict.ShapelessOreRecipe
 
 /**
  * @author C6H2Cl2
@@ -27,7 +20,7 @@ import net.minecraftforge.oredict.ShapelessOreRecipe
 object RecipeManager {
     @JvmStatic
     @JvmOverloads
-    fun addRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: ItemStack, vararg recipeComponents: Any): ShapedRecipes {
+    fun getShapedRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: ItemStack, vararg recipeComponents: Any): ShapedRecipes {
         var s = ""
         var i = 0
         var j = 0
@@ -66,18 +59,17 @@ object RecipeManager {
             }
         }
         val list = NonNullList.create<Ingredient>()
-        itemStack.forEach {
-            list.add(Ingredient.func_193369_a(it))
+        itemStack.forEach { it ->
+            list.add(Ingredient.fromStacks(it))
         }
 
         val recipe = ShapedRecipes(group, j, k, list, output)
-        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
         return recipe
     }
 
     @JvmStatic
     @JvmOverloads
-    fun addShapelessRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: ItemStack, vararg recipeComponents: Any): ShapelessRecipes {
+    fun getShapelessRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: ItemStack, vararg recipeComponents: Any): ShapelessRecipes {
         val itemStacks = Lists.newArrayList<ItemStack>()
 
         for (component in recipeComponents) {
@@ -90,109 +82,9 @@ object RecipeManager {
         }
         val list = NonNullList.create<Ingredient>()
         itemStacks.forEach {
-            list.add(Ingredient.func_193369_a(it))
+            list.add(Ingredient.fromStacks(it))
         }
         val recipe = ShapelessRecipes(group, output, list)
-        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
         return recipe
-    }
-
-    @JvmStatic
-    @JvmOverloads
-    fun addShapedOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: ItemStack, vararg recipeComponents: Any): ShapedOreRecipe{
-        val recipe = ShapedOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
-        return recipe
-    }
-
-    @JvmStatic
-    @JvmOverloads
-    fun addShapedOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: Item, vararg recipeComponents: Any): ShapedOreRecipe{
-        val recipe = ShapedOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
-        return recipe
-    }
-
-    @JvmStatic
-    @JvmOverloads
-    fun addShapedOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: Block, vararg recipeComponents: Any): ShapedOreRecipe{
-        val recipe = ShapedOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
-        return recipe
-    }
-
-    @JvmStatic
-    @JvmOverloads
-    fun addShapelessOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: ItemStack, vararg recipeComponents: Any): ShapelessOreRecipe{
-        val recipe = ShapelessOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
-        return recipe
-    }
-
-    @JvmStatic
-    @JvmOverloads
-    fun addShapelessOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: Item, vararg recipeComponents: Any): ShapelessOreRecipe{
-        val recipe = ShapelessOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
-        return recipe
-    }
-
-    @JvmStatic
-    @JvmOverloads
-    fun addShapelessOreRecipe(recipeID: ResourceLocation, group: String = recipeID.resourceDomain, output: Block, vararg recipeComponents: Any): ShapelessOreRecipe{
-        val recipe = ShapelessOreRecipe(ResourceLocation(group), output, recipeComponents)
-        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
-        return recipe
-    }
-
-    @JvmStatic
-    fun addRecipe(recipeID: ResourceLocation, recipe: IRecipe): IRecipe{
-        CraftingManager.field_193380_a.register(CraftingManager.field_193380_a.keys.size, recipeID, recipe)
-        return recipe
-    }
-
-    @JvmStatic
-    fun unlockRecipe(player: EntityPlayerMP, recipeID: ResourceLocation){
-        unlockRecipe(player, listOf(recipeID))
-    }
-
-    @JvmStatic
-    fun unlockRecipe(player: EntityPlayerMP, vararg recipeID: ResourceLocation){
-        unlockRecipe(player, recipeID.toList())
-    }
-
-    @JvmStatic
-    fun unlockRecipe(player: EntityPlayerMP, recipeIDs: List<ResourceLocation>){
-        player.func_193102_a(recipeIDs.toTypedArray())
-    }
-
-    @JvmStatic
-    fun unlockRecipe(player: EntityPlayerMP, recipe: IRecipe){
-        unlockRecipes(player, listOf(recipe))
-    }
-
-    @JvmStatic
-    fun unlockRecipe(player: EntityPlayerMP, vararg recipe: IRecipe){
-        unlockRecipes(player, recipe.toList())
-    }
-
-    @JvmStatic
-    fun unlockRecipes(player: EntityPlayerMP, recipes: List<IRecipe>){
-        player.func_192021_a(recipes)
-    }
-
-    @JvmStatic
-    fun lockRecipe(player: EntityPlayerMP, recipe: IRecipe){
-        lockRecipe(player, listOf(recipe))
-    }
-
-    @JvmStatic
-    fun lockRecipe(player: EntityPlayerMP, vararg recipe: IRecipe){
-        lockRecipe(player, recipe.toList())
-    }
-
-    @JvmStatic
-    fun lockRecipe(player: EntityPlayerMP, recipes :List<IRecipe>){
-        player.func_192022_b(recipes)
     }
 }

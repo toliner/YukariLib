@@ -3,6 +3,7 @@ package c6h2cl2.YukariLib.Util
 
 import net.minecraft.creativetab.CreativeTabs
 import net.minecraft.item.Item
+import net.minecraftforge.event.RegistryEvent
 
 /**
  * @author C6H2Cl2
@@ -17,13 +18,14 @@ class ItemBuilder(val modId: String) {
         return item
     }
 
-    fun register() {
-        registerItems()
-        registerModels()
+    fun getAllItems(): Array<Item>{
+        return items.toTypedArray()
     }
 
-    fun registerItems() {
-        registerAll(items)
+    fun registerItems(event: RegistryEvent.Register<Item>){
+        items.forEach {
+            event.registry.register(it)
+        }
     }
 
     fun registerModels() {

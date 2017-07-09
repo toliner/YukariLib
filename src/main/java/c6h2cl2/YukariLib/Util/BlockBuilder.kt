@@ -1,4 +1,5 @@
 @file:Suppress("UNUSED")
+
 package c6h2cl2.YukariLib.Util
 
 import c6h2cl2.YukariLib.Block.SimpleBlock
@@ -6,6 +7,7 @@ import net.minecraft.block.Block
 import net.minecraft.block.SoundType
 import net.minecraft.block.material.Material
 import net.minecraft.creativetab.CreativeTabs
+import net.minecraftforge.event.RegistryEvent
 
 /**
  * @author C6H2Cl2
@@ -22,16 +24,17 @@ class BlockBuilder(val modId: String) {
         return block
     }
 
-    fun register(){
-        registerBlocks()
-        registerModels()
+    fun getBlocks(): Array<Block> {
+        return blocks.toTypedArray()
     }
 
-    fun registerBlocks(){
-        registerAll(blocks)
+    fun registerBlocks(event: RegistryEvent.Register<Block>) {
+        blocks.forEach {
+            event.registry.register(it)
+        }
     }
 
-    fun registerModels(){
+    fun registerModels() {
         blocks.forEach {
             setCustomModelResourceLocation(it)
         }
