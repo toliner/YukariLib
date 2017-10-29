@@ -1,6 +1,6 @@
-package c6h2cl2.YukariLib.Util
+package c6h2cl2.yukarilib.util
 
-import c6h2cl2.YukariLib.IToolWithType
+import c6h2cl2.yukarilib.IToolWithType
 import net.minecraft.block.Block
 import net.minecraft.item.Item
 import net.minecraft.item.ItemStack

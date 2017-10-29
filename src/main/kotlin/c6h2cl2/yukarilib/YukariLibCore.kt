@@ -1,6 +1,6 @@
-package c6h2cl2.YukariLib
+package c6h2cl2.yukarilib
 
-import c6h2cl2.YukariLib.Common.CommonProxy
+import c6h2cl2.yukarilib.common.CommonProxy
 import com.mojang.util.UUIDTypeAdapter
 import net.minecraft.client.Minecraft
 import net.minecraft.launchwrapper.Launch
@@ -21,14 +21,14 @@ import java.net.URL
 @Mod(modid = YukariLibCore.MOD_ID, version = YukariLibCore.Version, useMetadata = true)
 class YukariLibCore {
     companion object {
-        const val MOD_ID = "YukariLib"
+        const val MOD_ID = "yukarilib"
         const val DOMAIN = "yukarilib"
         const val Version = "1.0.3"
         @JvmStatic
         @Mod.Metadata
         var metadata: ModMetadata? = null
         @JvmStatic
-        @SidedProxy(clientSide = "c6h2cl2.YukariLib.Client.ClientProxy", serverSide = "c6h2cl2.YukariLib.Common.CommonProxy")
+        @SidedProxy(clientSide = "c6h2cl2.yukarilib.client.ClientProxy", serverSide = "c6h2cl2.yukarilib.common.CommonProxy")
         var proxy: CommonProxy? = null
         var allowOffline = false
             private set
@@ -69,9 +69,9 @@ class YukariLibCore {
 
     private fun getConfig() {
         val proxy = proxy as CommonProxy
-        val cfg = Configuration(File(proxy.getDir(), "config/YukariLib.cfg"))
+        val cfg = Configuration(File(proxy.getDir(), "config/yukarilib.cfg"))
         cfg.load()
-        allowOffline = cfg.getBoolean("Allow offline mode", "Common", true, "Set false to prohibit playing offline")
+        allowOffline = cfg.getBoolean("Allow offline mode", "common", true, "Set false to prohibit playing offline")
         cfg.save()
     }
 

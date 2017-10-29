@@ -1,6 +1,6 @@
-package c6h2cl2.YukariLib.Client
+package c6h2cl2.yukarilib.client
 
-import c6h2cl2.YukariLib.Common.CommonProxy
+import c6h2cl2.yukarilib.common.CommonProxy
 import net.minecraft.client.Minecraft
 import java.io.File
 

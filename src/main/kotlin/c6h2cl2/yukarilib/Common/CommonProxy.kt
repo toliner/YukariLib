@@ -1,4 +1,4 @@
-package c6h2cl2.YukariLib.Common
+package c6h2cl2.yukarilib.common
 
 import java.io.File
 

@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = '1.1.0'
+    ext.kotlin_version = '1.1.51'
     repositories {
         mavenCentral()
         jcenter()
@@ -20,38 +20,47 @@ tasks.withType(Jar) {
     compileJava.options.encoding = 'UTF-8'
     compileJava.options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
 }
+
 sourceCompatibility = targetCompatibility = "1.8"
 
-compileKotlin {
-    kotlinOptions {
-        jvmTarget = '1.8'
-        includeRuntime = true
-    }
-}
-
-version = "1.0.2.1"
-group= "c6h2cl2.YukariLib"
-archivesBaseName = "YukariLib-1.10.2"
+version = "1.1.0"
+group= "c6h2cl2.yukarilib"
+archivesBaseName = "yukarilib-1.10.2"
 
 minecraft {
-    version = "1.10.2-12.18.3.2185"
+    version = "1.10.2-12.18.3.2511"
     runDir = "run"
     mappings = "snapshot_20161111"
     makeObfSourceJar = false
 }
 
-configurations {
-    embed
-    compile.extendsFrom(embed)
+repositories {
+    jcenter()
+    maven {
+        name = "CurseForge"
+        url = "https://minecraft.curseforge.com/api/maven/"
+    }
+    maven {
+        // location of the maven that hosts JEI files
+        url = "http://dvs1.progwml6.com/files/maven"
+    }
+    maven {
+        // location of a maven mirror for JEI files, as a fallback
+        name = "ModMaven"
+        url = "modmaven.k-4u.nl"
+    }
+    maven {
+        url "http://maven.shadowfacts.net/"
+    }
 }
 
 dependencies {
-    embed "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
-    embed "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
-}
-
-jar {
-    from configurations.embed.collect { it.isDirectory() ? it : zipTree(it) }
+    compile "net.shadowfacts:Forgelin:1.5.1"
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    compile "org.jetbrains.kotlin:kotlin-runtime:$kotlin_version"
+    compile "mezz.jei:jei_${mc_version}:${jei_version}:api"
+    runtime "mezz.jei:jei_${mc_version}:${jei_version}"
+    runtime "mmmmmmmmmmmm:MmmMmmMmmMmm:1.10.2:1.13"
 }
 
 processResources
@@ -80,4 +89,11 @@ task devJar(dependsOn: 'classes', type: Jar) {
     from sourceSets.main.allSource
     from sourceSets.api.allSource
     classifier = 'dev'
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
 }
