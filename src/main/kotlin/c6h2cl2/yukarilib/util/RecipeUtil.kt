@@ -12,12 +12,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry
 object RecipeUtil {
     fun addToolRecipe(tool: IToolWithType, toolHead: ItemStack, toolRod: ItemStack) {
         val recipe = tool.getToolType().recipe
-        if (tool is Item) {
-            GameRegistry.addRecipe(ItemStack(tool), recipe[0], recipe[1], recipe[2], 'H', toolHead, 'R', toolRod)
-        } else if (tool is Block) {
-            GameRegistry.addRecipe(ItemStack(tool), recipe[0], recipe[1], recipe[2], 'H', toolHead, 'R', toolRod)
-        } else {
-            throw IllegalArgumentException()
+        when (tool) {
+            is Item -> GameRegistry.addRecipe(ItemStack(tool), recipe[0], recipe[1], recipe[2], 'H', toolHead, 'R', toolRod)
+            is Block -> GameRegistry.addRecipe(ItemStack(tool), recipe[0], recipe[1], recipe[2], 'H', toolHead, 'R', toolRod)
+            else -> throw IllegalArgumentException()
         }
     }
 
