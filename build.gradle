@@ -79,12 +79,9 @@ processResources
     }
 }
 
-task devJar(dependsOn: 'classes', type: Jar) {
-    from sourceSets.main.output
-    from sourceSets.api.output
+jar {
     from sourceSets.main.allSource
     from sourceSets.api.allSource
-    classifier = 'dev'
 }
 
 compileKotlin {
