@@ -68,10 +68,6 @@ val NBTTagCompound.tag
 val NBTTagCompound.compoundTag
     get() = NBTChildCompoundTagManager(this)
 
-fun foo() {
-    buildNbt { }.string
-}
-
 class NBTChildByteManager internal constructor(private val tag: NBTTagCompound) {
     operator fun set(key: String, value: Byte) = tag.setByte(key, value)
     operator fun get(key: String): Byte? = if (tag.hasKey(key)) tag.getByte(key) else null
