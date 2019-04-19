@@ -27,3 +27,5 @@ buildlog.txt
 gradle-app.setting
 gradle.properties
 !/gradle.properties
+!/1.13/gradle.properties
+!/1.13/gradlew
