@@ -139,4 +139,5 @@ class NBTChildTagManager internal constructor(private val tag: NBTTagCompound) {
 class NBTChildCompoundTagManager internal constructor(private val tag: NBTTagCompound) {
     operator fun set(key: String, value: NBTTagCompound) = tag.setTag(key, value)
     operator fun get(key: String): NBTTagCompound? = if (tag.hasKey(key)) tag.getTag(key) as? NBTTagCompound else null
+    operator fun invoke(key: String, buildAction: NBTTagCompound.() -> Unit) = set(key, NBTTagCompound().apply(buildAction))
 }
