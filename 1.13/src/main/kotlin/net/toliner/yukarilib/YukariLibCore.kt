@@ -45,7 +45,7 @@ class YukariLibCore {
     }
 
     private fun doClientStuff(event: FMLClientSetupEvent) {
-        event.minecraftSupplier
+
     }
 
     private fun processIMC(event: InterModProcessEvent) {
