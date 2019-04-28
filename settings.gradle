@@ -13,4 +13,5 @@ pluginManagement {
 
 rootProject.name = "YukariLib"
 
+include("1.12.2")
 include("1.13")
